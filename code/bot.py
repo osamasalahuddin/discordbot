@@ -6,8 +6,8 @@ from discord.ext import commands
 
 from team_balancer import balance_teams
 
-LADDER_PATH = os.environ.get("LADDER_PATH", r"E:\Work\Claude\data\unranked_ladder.json")
-MAP_ELO_PATH = os.environ.get("MAP_ELO_PATH", r"E:\Work\Claude\data\map_elo.json")
+LADDER_PATH = os.environ.get("LADDER_PATH", r"../data/unranked_ladder.json")
+MAP_ELO_PATH = os.environ.get("MAP_ELO_PATH", r"/data/map_elo.json")
 
 # A player needs at least this many games on a map before that map's Elo is
 # trusted. Below the threshold the bot falls back to the player's overall Elo.
