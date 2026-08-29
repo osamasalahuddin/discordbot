@@ -1,13 +1,19 @@
 import os
 import json
+from pathlib import Path
+
 import discord
 from discord import app_commands
 from discord.ext import commands
 
 from team_balancer import balance_teams
 
-LADDER_PATH = os.environ.get("LADDER_PATH", r"../data/unranked_ladder.json")
-MAP_ELO_PATH = os.environ.get("MAP_ELO_PATH", r"/data/map_elo.json")
+# Defaults assume the repo layout (data/ is a sibling of code/). Override with the
+# DATA_DIR env var, or point at the files directly with LADDER_PATH / MAP_ELO_PATH.
+# Resolves from the script location, so it works regardless of the launch cwd.
+DATA_DIR = os.environ.get("DATA_DIR", str(Path(__file__).resolve().parent.parent / "data"))
+LADDER_PATH = os.environ.get("LADDER_PATH", os.path.join(DATA_DIR, "unranked_ladder.json"))
+MAP_ELO_PATH = os.environ.get("MAP_ELO_PATH", os.path.join(DATA_DIR, "map_elo.json"))
 
 # A player needs at least this many games on a map before that map's Elo is
 # trusted. Below the threshold the bot falls back to the player's overall Elo.
