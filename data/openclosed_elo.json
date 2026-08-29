@@ -1,0 +1,183 @@
+{
+  "results": {
+    "closed": {
+      "total_matches": 589,
+      "players": {
+        "wabbit": {
+          "current_elo": 800.9,
+          "matches_played": 330,
+          "wins": 137,
+          "losses": 193,
+          "win_rate": 41.5
+        },
+        "SauronSlayer": {
+          "current_elo": 944.3,
+          "matches_played": 474,
+          "wins": 247,
+          "losses": 227,
+          "win_rate": 52.1
+        },
+        "zubair": {
+          "current_elo": 760.7,
+          "matches_played": 449,
+          "wins": 191,
+          "losses": 258,
+          "win_rate": 42.5
+        },
+        "l.inc": {
+          "current_elo": 796.6,
+          "matches_played": 444,
+          "wins": 196,
+          "losses": 248,
+          "win_rate": 44.1
+        },
+        "toXic": {
+          "current_elo": 1022.0,
+          "matches_played": 392,
+          "wins": 247,
+          "losses": 145,
+          "win_rate": 63.0
+        },
+        "Strength & Honour": {
+          "current_elo": 865.3,
+          "matches_played": 65,
+          "wins": 29,
+          "losses": 36,
+          "win_rate": 44.6
+        },
+        "cheetah001": {
+          "current_elo": 860.8,
+          "matches_played": 279,
+          "wins": 118,
+          "losses": 161,
+          "win_rate": 42.3
+        },
+        "NaKiyaKar": {
+          "current_elo": 889.0,
+          "matches_played": 231,
+          "wins": 116,
+          "losses": 115,
+          "win_rate": 50.2
+        },
+        "neXus": {
+          "current_elo": 854.0,
+          "matches_played": 144,
+          "wins": 76,
+          "losses": 68,
+          "win_rate": 52.8
+        }
+      }
+    },
+    "open": {
+      "total_matches": 196,
+      "players": {
+        "wabbit": {
+          "current_elo": 988.4,
+          "matches_played": 148,
+          "wins": 72,
+          "losses": 76,
+          "win_rate": 48.6
+        },
+        "SauronSlayer": {
+          "current_elo": 978.8,
+          "matches_played": 125,
+          "wins": 58,
+          "losses": 67,
+          "win_rate": 46.4
+        },
+        "zubair": {
+          "current_elo": 1039.9,
+          "matches_played": 121,
+          "wins": 58,
+          "losses": 63,
+          "win_rate": 47.9
+        },
+        "l.inc": {
+          "current_elo": 980.4,
+          "matches_played": 110,
+          "wins": 56,
+          "losses": 54,
+          "win_rate": 50.9
+        },
+        "toXic": {
+          "current_elo": 1100.0,
+          "matches_played": 97,
+          "wins": 59,
+          "losses": 38,
+          "win_rate": 60.8
+        },
+        "Strength & Honour": {
+          "current_elo": 1016.9,
+          "matches_played": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 100.0
+        },
+        "cheetah001": {
+          "current_elo": 940.7,
+          "matches_played": 114,
+          "wins": 53,
+          "losses": 61,
+          "win_rate": 46.5
+        },
+        "NaKiyaKar": {
+          "current_elo": 1038.1,
+          "matches_played": 90,
+          "wins": 48,
+          "losses": 42,
+          "win_rate": 53.3
+        },
+        "neXus": {
+          "current_elo": 1000,
+          "matches_played": 0,
+          "wins": 0,
+          "losses": 0,
+          "win_rate": 0.0
+        }
+      }
+    }
+  },
+  "unclassified_maps": {
+    "Unknown": 156,
+    "Amazon Tunnel": 28,
+    "Seize The Mountain": 11,
+    "Team Islands": 7,
+    "Baltic": 7,
+    "Coastal": 5,
+    "Migration": 1,
+    "Aftermath": 9,
+    "Islands": 1,
+    "Wade": 5,
+    "Land Nomad": 1,
+    "Morass": 7,
+    "Archipelago": 1,
+    "Kawasan": 5,
+    "Hill Fort": 13,
+    "Eruption": 6,
+    "Mountain Range": 9,
+    "Scandinavia": 3,
+    "Lowland": 5,
+    "Four Lakes": 5,
+    "Cenotes": 2,
+    "Crater": 9,
+    "Frigid Lake": 6,
+    "Volcanic Island": 1,
+    "Shoals": 3,
+    "Michi": 7,
+    "Mediterranean": 1,
+    "Cliffbound": 2,
+    "Bog Islands": 1,
+    "Golden Stream": 1,
+    "MegaRandom": 2,
+    "Es_The_Unknown Custom": 1,
+    "Continental": 1,
+    "Aquarena": 12,
+    "Sardis": 1,
+    "Chaos Pit": 1,
+    "Team Glaciers": 1,
+    "Rf6 V0 Custom": 2,
+    "Shipwreck": 1,
+    "Glade": 9,
+    "Rivers": 2
+  }
+}

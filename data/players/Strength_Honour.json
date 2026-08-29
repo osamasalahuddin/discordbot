@@ -1,0 +1,8012 @@
+{
+  "player": {
+    "name": "Strength & Honour",
+    "user_id": 4607974,
+    "country": null,
+    "profile_url": "https://www.aoe2insights.com/user/4607974/",
+    "ratings": {
+      "1v1 RM": {
+        "current": 1015,
+        "Rank": 22113,
+        "All Time High": 1015
+      },
+      "Team RM": {
+        "current": 997,
+        "Rank": 38081,
+        "All Time High": 997
+      },
+      "1v1 EW": {
+        "current": null
+      },
+      "Team EW": {
+        "current": null
+      }
+    }
+  },
+  "scrape_meta": {
+    "source": "aoe2insights.com",
+    "scraped_at": "2026-07-26T21:38:16.503693+00:00",
+    "matches_scraped": 194,
+    "site_reported_total": 194
+  },
+  "aggregate_stats": {
+    "overall_matches": 194,
+    "overall_wins": 76,
+    "overall_losses": 118,
+    "overall_win_rate": 39.2,
+    "by_civ": [
+      {
+        "name": "mayans",
+        "matches": 16,
+        "wins": 2,
+        "losses": 14,
+        "win_rate": 12.5
+      },
+      {
+        "name": "franks",
+        "matches": 12,
+        "wins": 5,
+        "losses": 7,
+        "win_rate": 41.7
+      },
+      {
+        "name": "lithuanians",
+        "matches": 11,
+        "wins": 4,
+        "losses": 7,
+        "win_rate": 36.4
+      },
+      {
+        "name": "britons",
+        "matches": 10,
+        "wins": 5,
+        "losses": 5,
+        "win_rate": 50.0
+      },
+      {
+        "name": "bulgarians",
+        "matches": 10,
+        "wins": 6,
+        "losses": 4,
+        "win_rate": 60.0
+      },
+      {
+        "name": "ethiopians",
+        "matches": 10,
+        "wins": 2,
+        "losses": 8,
+        "win_rate": 20.0
+      },
+      {
+        "name": "vikings",
+        "matches": 8,
+        "wins": 1,
+        "losses": 7,
+        "win_rate": 12.5
+      },
+      {
+        "name": "celts",
+        "matches": 6,
+        "wins": 2,
+        "losses": 4,
+        "win_rate": 33.3
+      },
+      {
+        "name": "italians",
+        "matches": 6,
+        "wins": 3,
+        "losses": 3,
+        "win_rate": 50.0
+      },
+      {
+        "name": "turks",
+        "matches": 6,
+        "wins": 3,
+        "losses": 3,
+        "win_rate": 50.0
+      },
+      {
+        "name": "teutons",
+        "matches": 6,
+        "wins": 3,
+        "losses": 3,
+        "win_rate": 50.0
+      },
+      {
+        "name": "vietnamese",
+        "matches": 6,
+        "wins": 2,
+        "losses": 4,
+        "win_rate": 33.3
+      },
+      {
+        "name": "koreans",
+        "matches": 5,
+        "wins": 0,
+        "losses": 5,
+        "win_rate": 0.0
+      },
+      {
+        "name": "incas",
+        "matches": 5,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 60.0
+      },
+      {
+        "name": "hindustanis",
+        "matches": 5,
+        "wins": 3,
+        "losses": 2,
+        "win_rate": 60.0
+      },
+      {
+        "name": "berbers",
+        "matches": 4,
+        "wins": 1,
+        "losses": 3,
+        "win_rate": 25.0
+      },
+      {
+        "name": "burgundians",
+        "matches": 4,
+        "wins": 0,
+        "losses": 4,
+        "win_rate": 0.0
+      },
+      {
+        "name": "portuguese",
+        "matches": 4,
+        "wins": 2,
+        "losses": 2,
+        "win_rate": 50.0
+      },
+      {
+        "name": "persians",
+        "matches": 4,
+        "wins": 1,
+        "losses": 3,
+        "win_rate": 25.0
+      },
+      {
+        "name": "gurjaras",
+        "matches": 4,
+        "wins": 3,
+        "losses": 1,
+        "win_rate": 75.0
+      },
+      {
+        "name": "mongols",
+        "matches": 4,
+        "wins": 1,
+        "losses": 3,
+        "win_rate": 25.0
+      },
+      {
+        "name": "burmese",
+        "matches": 4,
+        "wins": 2,
+        "losses": 2,
+        "win_rate": 50.0
+      },
+      {
+        "name": "huns",
+        "matches": 4,
+        "wins": 3,
+        "losses": 1,
+        "win_rate": 75.0
+      },
+      {
+        "name": "malay",
+        "matches": 4,
+        "wins": 2,
+        "losses": 2,
+        "win_rate": 50.0
+      },
+      {
+        "name": "malians",
+        "matches": 3,
+        "wins": 0,
+        "losses": 3,
+        "win_rate": 0.0
+      },
+      {
+        "name": "bengalis",
+        "matches": 3,
+        "wins": 1,
+        "losses": 2,
+        "win_rate": 33.3
+      },
+      {
+        "name": "saracens",
+        "matches": 3,
+        "wins": 3,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "tatars",
+        "matches": 2,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 50.0
+      },
+      {
+        "name": null,
+        "matches": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0
+      },
+      {
+        "name": "goths",
+        "matches": 2,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 50.0
+      },
+      {
+        "name": "aztecs",
+        "matches": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0
+      },
+      {
+        "name": "magyars",
+        "matches": 2,
+        "wins": 2,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "sicilians",
+        "matches": 2,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 50.0
+      },
+      {
+        "name": "spanish",
+        "matches": 2,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 50.0
+      },
+      {
+        "name": "dravidians",
+        "matches": 2,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 50.0
+      },
+      {
+        "name": "armenians",
+        "matches": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0
+      },
+      {
+        "name": "cumans",
+        "matches": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0
+      },
+      {
+        "name": "bohemians",
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "khmer",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "romans",
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "poles",
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "japanese",
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "byzantines",
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "slavs",
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      }
+    ],
+    "by_map": [
+      {
+        "name": "Arena",
+        "matches": 68,
+        "wins": 34,
+        "losses": 34,
+        "win_rate": 50.0
+      },
+      {
+        "name": "Arabia",
+        "matches": 46,
+        "wins": 14,
+        "losses": 32,
+        "win_rate": 30.4
+      },
+      {
+        "name": "MegaRandom",
+        "matches": 16,
+        "wins": 7,
+        "losses": 9,
+        "win_rate": 43.8
+      },
+      {
+        "name": "Hideout",
+        "matches": 7,
+        "wins": 1,
+        "losses": 6,
+        "win_rate": 14.3
+      },
+      {
+        "name": "Four Lakes",
+        "matches": 6,
+        "wins": 1,
+        "losses": 5,
+        "win_rate": 16.7
+      },
+      {
+        "name": "Golden Pit",
+        "matches": 5,
+        "wins": 0,
+        "losses": 5,
+        "win_rate": 0.0
+      },
+      {
+        "name": "Team Islands",
+        "matches": 5,
+        "wins": 1,
+        "losses": 4,
+        "win_rate": 20.0
+      },
+      {
+        "name": "Fortress",
+        "matches": 5,
+        "wins": 1,
+        "losses": 4,
+        "win_rate": 20.0
+      },
+      {
+        "name": "Atacama",
+        "matches": 3,
+        "wins": 1,
+        "losses": 2,
+        "win_rate": 33.3
+      },
+      {
+        "name": "Serengeti",
+        "matches": 3,
+        "wins": 3,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "Fortified Clearing",
+        "matches": 3,
+        "wins": 2,
+        "losses": 1,
+        "win_rate": 66.7
+      },
+      {
+        "name": "Ghost Lake",
+        "matches": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0
+      },
+      {
+        "name": "Water Nomad",
+        "matches": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0
+      },
+      {
+        "name": "Valley",
+        "matches": 2,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 50.0
+      },
+      {
+        "name": "Archipelago",
+        "matches": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0
+      },
+      {
+        "name": "Gold Rush",
+        "matches": 2,
+        "wins": 2,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "African Clearing",
+        "matches": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0
+      },
+      {
+        "name": "Nomad",
+        "matches": 2,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 50.0
+      },
+      {
+        "name": "Coastal Forest",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "Seize The Mountain",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "Mediterranean",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "Socotra",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "Coastal",
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "Land Madness",
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "Shoals",
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "Haboob",
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "Glade",
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "Team Moats",
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "Enclosed",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "QS Arena",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "Moats",
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      }
+    ],
+    "top_opponents": [
+      {
+        "name": "l.inc",
+        "matches": 40,
+        "wins": 23,
+        "losses": 17,
+        "win_rate": 57.5
+      },
+      {
+        "name": "zubair",
+        "matches": 39,
+        "wins": 22,
+        "losses": 17,
+        "win_rate": 56.4
+      },
+      {
+        "name": "toXic",
+        "matches": 32,
+        "wins": 11,
+        "losses": 21,
+        "win_rate": 34.4
+      },
+      {
+        "name": "SauronSlayer",
+        "matches": 27,
+        "wins": 10,
+        "losses": 17,
+        "win_rate": 37.0
+      },
+      {
+        "name": "wabbit",
+        "matches": 20,
+        "wins": 12,
+        "losses": 8,
+        "win_rate": 60.0
+      },
+      {
+        "name": "neXus",
+        "matches": 19,
+        "wins": 9,
+        "losses": 10,
+        "win_rate": 47.4
+      },
+      {
+        "name": "cheetah001",
+        "matches": 10,
+        "wins": 7,
+        "losses": 3,
+        "win_rate": 70.0
+      },
+      {
+        "name": "NaKiyaKar",
+        "matches": 7,
+        "wins": 3,
+        "losses": 4,
+        "win_rate": 42.9
+      },
+      {
+        "name": "Siltrim_Gaming",
+        "matches": 2,
+        "wins": 0,
+        "losses": 2,
+        "win_rate": 0.0
+      },
+      {
+        "name": "lemaitre313",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "TdB.Gilpe",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "\u0431\u0438\u0437\u043e\u043d",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "lukas737",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "Gokunk",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "manuelhtavares",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "skeveldra",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "Blackhand9445",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "sondrehauge",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "Sir Vicencio",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "ZingerWhip",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "Zimbruxxx",
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "snoopBob",
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "Salam",
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "laCourrouze",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "TonzeR",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      }
+    ],
+    "top_teammates": [
+      {
+        "name": "SauronSlayer",
+        "matches": 40,
+        "wins": 24,
+        "losses": 16,
+        "win_rate": 60.0
+      },
+      {
+        "name": "zubair",
+        "matches": 28,
+        "wins": 12,
+        "losses": 16,
+        "win_rate": 42.9
+      },
+      {
+        "name": "neXus",
+        "matches": 25,
+        "wins": 9,
+        "losses": 16,
+        "win_rate": 36.0
+      },
+      {
+        "name": "l.inc",
+        "matches": 25,
+        "wins": 7,
+        "losses": 18,
+        "win_rate": 28.0
+      },
+      {
+        "name": "wabbit",
+        "matches": 21,
+        "wins": 9,
+        "losses": 12,
+        "win_rate": 42.9
+      },
+      {
+        "name": "cheetah001",
+        "matches": 13,
+        "wins": 9,
+        "losses": 4,
+        "win_rate": 69.2
+      },
+      {
+        "name": "toXic",
+        "matches": 6,
+        "wins": 6,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "irbis216",
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "SnoopFoX89",
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      },
+      {
+        "name": "Pr\u00e9d@tor",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "wenger.l",
+        "matches": 1,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0
+      },
+      {
+        "name": "NaKiyaKar",
+        "matches": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0
+      }
+    ]
+  },
+  "matches": [
+    {
+      "match_id": 494907022,
+      "map": "Arena",
+      "duration_seconds": 3343,
+      "date": "2026-07-26T00:08:00+00:00",
+      "player": {
+        "civ": "slavs",
+        "rating": 1232,
+        "rating_change": 17,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "tupi",
+          "rating": 1303,
+          "rating_change": 14,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "vikings",
+          "rating": 1155,
+          "rating_change": 20,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "koreans",
+          "rating": 1188,
+          "rating_change": -14,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "byzantines",
+          "rating": 1160,
+          "rating_change": -13,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "mongols",
+          "rating": 1401,
+          "rating_change": -23,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 494901362,
+      "map": "Arena",
+      "duration_seconds": 3053,
+      "date": "2026-07-25T23:37:00+00:00",
+      "player": {
+        "civ": "incas",
+        "rating": 1214,
+        "rating_change": 18,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "magyars",
+          "rating": 1288,
+          "rating_change": 15,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "shu",
+          "rating": 1133,
+          "rating_change": 22,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "mongols",
+          "rating": 1204,
+          "rating_change": -16,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "khmer",
+          "rating": 1174,
+          "rating_change": -14,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "britons",
+          "rating": 1426,
+          "rating_change": -25,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 494895292,
+      "map": "Arena",
+      "duration_seconds": 2769,
+      "date": "2026-07-25T23:04:00+00:00",
+      "player": {
+        "civ": "mongols",
+        "rating": 1229,
+        "rating_change": -15,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "huns",
+          "rating": 1306,
+          "rating_change": -18,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "armenians",
+          "rating": 1144,
+          "rating_change": -11,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "teutons",
+          "rating": 1186,
+          "rating_change": 18,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "koreans",
+          "rating": 1155,
+          "rating_change": 19,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "malians",
+          "rating": 1418,
+          "rating_change": 8,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 494889475,
+      "map": "Arena",
+      "duration_seconds": 2650,
+      "date": "2026-07-25T22:30:00+00:00",
+      "player": {
+        "civ": "malians",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "mongols",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "huns",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "khmer",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "bulgarians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "vikings",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "magyars",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "tupi",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 494882507,
+      "map": "Arena",
+      "duration_seconds": 2840,
+      "date": "2026-07-25T21:56:00+00:00",
+      "player": {
+        "civ": "turks",
+        "rating": 1248,
+        "rating_change": -7,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "burmese",
+          "rating": 1173,
+          "rating_change": -6,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "slavs",
+          "rating": 1158,
+          "rating_change": -5,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "mapuche",
+          "rating": 1310,
+          "rating_change": 11,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "georgians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "vikings",
+          "rating": 1403,
+          "rating_change": 7,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 494646225,
+      "map": "Fortress",
+      "duration_seconds": 6052,
+      "date": "2026-07-25T00:19:00+00:00",
+      "player": {
+        "civ": "lithuanians",
+        "rating": 1265,
+        "rating_change": -17,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "byzantines",
+          "rating": 1193,
+          "rating_change": -14,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "mayans",
+          "rating": 1147,
+          "rating_change": -12,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "romans",
+          "rating": 1287,
+          "rating_change": 12,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "turks",
+          "rating": 1202,
+          "rating_change": 16,
+          "is_ai": false
+        },
+        {
+          "name": "NaKiyaKar",
+          "user_id": 12693189,
+          "civ": "magyars",
+          "rating": 1233,
+          "rating_change": 15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 494640255,
+      "map": "Arena",
+      "duration_seconds": 3350,
+      "date": "2026-07-24T23:40:00+00:00",
+      "player": {
+        "civ": "cumans",
+        "rating": 1284,
+        "rating_change": -19,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "sicilians",
+          "rating": 1208,
+          "rating_change": -15,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "burmese",
+          "rating": 1160,
+          "rating_change": -13,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "incas",
+          "rating": 1274,
+          "rating_change": 13,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "shu",
+          "rating": 1185,
+          "rating_change": 17,
+          "is_ai": false
+        },
+        {
+          "name": "NaKiyaKar",
+          "user_id": 12693189,
+          "civ": "burgundians",
+          "rating": 1217,
+          "rating_change": 16,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 494638204,
+      "map": "Arena",
+      "duration_seconds": 154,
+      "date": "2026-07-24T23:35:00+00:00",
+      "player": {
+        "civ": "teutons",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "sicilians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "mongols",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "portuguese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "persians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "armenians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        }
+      ]
+    },
+    {
+      "match_id": 494624344,
+      "map": "Arena",
+      "duration_seconds": 4124,
+      "date": "2026-07-24T22:08:00+00:00",
+      "player": {
+        "civ": "britons",
+        "rating": 970,
+        "rating_change": 27,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "gurjaras",
+          "rating": 966,
+          "rating_change": 13,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "franks",
+          "rating": 849,
+          "rating_change": 18,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "javidiazm95",
+          "user_id": 12890442,
+          "civ": "romans",
+          "rating": 865,
+          "rating_change": -13,
+          "is_ai": false
+        },
+        {
+          "name": "Sauron_aoe",
+          "user_id": 12762840,
+          "civ": "burgundians",
+          "rating": 904,
+          "rating_change": -15,
+          "is_ai": false
+        },
+        {
+          "name": "manejc94",
+          "user_id": 13061964,
+          "civ": "wei",
+          "rating": 918,
+          "rating_change": -16,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 493037109,
+      "map": "Arena",
+      "duration_seconds": 2711,
+      "date": "2026-07-18T00:46:00+00:00",
+      "player": {
+        "civ": "tatars",
+        "rating": 1271,
+        "rating_change": 13,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "NaKiyaKar",
+          "user_id": 12693189,
+          "civ": "burmese",
+          "rating": 1200,
+          "rating_change": 17,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "turks",
+          "rating": 1387,
+          "rating_change": 9,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "saracens",
+          "rating": 1276,
+          "rating_change": -16,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "byzantines",
+          "rating": 1200,
+          "rating_change": -12,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "burgundians",
+          "rating": 1160,
+          "rating_change": -10,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 493031287,
+      "map": "Arena",
+      "duration_seconds": 2869,
+      "date": "2026-07-18T00:11:00+00:00",
+      "player": {
+        "civ": "bengalis",
+        "rating": 1290,
+        "rating_change": -19,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "burmese",
+          "rating": 1295,
+          "rating_change": -19,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "bohemians",
+          "rating": 1174,
+          "rating_change": -14,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "ethiopians",
+          "rating": 1178,
+          "rating_change": -14,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "tatars",
+          "rating": 1174,
+          "rating_change": 19,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "japanese",
+          "rating": 1182,
+          "rating_change": 18,
+          "is_ai": false
+        },
+        {
+          "name": "NaKiyaKar",
+          "user_id": 12693189,
+          "civ": "portuguese",
+          "rating": 1182,
+          "rating_change": 18,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "jurchens",
+          "rating": 1377,
+          "rating_change": 10,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 493025574,
+      "map": "Arena",
+      "duration_seconds": 2318,
+      "date": "2026-07-17T23:41:00+00:00",
+      "player": {
+        "civ": "sicilians",
+        "rating": 1310,
+        "rating_change": -20,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "huns",
+          "rating": 1316,
+          "rating_change": -21,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "teutons",
+          "rating": 1189,
+          "rating_change": -15,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "khmer",
+          "rating": 1193,
+          "rating_change": -15,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "turks",
+          "rating": 1162,
+          "rating_change": 20,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "slavs",
+          "rating": 1154,
+          "rating_change": 20,
+          "is_ai": false
+        },
+        {
+          "name": "NaKiyaKar",
+          "user_id": 12693189,
+          "civ": "franks",
+          "rating": 1162,
+          "rating_change": 20,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "tupi",
+          "rating": 1366,
+          "rating_change": 11,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 493018476,
+      "map": "Moats",
+      "duration_seconds": 3789,
+      "date": "2026-07-17T22:52:00+00:00",
+      "player": {
+        "civ": "hindustanis",
+        "rating": 1297,
+        "rating_change": 13,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "wu",
+          "rating": 1303,
+          "rating_change": 13,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "bengalis",
+          "rating": 1174,
+          "rating_change": 19,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "chinese",
+          "rating": 1174,
+          "rating_change": -12,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "spanish",
+          "rating": 1166,
+          "rating_change": -12,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "poles",
+          "rating": 1388,
+          "rating_change": -22,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 493010950,
+      "map": "Four Lakes",
+      "duration_seconds": 3689,
+      "date": "2026-07-17T22:11:00+00:00",
+      "player": {
+        "civ": "saracens",
+        "rating": 1282,
+        "rating_change": 15,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "persians",
+          "rating": 1288,
+          "rating_change": 15,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "turks",
+          "rating": 1153,
+          "rating_change": 21,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "koreans",
+          "rating": 1188,
+          "rating_change": -14,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "khmer",
+          "rating": 1179,
+          "rating_change": -13,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "sicilians",
+          "rating": 1411,
+          "rating_change": -23,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 491433090,
+      "map": "Arena",
+      "duration_seconds": 2631,
+      "date": "2026-07-11T00:08:00+00:00",
+      "player": {
+        "civ": "huns",
+        "rating": 1268,
+        "rating_change": 14,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "romans",
+          "rating": 1154,
+          "rating_change": 19,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "bengalis",
+          "rating": 1160,
+          "rating_change": 19,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "wei",
+          "rating": 1403,
+          "rating_change": 8,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "mongols",
+          "rating": 1307,
+          "rating_change": -19,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "koreans",
+          "rating": 1215,
+          "rating_change": -15,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "wu",
+          "rating": 1165,
+          "rating_change": -12,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "mapuche",
+          "rating": 1203,
+          "rating_change": -14,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 491426984,
+      "map": "Arena",
+      "duration_seconds": 3213,
+      "date": "2026-07-10T23:30:00+00:00",
+      "player": {
+        "civ": "bengalis",
+        "rating": 1255,
+        "rating_change": 13,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "berbers",
+          "rating": 1296,
+          "rating_change": 11,
+          "is_ai": false
+        },
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "gurjaras",
+          "rating": 1136,
+          "rating_change": 18,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "bulgarians",
+          "rating": 1187,
+          "rating_change": 16,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "italians",
+          "rating": 1232,
+          "rating_change": -17,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "saracens",
+          "rating": 1174,
+          "rating_change": -14,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "ethiopians",
+          "rating": 1179,
+          "rating_change": -14,
+          "is_ai": false
+        },
+        {
+          "name": "NaKiyaKar",
+          "user_id": 12693189,
+          "civ": "magyars",
+          "rating": 1176,
+          "rating_change": -14,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 491420482,
+      "map": "Arena",
+      "duration_seconds": 2109,
+      "date": "2026-07-10T23:05:00+00:00",
+      "player": {
+        "civ": "byzantines",
+        "rating": 1242,
+        "rating_change": 13,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "japanese",
+          "rating": 1285,
+          "rating_change": 11,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "tatars",
+          "rating": 1218,
+          "rating_change": 14,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "malians",
+          "rating": 1171,
+          "rating_change": 16,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "britons",
+          "rating": 1148,
+          "rating_change": -12,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "magyars",
+          "rating": 1188,
+          "rating_change": -14,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "dravidians",
+          "rating": 1193,
+          "rating_change": -14,
+          "is_ai": false
+        },
+        {
+          "name": "NaKiyaKar",
+          "user_id": 12693189,
+          "civ": "teutons",
+          "rating": 1190,
+          "rating_change": -14,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 491410472,
+      "map": "QS Arena",
+      "duration_seconds": 3527,
+      "date": "2026-07-10T22:15:00+00:00",
+      "player": {
+        "civ": "cumans",
+        "rating": 1256,
+        "rating_change": -14,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "teutons",
+          "rating": 1200,
+          "rating_change": -12,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "malay",
+          "rating": 1205,
+          "rating_change": -12,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "ethiopians",
+          "rating": 1182,
+          "rating_change": -11,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "burmese",
+          "rating": 1272,
+          "rating_change": 13,
+          "is_ai": false
+        },
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "magyars",
+          "rating": 1128,
+          "rating_change": 20,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "mongols",
+          "rating": 1202,
+          "rating_change": 16,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "lithuanians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        }
+      ]
+    },
+    {
+      "match_id": 491403452,
+      "map": "Arena",
+      "duration_seconds": 2867,
+      "date": "2026-07-10T21:29:00+00:00",
+      "player": {
+        "civ": "franks",
+        "rating": null,
+        "rating_change": null,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "poles",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "shu",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "burmese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 491183942,
+      "map": "MegaRandom",
+      "duration_seconds": 3534,
+      "date": "2026-07-09T22:25:00+00:00",
+      "player": {
+        "civ": "persians",
+        "rating": 999,
+        "rating_change": 16,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Ruxin",
+          "user_id": 777178,
+          "civ": "malians",
+          "rating": 1007,
+          "rating_change": -16,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 491178953,
+      "map": "Arena",
+      "duration_seconds": 2672,
+      "date": "2026-07-09T21:56:00+00:00",
+      "player": {
+        "civ": "malay",
+        "rating": 984,
+        "rating_change": 15,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Choru",
+          "user_id": 13700591,
+          "civ": "shu",
+          "rating": 967,
+          "rating_change": -15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 490130219,
+      "map": "Enclosed",
+      "duration_seconds": 3602,
+      "date": "2026-07-04T23:31:00+00:00",
+      "player": {
+        "civ": "vietnamese",
+        "rating": 1257,
+        "rating_change": -17,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "goths",
+          "rating": 1349,
+          "rating_change": -21,
+          "is_ai": false
+        },
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "chinese",
+          "rating": 1160,
+          "rating_change": -13,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "franks",
+          "rating": 1163,
+          "rating_change": 20,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "spanish",
+          "rating": 1142,
+          "rating_change": 21,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "bengalis",
+          "rating": 1373,
+          "rating_change": 11,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 490111930,
+      "map": "Team Moats",
+      "duration_seconds": 5885,
+      "date": "2026-07-04T21:32:00+00:00",
+      "player": {
+        "civ": "japanese",
+        "rating": null,
+        "rating_change": null,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "ethiopians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "mongols",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "spanish",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "persians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "chinese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 489894245,
+      "map": "Hideout",
+      "duration_seconds": 2570,
+      "date": "2026-07-04T00:18:00+00:00",
+      "player": {
+        "civ": "mongols",
+        "rating": 1249,
+        "rating_change": -7,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "goths",
+          "rating": 1165,
+          "rating_change": -5,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "britons",
+          "rating": 1129,
+          "rating_change": -4,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "persians",
+          "rating": 1365,
+          "rating_change": 8,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "mapuche",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "berbers",
+          "rating": 1391,
+          "rating_change": 7,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 489887455,
+      "map": "Hideout",
+      "duration_seconds": 4275,
+      "date": "2026-07-03T23:33:00+00:00",
+      "player": {
+        "civ": "bulgarians",
+        "rating": 1232,
+        "rating_change": 17,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "muisca",
+          "rating": 1354,
+          "rating_change": 11,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "vietnamese",
+          "rating": 1125,
+          "rating_change": 21,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "huns",
+          "rating": 1178,
+          "rating_change": -13,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "portuguese",
+          "rating": 1141,
+          "rating_change": -12,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "goths",
+          "rating": 1415,
+          "rating_change": -24,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 489882221,
+      "map": "Fortress",
+      "duration_seconds": 3393,
+      "date": "2026-07-03T22:47:00+00:00",
+      "player": {
+        "civ": "portuguese",
+        "rating": 1242,
+        "rating_change": -10,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "burgundians",
+          "rating": 1187,
+          "rating_change": -9,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "byzantines",
+          "rating": 1132,
+          "rating_change": -7,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "japanese",
+          "rating": 1206,
+          "rating_change": -9,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "cumans",
+          "rating": 1345,
+          "rating_change": 9,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "saracens",
+          "rating": 1122,
+          "rating_change": 19,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "bohemians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "aztecs",
+          "rating": 1408,
+          "rating_change": 7,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 489877042,
+      "map": "Glade",
+      "duration_seconds": 2854,
+      "date": "2026-07-03T22:12:00+00:00",
+      "player": {
+        "civ": "saracens",
+        "rating": null,
+        "rating_change": null,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "tatars",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "bengalis",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        }
+      ],
+      "opponents": [
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "aztecs",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "dravidians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "magyars",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 489869774,
+      "map": "Fortress",
+      "duration_seconds": 3522,
+      "date": "2026-07-03T21:31:00+00:00",
+      "player": {
+        "civ": "armenians",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "koreans",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "lithuanians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "turks",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "goths",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "magyars",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        }
+      ]
+    },
+    {
+      "match_id": 489866232,
+      "map": "Arena",
+      "duration_seconds": 1326,
+      "date": "2026-07-03T21:12:00+00:00",
+      "player": {
+        "civ": "burgundians",
+        "rating": 957,
+        "rating_change": -35,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "franks",
+          "rating": 838,
+          "rating_change": -10,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "italians",
+          "rating": 994,
+          "rating_change": -17,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "amirabd1994",
+          "user_id": 12785524,
+          "civ": "turks",
+          "rating": 1020,
+          "rating_change": 12,
+          "is_ai": false
+        },
+        {
+          "name": "shamix709",
+          "user_id": 5120132,
+          "civ": "italians",
+          "rating": 935,
+          "rating_change": 16,
+          "is_ai": false
+        },
+        {
+          "name": "gafilter",
+          "user_id": 4751729,
+          "civ": "bulgarians",
+          "rating": 969,
+          "rating_change": 14,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 488307460,
+      "map": "Team Islands",
+      "duration_seconds": 3729,
+      "date": "2026-06-27T01:11:00+00:00",
+      "player": {
+        "civ": "turks",
+        "rating": null,
+        "rating_change": null,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "mongols",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "italians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "sicilians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "vietnamese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "hindustanis",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 488302218,
+      "map": "Fortress",
+      "duration_seconds": 3097,
+      "date": "2026-06-27T00:36:00+00:00",
+      "player": {
+        "civ": "poles",
+        "rating": 1211,
+        "rating_change": 15,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "goths",
+          "rating": 1275,
+          "rating_change": 12,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "bulgarians",
+          "rating": 1196,
+          "rating_change": 16,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "celts",
+          "rating": 1238,
+          "rating_change": -17,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "burmese",
+          "rating": 1145,
+          "rating_change": -12,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "vietnamese",
+          "rating": 1177,
+          "rating_change": -14,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 488296126,
+      "map": "Fortress",
+      "duration_seconds": 3826,
+      "date": "2026-06-26T23:51:00+00:00",
+      "player": {
+        "civ": "ethiopians",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "incas",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "malay",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "berbers",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "hindustanis",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "aztecs",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 488287919,
+      "map": "Arena",
+      "duration_seconds": 3740,
+      "date": "2026-06-26T23:11:00+00:00",
+      "player": {
+        "civ": "berbers",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "malians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "hindustanis",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        }
+      ],
+      "opponents": [
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "bohemians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "franks",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "portuguese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 486920015,
+      "map": "Haboob",
+      "duration_seconds": 2837,
+      "date": null,
+      "player": {
+        "civ": "hindustanis",
+        "rating": 1236,
+        "rating_change": 14,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "mongols",
+          "rating": 1299,
+          "rating_change": 11,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "portuguese",
+          "rating": 1127,
+          "rating_change": 19,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "persians",
+          "rating": 1381,
+          "rating_change": 8,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "armenians",
+          "rating": 1236,
+          "rating_change": -15,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "poles",
+          "rating": 1118,
+          "rating_change": -10,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "vikings",
+          "rating": 1219,
+          "rating_change": -14,
+          "is_ai": false
+        },
+        {
+          "name": "NaKiyaKar",
+          "user_id": 12693189,
+          "civ": "malay",
+          "rating": 1203,
+          "rating_change": -13,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 486918430,
+      "map": "Fortified Clearing",
+      "duration_seconds": 508,
+      "date": "2026-06-20T23:49:00+00:00",
+      "player": {
+        "civ": "incas",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "magyars",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "malians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "bulgarians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "burgundians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "slavs",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "berbers",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "franks",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 486911474,
+      "map": "Fortified Clearing",
+      "duration_seconds": 3005,
+      "date": "2026-06-20T23:15:00+00:00",
+      "player": {
+        "civ": "vietnamese",
+        "rating": 1231,
+        "rating_change": 15,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "franks",
+          "rating": 1107,
+          "rating_change": 18,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "japanese",
+          "rating": 1116,
+          "rating_change": 18,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "khitans",
+          "rating": 1214,
+          "rating_change": 15,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "celts",
+          "rating": 1310,
+          "rating_change": -22,
+          "is_ai": false
+        },
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "tupi",
+          "rating": 1241,
+          "rating_change": -19,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "cumans",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "britons",
+          "rating": 1398,
+          "rating_change": -25,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 486897195,
+      "map": "Arena",
+      "duration_seconds": 2206,
+      "date": "2026-06-20T22:01:00+00:00",
+      "player": {
+        "civ": "bulgarians",
+        "rating": 889,
+        "rating_change": 68,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "vietnamese",
+          "rating": 1064,
+          "rating_change": 17,
+          "is_ai": false
+        },
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "cumans",
+          "rating": 1076,
+          "rating_change": 16,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "incas",
+          "rating": 1150,
+          "rating_change": 13,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "miguelpc89",
+          "user_id": 5730909,
+          "civ": "persians",
+          "rating": 1070,
+          "rating_change": -17,
+          "is_ai": false
+        },
+        {
+          "name": "pablogueme",
+          "user_id": 2700049,
+          "civ": "franks",
+          "rating": 1091,
+          "rating_change": -18,
+          "is_ai": false
+        },
+        {
+          "name": "thomas shelby",
+          "user_id": 879530,
+          "civ": "sicilians",
+          "rating": 1096,
+          "rating_change": -18,
+          "is_ai": false
+        },
+        {
+          "name": "Odi",
+          "user_id": 13632690,
+          "civ": "saracens",
+          "rating": 1052,
+          "rating_change": -16,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 486658094,
+      "map": "Arena",
+      "duration_seconds": 3065,
+      "date": "2026-06-20T00:43:00+00:00",
+      "player": {
+        "civ": "dravidians",
+        "rating": 1192,
+        "rating_change": 20,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "italians",
+          "rating": 1279,
+          "rating_change": 16,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "teutons",
+          "rating": 1082,
+          "rating_change": 25,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "georgians",
+          "rating": 1278,
+          "rating_change": -20,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "incas",
+          "rating": 1141,
+          "rating_change": -14,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "hindustanis",
+          "rating": 1448,
+          "rating_change": -26,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 486653274,
+      "map": "Arena",
+      "duration_seconds": 2590,
+      "date": "2026-06-20T00:05:00+00:00",
+      "player": {
+        "civ": "gurjaras",
+        "rating": 1206,
+        "rating_change": -14,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "incas",
+          "rating": 1297,
+          "rating_change": -18,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "bohemians",
+          "rating": 1091,
+          "rating_change": -9,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "tatars",
+          "rating": 1122,
+          "rating_change": 19,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "mongols",
+          "rating": 1178,
+          "rating_change": 17,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "mapuche",
+          "rating": 1442,
+          "rating_change": 6,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 486648838,
+      "map": "Arena",
+      "duration_seconds": 2485,
+      "date": "2026-06-19T23:37:00+00:00",
+      "player": {
+        "civ": "koreans",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "britons",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "mongols",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "dravidians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "lithuanians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "malay",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 486642587,
+      "map": "Arena",
+      "duration_seconds": 3270,
+      "date": "2026-06-19T23:02:00+00:00",
+      "player": {
+        "civ": "britons",
+        "rating": 1228,
+        "rating_change": -7,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "poles",
+          "rating": 1105,
+          "rating_change": -4,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "huns",
+          "rating": 1105,
+          "rating_change": -4,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "franks",
+          "rating": 1308,
+          "rating_change": 9,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "hindustanis",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "teutons",
+          "rating": 1430,
+          "rating_change": 5,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 486638050,
+      "map": "Arena",
+      "duration_seconds": 2354,
+      "date": "2026-06-19T22:34:00+00:00",
+      "player": {
+        "civ": "franks",
+        "rating": 833,
+        "rating_change": 56,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "vietnamese",
+          "rating": 1064,
+          "rating_change": 11,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "Hazem",
+          "user_id": 4507962,
+          "civ": "bohemians",
+          "rating": 936,
+          "rating_change": -15,
+          "is_ai": false
+        },
+        {
+          "name": "Domytilla",
+          "user_id": 13682313,
+          "civ": "incas",
+          "rating": 954,
+          "rating_change": -47,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 485214225,
+      "map": "Arena",
+      "duration_seconds": 2684,
+      "date": "2026-06-13T23:57:00+00:00",
+      "player": {
+        "civ": "franks",
+        "rating": null,
+        "rating_change": null,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "poles",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "spanish",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "sicilians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "burgundians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "hindustanis",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 485210091,
+      "map": "Arena",
+      "duration_seconds": 2616,
+      "date": "2026-06-13T23:30:00+00:00",
+      "player": {
+        "civ": "turks",
+        "rating": null,
+        "rating_change": null,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "vikings",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "hindustanis",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "slavs",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "bohemians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "jurchens",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 485204642,
+      "map": "Arena",
+      "duration_seconds": 2519,
+      "date": "2026-06-13T23:01:00+00:00",
+      "player": {
+        "civ": "romans",
+        "rating": null,
+        "rating_change": null,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "teutons",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "aztecs",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "spanish",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "tatars",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "turks",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 485195484,
+      "map": "Arena",
+      "duration_seconds": 4935,
+      "date": "2026-06-13T22:06:00+00:00",
+      "player": {
+        "civ": "persians",
+        "rating": 1206,
+        "rating_change": -18,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "malians",
+          "rating": 1300,
+          "rating_change": -22,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "hindustanis",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        }
+      ],
+      "opponents": [
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "teutons",
+          "rating": 1195,
+          "rating_change": 12,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "bengalis",
+          "rating": 1124,
+          "rating_change": 14,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "muisca",
+          "rating": 1186,
+          "rating_change": 13,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 484929948,
+      "map": "Arena",
+      "duration_seconds": 3828,
+      "date": "2026-06-12T23:58:00+00:00",
+      "player": {
+        "civ": "gurjaras",
+        "rating": 1191,
+        "rating_change": 15,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "poles",
+          "rating": 1277,
+          "rating_change": 11,
+          "is_ai": false
+        },
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "wei",
+          "rating": 1232,
+          "rating_change": 13,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "cumans",
+          "rating": 1150,
+          "rating_change": -12,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "slavs",
+          "rating": 1136,
+          "rating_change": -12,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "huns",
+          "rating": 1201,
+          "rating_change": -15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 484919611,
+      "map": "Arena",
+      "duration_seconds": 4384,
+      "date": "2026-06-12T23:08:00+00:00",
+      "player": {
+        "civ": "vietnamese",
+        "rating": null,
+        "rating_change": null,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "italians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "mapuche",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "koreans",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "byzantines",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "incas",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 484910873,
+      "map": "Arena",
+      "duration_seconds": 3379,
+      "date": "2026-06-12T22:23:00+00:00",
+      "player": {
+        "civ": "saracens",
+        "rating": null,
+        "rating_change": null,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "goths",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "khmer",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "georgians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "portuguese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "tatars",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 484903618,
+      "map": "Arena",
+      "duration_seconds": 2959,
+      "date": "2026-06-12T21:45:00+00:00",
+      "player": {
+        "civ": "armenians",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "mongols",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "tatars",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "huns",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "chinese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "koreans",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 484893933,
+      "map": "Arena",
+      "duration_seconds": 3080,
+      "date": "2026-06-12T21:13:00+00:00",
+      "player": {
+        "civ": "teutons",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "sicilians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "goths",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "magyars",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "byzantines",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "britons",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 483431841,
+      "map": "Arena",
+      "duration_seconds": 3224,
+      "date": "2026-06-06T22:33:00+00:00",
+      "player": {
+        "civ": "vietnamese",
+        "rating": 1179,
+        "rating_change": -17,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "poles",
+          "rating": 1264,
+          "rating_change": -21,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "slavs",
+          "rating": 1253,
+          "rating_change": -20,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "khmer",
+          "rating": 1163,
+          "rating_change": 19,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "bengalis",
+          "rating": 1131,
+          "rating_change": 21,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "goths",
+          "rating": 1171,
+          "rating_change": 19,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 483424413,
+      "map": "Arena",
+      "duration_seconds": 2595,
+      "date": "2026-06-06T22:06:00+00:00",
+      "player": {
+        "civ": "malay",
+        "rating": 1163,
+        "rating_change": 16,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "georgians",
+          "rating": 1252,
+          "rating_change": 12,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "saracens",
+          "rating": 1240,
+          "rating_change": 13,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "lithuanians",
+          "rating": 1177,
+          "rating_change": -14,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "bohemians",
+          "rating": 1144,
+          "rating_change": -13,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "franks",
+          "rating": 1186,
+          "rating_change": -15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 483162871,
+      "map": "Arena",
+      "duration_seconds": 3512,
+      "date": "2026-06-06T00:16:00+00:00",
+      "player": {
+        "civ": "italians",
+        "rating": null,
+        "rating_change": null,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "celts",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "teutons",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "burgundians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "persians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "mongols",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 483155146,
+      "map": "Arena",
+      "duration_seconds": 3587,
+      "date": "2026-06-05T23:31:00+00:00",
+      "player": {
+        "civ": "goths",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "malay",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "teutons",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "byzantines",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "shu",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "slavs",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 483146362,
+      "map": "Arena",
+      "duration_seconds": 3760,
+      "date": "2026-06-05T22:46:00+00:00",
+      "player": {
+        "civ": "aztecs",
+        "rating": 1165,
+        "rating_change": -10,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "malians",
+          "rating": 1233,
+          "rating_change": -13,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "mongols",
+          "rating": 1193,
+          "rating_change": -11,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "bengalis",
+          "rating": 1174,
+          "rating_change": 17,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "mayans",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "gurjaras",
+          "rating": 1170,
+          "rating_change": 17,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 483138826,
+      "map": "Arena",
+      "duration_seconds": 3476,
+      "date": "2026-06-05T22:01:00+00:00",
+      "player": {
+        "civ": "bulgarians",
+        "rating": null,
+        "rating_change": null,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "khmer",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "ethiopians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "incas",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "franks",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "malay",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 483130443,
+      "map": "Arena",
+      "duration_seconds": 3026,
+      "date": "2026-06-05T21:26:00+00:00",
+      "player": {
+        "civ": "lithuanians",
+        "rating": 1159,
+        "rating_change": -16,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "byzantines",
+          "rating": 1234,
+          "rating_change": -17,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "malay",
+          "rating": 1174,
+          "rating_change": 17,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "bohemians",
+          "rating": 1249,
+          "rating_change": 14,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 481457780,
+      "map": "Arena",
+      "duration_seconds": 4620,
+      "date": "2026-05-30T00:05:00+00:00",
+      "player": {
+        "civ": "malians",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "persians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "jurchens",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "japanese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        }
+      ]
+    },
+    {
+      "match_id": 481446597,
+      "map": "Arena",
+      "duration_seconds": 5795,
+      "date": "2026-05-29T22:59:00+00:00",
+      "player": {
+        "civ": "khmer",
+        "rating": 1168,
+        "rating_change": -5,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "turks",
+          "rating": 1219,
+          "rating_change": -4,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "bulgarians",
+          "rating": 1416,
+          "rating_change": 7,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "shu",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        }
+      ]
+    },
+    {
+      "match_id": 481441565,
+      "map": "Arena",
+      "duration_seconds": 2490,
+      "date": "2026-05-29T22:31:00+00:00",
+      "player": {
+        "civ": "ethiopians",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "chinese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "vietnamese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "berbers",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 480548341,
+      "map": "Nomad",
+      "duration_seconds": 3253,
+      "date": "2026-05-25T23:27:00+00:00",
+      "player": {
+        "civ": "berbers",
+        "rating": 1000,
+        "rating_change": -16,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Age of Kings",
+          "user_id": 6766251,
+          "civ": "italians",
+          "rating": 1007,
+          "rating_change": 16,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 480016531,
+      "map": "Arena",
+      "duration_seconds": 4333,
+      "date": "2026-05-24T00:07:00+00:00",
+      "player": {
+        "civ": "teutons",
+        "rating": null,
+        "rating_change": null,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "mayans",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "khmer",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "slavs",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "armenians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "vietnamese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "portuguese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "huns",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 480009572,
+      "map": "Arena",
+      "duration_seconds": 3095,
+      "date": "2026-05-23T23:32:00+00:00",
+      "player": {
+        "civ": "hindustanis",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "celts",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "romans",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "burgundians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "franks",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "sicilians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "bohemians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "byzantines",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 480002171,
+      "map": "Arena",
+      "duration_seconds": 3459,
+      "date": "2026-05-23T22:49:00+00:00",
+      "player": {
+        "civ": "franks",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "jurchens",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "bohemians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "burmese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "aztecs",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "cumans",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "vikings",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "japanese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 479994622,
+      "map": "Arena",
+      "duration_seconds": 2716,
+      "date": "2026-05-23T22:18:00+00:00",
+      "player": {
+        "civ": "spanish",
+        "rating": 1171,
+        "rating_change": -25,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "wu",
+          "rating": 1223,
+          "rating_change": -14,
+          "is_ai": false
+        },
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "koreans",
+          "rating": 1161,
+          "rating_change": -12,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "persians",
+          "rating": 1171,
+          "rating_change": 17,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "magyars",
+          "rating": 1189,
+          "rating_change": 16,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "berbers",
+          "rating": 1414,
+          "rating_change": 7,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 478861559,
+      "map": "Nomad",
+      "duration_seconds": 2692,
+      "date": "2026-05-18T21:47:00+00:00",
+      "player": {
+        "civ": "berbers",
+        "rating": 983,
+        "rating_change": 17,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Pepn",
+          "user_id": 4347595,
+          "civ": "goths",
+          "rating": 1011,
+          "rating_change": -17,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 478856088,
+      "map": "Arena",
+      "duration_seconds": 2655,
+      "date": "2026-05-18T21:20:00+00:00",
+      "player": {
+        "civ": "britons",
+        "rating": 968,
+        "rating_change": 15,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Pyzamovy rytir",
+          "user_id": 13667157,
+          "civ": "goths",
+          "rating": 957,
+          "rating_change": -45,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 478356927,
+      "map": "Arena",
+      "duration_seconds": 3075,
+      "date": "2026-05-16T23:15:00+00:00",
+      "player": {
+        "civ": "ethiopians",
+        "rating": 870,
+        "rating_change": -37,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "franks",
+          "rating": 831,
+          "rating_change": -12,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "portuguese",
+          "rating": 985,
+          "rating_change": -19,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "Batman",
+          "user_id": 3020637,
+          "civ": "cumans",
+          "rating": 982,
+          "rating_change": 12,
+          "is_ai": false
+        },
+        {
+          "name": "Flatearth King",
+          "user_id": 2303240,
+          "civ": "aztecs",
+          "rating": 925,
+          "rating_change": 15,
+          "is_ai": false
+        },
+        {
+          "name": "ftgiants",
+          "user_id": 2239786,
+          "civ": "persians",
+          "rating": 824,
+          "rating_change": 19,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 478349321,
+      "map": "African Clearing",
+      "duration_seconds": 3224,
+      "date": "2026-05-16T22:36:00+00:00",
+      "player": {
+        "civ": "huns",
+        "rating": 919,
+        "rating_change": -49,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "portuguese",
+          "rating": 1007,
+          "rating_change": -22,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "franks",
+          "rating": 846,
+          "rating_change": -15,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "haiti",
+          "user_id": 124817,
+          "civ": "huns",
+          "rating": 960,
+          "rating_change": 14,
+          "is_ai": false
+        },
+        {
+          "name": "adriAnz",
+          "user_id": 5806150,
+          "civ": "georgians",
+          "rating": 885,
+          "rating_change": 18,
+          "is_ai": false
+        },
+        {
+          "name": "AlandorH",
+          "user_id": 13044848,
+          "civ": "wu",
+          "rating": 786,
+          "rating_change": 22,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 478338488,
+      "map": "Arena",
+      "duration_seconds": 3355,
+      "date": "2026-05-16T21:55:00+00:00",
+      "player": {
+        "civ": "bengalis",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "persians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "chinese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "huns",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 478330046,
+      "map": "Arena",
+      "duration_seconds": 3095,
+      "date": "2026-05-16T21:11:00+00:00",
+      "player": {
+        "civ": "britons",
+        "rating": 877,
+        "rating_change": 42,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "romans",
+          "rating": 829,
+          "rating_change": 17,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "burgundians",
+          "rating": 1002,
+          "rating_change": 9,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "Dr. wardan",
+          "user_id": 607614,
+          "civ": "bohemians",
+          "rating": 925,
+          "rating_change": -17,
+          "is_ai": false
+        },
+        {
+          "name": "so4p",
+          "user_id": 9706916,
+          "civ": "byzantines",
+          "rating": 742,
+          "rating_change": -9,
+          "is_ai": false
+        },
+        {
+          "name": "h0par",
+          "user_id": 5991427,
+          "civ": "khmer",
+          "rating": 886,
+          "rating_change": -15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 476654203,
+      "map": "Arena",
+      "duration_seconds": 3634,
+      "date": "2026-05-10T00:06:00+00:00",
+      "player": {
+        "civ": "burmese",
+        "rating": 1152,
+        "rating_change": 52,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "muisca",
+          "rating": 1119,
+          "rating_change": 23,
+          "is_ai": false
+        },
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "britons",
+          "rating": 1196,
+          "rating_change": 20,
+          "is_ai": false
+        },
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "georgians",
+          "rating": 1203,
+          "rating_change": 20,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "bohemians",
+          "rating": 1144,
+          "rating_change": -15,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "portuguese",
+          "rating": 1245,
+          "rating_change": -20,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "saracens",
+          "rating": 1311,
+          "rating_change": -22,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "mayans",
+          "rating": 1441,
+          "rating_change": -27,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 476648424,
+      "map": "Arena",
+      "duration_seconds": 2349,
+      "date": "2026-05-09T23:39:00+00:00",
+      "player": {
+        "civ": "franks",
+        "rating": 1179,
+        "rating_change": -27,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "magyars",
+          "rating": 1128,
+          "rating_change": -9,
+          "is_ai": false
+        },
+        {
+          "name": "cheetah001",
+          "user_id": 11907023,
+          "civ": "armenians",
+          "rating": 1208,
+          "rating_change": -12,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "poles",
+          "rating": 1154,
+          "rating_change": -10,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "teutons",
+          "rating": 1232,
+          "rating_change": 13,
+          "is_ai": false
+        },
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "ethiopians",
+          "rating": 1188,
+          "rating_change": 15,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "turks",
+          "rating": 1301,
+          "rating_change": 10,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "romans",
+          "rating": 1435,
+          "rating_change": 6,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 476638536,
+      "map": "Arena",
+      "duration_seconds": 334,
+      "date": "2026-05-09T22:41:00+00:00",
+      "player": {
+        "civ": "dravidians",
+        "rating": 1204,
+        "rating_change": -25,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "wabbit",
+          "user_id": 12047120,
+          "civ": "celts",
+          "rating": 1146,
+          "rating_change": -8,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "aztecs",
+          "rating": 1304,
+          "rating_change": -14,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "turks",
+          "rating": 1174,
+          "rating_change": -9,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "bengalis",
+          "rating": 1202,
+          "rating_change": 16,
+          "is_ai": false
+        },
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "incas",
+          "rating": 1152,
+          "rating_change": 19,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "ethiopians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "poles",
+          "rating": 1422,
+          "rating_change": 7,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 476370140,
+      "map": "Arena",
+      "duration_seconds": 3367,
+      "date": "2026-05-08T23:58:00+00:00",
+      "player": {
+        "civ": "vietnamese",
+        "rating": 1240,
+        "rating_change": -36,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "dravidians",
+          "rating": 1174,
+          "rating_change": -11,
+          "is_ai": false
+        },
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "tatars",
+          "rating": 1240,
+          "rating_change": -14,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "berbers",
+          "rating": 1266,
+          "rating_change": 14,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "saracens",
+          "rating": 1178,
+          "rating_change": 18,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "byzantines",
+          "rating": 1393,
+          "rating_change": 9,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 476364667,
+      "map": "Arena",
+      "duration_seconds": 2983,
+      "date": "2026-05-08T23:08:00+00:00",
+      "player": {
+        "civ": "teutons",
+        "rating": 1195,
+        "rating_change": 45,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "celts",
+          "rating": 1224,
+          "rating_change": 16,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "spanish",
+          "rating": 1384,
+          "rating_change": 9,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "malians",
+          "rating": 1186,
+          "rating_change": -12,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "britons",
+          "rating": 1191,
+          "rating_change": -13,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "slavs",
+          "rating": 1283,
+          "rating_change": -17,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 476363811,
+      "map": "Arena",
+      "duration_seconds": 45,
+      "date": "2026-05-08T23:06:00+00:00",
+      "player": {
+        "civ": "celts",
+        "rating": null,
+        "rating_change": null,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "burmese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "khmer",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "bulgarians",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "hindustanis",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "turks",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 476356399,
+      "map": "Arena",
+      "duration_seconds": 3148,
+      "date": "2026-05-08T22:30:00+00:00",
+      "player": {
+        "civ": "italians",
+        "rating": null,
+        "rating_change": null,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "l.inc",
+          "user_id": 12080589,
+          "civ": "goths",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "toXic",
+          "user_id": 12499000,
+          "civ": "koreans",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "japanese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "gurjaras",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "tatars",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 476350593,
+      "map": "Arena",
+      "duration_seconds": 2595,
+      "date": "2026-05-08T21:58:00+00:00",
+      "player": {
+        "civ": "gurjaras",
+        "rating": null,
+        "rating_change": null,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "zubair",
+          "user_id": 12667372,
+          "civ": "saracens",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "huns",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        },
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "mongols",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 476343869,
+      "map": "Arena",
+      "duration_seconds": 2626,
+      "date": "2026-05-08T21:28:00+00:00",
+      "player": {
+        "civ": "persians",
+        "rating": 1000,
+        "rating_change": -14,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "neXus",
+          "user_id": 12805097,
+          "civ": "berbers",
+          "rating": 1328,
+          "rating_change": -11,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "SauronSlayer",
+          "user_id": 12676944,
+          "civ": "lithuanians",
+          "rating": 1196,
+          "rating_change": 15,
+          "is_ai": false
+        },
+        {
+          "name": "AI",
+          "user_id": null,
+          "civ": "vikings",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": true
+        }
+      ]
+    },
+    {
+      "match_id": 471438159,
+      "map": "Arena",
+      "duration_seconds": 2918,
+      "date": "2026-04-18T23:01:00+00:00",
+      "player": {
+        "civ": "britons",
+        "rating": 952,
+        "rating_change": 16,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "omerdurdu",
+          "user_id": 9878878,
+          "civ": "goths",
+          "rating": 949,
+          "rating_change": -16,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 471432075,
+      "map": "Arena",
+      "duration_seconds": 2823,
+      "date": "2026-04-18T22:31:00+00:00",
+      "player": {
+        "civ": "britons",
+        "rating": 937,
+        "rating_change": 15,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "LadyLee",
+          "user_id": 9989775,
+          "civ": "huns",
+          "rating": 914,
+          "rating_change": -42,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 471426172,
+      "map": "Arena",
+      "duration_seconds": 2629,
+      "date": "2026-04-18T22:04:00+00:00",
+      "player": {
+        "civ": "britons",
+        "rating": 953,
+        "rating_change": -16,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "dafr1997",
+          "user_id": 13292905,
+          "civ": "poles",
+          "rating": 950,
+          "rating_change": 16,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 461180379,
+      "map": "Arabia",
+      "duration_seconds": 2116,
+      "date": "2026-03-06T23:50:00+00:00",
+      "player": {
+        "civ": "mayans",
+        "rating": 937,
+        "rating_change": 16,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "T_Money369",
+          "user_id": 4821708,
+          "civ": "byzantines",
+          "rating": 939,
+          "rating_change": -37,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 461174266,
+      "map": "MegaRandom",
+      "duration_seconds": 2502,
+      "date": "2026-03-06T23:18:00+00:00",
+      "player": {
+        "civ": "portuguese",
+        "rating": 952,
+        "rating_change": -15,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Barry_Lyndon",
+          "user_id": 360845,
+          "civ": "incas",
+          "rating": 966,
+          "rating_change": 15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 456512465,
+      "map": "Fortified Clearing",
+      "duration_seconds": 3325,
+      "date": null,
+      "player": {
+        "civ": "spanish",
+        "rating": 935,
+        "rating_change": 17,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Joaking85",
+          "user_id": 2240690,
+          "civ": "mayans",
+          "rating": 957,
+          "rating_change": -17,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 454556829,
+      "map": "Arena",
+      "duration_seconds": 2589,
+      "date": null,
+      "player": {
+        "civ": "celts",
+        "rating": 950,
+        "rating_change": -15,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Siltrim_Gaming",
+          "user_id": 11758624,
+          "civ": "cumans",
+          "rating": 971,
+          "rating_change": 15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 454552869,
+      "map": "MegaRandom",
+      "duration_seconds": 2043,
+      "date": null,
+      "player": {
+        "civ": "hindustanis",
+        "rating": 967,
+        "rating_change": -17,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Siltrim_Gaming",
+          "user_id": 11758624,
+          "civ": "romans",
+          "rating": 954,
+          "rating_change": 17,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 428267140,
+      "map": "MegaRandom",
+      "duration_seconds": 2762,
+      "date": null,
+      "player": {
+        "civ": "malay",
+        "rating": 985,
+        "rating_change": -18,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Big Black Konnik",
+          "user_id": 278640,
+          "civ": "saracens",
+          "rating": 951,
+          "rating_change": 18,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 428262070,
+      "map": "MegaRandom",
+      "duration_seconds": 2759,
+      "date": null,
+      "player": {
+        "civ": "burgundians",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "nerostrife",
+          "user_id": 5461399,
+          "civ": "chinese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 424727427,
+      "map": "MegaRandom",
+      "duration_seconds": 5385,
+      "date": null,
+      "player": {
+        "civ": "bulgarians",
+        "rating": 983,
+        "rating_change": 17,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "perky",
+          "user_id": 278983,
+          "civ": "teutons",
+          "rating": 1012,
+          "rating_change": -17,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 424721909,
+      "map": "Serengeti",
+      "duration_seconds": 2167,
+      "date": null,
+      "player": {
+        "civ": "teutons",
+        "rating": null,
+        "rating_change": null,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "El Saa-Cerdote",
+          "user_id": 12353462,
+          "civ": "khmer",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 424709652,
+      "map": "Shoals",
+      "duration_seconds": 4697,
+      "date": null,
+      "player": {
+        "civ": "burmese",
+        "rating": 952,
+        "rating_change": 15,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Ecthelion",
+          "user_id": 2212738,
+          "civ": "poles",
+          "rating": 939,
+          "rating_change": -15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 419012279,
+      "map": "MegaRandom",
+      "duration_seconds": 3456,
+      "date": null,
+      "player": {
+        "civ": "hindustanis",
+        "rating": null,
+        "rating_change": null,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Pepe Bona",
+          "user_id": 5198333,
+          "civ": "mayans",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 414730381,
+      "map": "Arabia",
+      "duration_seconds": 4926,
+      "date": null,
+      "player": {
+        "civ": "celts",
+        "rating": null,
+        "rating_change": null,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Adam Kadmon",
+          "user_id": 13120311,
+          "civ": "mayans",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 401610181,
+      "map": "MegaRandom",
+      "duration_seconds": 4154,
+      "date": "2025-06-22T22:28:00+00:00",
+      "player": {
+        "civ": "bohemians",
+        "rating": 904,
+        "rating_change": 16,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "PALA",
+          "user_id": 13123764,
+          "civ": "celts",
+          "rating": 904,
+          "rating_change": -16,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 401373812,
+      "map": "Land Madness",
+      "duration_seconds": 3663,
+      "date": "2025-06-22T00:38:00+00:00",
+      "player": {
+        "civ": "turks",
+        "rating": 887,
+        "rating_change": 17,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Jona Samsot",
+          "user_id": 13011567,
+          "civ": "goths",
+          "rating": 904,
+          "rating_change": -47,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 393110689,
+      "map": "Arabia",
+      "duration_seconds": 4001,
+      "date": "2025-05-16T23:31:00+00:00",
+      "player": {
+        "civ": "sicilians",
+        "rating": 871,
+        "rating_change": 16,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Fitopito",
+          "user_id": 13084516,
+          "civ": "lithuanians",
+          "rating": 864,
+          "rating_change": -36,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 393107717,
+      "map": "Arabia",
+      "duration_seconds": 1526,
+      "date": "2025-05-16T23:14:00+00:00",
+      "player": {
+        "civ": "mayans",
+        "rating": 888,
+        "rating_change": -17,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "ttoommaass300",
+          "user_id": 12569399,
+          "civ": "persians",
+          "rating": 871,
+          "rating_change": 17,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 390525228,
+      "map": "Arabia",
+      "duration_seconds": 3655,
+      "date": "2025-05-05T23:35:00+00:00",
+      "player": {
+        "civ": "bulgarians",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Azrahel",
+          "user_id": 5847515,
+          "civ": "aztecs",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 390300908,
+      "map": "African Clearing",
+      "duration_seconds": 3292,
+      "date": "2025-05-05T00:04:00+00:00",
+      "player": {
+        "civ": "turks",
+        "rating": 919,
+        "rating_change": -15,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "LuckyDrifter19",
+          "user_id": 11930636,
+          "civ": "lithuanians",
+          "rating": 940,
+          "rating_change": 15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 390295115,
+      "map": "MegaRandom",
+      "duration_seconds": 3116,
+      "date": "2025-05-04T23:31:00+00:00",
+      "player": {
+        "civ": "malay",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "The Pigdog",
+          "user_id": 5371927,
+          "civ": "burmese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 247684164,
+      "map": "Arabia",
+      "duration_seconds": 3658,
+      "date": "2023-07-18T22:28:00+00:00",
+      "player": {
+        "civ": "incas",
+        "rating": 918,
+        "rating_change": 16,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Abdelrhman",
+          "user_id": 10578883,
+          "civ": "franks",
+          "rating": 913,
+          "rating_change": -16,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 247298840,
+      "map": "Arabia",
+      "duration_seconds": 2589,
+      "date": "2023-07-17T00:50:00+00:00",
+      "player": {
+        "civ": "huns",
+        "rating": 902,
+        "rating_change": 16,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "MKULTRAVICTIM",
+          "user_id": 12219100,
+          "civ": "byzantines",
+          "rating": 897,
+          "rating_change": -16,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 247297285,
+      "map": "Arabia",
+      "duration_seconds": 340,
+      "date": "2023-07-17T00:41:00+00:00",
+      "player": {
+        "civ": "incas",
+        "rating": 917,
+        "rating_change": -15,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "sibus",
+          "user_id": 12236809,
+          "civ": "magyars",
+          "rating": 937,
+          "rating_change": 15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 247292772,
+      "map": "Atacama",
+      "duration_seconds": 2759,
+      "date": "2023-07-17T00:12:00+00:00",
+      "player": {
+        "civ": "burmese",
+        "rating": 932,
+        "rating_change": -15,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Rubenstinski",
+          "user_id": 1168425,
+          "civ": "aztecs",
+          "rating": 948,
+          "rating_change": 41,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 247290693,
+      "map": "MegaRandom",
+      "duration_seconds": 159,
+      "date": "2023-07-16T23:59:00+00:00",
+      "player": {
+        "civ": "italians",
+        "rating": 948,
+        "rating_change": -16,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "rbarrigam",
+          "user_id": 3184242,
+          "civ": "aztecs",
+          "rating": 953,
+          "rating_change": 16,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 247290454,
+      "map": "Arabia",
+      "duration_seconds": 34,
+      "date": "2023-07-16T23:57:00+00:00",
+      "player": {
+        "civ": "magyars",
+        "rating": 931,
+        "rating_change": 17,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "MAGNUS88144",
+          "user_id": 11675565,
+          "civ": "koreans",
+          "rating": 946,
+          "rating_change": -17,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 247045739,
+      "map": "Gold Rush",
+      "duration_seconds": 3559,
+      "date": "2023-07-16T01:02:00+00:00",
+      "player": {
+        "civ": "franks",
+        "rating": 914,
+        "rating_change": 17,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "BIG PLAY",
+          "user_id": 12256877,
+          "civ": "koreans",
+          "rating": 937,
+          "rating_change": -17,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 246796550,
+      "map": "Atacama",
+      "duration_seconds": 3612,
+      "date": "2023-07-15T00:23:00+00:00",
+      "player": {
+        "civ": "incas",
+        "rating": 899,
+        "rating_change": 15,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "KIMD0TC0M",
+          "user_id": 3026026,
+          "civ": "incas",
+          "rating": 885,
+          "rating_change": -15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 246585384,
+      "map": "MegaRandom",
+      "duration_seconds": 3551,
+      "date": "2023-07-14T00:28:00+00:00",
+      "player": {
+        "civ": "ethiopians",
+        "rating": 916,
+        "rating_change": -17,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Long Gut",
+          "user_id": 242907,
+          "civ": "spanish",
+          "rating": 887,
+          "rating_change": 17,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 246582203,
+      "map": "Gold Rush",
+      "duration_seconds": 1778,
+      "date": "2023-07-14T00:06:00+00:00",
+      "player": {
+        "civ": "ethiopians",
+        "rating": 900,
+        "rating_change": 16,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "pepperonix7",
+          "user_id": 1859598,
+          "civ": "turks",
+          "rating": 898,
+          "rating_change": -16,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 246164374,
+      "map": "Coastal",
+      "duration_seconds": 1666,
+      "date": "2023-07-11T22:43:00+00:00",
+      "player": {
+        "civ": "huns",
+        "rating": 883,
+        "rating_change": 17,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Lalax",
+          "user_id": 2272973,
+          "civ": "berbers",
+          "rating": 894,
+          "rating_change": -17,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 246162440,
+      "map": "Hideout",
+      "duration_seconds": 986,
+      "date": "2023-07-11T22:29:00+00:00",
+      "player": {
+        "civ": "burmese",
+        "rating": 900,
+        "rating_change": -17,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "octillion",
+          "user_id": 12228145,
+          "civ": "japanese",
+          "rating": 878,
+          "rating_change": 17,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 246153469,
+      "map": "MegaRandom",
+      "duration_seconds": 3551,
+      "date": "2023-07-11T21:34:00+00:00",
+      "player": {
+        "civ": "lithuanians",
+        "rating": 883,
+        "rating_change": 17,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Chuck_Norris",
+          "user_id": 487429,
+          "civ": "vikings",
+          "rating": 905,
+          "rating_change": -17,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 245768518,
+      "map": "MegaRandom",
+      "duration_seconds": 3524,
+      "date": "2023-07-10T00:08:00+00:00",
+      "player": {
+        "civ": "mongols",
+        "rating": 868,
+        "rating_change": 15,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Scudle",
+          "user_id": 4187173,
+          "civ": "britons",
+          "rating": 846,
+          "rating_change": -15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 245764002,
+      "map": "MegaRandom",
+      "duration_seconds": 2332,
+      "date": "2023-07-09T23:41:00+00:00",
+      "player": {
+        "civ": "magyars",
+        "rating": 853,
+        "rating_change": 15,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Silincer",
+          "user_id": 12101224,
+          "civ": "turks",
+          "rating": 830,
+          "rating_change": -15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 245760843,
+      "map": "MegaRandom",
+      "duration_seconds": 1647,
+      "date": "2023-07-09T23:23:00+00:00",
+      "player": {
+        "civ": "mongols",
+        "rating": 870,
+        "rating_change": -17,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Wiselessons",
+          "user_id": 2619895,
+          "civ": "cumans",
+          "rating": 854,
+          "rating_change": 17,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 245756648,
+      "map": "Arabia",
+      "duration_seconds": 1732,
+      "date": null,
+      "player": {
+        "civ": "portuguese",
+        "rating": 854,
+        "rating_change": 16,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "tatami",
+          "user_id": 12193778,
+          "civ": "saracens",
+          "rating": 854,
+          "rating_change": -16,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 245754625,
+      "map": "Arabia",
+      "duration_seconds": 907,
+      "date": "2023-07-09T22:49:00+00:00",
+      "player": {
+        "civ": "celts",
+        "rating": 871,
+        "rating_change": -17,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "victorve1000",
+          "user_id": 11721723,
+          "civ": "mayans",
+          "rating": 860,
+          "rating_change": 17,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 245749737,
+      "map": "Arabia",
+      "duration_seconds": 2306,
+      "date": "2023-07-09T22:23:00+00:00",
+      "player": {
+        "civ": "gurjaras",
+        "rating": null,
+        "rating_change": null,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "rayhk36",
+          "user_id": 12245056,
+          "civ": "britons",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 92100264,
+      "map": "Golden Pit",
+      "duration_seconds": 2128,
+      "date": "2021-05-17T14:04:00+00:00",
+      "player": {
+        "civ": "italians",
+        "rating": 871,
+        "rating_change": -15,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "BP250",
+          "user_id": 2782797,
+          "civ": "ethiopians",
+          "rating": 891,
+          "rating_change": 15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 91431278,
+      "map": "Arabia",
+      "duration_seconds": 4003,
+      "date": "2021-05-14T20:25:00+00:00",
+      "player": {
+        "civ": "persians",
+        "rating": 886,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Fedandalrian",
+          "user_id": 4742865,
+          "civ": "sicilians",
+          "rating": 890,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 90919511,
+      "map": "Golden Pit",
+      "duration_seconds": 3784,
+      "date": "2021-05-12T16:29:00+00:00",
+      "player": {
+        "civ": "vietnamese",
+        "rating": 870,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Hinna",
+          "user_id": 4546240,
+          "civ": "goths",
+          "rating": 887,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 90688098,
+      "map": "Arabia",
+      "duration_seconds": 3646,
+      "date": "2021-05-11T15:01:00+00:00",
+      "player": {
+        "civ": "franks",
+        "rating": 885,
+        "rating_change": -15,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "{\u0432\u0434\u0110} \u06a9p\u0141\u0130\u0e04\u2020\u0454\u0159",
+          "user_id": 461692,
+          "civ": "britons",
+          "rating": 898,
+          "rating_change": 15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 90456220,
+      "map": "Golden Pit",
+      "duration_seconds": 4144,
+      "date": "2021-05-10T12:33:00+00:00",
+      "player": {
+        "civ": "teutons",
+        "rating": 885,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "FurryBalls",
+          "user_id": 5426233,
+          "civ": "bulgarians",
+          "rating": 911,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 90454333,
+      "map": "Arabia",
+      "duration_seconds": 1203,
+      "date": "2021-05-10T12:18:00+00:00",
+      "player": {
+        "civ": "turks",
+        "rating": 917,
+        "rating_change": -16,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "TechnoRambo",
+          "user_id": 5705,
+          "civ": "goths",
+          "rating": 913,
+          "rating_change": 16,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 90449918,
+      "map": "Archipelago",
+      "duration_seconds": 3493,
+      "date": "2021-05-10T11:40:00+00:00",
+      "player": {
+        "civ": "italians",
+        "rating": 933,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "RadiationBuster",
+          "user_id": 1834328,
+          "civ": "malay",
+          "rating": 924,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 90374715,
+      "map": "MegaRandom",
+      "duration_seconds": 3440,
+      "date": "2021-05-09T23:43:00+00:00",
+      "player": {
+        "civ": "aztecs",
+        "rating": 947,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "TUSHIRO",
+          "user_id": 3515874,
+          "civ": "byzantines",
+          "rating": 976,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 89267988,
+      "map": "Arabia",
+      "duration_seconds": 2747,
+      "date": "2021-05-05T14:56:00+00:00",
+      "player": {
+        "civ": "mayans",
+        "rating": 962,
+        "rating_change": -15,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "lobelsbread",
+          "user_id": 1001708,
+          "civ": "goths",
+          "rating": 968,
+          "rating_change": 15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 89263399,
+      "map": "Arabia",
+      "duration_seconds": 2300,
+      "date": "2021-05-05T14:32:00+00:00",
+      "player": {
+        "civ": "malians",
+        "rating": 977,
+        "rating_change": -15,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Lord San",
+          "user_id": 3395066,
+          "civ": "vietnamese",
+          "rating": 981,
+          "rating_change": 15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 89262515,
+      "map": "Socotra",
+      "duration_seconds": 112,
+      "date": "2021-05-05T14:27:00+00:00",
+      "player": {
+        "civ": "britons",
+        "rating": 993,
+        "rating_change": -16,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Linux",
+          "user_id": 1590542,
+          "civ": "aztecs",
+          "rating": 993,
+          "rating_change": 16,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 88994383,
+      "map": "Arena",
+      "duration_seconds": 6118,
+      "date": "2021-05-04T09:55:00+00:00",
+      "player": {
+        "civ": "bulgarians",
+        "rating": 963,
+        "rating_change": 0,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "TheCaesar",
+          "user_id": 2067267,
+          "civ": "britons",
+          "rating": 960,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 88992697,
+      "map": "Arabia",
+      "duration_seconds": 1638,
+      "date": "2021-05-04T09:38:00+00:00",
+      "player": {
+        "civ": "portuguese",
+        "rating": 963,
+        "rating_change": 16,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "[2ZKA] Target",
+          "user_id": 261009,
+          "civ": "spanish",
+          "rating": 969,
+          "rating_change": -16,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 88280357,
+      "map": "Arena",
+      "duration_seconds": 4202,
+      "date": "2021-05-01T16:12:00+00:00",
+      "player": {
+        "civ": "vikings",
+        "rating": 947,
+        "rating_change": 16,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Soda Popinski",
+          "user_id": 1354176,
+          "civ": "teutons",
+          "rating": 950,
+          "rating_change": -16,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 88277466,
+      "map": "Arabia",
+      "duration_seconds": 766,
+      "date": "2021-05-01T16:01:00+00:00",
+      "player": {
+        "civ": "celts",
+        "rating": 963,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "An Rianach",
+          "user_id": 2785461,
+          "civ": "berbers",
+          "rating": 962,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 88215252,
+      "map": "Arabia",
+      "duration_seconds": 1579,
+      "date": "2021-05-01T11:44:00+00:00",
+      "player": {
+        "civ": "vikings",
+        "rating": 948,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "LeGreubs",
+          "user_id": 5206750,
+          "civ": "lithuanians",
+          "rating": 928,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 88209393,
+      "map": "Four Lakes",
+      "duration_seconds": 2548,
+      "date": "2021-05-01T11:11:00+00:00",
+      "player": {
+        "civ": "lithuanians",
+        "rating": 964,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Guinan",
+          "user_id": 5342659,
+          "civ": "berbers",
+          "rating": 953,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 87687675,
+      "map": "Arabia",
+      "duration_seconds": 3389,
+      "date": "2021-04-29T05:59:00+00:00",
+      "player": {
+        "civ": "ethiopians",
+        "rating": 963,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "FullbodiedDarkCh",
+          "user_id": 5326829,
+          "civ": "mongols",
+          "rating": 1016,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 87686881,
+      "map": "Arabia",
+      "duration_seconds": 860,
+      "date": "2021-04-29T05:48:00+00:00",
+      "player": {
+        "civ": "ethiopians",
+        "rating": 963,
+        "rating_change": 0,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "AOEedd",
+          "user_id": 314902,
+          "civ": "mayans",
+          "rating": 1012,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 87685911,
+      "map": "Serengeti",
+      "duration_seconds": 409,
+      "date": "2021-04-29T05:36:00+00:00",
+      "player": {
+        "civ": "mayans",
+        "rating": 963,
+        "rating_change": 0,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "\u7149\u7344\u674f\u58fd\u90ce",
+          "user_id": 1605230,
+          "civ": "khmer",
+          "rating": 940,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 87684701,
+      "map": "Serengeti",
+      "duration_seconds": 884,
+      "date": "2021-04-29T05:23:00+00:00",
+      "player": {
+        "civ": "goths",
+        "rating": 930,
+        "rating_change": 17,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Underline_",
+          "user_id": 213694,
+          "civ": "aztecs",
+          "rating": 961,
+          "rating_change": -17,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 79186768,
+      "map": "Arabia",
+      "duration_seconds": 4642,
+      "date": "2021-03-24T23:46:00+00:00",
+      "player": {
+        "civ": "lithuanians",
+        "rating": 914,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Hosumayok",
+          "user_id": 2801531,
+          "civ": "goths",
+          "rating": 918,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 79137948,
+      "map": "Mediterranean",
+      "duration_seconds": 3823,
+      "date": "2021-03-24T20:29:00+00:00",
+      "player": {
+        "civ": "vikings",
+        "rating": 915,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Vyciokas",
+          "user_id": 263052,
+          "civ": "britons",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 79136882,
+      "map": "Valley",
+      "duration_seconds": 54,
+      "date": "2021-03-24T20:26:00+00:00",
+      "player": {
+        "civ": "lithuanians",
+        "rating": 915,
+        "rating_change": 15,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "BloxSlot",
+          "user_id": 318390,
+          "civ": "turks",
+          "rating": 907,
+          "rating_change": -15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 75201640,
+      "map": "Arabia",
+      "duration_seconds": 4454,
+      "date": "2021-03-07T01:09:00+00:00",
+      "player": {
+        "civ": "lithuanians",
+        "rating": 899,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "jfusiecki",
+          "user_id": 4715785,
+          "civ": "koreans",
+          "rating": 919,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 74717677,
+      "map": "Arabia",
+      "duration_seconds": 4078,
+      "date": "2021-03-04T23:13:00+00:00",
+      "player": {
+        "civ": "lithuanians",
+        "rating": 997,
+        "rating_change": -36,
+        "won": false
+      },
+      "teammates": [
+        {
+          "name": "Pr\u00e9d@tor",
+          "user_id": 4572178,
+          "civ": "britons",
+          "rating": 1068,
+          "rating_change": -15,
+          "is_ai": false
+        },
+        {
+          "name": "wenger.l",
+          "user_id": 1851460,
+          "civ": "incas",
+          "rating": 1020,
+          "rating_change": -12,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "n4kwa",
+          "user_id": 517395,
+          "civ": "mayans",
+          "rating": 956,
+          "rating_change": 20,
+          "is_ai": false
+        },
+        {
+          "name": "vin.bailly",
+          "user_id": 755822,
+          "civ": "turks",
+          "rating": 1086,
+          "rating_change": 38,
+          "is_ai": false
+        },
+        {
+          "name": "sentarino",
+          "user_id": 3710425,
+          "civ": "franks",
+          "rating": 1075,
+          "rating_change": 15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 74713575,
+      "map": "Arabia",
+      "duration_seconds": 2684,
+      "date": "2021-03-04T22:48:00+00:00",
+      "player": {
+        "civ": "lithuanians",
+        "rating": 884,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Mark",
+          "user_id": 5201567,
+          "civ": "britons",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 74507356,
+      "map": "Arabia",
+      "duration_seconds": 2997,
+      "date": "2021-03-03T21:52:00+00:00",
+      "player": {
+        "civ": "lithuanians",
+        "rating": 868,
+        "rating_change": 0,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Amerigo",
+          "user_id": 255136,
+          "civ": "berbers",
+          "rating": 879,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 74498679,
+      "map": "Arabia",
+      "duration_seconds": 3425,
+      "date": "2021-03-03T21:11:00+00:00",
+      "player": {
+        "civ": "lithuanians",
+        "rating": 853,
+        "rating_change": 15,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "ForeignPizza243",
+          "user_id": 1889469,
+          "civ": "japanese",
+          "rating": 835,
+          "rating_change": -15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 73959267,
+      "map": "Four Lakes",
+      "duration_seconds": 3185,
+      "date": "2021-03-01T00:51:00+00:00",
+      "player": {
+        "civ": "mayans",
+        "rating": 837,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "bronco1444",
+          "user_id": 2601656,
+          "civ": "saracens",
+          "rating": 855,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 68391621,
+      "map": "Seize The Mountain",
+      "duration_seconds": 3418,
+      "date": null,
+      "player": {
+        "civ": "franks",
+        "rating": 822,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Vitalstatistix",
+          "user_id": 3200895,
+          "civ": "sicilians",
+          "rating": 812,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 68384330,
+      "map": "Arabia",
+      "duration_seconds": 1837,
+      "date": null,
+      "player": {
+        "civ": "ethiopians",
+        "rating": 837,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "GG Kaizr",
+          "user_id": 4178524,
+          "civ": "magyars",
+          "rating": 845,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 67893578,
+      "map": "Arabia",
+      "duration_seconds": 3265,
+      "date": null,
+      "player": {
+        "civ": "ethiopians",
+        "rating": 822,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Xoci",
+          "user_id": 2674276,
+          "civ": "vikings",
+          "rating": 818,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 67731964,
+      "map": "Arabia",
+      "duration_seconds": 1926,
+      "date": null,
+      "player": {
+        "civ": "franks",
+        "rating": 806,
+        "rating_change": 16,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Redfalcon",
+          "user_id": 470675,
+          "civ": "teutons",
+          "rating": 813,
+          "rating_change": -16,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 67722539,
+      "map": "Atacama",
+      "duration_seconds": 3672,
+      "date": null,
+      "player": {
+        "civ": "koreans",
+        "rating": 838,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "julian",
+          "user_id": 2636947,
+          "civ": "aztecs",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 67714529,
+      "map": "Archipelago",
+      "duration_seconds": 3134,
+      "date": null,
+      "player": {
+        "civ": "vikings",
+        "rating": 838,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "slawson_92",
+          "user_id": 4672897,
+          "civ": "vikings",
+          "rating": 832,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 67499713,
+      "map": "Coastal Forest",
+      "duration_seconds": 1116,
+      "date": null,
+      "player": {
+        "civ": "franks",
+        "rating": 854,
+        "rating_change": -16,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Gustavostupac",
+          "user_id": 1872707,
+          "civ": "vietnamese",
+          "rating": 846,
+          "rating_change": 16,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 65858707,
+      "map": "Hideout",
+      "duration_seconds": 7624,
+      "date": null,
+      "player": {
+        "civ": "burgundians",
+        "rating": 838,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "KilldozerHAX",
+          "user_id": 80827,
+          "civ": "portuguese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 65841297,
+      "map": "Hideout",
+      "duration_seconds": 3442,
+      "date": null,
+      "player": {
+        "civ": "burgundians",
+        "rating": 822,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Trevizanzan",
+          "user_id": 4750970,
+          "civ": "japanese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 64812951,
+      "map": "Arabia",
+      "duration_seconds": 712,
+      "date": null,
+      "player": {
+        "civ": "bulgarians",
+        "rating": 823,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "karlinhos5235",
+          "user_id": 1806457,
+          "civ": "spanish",
+          "rating": 837,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 64807024,
+      "map": "Arabia",
+      "duration_seconds": 1698,
+      "date": null,
+      "player": {
+        "civ": "bulgarians",
+        "rating": 823,
+        "rating_change": 15,
+        "won": true
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "DridMad",
+          "user_id": 218359,
+          "civ": "britons",
+          "rating": 820,
+          "rating_change": -47,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 64757179,
+      "map": "Arabia",
+      "duration_seconds": 3092,
+      "date": null,
+      "player": {
+        "civ": "franks",
+        "rating": 839,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Finn",
+          "user_id": 262060,
+          "civ": "goths",
+          "rating": 839,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 64751771,
+      "map": "Hideout",
+      "duration_seconds": 839,
+      "date": null,
+      "player": {
+        "civ": "franks",
+        "rating": 870,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Dorian",
+          "user_id": 4822794,
+          "civ": "chinese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 64750962,
+      "map": "Team Islands",
+      "duration_seconds": 2153,
+      "date": null,
+      "player": {
+        "civ": "vikings",
+        "rating": 870,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "seb_iv",
+          "user_id": 1898647,
+          "civ": "vikings",
+          "rating": 889,
+          "rating_change": 15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 63888172,
+      "map": "Arabia",
+      "duration_seconds": 2932,
+      "date": null,
+      "player": {
+        "civ": "ethiopians",
+        "rating": 886,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Lord Kopi",
+          "user_id": 4096284,
+          "civ": "mongols",
+          "rating": 867,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 63872515,
+      "map": "Team Islands",
+      "duration_seconds": 3493,
+      "date": null,
+      "player": {
+        "civ": "vikings",
+        "rating": 870,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "F\u0153gel",
+          "user_id": 4550090,
+          "civ": "vikings",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 63415632,
+      "map": "Arabia",
+      "duration_seconds": 3672,
+      "date": null,
+      "player": {
+        "civ": "mayans",
+        "rating": 887,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "artimisv",
+          "user_id": 3758714,
+          "civ": "mayans",
+          "rating": 861,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 63411659,
+      "map": "Team Islands",
+      "duration_seconds": 1528,
+      "date": null,
+      "player": {
+        "civ": "vikings",
+        "rating": 871,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "CoMi (GER)",
+          "user_id": 4572053,
+          "civ": "ethiopians",
+          "rating": 875,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 63407545,
+      "map": "Hideout",
+      "duration_seconds": 1805,
+      "date": null,
+      "player": {
+        "civ": null,
+        "rating": 857,
+        "rating_change": 14,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Ajax D Sion",
+          "user_id": 841646,
+          "civ": null,
+          "rating": 818,
+          "rating_change": -14,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 63400647,
+      "map": "Valley",
+      "duration_seconds": 2436,
+      "date": null,
+      "player": {
+        "civ": null,
+        "rating": 872,
+        "rating_change": -15,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Iron",
+          "user_id": 848886,
+          "civ": null,
+          "rating": 881,
+          "rating_change": 15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 63078428,
+      "map": "Arabia",
+      "duration_seconds": 4202,
+      "date": null,
+      "player": {
+        "civ": "mayans",
+        "rating": 857,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "fpwein",
+          "user_id": 2772391,
+          "civ": "franks",
+          "rating": 843,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 63059923,
+      "map": "Team Islands",
+      "duration_seconds": 3241,
+      "date": null,
+      "player": {
+        "civ": "vikings",
+        "rating": 840,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Le_Khan_Abysse",
+          "user_id": 3084166,
+          "civ": "teutons",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 63050770,
+      "map": "Arabia",
+      "duration_seconds": 708,
+      "date": null,
+      "player": {
+        "civ": "mayans",
+        "rating": 856,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "BBlacKz_",
+          "user_id": 3427726,
+          "civ": "britons",
+          "rating": 876,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 62414158,
+      "map": "Golden Pit",
+      "duration_seconds": 2781,
+      "date": null,
+      "player": {
+        "civ": "mayans",
+        "rating": 898,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Emperor B",
+          "user_id": 1219404,
+          "civ": "turks",
+          "rating": 877,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 62405313,
+      "map": "Ghost Lake",
+      "duration_seconds": 2713,
+      "date": null,
+      "player": {
+        "civ": "mayans",
+        "rating": 920,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "LordMarshall28",
+          "user_id": 577026,
+          "civ": "britons",
+          "rating": 894,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 62399986,
+      "map": "Four Lakes",
+      "duration_seconds": 8238,
+      "date": null,
+      "player": {
+        "civ": "mayans",
+        "rating": 920,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Alv",
+          "user_id": 4722085,
+          "civ": "aztecs",
+          "rating": 914,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 61749162,
+      "map": "Arabia",
+      "duration_seconds": 5047,
+      "date": null,
+      "player": {
+        "civ": "mayans",
+        "rating": 898,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "c.renobales",
+          "user_id": 4485015,
+          "civ": "britons",
+          "rating": 841,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 61741442,
+      "map": "Four Lakes",
+      "duration_seconds": 2932,
+      "date": null,
+      "player": {
+        "civ": "mayans",
+        "rating": 873,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Neuro",
+          "user_id": 4742284,
+          "civ": "mayans",
+          "rating": 799,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 61659922,
+      "map": "Arabia",
+      "duration_seconds": 1581,
+      "date": null,
+      "player": {
+        "civ": "koreans",
+        "rating": 899,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "TonzeR",
+          "user_id": 1936576,
+          "civ": "celts",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 61391306,
+      "map": "Arena",
+      "duration_seconds": 3976,
+      "date": null,
+      "player": {
+        "civ": "bulgarians",
+        "rating": 927,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "laCourrouze",
+          "user_id": 3891448,
+          "civ": "bulgarians",
+          "rating": 857,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 61390286,
+      "map": "Arena",
+      "duration_seconds": 217,
+      "date": null,
+      "player": {
+        "civ": "italians",
+        "rating": 920,
+        "rating_change": 51,
+        "won": true
+      },
+      "teammates": [
+        {
+          "name": "irbis216",
+          "user_id": 814462,
+          "civ": "cumans",
+          "rating": 830,
+          "rating_change": 66,
+          "is_ai": false
+        },
+        {
+          "name": "SnoopFoX89",
+          "user_id": 4401102,
+          "civ": "persians",
+          "rating": 898,
+          "rating_change": 51,
+          "is_ai": false
+        }
+      ],
+      "opponents": [
+        {
+          "name": "Zimbruxxx",
+          "user_id": 456559,
+          "civ": "franks",
+          "rating": 849,
+          "rating_change": -12,
+          "is_ai": false
+        },
+        {
+          "name": "snoopBob",
+          "user_id": 4589972,
+          "civ": "goths",
+          "rating": 944,
+          "rating_change": -32,
+          "is_ai": false
+        },
+        {
+          "name": "Salam",
+          "user_id": 821024,
+          "civ": "goths",
+          "rating": 860,
+          "rating_change": -13,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 61339980,
+      "map": "Water Nomad",
+      "duration_seconds": 3746,
+      "date": null,
+      "player": {
+        "civ": "koreans",
+        "rating": 896,
+        "rating_change": 0,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "ZingerWhip",
+          "user_id": 1197789,
+          "civ": "slavs",
+          "rating": 813,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 61315833,
+      "map": "Golden Pit",
+      "duration_seconds": 1215,
+      "date": null,
+      "player": {
+        "civ": "tatars",
+        "rating": 926,
+        "rating_change": -30,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Sir Vicencio",
+          "user_id": 857828,
+          "civ": "mongols",
+          "rating": 843,
+          "rating_change": 15,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 61087269,
+      "map": "Water Nomad",
+      "duration_seconds": 2754,
+      "date": null,
+      "player": {
+        "civ": "celts",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "sondrehauge",
+          "user_id": 4657151,
+          "civ": "franks",
+          "rating": 1002,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 61083395,
+      "map": "Four Lakes",
+      "duration_seconds": 1453,
+      "date": null,
+      "player": {
+        "civ": "mayans",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Blackhand9445",
+          "user_id": 4167683,
+          "civ": "goths",
+          "rating": 804,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 61069068,
+      "map": "Arabia",
+      "duration_seconds": 2499,
+      "date": null,
+      "player": {
+        "civ": "bulgarians",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "skeveldra",
+          "user_id": 2893214,
+          "civ": "spanish",
+          "rating": 830,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 60918026,
+      "map": "Arabia",
+      "duration_seconds": 1477,
+      "date": null,
+      "player": {
+        "civ": "britons",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "manuelhtavares",
+          "user_id": 4099763,
+          "civ": "britons",
+          "rating": 842,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 60915345,
+      "map": "Arabia",
+      "duration_seconds": 1497,
+      "date": null,
+      "player": {
+        "civ": "berbers",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "Gokunk",
+          "user_id": 1411254,
+          "civ": "magyars",
+          "rating": 887,
+          "rating_change": 16,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 60831437,
+      "map": "Ghost Lake",
+      "duration_seconds": 6587,
+      "date": null,
+      "player": {
+        "civ": "britons",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "lukas737",
+          "user_id": 4664926,
+          "civ": "saracens",
+          "rating": 823,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 60820441,
+      "map": "Arabia",
+      "duration_seconds": 2050,
+      "date": null,
+      "player": {
+        "civ": "mayans",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "\u0431\u0438\u0437\u043e\u043d",
+          "user_id": 4584683,
+          "civ": "franks",
+          "rating": 858,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 58782181,
+      "map": "Arabia",
+      "duration_seconds": 2167,
+      "date": null,
+      "player": {
+        "civ": "koreans",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "TdB.Gilpe",
+          "user_id": 2774548,
+          "civ": "ethiopians",
+          "rating": 871,
+          "rating_change": 0,
+          "is_ai": false
+        }
+      ]
+    },
+    {
+      "match_id": 58773271,
+      "map": "Arabia",
+      "duration_seconds": 2805,
+      "date": null,
+      "player": {
+        "civ": "mayans",
+        "rating": null,
+        "rating_change": null,
+        "won": false
+      },
+      "teammates": [],
+      "opponents": [
+        {
+          "name": "lemaitre313",
+          "user_id": 1141986,
+          "civ": "portuguese",
+          "rating": null,
+          "rating_change": null,
+          "is_ai": false
+        }
+      ]
+    }
+  ]
+}
