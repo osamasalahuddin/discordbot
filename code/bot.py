@@ -114,7 +114,10 @@ class PlayerSelect(discord.ui.Select):
 
         result = balance_teams(chosen)
         embed = build_embed(result, self.map_name, fallback_names)
-        await interaction.response.edit_message(content=None, embed=embed, view=None)
+        # The selection prompt is ephemeral (only the caller picks players); post
+        # the balanced teams as a new public message so the whole channel sees them.
+        await interaction.response.edit_message(content="Teams generated ✅", view=None)
+        await interaction.channel.send(embed=embed)
 
 
 class PlayerSelectView(discord.ui.View):
