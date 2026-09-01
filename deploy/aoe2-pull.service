@@ -1,0 +1,9 @@
+[Unit]
+Description=Pull latest AoE2 ladder data from git
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+ExecStart=/bin/bash /home/ubuntu/work/discordbot/deploy/pull.sh

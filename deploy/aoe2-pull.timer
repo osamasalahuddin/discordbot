@@ -1,0 +1,10 @@
+[Unit]
+Description=Poll git for new AoE2 ladder data every 15 minutes
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=15min
+Persistent=true
+
+[Install]
+WantedBy=timers.target
