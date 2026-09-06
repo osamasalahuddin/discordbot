@@ -244,7 +244,10 @@ async def playerstats_cmd(interaction: discord.Interaction, player: str, map: st
     embed = discord.Embed(title=f"{pname} on {mname}", color=0x3B6EA5)
 
     if not games:
-        embed.description = f"No recorded games on **{mname}**.\nOverall Elo: **{int(round(overall_elo))}**"
+        embed.description = (
+            f"No recorded games on **{mname}**.\n"
+            f"Used for balancing: **{int(round(overall_elo))}** (overall Elo)"
+        )
         total = map_elo_data.get(mname, {}).get("total_matches", 0)
         embed.set_footer(text=f"{total} tracked matches on {mname}")
         await interaction.response.send_message(embed=embed)
@@ -285,11 +288,19 @@ async def playerstats_cmd(interaction: discord.Interaction, player: str, map: st
     civ_str = ", ".join(f"{c.title()} ({n})" for c, n in top_civs) or "—"
 
     rank_str = f"  (#{rank} of {len(ranked)})" if rank else ""
-    embed.add_field(
-        name="Map Elo",
-        value=f"**{int(round(map_elo))}**{rank_str}\nOverall: {int(round(overall_elo))}",
-        inline=True,
-    )
+    # /balance and /players don't trust a thin sample: below FALLBACK_MIN_GAMES
+    # they use the player's overall Elo instead. Show both here so this view and
+    # the balancer never appear to disagree about the same player on the same map.
+    balance_elo, uses_map = effective_elo(pname, overall_elo, mname, map_elo_data)
+    if uses_map:
+        elo_value = f"**{int(round(map_elo))}**{rank_str}\nOverall: {int(round(overall_elo))}"
+    else:
+        elo_value = (
+            f"**{int(round(map_elo))}**{rank_str}\n"
+            f"Overall: {int(round(overall_elo))}\n"
+            f"Used for balancing: **{int(round(balance_elo))}** (overall)"
+        )
+    embed.add_field(name="Map Elo", value=elo_value, inline=True)
     embed.add_field(
         name="Record",
         value=f"**{wins}–{losses}**  ({win_rate:.0f}% win rate)\n{games} games",
@@ -300,7 +311,10 @@ async def playerstats_cmd(interaction: discord.Interaction, player: str, map: st
 
     first_date = (hist[0].get("date") or "")[:10]
     last_date = (hist[-1].get("date") or "")[:10]
-    embed.set_footer(text=f"First played {first_date} · last played {last_date}")
+    footer = f"First played {first_date} · last played {last_date}"
+    if not uses_map:
+        footer += f" | under {FALLBACK_MIN_GAMES} games here, so /balance uses overall Elo"
+    embed.set_footer(text=footer)
 
     await interaction.response.send_message(embed=embed)
 
