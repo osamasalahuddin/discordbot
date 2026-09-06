@@ -1,6 +1,6 @@
-import json
-import sys
 import argparse
+import json
+import os
 from datetime import datetime
 
 import matplotlib
@@ -8,8 +8,10 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
-LADDER_PATH = r"E:\Work\Claude\data\unranked_ladder.json"
-OUT_DIR = r"E:\Work\Claude\data\graphs"
+import ladder_common as lc
+
+LADDER_PATH = lc.LADDER_PATH
+OUT_DIR = lc.GRAPHS_DIR
 
 
 def plot_player(player_name, ladder_data, out_dir=OUT_DIR):
@@ -66,7 +68,7 @@ def plot_player(player_name, ladder_data, out_dir=OUT_DIR):
     fig.tight_layout()
 
     safe_name = player_name.replace(" ", "_").replace("&", "and").replace(".", "")
-    out_path = rf"{out_dir}\elo_{safe_name}.png"
+    out_path = os.path.join(out_dir, f"elo_{safe_name}.png")
     fig.savefig(out_path, dpi=150)
     plt.close(fig)
     print(f"{player_name}: wrote {out_path} ({len(history)} matches, final Elo {final_elo})")
@@ -80,7 +82,6 @@ def main():
     parser.add_argument("--out", default=OUT_DIR, help="Output directory for PNGs")
     args = parser.parse_args()
 
-    import os
     os.makedirs(args.out, exist_ok=True)
 
     with open(args.ladder, encoding="utf-8") as f:

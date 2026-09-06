@@ -10,7 +10,9 @@
 # directly.
 
 $chromePath = "C:\Program Files\Google\Chrome\Application\chrome.exe"
-$profileDir = "E:\Work\Claude\data\chrome_debug_profile"
+# Kept next to this script (and git-ignored) so the solved challenge and cookies persist
+# without ever being committed.
+$profileDir = Join-Path $PSScriptRoot "chrome_debug_profile"
 $debugPort = 9222
 
 if (-not (Test-Path $profileDir)) {
