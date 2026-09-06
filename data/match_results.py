@@ -49,6 +49,42 @@ def _flagged_winners(match):
     return [i for i, t in enumerate(match["teams"]) if t["won"]]
 
 
+def repair_duplicate_players(match):
+    """Drop phantom player rows left by a mis-parsed scrape.
+
+    Seen once in 1407 matches (502721922, Arena, 2026-08-28): a 6-player game
+    scraped as 7 rows, with zubair appearing on BOTH teams. The phantom row
+    carried another player's civ (armenians, which was actually neXus's) and
+    null rating / rating_change, while the real row had civ khmer and +20 -
+    matching the replay, which puts zubair on the winning side. So the fix is to
+    keep the occurrence that has real rating data and drop the others.
+
+    Returns the number of rows removed, or None if the duplication can't be
+    resolved this way (caller should then exclude the match).
+    """
+    from collections import defaultdict
+    seen = defaultdict(list)
+    for ti, team in enumerate(match["teams"]):
+        for p in team["players"]:
+            if p.get("user_path"):
+                seen[p["user_path"]].append((ti, p))
+
+    removed = 0
+    for occ in seen.values():
+        if len(occ) < 2:
+            continue
+        real = [(ti, p) for ti, p in occ
+                if p.get("rating_change") is not None or p.get("rating") is not None]
+        if len(real) != 1:
+            return None                      # can't tell which row is genuine
+        keep = real[0][1]
+        for ti, p in occ:
+            if p is not keep:
+                match["teams"][ti]["players"].remove(p)
+                removed += 1
+    return removed
+
+
 def structural_problem(match):
     """Reason this match can't be rated at all, or None if it's well-formed.
 
@@ -165,12 +201,15 @@ def resolve_match_results(matches, perf_db=None, verbose=True):
         perf_db = load_perf_db()
 
     repaired_rc, repaired_resign, unresolved, corrected = [], [], [], []
+    repaired_dupes = []
     invalid = {}
     do_repair = os.environ.get("RESULT_REPAIR") != "0"
     do_correct = os.environ.get("AI_RESULT_CORRECTION") != "0"
 
     for m in matches:
-        # ---- step 0: drop structurally unrateable matches ----------------
+        # ---- step 0: repair phantom rows, then drop what's still unrateable
+        if do_repair and repair_duplicate_players(m):
+            repaired_dupes.append(m["match_id"])
         problem = structural_problem(m)
         if problem:
             invalid[m["match_id"]] = problem
@@ -206,6 +245,8 @@ def resolve_match_results(matches, perf_db=None, verbose=True):
     if verbose:
         from collections import Counter
         by_reason = dict(Counter(invalid.values()))
+        if repaired_dupes:
+            print(f"Phantom duplicate player rows removed in {len(repaired_dupes)} match(es): {repaired_dupes}")
         print(f"Structurally unrateable, excluded: {len(invalid)} {by_reason}")
         print(f"Result repair: {len(repaired_rc)} from rating_change, "
               f"{len(repaired_resign)} from resign data, "
@@ -217,6 +258,7 @@ def resolve_match_results(matches, perf_db=None, verbose=True):
         "repaired_resign": repaired_resign,
         "unresolved": unresolved,
         "ai_corrected": corrected,
+        "repaired_duplicate_players": repaired_dupes,
         "invalid": invalid,                      # match_id -> reason
         "excluded": sorted(set(unresolved) | set(invalid)),
     }

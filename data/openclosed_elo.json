@@ -1,35 +1,35 @@
 {
   "results": {
     "closed": {
-      "total_matches": 580,
+      "total_matches": 581,
       "players": {
         "wabbit": {
-          "current_elo": 956.1,
-          "matches_played": 329,
-          "wins": 138,
+          "current_elo": 970.8,
+          "matches_played": 330,
+          "wins": 139,
           "losses": 191,
-          "win_rate": 41.9
+          "win_rate": 42.1
         },
         "SauronSlayer": {
-          "current_elo": 1161.2,
-          "matches_played": 468,
+          "current_elo": 1144.0,
+          "matches_played": 469,
           "wins": 244,
-          "losses": 224,
-          "win_rate": 52.1
+          "losses": 225,
+          "win_rate": 52.0
         },
         "zubair": {
-          "current_elo": 912.6,
-          "matches_played": 442,
-          "wins": 198,
+          "current_elo": 928.9,
+          "matches_played": 443,
+          "wins": 199,
           "losses": 244,
-          "win_rate": 44.8
+          "win_rate": 44.9
         },
         "l.inc": {
-          "current_elo": 956.4,
-          "matches_played": 440,
-          "wins": 205,
+          "current_elo": 971.9,
+          "matches_played": 441,
+          "wins": 206,
           "losses": 235,
-          "win_rate": 46.6
+          "win_rate": 46.7
         },
         "toXic": {
           "current_elo": 1149.9,
@@ -39,11 +39,11 @@
           "win_rate": 64.2
         },
         "Strength & Honour": {
-          "current_elo": 1085.1,
-          "matches_played": 67,
+          "current_elo": 1072.1,
+          "matches_played": 68,
           "wins": 38,
-          "losses": 29,
-          "win_rate": 56.7
+          "losses": 30,
+          "win_rate": 55.9
         },
         "cheetah001": {
           "current_elo": 1023.9,
@@ -60,11 +60,11 @@
           "win_rate": 52.4
         },
         "neXus": {
-          "current_elo": 1108.9,
-          "matches_played": 141,
+          "current_elo": 1093.0,
+          "matches_played": 142,
           "wins": 83,
-          "losses": 58,
-          "win_rate": 58.9
+          "losses": 59,
+          "win_rate": 58.5
         }
       }
     },
