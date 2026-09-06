@@ -13,6 +13,14 @@ def load_json(path, default):
     return default
 
 
+def perf_schema(record):
+    """Schema version of a per-match performance record. Pre-2026 records are
+    flat {pid: {...}} with no _meta block -> schema 1. Missing record -> 0."""
+    if not record:
+        return 0
+    return record.get("_meta", {}).get("schema", 1)
+
+
 def merge(export_path):
     with open(export_path, encoding="utf-8") as f:
         export = json.load(f)
@@ -33,13 +41,23 @@ def merge(export_path):
 
     # --- merge performance data (same logic as merge_performance_data.py) ---
     perf_db = load_json(PERFORMANCE_DB_PATH, {"matches": {}, "status": {}})
-    added_ok = added_unavailable = left_pending = 0
+    added_ok = added_unavailable = left_pending = upgraded = 0
     for match_id, status in export.get("perfStatus", {}).items():
         existing = perf_db["status"].get(match_id)
+        incoming = export.get("perfData", {}).get(match_id)
         if existing in ("ok", "unavailable", "data_missing"):
+            # Terminal already, but a richer extraction of an 'ok' match may replace it.
+            if (
+                existing == "ok"
+                and status == "ok"
+                and incoming is not None
+                and perf_schema(incoming) > perf_schema(perf_db["matches"].get(match_id))
+            ):
+                perf_db["matches"][match_id] = incoming
+                upgraded += 1
             continue
         if status == "ok":
-            perf_db["matches"][match_id] = export["perfData"][match_id]
+            perf_db["matches"][match_id] = incoming
             perf_db["status"][match_id] = "ok"
             added_ok += 1
         elif status in ("unavailable", "data_missing"):
@@ -50,7 +68,8 @@ def merge(export_path):
             left_pending += 1
     with open(PERFORMANCE_DB_PATH, "w", encoding="utf-8") as f:
         json.dump(perf_db, f, indent=2)
-    print(f"Performance DB: +{added_ok} ok, +{added_unavailable} unavailable/data_missing, {left_pending} pending")
+    print(f"Performance DB: +{added_ok} ok, +{added_unavailable} unavailable/data_missing, "
+          f"{left_pending} pending, {upgraded} upgraded to newer schema")
     print(f"Performance DB totals: {sum(1 for s in perf_db['status'].values() if s=='ok')} ok, "
           f"{sum(1 for s in perf_db['status'].values() if s in ('unavailable','data_missing'))} unavailable, "
           f"{sum(1 for s in perf_db['status'].values() if s=='pending')} pending")
