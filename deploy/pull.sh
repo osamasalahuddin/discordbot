@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 # Run on the UBUNTU server. Fast-forwards the repo to origin/main.
-# No bot restart needed: bot.py re-reads the JSON files on every command.
+# No bot restart needed: bot.py re-reads the JSON files whenever they change.
 set -euo pipefail
 
-REPO="/home/ubuntu/work/discordbot"
+# Derived from this script's own location, so a checkout anywhere works.
+REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$REPO"
 
 before=$(git rev-parse HEAD)

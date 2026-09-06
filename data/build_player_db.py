@@ -1,8 +1,18 @@
+"""One-off: build the per-player profile databases in data/players/.
+
+Historical - it reads whole-profile scrapes from data/raw/, which are not committed (only
+the built players/*.json are). Kept because it documents how those files were produced;
+re-running it needs a fresh profile scrape first.
+"""
 import json
 import re
-import sys
 from datetime import datetime, timezone
 from collections import defaultdict
+
+import ladder_common as lc
+
+RAW_DIR = lc.DATA_DIR / "raw"
+OUT_DIR = lc.DATA_DIR / "players"
 
 def parse_duration(s):
     if not s:
@@ -181,8 +191,6 @@ if __name__ == "__main__":
         ("NaKiyaKar", "raw_NaKiyaKar.json"),
         ("neXus", "raw_neXus.json"),
     ]
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
     for out_name, raw_name in players:
-        build(
-            raw_path=rf"E:\Work\Claude\data\raw\{raw_name}",
-            out_path=rf"E:\Work\Claude\data\players\{out_name}.json",
-        )
+        build(raw_path=RAW_DIR / raw_name, out_path=OUT_DIR / f"{out_name}.json")

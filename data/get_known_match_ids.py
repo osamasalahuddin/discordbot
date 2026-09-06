@@ -1,24 +1,14 @@
-import json
-import os
+"""Refresh perf_chunks/known_ids.json — the match ids the browser-side pipeline treats
+as already harvested.
 
-RAW_DIR = r"E:\Work\Claude\data\unranked_raw"
-RAW_FILES = [
-    "unranked_wabbit.json", "unranked_SauronSlayer.json", "unranked_zubair.json",
-    "unranked_l.inc.json", "unranked_toXic.json", "unranked_StrengthHonour.json",
-    "unranked_cheetah001.json", "unranked_NaKiyaKar.json", "unranked_neXus.json",
-    "incremental_new_matches.json",
-]
+Run before every discovery pass. __discoverNewMatches only stops paging once it recognises
+an id, so a stale list makes it re-walk old pages and re-analyze matches it already has
+against a throttled endpoint. fetch_incremental_update.py and run_full_refresh.py both
+call this automatically.
+"""
+import ladder_common as lc
 
-known_ids = set()
-for fname in RAW_FILES:
-    path = rf"{RAW_DIR}\{fname}"
-    if not os.path.exists(path):
-        continue
-    with open(path, encoding="utf-8") as f:
-        data = json.load(f)
-    for m in data["matches"]:
-        known_ids.add(m["match_id"])
-
-print(f"Total known match IDs: {len(known_ids)}")
-with open(r"E:\Work\Claude\data\perf_chunks\known_ids.json", "w") as f:
-    json.dump(sorted(known_ids), f)
+if __name__ == "__main__":
+    ids = lc.write_known_ids()
+    print(f"Total known match IDs: {len(ids)}")
+    print(f"Wrote {lc.KNOWN_IDS_PATH}")

@@ -1,10 +1,19 @@
+"""One-off: build data/players/wabbit.json, the first per-player database.
+
+Superseded by build_player_db.py, which does the same for every tracked player. Kept for
+provenance. The raw profile scrape it reads is not committed - pass a path as the first
+argument, or drop it at data/raw/wabbit_matches_raw.json.
+"""
 import json
 import re
+import sys
 from datetime import datetime, timezone
 from collections import defaultdict
 
-RAW_PATH = r"C:\Users\osama\AppData\Local\Temp\claude\E--Work-Claude\b32b4be8-8f6d-408d-a9eb-10e7960bcc06\scratchpad\wabbit_matches_raw.json"
-OUT_PATH = r"E:\Work\Claude\data\players\wabbit.json"
+import ladder_common as lc
+
+RAW_PATH = sys.argv[1] if len(sys.argv) > 1 else lc.DATA_DIR / "raw" / "wabbit_matches_raw.json"
+OUT_PATH = lc.DATA_DIR / "players" / "wabbit.json"
 
 WABBIT_PATH = "/user/12047120/"
 

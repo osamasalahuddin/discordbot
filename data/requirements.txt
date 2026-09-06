@@ -1,0 +1,3 @@
+# Data pipeline (Windows PC side). The bot itself only needs code/requirements.txt.
+playwright>=1.40     # drives the already-open debug Chrome over CDP
+matplotlib>=3.7      # plot_elo_progress.py

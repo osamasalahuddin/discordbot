@@ -1,0 +1,10 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Local Chrome profile created by data/launch_chrome_debug.ps1 - holds cookies and the
+# solved Cloudflare challenge, never commit it
+chrome_debug_profile/
+
+# Build/run logs
+*.log

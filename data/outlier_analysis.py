@@ -1,14 +1,14 @@
 import json
 import statistics
 
-ladder = json.load(open(r'E:\Work\Claude\data\unranked_ladder.json', encoding='utf-8'))
-perf = json.load(open(r'E:\Work\Claude\data\match_performance.json', encoding='utf-8'))
+import ladder_common as lc
 
-TRACKED = {
-    12047120: 'wabbit', 12676944: 'SauronSlayer', 12667372: 'zubair',
-    12080589: 'l.inc', 12499000: 'toXic', 4607974: 'Strength & Honour',
-    11907023: 'cheetah001', 12693189: 'NaKiyaKar', 12805097: 'neXus',
-}
+with open(lc.LADDER_PATH, encoding='utf-8') as f:
+    ladder = json.load(f)
+perf = lc.load_performance_db()
+
+# ladder_common keys tracked players by profile path; the performance records key by id.
+TRACKED = {int(path.strip('/').split('/')[1]): name for path, name in lc.TRACKED.items()}
 
 agg = {name: {'eapm': [], 'eco': [], 'mil': [], 'castle': []} for name in TRACKED.values()}
 for match_id, players in perf['matches'].items():
