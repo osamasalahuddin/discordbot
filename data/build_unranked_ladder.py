@@ -11,7 +11,7 @@ _DATA_DIR = os.path.dirname(os.path.abspath(__file__))
 # own directory on sys.path - do it here so sibling modules import cleanly.
 if _DATA_DIR not in sys.path:
     sys.path.insert(0, _DATA_DIR)
-from ai_result_fix import apply_ai_result_corrections
+from match_results import resolve_match_results
 
 _parser = argparse.ArgumentParser(description="Build the unranked Elo ladder.")
 _parser.add_argument(
@@ -463,8 +463,14 @@ print(f"Excluded (game duration < 15min, regardless of AI presence): {len(exclud
 # ---- AI-match result correction ---------------------------------------------
 # An AI can never resign, so aoe2insights records a win for the AI's team even
 # when its human team-mates all quit first. Recompute from resign data; shared
-# with build_map_elo.py / build_openclosed_elo.py via ai_result_fix.py.
-ai_results_corrected = apply_ai_result_corrections(qualifying)
+# with build_map_elo.py / build_openclosed_elo.py via match_results.py.
+_res = resolve_match_results(qualifying)
+ai_results_corrected = _res["ai_corrected"]
+results_repaired = _res["repaired_rating_change"] + _res["repaired_resign"]
+results_unresolved = set(_res["unresolved"])
+if results_unresolved:
+    qualifying = [m for m in qualifying if m["match_id"] not in results_unresolved]
+    print(f"Excluded (result unresolvable - no winner flag, no rating_change, no resign data): {len(results_unresolved)}")
 
 # ---- Sort chronologically (oldest first) ----
 def sort_key(m):
@@ -662,6 +668,10 @@ result = {
         "excluded_before_start_date": before_cutoff,
         "ai_results_corrected": len(ai_results_corrected),
         "ai_results_corrected_match_ids": ai_results_corrected,
+        "results_repaired": len(results_repaired),
+        "results_repaired_match_ids": results_repaired,
+        "results_unresolved": len(results_unresolved),
+        "results_unresolved_match_ids": sorted(results_unresolved),
     },
     "players": players_out,
     "match_log": match_log,

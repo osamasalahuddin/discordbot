@@ -10,7 +10,7 @@ _DATA_DIR = os.path.dirname(os.path.abspath(__file__))
 # own directory on sys.path - do it here so sibling modules import cleanly.
 if _DATA_DIR not in sys.path:
     sys.path.insert(0, _DATA_DIR)
-from ai_result_fix import apply_ai_result_corrections
+from match_results import resolve_match_results
 
 RAW_DIR = os.path.join(_DATA_DIR, "unranked_raw")
 OUT_PATH = os.path.join(_DATA_DIR, "openclosed_elo.json")
@@ -138,9 +138,13 @@ def sort_key(m):
 qualifying.sort(key=sort_key)
 qualifying = [m for m in qualifying if sort_key(m) >= LADDER_START_DATE]
 
-# The recorded winner is unreliable when an AI is present (it can never
-# resign); recompute from replay resign data. Same rule as the main ladder.
-apply_ai_result_corrections(qualifying)
+# Repair matches whose winner flag was lost in the scrape, then override the
+# engine's verdict on AI matches from resign data. Same rule as the main ladder.
+_res = resolve_match_results(qualifying)
+_unresolved = set(_res["unresolved"])
+if _unresolved:
+    qualifying = [m for m in qualifying if m["match_id"] not in _unresolved]
+    print(f"Excluded (result unresolvable): {len(_unresolved)}")
 
 by_category = defaultdict(list)
 unclassified_maps = defaultdict(int)
