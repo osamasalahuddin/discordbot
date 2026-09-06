@@ -49,6 +49,27 @@ def _flagged_winners(match):
     return [i for i, t in enumerate(match["teams"]) if t["won"]]
 
 
+def structural_problem(match):
+    """Reason this match can't be rated at all, or None if it's well-formed.
+
+    - 'ffa': more than two teams. aoe2insights renders free-for-all lobbies with
+      every player in their own .team div. These aren't real team games and the
+      Elo model (own side vs the average of the other side) doesn't describe
+      them, so they're dropped rather than shoehorned in.
+    - 'duplicate_player': the same user_path appears on more than one team, so a
+      player would be scored as both winning and losing the same game.
+    - 'degenerate': fewer than two teams.
+    """
+    if len(match["teams"]) > 2:
+        return "ffa"
+    if len(match["teams"]) < 2:
+        return "degenerate"
+    paths = [p["user_path"] for t in match["teams"] for p in t["players"] if p.get("user_path")]
+    if len(paths) != len(set(paths)):
+        return "duplicate_player"
+    return None
+
+
 def is_result_broken(match):
     """True only when NO team is flagged as the winner.
 
@@ -144,10 +165,17 @@ def resolve_match_results(matches, perf_db=None, verbose=True):
         perf_db = load_perf_db()
 
     repaired_rc, repaired_resign, unresolved, corrected = [], [], [], []
+    invalid = {}
     do_repair = os.environ.get("RESULT_REPAIR") != "0"
     do_correct = os.environ.get("AI_RESULT_CORRECTION") != "0"
 
     for m in matches:
+        # ---- step 0: drop structurally unrateable matches ----------------
+        problem = structural_problem(m)
+        if problem:
+            invalid[m["match_id"]] = problem
+            continue
+
         # ---- step 1: repair a broken winner flag -------------------------
         if do_repair and is_result_broken(m):
             idx = winner_from_rating_change(m)
@@ -176,6 +204,9 @@ def resolve_match_results(matches, perf_db=None, verbose=True):
             corrected.append(m["match_id"])
 
     if verbose:
+        from collections import Counter
+        by_reason = dict(Counter(invalid.values()))
+        print(f"Structurally unrateable, excluded: {len(invalid)} {by_reason}")
         print(f"Result repair: {len(repaired_rc)} from rating_change, "
               f"{len(repaired_resign)} from resign data, "
               f"{len(unresolved)} UNRESOLVED (excluded)")
@@ -186,4 +217,6 @@ def resolve_match_results(matches, perf_db=None, verbose=True):
         "repaired_resign": repaired_resign,
         "unresolved": unresolved,
         "ai_corrected": corrected,
+        "invalid": invalid,                      # match_id -> reason
+        "excluded": sorted(set(unresolved) | set(invalid)),
     }

@@ -468,9 +468,11 @@ _res = resolve_match_results(qualifying)
 ai_results_corrected = _res["ai_corrected"]
 results_repaired = _res["repaired_rating_change"] + _res["repaired_resign"]
 results_unresolved = set(_res["unresolved"])
-if results_unresolved:
-    qualifying = [m for m in qualifying if m["match_id"] not in results_unresolved]
-    print(f"Excluded (result unresolvable - no winner flag, no rating_change, no resign data): {len(results_unresolved)}")
+results_invalid = _res["invalid"]
+_drop = set(_res["excluded"])
+if _drop:
+    qualifying = [m for m in qualifying if m["match_id"] not in _drop]
+    print(f"Excluded (unrateable {len(results_invalid)} + unresolvable {len(results_unresolved)}): {len(_drop)}")
 
 # ---- Sort chronologically (oldest first) ----
 def sort_key(m):
@@ -672,6 +674,8 @@ result = {
         "results_repaired_match_ids": results_repaired,
         "results_unresolved": len(results_unresolved),
         "results_unresolved_match_ids": sorted(results_unresolved),
+        "structurally_unrateable": len(results_invalid),
+        "structurally_unrateable_reasons": results_invalid,
     },
     "players": players_out,
     "match_log": match_log,

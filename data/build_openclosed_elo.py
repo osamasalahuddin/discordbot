@@ -141,10 +141,10 @@ qualifying = [m for m in qualifying if sort_key(m) >= LADDER_START_DATE]
 # Repair matches whose winner flag was lost in the scrape, then override the
 # engine's verdict on AI matches from resign data. Same rule as the main ladder.
 _res = resolve_match_results(qualifying)
-_unresolved = set(_res["unresolved"])
-if _unresolved:
-    qualifying = [m for m in qualifying if m["match_id"] not in _unresolved]
-    print(f"Excluded (result unresolvable): {len(_unresolved)}")
+_drop = set(_res["excluded"])
+if _drop:
+    qualifying = [m for m in qualifying if m["match_id"] not in _drop]
+    print(f"Excluded (unrateable or unresolvable): {len(_drop)}")
 
 by_category = defaultdict(list)
 unclassified_maps = defaultdict(int)
