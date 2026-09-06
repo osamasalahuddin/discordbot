@@ -1,0 +1,19 @@
+[Unit]
+Description=AoE2 unranked-ladder Discord bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/work/discordbot/code
+# Holds DISCORD_BOT_TOKEN=... - keep it outside the repo, root-owned, chmod 600:
+#   printf 'DISCORD_BOT_TOKEN=%s\n' "<token>" | sudo tee /etc/aoe2bot.env >/dev/null
+#   sudo chmod 600 /etc/aoe2bot.env
+EnvironmentFile=/etc/aoe2bot.env
+ExecStart=/usr/bin/python3 /home/ubuntu/work/discordbot/code/bot.py
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

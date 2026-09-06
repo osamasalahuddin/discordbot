@@ -1,31 +1,40 @@
 # Run on the WINDOWS PC (not the server).
 #
-# 1. Runs the incremental fetch + full ladder rebuild.
-# 2. Copies the bot-relevant outputs into this git repo.
-# 3. Commits and pushes, so the server picks them up on its next pull.
+# 1. Runs the incremental fetch + full ladder rebuild, in place inside this repo.
+# 2. Commits the refreshed data and pushes, so the server picks it up on its next pull.
 #
-# Precondition: the debug Chrome must already be open and past any Cloudflare
-# check:  powershell -File E:\Work\Claude\data\launch_chrome_debug.ps1
+# The scripts in data/ read and write this repo's own data/ directory, so there's no copy
+# step and no second working tree to keep in sync - which is what previously let the
+# published JSON drift away from the scripts that built it. To keep the working data
+# somewhere else, set $env:DATA_DIR before running.
+#
+# Precondition: the debug Chrome must already be open and past any Cloudflare check:
+#   powershell -File <repo>\data\launch_chrome_debug.ps1
 # then leave that window on https://www.aoe2insights.com/ .
 
 $ErrorActionPreference = "Stop"
 
-$src  = "E:\Work\Claude\data"
-$repo = "E:\Work\Claude\discordbot"
+$repo = Split-Path -Parent $PSScriptRoot
 $py   = "python"   # or a full path to the python you use for the scrapers
 
-$files = @("unranked_ladder.json", "map_elo.json", "openclosed_elo.json")
+# What the bot reads, plus the inputs needed to reproduce it. graphs/ is deliberately
+# left out - it would add a few hundred KB of binary churn every night.
+$paths = @(
+    "data/unranked_ladder.json",
+    "data/map_elo.json",
+    "data/openclosed_elo.json",
+    "data/unranked_raw",
+    "data/match_performance.json",
+    "data/perf_chunks/known_ids.json"
+)
 
 Write-Host "== Fetch + rebuild ladder =="
-& $py "$src\fetch_incremental_update.py"
+& $py "$repo\data\fetch_incremental_update.py"
 if ($LASTEXITCODE -ne 0) { throw "fetch_incremental_update.py failed (exit $LASTEXITCODE). Is the debug Chrome open and past Cloudflare?" }
-
-Write-Host "== Copy outputs into repo =="
-foreach ($f in $files) { Copy-Item "$src\$f" "$repo\data\$f" -Force }
 
 Write-Host "== Commit + push =="
 Set-Location $repo
-git add ($files | ForEach-Object { "data/$_" })
+git add $paths
 git diff --cached --quiet
 if ($LASTEXITCODE -eq 0) {
     Write-Host "No ladder changes since last publish - nothing to push."
