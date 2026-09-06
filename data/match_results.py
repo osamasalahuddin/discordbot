@@ -215,6 +215,18 @@ def resolve_match_results(matches, perf_db=None, verbose=True):
             invalid[m["match_id"]] = problem
             continue
 
+        # EXCLUDE_UNVERIFIED_AI=1 drops AI matches we cannot check. The AI-side
+        # win rate is 53.5% where resign data lets us verify the result and
+        # 69.9% where it does not - a 16-point gap that is the can't-resign bug
+        # still live in the unverifiable ones. Exposure is asymmetric (toXic and
+        # SauronSlayer played WITH the AI far more than against it), so it is
+        # not a wash across the ladder.
+        if os.environ.get("EXCLUDE_UNVERIFIED_AI") == "1":
+            has_ai = any(p["is_ai"] for t in m["teams"] for p in t["players"])
+            if has_ai and winner_from_resign(m, perf_db) is None:
+                invalid[m["match_id"]] = "unverified_ai"
+                continue
+
         # ---- step 1: repair a broken winner flag -------------------------
         if do_repair and is_result_broken(m):
             idx = winner_from_rating_change(m)
