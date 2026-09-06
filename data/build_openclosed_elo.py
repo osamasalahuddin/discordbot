@@ -28,6 +28,9 @@ TRACKED = {
     "/user/11907023/": "cheetah001", "/user/12693189/": "NaKiyaKar", "/user/12805097/": "neXus",
 }
 
+# Settle each match so gains and losses cancel (see build_unranked_ladder.py).
+CONSERVE_ELO = os.environ.get("ELO_CONSERVATION") != "0"
+
 K_FACTOR = 32
 STARTING_ELO = 1000
 SHORT_GAME_THRESHOLD_SECONDS = 15 * 60
@@ -186,9 +189,21 @@ for category, matches in by_category.items():
                 expected = 1 / (1 + 10 ** ((opp_avg - own_rating) / 400))
                 actual = 1.0 if won else 0.0
                 delta = K_FACTOR * (actual - expected)
-                match_deltas.append((path, own_rating + delta, won))
+                match_deltas.append((path, own_rating, own_rating + delta, delta, won))
 
-        for path, new_r, won in match_deltas:
+        # Settle the match so gains and losses cancel, by adjusting the winning
+        # side - otherwise an unrated AI (or any uneven side) carries Elo out of
+        # the pool. Same rule as build_unranked_ladder.py.
+        if CONSERVE_ELO and match_deltas:
+            imbalance = sum(d[3] for d in match_deltas)
+            winner_idx = [k for k, d in enumerate(match_deltas) if d[4]]
+            if winner_idx and abs(imbalance) > 1e-9:
+                adj = -imbalance / len(winner_idx)
+                for k in winner_idx:
+                    path, old_r, new_r, delta, won = match_deltas[k]
+                    match_deltas[k] = (path, old_r, new_r + adj, delta + adj, won)
+
+        for path, _old_r, new_r, _delta, won in match_deltas:
             elo[path] = new_r
             history[path].append(won)
 

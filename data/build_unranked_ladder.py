@@ -82,6 +82,11 @@ PERF_RESULT_WEIGHT = float(os.environ.get("PERF_RESULT_WEIGHT", "0.75"))
 # PERF_DISABLED=1 rebuilds with flat win/loss only (for before/after comparison).
 _PERF_DISABLED = os.environ.get("PERF_DISABLED") == "1"
 
+# Settle each match so gains and losses cancel exactly, by adjusting the winning
+# side. This is what stops an unrated AI from carrying Elo out of the pool (and
+# equally stops uneven teams inflating it). ELO_CONSERVATION=0 disables it.
+CONSERVE_ELO = os.environ.get("ELO_CONSERVATION") != "0"
+
 def parse_duration(s):
     if not s:
         return None
@@ -544,6 +549,36 @@ for m in qualifying:
     if not match_deltas:
         continue
 
+    # ---- conserve Elo within the match -----------------------------------
+    # Every player is rated independently against the opponent average, so the
+    # gains and losses in a match don't have to cancel - and they systematically
+    # don't when the sides are uneven, which is exactly what an AI does. Measured
+    # over the raw ladder: non-AI matches inflate by +1.00 each, AI matches
+    # DEFLATE by -2.48 each (Elo the unrated AI earns and takes with it).
+    #
+    # Settling the difference on the winning side implements the intended rule
+    # directly, with no AI-specific special case:
+    #   AI's team wins  -> the shortfall is the Elo the AI would have taken, so
+    #                      its human team-mates split it. 2 humans + AI beating 3
+    #                      humans: +32 claimed vs -48 paid, +8 each to balance.
+    #   AI's team loses -> the excess is Elo nobody paid for, because the AI
+    #                      cannot pay, so the winners give it back. 2 humans + AI
+    #                      losing to 3: -32 paid vs +48 claimed, winners scaled
+    #                      to +10.67 each.
+    # Applied to every match, so total ladder Elo stays fixed at 9 x 1000.
+    # ELO_CONSERVATION=0 disables it.
+    balance_adj = {}
+    if CONSERVE_ELO:
+        imbalance = sum(d[3] for d in match_deltas)
+        winner_idx = [k for k, d in enumerate(match_deltas) if d[4]]
+        if winner_idx and abs(imbalance) > 1e-9:
+            adj = -imbalance / len(winner_idx)
+            for k in winner_idx:
+                path, old_r, new_r, delta, won, opp_avg, perf_ratio, actual, perf_method = match_deltas[k]
+                balance_adj[path] = adj
+                match_deltas[k] = (path, old_r, new_r + adj, delta + adj, won,
+                                   opp_avg, perf_ratio, actual, perf_method)
+
     match_date = parse_exact_time(m["exact_time"])
     for path, old_r, new_r, delta, won, opp_avg, perf_ratio, actual, perf_method in match_deltas:
         elo[path] = new_r
@@ -559,6 +594,7 @@ for m in qualifying:
             "performance_ratio": round(perf_ratio, 3) if perf_ratio is not None else None,
             "performance_method": perf_method,
             "actual_score": round(actual, 3),
+            "balance_adj": round(balance_adj[path], 2) if path in balance_adj else None,
         })
 
     match_log.append({

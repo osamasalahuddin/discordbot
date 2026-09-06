@@ -40,6 +40,9 @@ TRACKED = {
     "/user/12805097/": "neXus",
 }
 
+# Settle each match so gains and losses cancel (see build_unranked_ladder.py).
+CONSERVE_ELO = os.environ.get("ELO_CONSERVATION") != "0"
+
 K_FACTOR = 32
 STARTING_ELO = 1000
 SHORT_GAME_THRESHOLD_SECONDS = 15 * 60
@@ -185,6 +188,18 @@ for map_name, matches in by_map.items():
                 delta = K_FACTOR * (actual - expected)
                 new_rating = own_rating + delta
                 match_deltas.append((path, own_rating, new_rating, delta, won))
+
+        # Settle the match so gains and losses cancel, by adjusting the winning
+        # side - otherwise an unrated AI (or any uneven side) carries Elo out of
+        # the pool. Same rule as build_unranked_ladder.py.
+        if CONSERVE_ELO and match_deltas:
+            imbalance = sum(d[3] for d in match_deltas)
+            winner_idx = [k for k, d in enumerate(match_deltas) if d[4]]
+            if winner_idx and abs(imbalance) > 1e-9:
+                adj = -imbalance / len(winner_idx)
+                for k in winner_idx:
+                    path, old_r, new_r, delta, won = match_deltas[k]
+                    match_deltas[k] = (path, old_r, new_r + adj, delta + adj, won)
 
         for path, old_r, new_r, delta, won in match_deltas:
             elo[path] = new_r
