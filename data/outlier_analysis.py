@@ -1,8 +1,11 @@
 import json
 import statistics
+import os
 
-ladder = json.load(open(r'E:\Work\Claude\data\unranked_ladder.json', encoding='utf-8'))
-perf = json.load(open(r'E:\Work\Claude\data\match_performance.json', encoding='utf-8'))
+_DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+
+ladder = json.load(open(os.path.join(_DATA_DIR, "unranked_ladder.json"), encoding='utf-8'))
+perf = json.load(open(os.path.join(_DATA_DIR, "match_performance.json"), encoding='utf-8'))
 
 TRACKED = {
     12047120: 'wabbit', 12676944: 'SauronSlayer', 12667372: 'zubair',

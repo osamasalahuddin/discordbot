@@ -20,8 +20,10 @@ Re-run this script afterwards to confirm the stale count dropped to 0.
 import json
 import os
 
-DB_PATH = r"E:\Work\Claude\data\match_performance.json"
-OUT_PATH = r"E:\Work\Claude\data\perf_chunks\stale_perf_ids.json"
+_DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+
+DB_PATH = os.path.join(_DATA_DIR, "match_performance.json")
+OUT_PATH = os.path.join(_DATA_DIR, "perf_chunks", "stale_perf_ids.json")
 CURRENT_SCHEMA = 2
 
 

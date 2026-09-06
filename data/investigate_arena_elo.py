@@ -1,8 +1,11 @@
 import json
 import re
 from datetime import datetime, timezone
+import os
 
-RAW_DIR = r"E:\Work\Claude\data\unranked_raw"
+_DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+
+RAW_DIR = os.path.join(_DATA_DIR, "unranked_raw")
 RAW_FILES = [
     "unranked_wabbit.json", "unranked_SauronSlayer.json", "unranked_zubair.json",
     "unranked_l.inc.json", "unranked_toXic.json", "unranked_StrengthHonour.json",
@@ -56,7 +59,7 @@ def parse_exact_time(s):
 
 all_matches = {}
 for fname in RAW_FILES:
-    with open(rf"{RAW_DIR}\{fname}", encoding="utf-8") as f:
+    with open(os.path.join(RAW_DIR, fname), encoding="utf-8") as f:
         data = json.load(f)
     for m in data["matches"]:
         all_matches[m["match_id"]] = m

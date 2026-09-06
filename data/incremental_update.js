@@ -3,14 +3,14 @@
 //
 // Usage:
 //   1. Get the current known match IDs: run `python get_known_match_ids.py`, it writes
-//      E:\Work\Claude\data\perf_chunks\known_ids.json
+//      data/perf_chunks/known_ids.json  (next to these scripts)
 //   2. Paste this whole file into javascript_tool to define everything.
 //   3. Run: await window.__runIncrementalUpdate(<contents of known_ids.json>)
 //      This does all 4 phases: update stale profiles, discover new matches, filter to
 //      qualifying ones (2+ tracked players on opposing teams), analyze + fetch performance
 //      data for each qualifying new match.
 //   4. Export with window.__exportIncremental() (triggers a download), move the file into
-//      E:\Work\Claude\data\, then run merge_incremental_update.py pointed at it.
+//      this data/ folder, then run merge_incremental_update.py pointed at it.
 //
 // Same throttling caveats as harvest_performance.js apply: if timeouts pile up, stop and
 // resume later rather than pushing through.

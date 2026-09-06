@@ -16,7 +16,7 @@
 //     document.body.removeChild(a);
 //     setTimeout(() => URL.revokeObjectURL(url), 5000);
 //   })()
-// Then move the downloaded file into E:\Work\Claude\data\ and run merge_performance_data.py
+// Then move the downloaded file into this data/ folder and run merge_performance_data.py
 // (point it at the new file) to fold results into the persistent match_performance.json.
 //
 // IMPORTANT: this site throttles repeated /analyze/ calls within a session. If timeouts start

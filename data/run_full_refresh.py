@@ -22,8 +22,8 @@ import runpy
 import sys
 import os
 
-DATA_DIR = r"E:\Work\Claude\data"
-DEFAULT_EXPORT_PATH = rf"{DATA_DIR}\incremental_update_export.json"
+DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+DEFAULT_EXPORT_PATH = os.path.join(DATA_DIR, "incremental_update_export.json")
 
 
 def run_script(name, argv=None):
@@ -31,7 +31,7 @@ def run_script(name, argv=None):
     saved_argv = sys.argv
     sys.argv = argv if argv is not None else [name]
     try:
-        runpy.run_path(rf"{DATA_DIR}\{name}", run_name="__main__")
+        runpy.run_path(os.path.join(DATA_DIR, name), run_name="__main__")
     finally:
         sys.argv = saved_argv
 

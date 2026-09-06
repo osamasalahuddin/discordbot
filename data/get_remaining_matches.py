@@ -1,7 +1,10 @@
 import json
+import os
 
-LADDER_PATH = r"E:\Work\Claude\data\unranked_ladder.json"
-DB_PATH = r"E:\Work\Claude\data\match_performance.json"
+_DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+
+LADDER_PATH = os.path.join(_DATA_DIR, "unranked_ladder.json")
+DB_PATH = os.path.join(_DATA_DIR, "match_performance.json")
 
 with open(LADDER_PATH, encoding="utf-8") as f:
     ladder = json.load(f)

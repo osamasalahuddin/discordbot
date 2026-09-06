@@ -10,7 +10,7 @@
 # directly.
 
 $chromePath = "C:\Program Files\Google\Chrome\Application\chrome.exe"
-$profileDir = "E:\Work\Claude\data\chrome_debug_profile"
+$profileDir = Join-Path $PSScriptRoot "chrome_debug_profile"
 $debugPort = 9222
 
 if (-not (Test-Path $profileDir)) {

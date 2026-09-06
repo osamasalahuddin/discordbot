@@ -4,8 +4,10 @@ import re
 from datetime import datetime, timezone
 from collections import defaultdict
 
-RAW_DIR = r"E:\Work\Claude\data\unranked_raw"
-OUT_PATH = r"E:\Work\Claude\data\openclosed_elo.json"
+_DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+
+RAW_DIR = os.path.join(_DATA_DIR, "unranked_raw")
+OUT_PATH = os.path.join(_DATA_DIR, "openclosed_elo.json")
 
 RAW_FILES = [
     "unranked_wabbit.json", "unranked_SauronSlayer.json", "unranked_zubair.json",
@@ -100,7 +102,7 @@ def parse_exact_time(s):
 
 all_matches = {}
 for fname in RAW_FILES:
-    path = rf"{RAW_DIR}\{fname}"
+    path = os.path.join(RAW_DIR, fname)
     if not os.path.exists(path):
         continue
     with open(path, encoding="utf-8") as f:

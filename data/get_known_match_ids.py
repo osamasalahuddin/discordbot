@@ -1,7 +1,9 @@
 import json
 import os
 
-RAW_DIR = r"E:\Work\Claude\data\unranked_raw"
+_DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+
+RAW_DIR = os.path.join(_DATA_DIR, "unranked_raw")
 RAW_FILES = [
     "unranked_wabbit.json", "unranked_SauronSlayer.json", "unranked_zubair.json",
     "unranked_l.inc.json", "unranked_toXic.json", "unranked_StrengthHonour.json",
@@ -11,7 +13,7 @@ RAW_FILES = [
 
 known_ids = set()
 for fname in RAW_FILES:
-    path = rf"{RAW_DIR}\{fname}"
+    path = os.path.join(RAW_DIR, fname)
     if not os.path.exists(path):
         continue
     with open(path, encoding="utf-8") as f:
@@ -20,5 +22,5 @@ for fname in RAW_FILES:
         known_ids.add(m["match_id"])
 
 print(f"Total known match IDs: {len(known_ids)}")
-with open(r"E:\Work\Claude\data\perf_chunks\known_ids.json", "w") as f:
+with open(os.path.join(_DATA_DIR, "perf_chunks", "known_ids.json"), "w") as f:
     json.dump(sorted(known_ids), f)

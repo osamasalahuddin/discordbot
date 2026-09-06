@@ -17,12 +17,15 @@ ladder yet.
 import json
 import sys
 from collections import Counter, defaultdict
+import os
 
-DATA = r"E:\Work\Claude\data"
-PERF_PATH = rf"{DATA}\match_performance.json"
-UNIT_DATA_PATH = rf"{DATA}\aoe2_unit_data.json"
-LADDER_PATH = rf"{DATA}\unranked_ladder.json"
-OUT_PATH = rf"{DATA}\army_efficiency.json"
+_DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+
+DATA = _DATA_DIR
+PERF_PATH = os.path.join(DATA, "match_performance.json")
+UNIT_DATA_PATH = os.path.join(DATA, "aoe2_unit_data.json")
+LADDER_PATH = os.path.join(DATA, "unranked_ladder.json")
+OUT_PATH = os.path.join(DATA, "army_efficiency.json")
 
 TRACKED = {
     12047120: "wabbit", 12676944: "SauronSlayer", 12667372: "zubair", 12080589: "l.inc",

@@ -7247,7 +7247,7 @@
     "duration_min": 54.2,
     "players": {
       "toXic": {
-        "won": null,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 333,
         "army_food": 16230,
@@ -7281,7 +7281,7 @@
         }
       },
       "zubair": {
-        "won": null,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 81,
         "army_food": 4615,
@@ -7313,7 +7313,7 @@
         }
       },
       "wabbit": {
-        "won": null,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 97,
         "army_food": 5260,
@@ -7345,7 +7345,7 @@
         }
       },
       "l.inc": {
-        "won": null,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 25,
         "army_food": 1280,
@@ -7375,7 +7375,7 @@
         }
       },
       "NaKiyaKar": {
-        "won": null,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 65,
         "army_food": 3720,
@@ -7771,7 +7771,7 @@
     "duration_min": 59.3,
     "players": {
       "wabbit": {
-        "won": null,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 63,
         "army_food": 3725,
@@ -7802,7 +7802,7 @@
         }
       },
       "zubair": {
-        "won": null,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 194,
         "army_food": 10320,
@@ -7831,7 +7831,7 @@
         }
       },
       "l.inc": {
-        "won": null,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 263,
         "army_food": 8945,
@@ -7863,7 +7863,7 @@
         }
       },
       "NaKiyaKar": {
-        "won": null,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 251,
         "army_food": 11410,
@@ -7891,7 +7891,7 @@
         }
       },
       "toXic": {
-        "won": null,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 417,
         "army_food": 28880,
@@ -7927,7 +7927,7 @@
     "duration_min": 75.7,
     "players": {
       "wabbit": {
-        "won": null,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 103,
         "army_food": 4645,
@@ -7957,7 +7957,7 @@
         }
       },
       "l.inc": {
-        "won": null,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 280,
         "army_food": 8535,
@@ -7991,7 +7991,7 @@
         }
       },
       "zubair": {
-        "won": null,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 287,
         "army_food": 12585,
@@ -8024,7 +8024,7 @@
         }
       },
       "toXic": {
-        "won": null,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 621,
         "army_food": 17520,
@@ -8068,7 +8068,7 @@
         }
       },
       "NaKiyaKar": {
-        "won": null,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 420,
         "army_food": 16300,
@@ -10339,7 +10339,7 @@
     "duration_min": 75.4,
     "players": {
       "cheetah001": {
-        "won": null,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 143,
         "army_food": 7130,
@@ -10374,7 +10374,7 @@
         }
       },
       "l.inc": {
-        "won": null,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 408,
         "army_food": 14680,
@@ -10410,7 +10410,7 @@
         }
       },
       "toXic": {
-        "won": null,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 292,
         "army_food": 0,
@@ -10451,7 +10451,7 @@
     "duration_min": 65.1,
     "players": {
       "cheetah001": {
-        "won": null,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 341,
         "army_food": 22320,
@@ -10482,7 +10482,7 @@
         }
       },
       "l.inc": {
-        "won": null,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 217,
         "army_food": 6220,
@@ -10525,7 +10525,7 @@
         }
       },
       "toXic": {
-        "won": null,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 462,
         "army_food": 12240,
@@ -10563,7 +10563,7 @@
     "duration_min": 74.3,
     "players": {
       "SauronSlayer": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 540,
         "army_food": 32000,
@@ -10596,7 +10596,7 @@
         }
       },
       "l.inc": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 385,
         "army_food": 20980,
@@ -10637,7 +10637,7 @@
         }
       },
       "cheetah001": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 183,
         "army_food": 4140,
@@ -10666,7 +10666,7 @@
         }
       },
       "zubair": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 543,
         "army_food": 25935,
@@ -10694,7 +10694,7 @@
         }
       },
       "toXic": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 751,
         "army_food": 27840,
@@ -24296,7 +24296,7 @@
     "duration_min": 52.2,
     "players": {
       "SauronSlayer": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 141,
         "army_food": 3325,
@@ -24328,7 +24328,7 @@
         }
       },
       "toXic": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 373,
         "army_food": 20080,
@@ -24359,7 +24359,7 @@
         }
       },
       "l.inc": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 165,
         "army_food": 3170,
@@ -24396,7 +24396,7 @@
         }
       },
       "cheetah001": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 146,
         "army_food": 9780,
@@ -24429,7 +24429,7 @@
         }
       },
       "zubair": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 237,
         "army_food": 6120,
@@ -24471,7 +24471,7 @@
     "duration_min": 47.6,
     "players": {
       "SauronSlayer": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 156,
         "army_food": 3800,
@@ -24507,7 +24507,7 @@
         }
       },
       "toXic": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 93,
         "army_food": 3585,
@@ -24541,7 +24541,7 @@
         }
       },
       "cheetah001": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 96,
         "army_food": 10200,
@@ -24571,7 +24571,7 @@
         }
       },
       "zubair": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 57,
         "army_food": 130,
@@ -24597,7 +24597,7 @@
         }
       },
       "l.inc": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 161,
         "army_food": 2820,
@@ -28273,7 +28273,7 @@
     "duration_min": 74.7,
     "players": {
       "SauronSlayer": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 949,
         "army_food": 44050,
@@ -28319,7 +28319,7 @@
         }
       },
       "toXic": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 931,
         "army_food": 40600,
@@ -28361,7 +28361,7 @@
         }
       },
       "l.inc": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 192,
         "army_food": 19380,
@@ -28393,7 +28393,7 @@
         }
       },
       "wabbit": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 854,
         "army_food": 43465,
@@ -28429,7 +28429,7 @@
         }
       },
       "zubair": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 306,
         "army_food": 18740,
@@ -28761,7 +28761,7 @@
     "duration_min": 75.8,
     "players": {
       "SauronSlayer": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 736,
         "army_food": 49175,
@@ -28799,7 +28799,7 @@
         }
       },
       "cheetah001": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 584,
         "army_food": 49660,
@@ -28830,7 +28830,7 @@
         }
       },
       "zubair": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 536,
         "army_food": 28465,
@@ -28865,7 +28865,7 @@
         }
       },
       "l.inc": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 326,
         "army_food": 11580,
@@ -28898,7 +28898,7 @@
         }
       },
       "neXus": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 473,
         "army_food": 27040,
@@ -32833,7 +32833,7 @@
     "duration_min": 55.8,
     "players": {
       "SauronSlayer": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 257,
         "army_food": 16060,
@@ -32861,7 +32861,7 @@
         }
       },
       "wabbit": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 311,
         "army_food": 18600,
@@ -32899,7 +32899,7 @@
         }
       },
       "Strength & Honour": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 185,
         "army_food": 10725,
@@ -32926,7 +32926,7 @@
         }
       },
       "neXus": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 293,
         "army_food": 4500,
@@ -32958,7 +32958,7 @@
         }
       },
       "toXic": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 478,
         "army_food": 18955,
@@ -32989,7 +32989,7 @@
         }
       },
       "l.inc": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 142,
         "army_food": 8280,
@@ -33014,7 +33014,7 @@
         }
       },
       "zubair": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 531,
         "army_food": 18945,
@@ -33048,7 +33048,7 @@
     "duration_min": 49.5,
     "players": {
       "SauronSlayer": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 386,
         "army_food": 14165,
@@ -33078,7 +33078,7 @@
         }
       },
       "wabbit": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 237,
         "army_food": 11040,
@@ -33107,7 +33107,7 @@
         }
       },
       "Strength & Honour": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 121,
         "army_food": 8680,
@@ -33137,7 +33137,7 @@
         }
       },
       "neXus": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 65,
         "army_food": 3780,
@@ -33162,7 +33162,7 @@
         }
       },
       "l.inc": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 84,
         "army_food": 4860,
@@ -33190,7 +33190,7 @@
         }
       },
       "toXic": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 269,
         "army_food": 12040,
@@ -33223,7 +33223,7 @@
         }
       },
       "zubair": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 88,
         "army_food": 4955,
@@ -33512,7 +33512,7 @@
     "duration_min": 74.2,
     "players": {
       "toXic": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 419,
         "army_food": 29380,
@@ -33547,7 +33547,7 @@
         }
       },
       "l.inc": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 187,
         "army_food": 5935,
@@ -33577,7 +33577,7 @@
         }
       },
       "Strength & Honour": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 723,
         "army_food": 45265,
@@ -33953,7 +33953,7 @@
     "duration_min": 60.7,
     "players": {
       "SauronSlayer": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 438,
         "army_food": 43980,
@@ -33985,7 +33985,7 @@
         }
       },
       "wabbit": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 222,
         "army_food": 15855,
@@ -34013,7 +34013,7 @@
         }
       },
       "Strength & Honour": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 420,
         "army_food": 9795,
@@ -34042,7 +34042,7 @@
         }
       },
       "l.inc": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 201,
         "army_food": 4460,
@@ -34082,7 +34082,7 @@
         }
       },
       "zubair": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 472,
         "army_food": 23525,
@@ -34121,7 +34121,7 @@
     "duration_min": 57.8,
     "players": {
       "SauronSlayer": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 376,
         "army_food": 22180,
@@ -34155,7 +34155,7 @@
         }
       },
       "wabbit": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 417,
         "army_food": 23760,
@@ -34189,7 +34189,7 @@
         }
       },
       "Strength & Honour": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 768,
         "army_food": 34890,
@@ -34219,7 +34219,7 @@
         }
       },
       "l.inc": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 167,
         "army_food": 6020,
@@ -34256,7 +34256,7 @@
         }
       },
       "zubair": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 397,
         "army_food": 41640,
@@ -35030,7 +35030,7 @@
     "duration_min": 49.1,
     "players": {
       "SauronSlayer": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 327,
         "army_food": 12345,
@@ -35063,7 +35063,7 @@
         }
       },
       "wabbit": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 308,
         "army_food": 16620,
@@ -35094,7 +35094,7 @@
         }
       },
       "zubair": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 457,
         "army_food": 27240,
@@ -35118,7 +35118,7 @@
         }
       },
       "Strength & Honour": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 135,
         "army_food": 8360,
@@ -35146,7 +35146,7 @@
         }
       },
       "neXus": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 163,
         "army_food": 6935,
@@ -37981,7 +37981,7 @@
     "duration_min": 42.7,
     "players": {
       "SauronSlayer": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 78,
         "army_food": 6720,
@@ -38016,7 +38016,7 @@
         }
       },
       "neXus": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 103,
         "army_food": 6995,
@@ -38046,7 +38046,7 @@
         }
       },
       "l.inc": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 74,
         "army_food": 2690,
@@ -39343,7 +39343,7 @@
     "duration_min": 45.8,
     "players": {
       "SauronSlayer": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 103,
         "army_food": 3960,
@@ -39378,7 +39378,7 @@
         }
       },
       "Strength & Honour": {
-        "won": true,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 104,
         "army_food": 3040,
@@ -39410,7 +39410,7 @@
         }
       },
       "l.inc": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 115,
         "army_food": 2305,
@@ -39445,7 +39445,7 @@
         }
       },
       "zubair": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 165,
         "army_food": 9030,
@@ -39474,7 +39474,7 @@
         }
       },
       "neXus": {
-        "won": false,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 123,
         "army_food": 4640,
@@ -42337,7 +42337,7 @@
     "duration_min": 42.0,
     "players": {
       "SauronSlayer": {
-        "won": null,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 158,
         "army_food": 6520,
@@ -42371,7 +42371,7 @@
         }
       },
       "wabbit": {
-        "won": null,
+        "won": true,
         "reached_age": "castle",
         "military_trained": 57,
         "army_food": 3360,
@@ -42397,7 +42397,7 @@
         }
       },
       "Strength & Honour": {
-        "won": null,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 185,
         "army_food": 11040,
@@ -42420,7 +42420,7 @@
         }
       },
       "neXus": {
-        "won": null,
+        "won": true,
         "reached_age": "imperial",
         "military_trained": 67,
         "army_food": 11780,
@@ -42446,7 +42446,7 @@
         }
       },
       "toXic": {
-        "won": null,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 374,
         "army_food": 20030,
@@ -42485,7 +42485,7 @@
         }
       },
       "zubair": {
-        "won": null,
+        "won": false,
         "reached_age": "imperial",
         "military_trained": 85,
         "army_food": 3415,
@@ -42516,7 +42516,7 @@
         }
       },
       "l.inc": {
-        "won": null,
+        "won": false,
         "reached_age": "castle",
         "military_trained": 75,
         "army_food": 4075,
@@ -45035,6 +45035,631 @@
           "archer_foot": 107,
           "siege_bombard": 11,
           "siege_trebuchet": 2
+        }
+      }
+    }
+  },
+  "496523148": {
+    "map": "Arena",
+    "duration_min": 46.3,
+    "players": {
+      "toXic": {
+        "won": true,
+        "reached_age": "imperial",
+        "military_trained": 34,
+        "army_food": 3000,
+        "army_wood": 2230,
+        "army_gold": 2340,
+        "army_resources": 7570,
+        "gold_share": 0.309,
+        "trash_share": 0,
+        "army_value_ratio": 0.506,
+        "upgrade_coverage": 0.217,
+        "upgrade_detail": {
+          "bs_cav_attack": "1/3",
+          "bs_cav_armor": "1/3",
+          "bs_archer_attack": "0/3",
+          "bs_archer_armor": "0/3",
+          "husbandry": "1/1",
+          "ballistics": "0/1",
+          "thumb_ring": "0/1",
+          "siege_engineers": "0/1",
+          "line_archer": "0/2",
+          "line_elephant": "1/1",
+          "line_ram": "1/2",
+          "line_mangonel": "0/2"
+        },
+        "counter_score": -0.082,
+        "composition": {
+          "elephant": 15,
+          "siege_mangonel": 7,
+          "archer_foot": 6,
+          "siege_ram": 6
+        }
+      },
+      "l.inc": {
+        "won": true,
+        "reached_age": "imperial",
+        "military_trained": 75,
+        "army_food": 3520,
+        "army_wood": 2060,
+        "army_gold": 3155,
+        "army_resources": 8735,
+        "gold_share": 0.361,
+        "trash_share": 0.23,
+        "army_value_ratio": 0.541,
+        "upgrade_coverage": 0.481,
+        "upgrade_detail": {
+          "bs_infantry_attack": "2/3",
+          "bs_infantry_armor": "2/3",
+          "bs_cav_attack": "2/3",
+          "bs_cav_armor": "3/3",
+          "bloodlines": "0/1",
+          "husbandry": "1/1",
+          "siege_engineers": "0/1",
+          "line_infantry_melee": "0/5",
+          "line_infantry_spear": "2/3",
+          "line_knight": "1/2",
+          "line_mangonel": "0/2"
+        },
+        "counter_score": -0.087,
+        "composition": {
+          "infantry_spear": 20,
+          "infantry_melee": 19,
+          "cav_knight": 15,
+          "petard": 12,
+          "siege_mangonel": 6,
+          "siege_trebuchet": 3
+        }
+      },
+      "Strength & Honour": {
+        "won": false,
+        "reached_age": "imperial",
+        "military_trained": 83,
+        "army_food": 5340,
+        "army_wood": 1620,
+        "army_gold": 1020,
+        "army_resources": 7980,
+        "gold_share": 0.128,
+        "trash_share": 0.816,
+        "army_value_ratio": 0.495,
+        "upgrade_coverage": 0.55,
+        "upgrade_detail": {
+          "bs_infantry_attack": "1/3",
+          "bs_infantry_armor": "2/3",
+          "bs_cav_attack": "1/3",
+          "bs_cav_armor": "3/3",
+          "bloodlines": "1/1",
+          "husbandry": "1/1",
+          "line_infantry_spear": "2/3",
+          "line_scout": "0/2",
+          "line_elephant": "0/1"
+        },
+        "counter_score": -0.096,
+        "composition": {
+          "infantry_spear": 52,
+          "cav_scout": 19,
+          "elephant": 10,
+          "siege_mangonel": 2
+        }
+      },
+      "zubair": {
+        "won": false,
+        "reached_age": "imperial",
+        "military_trained": 71,
+        "army_food": 4055,
+        "army_wood": 475,
+        "army_gold": 2300,
+        "army_resources": 6830,
+        "gold_share": 0.337,
+        "trash_share": 0.437,
+        "army_value_ratio": 0.456,
+        "upgrade_coverage": 0.273,
+        "upgrade_detail": {
+          "bs_cav_attack": "0/3",
+          "bs_cav_armor": "2/3",
+          "bloodlines": "1/1",
+          "husbandry": "0/1",
+          "chemistry": "0/1",
+          "line_scout": "0/2"
+        },
+        "counter_score": 0.003,
+        "composition": {
+          "gunpowder_hc": 38,
+          "cav_scout": 28,
+          "infantry_spear": 3,
+          "siege_trebuchet": 2
+        }
+      }
+    }
+  },
+  "502734055": {
+    "map": "Arena",
+    "duration_min": 54.0,
+    "players": {
+      "SauronSlayer": {
+        "won": true,
+        "reached_age": "imperial",
+        "military_trained": 307,
+        "army_food": 9320,
+        "army_wood": 6790,
+        "army_gold": 11870,
+        "army_resources": 27980,
+        "gold_share": 0.424,
+        "trash_share": 0.287,
+        "army_value_ratio": 0.582,
+        "upgrade_coverage": 0.345,
+        "upgrade_detail": {
+          "bs_infantry_attack": "1/3",
+          "bs_infantry_armor": "1/3",
+          "bs_cav_attack": "1/3",
+          "bs_cav_armor": "0/3",
+          "bs_archer_attack": "2/3",
+          "bs_archer_armor": "3/3",
+          "bloodlines": "0/1",
+          "husbandry": "0/1",
+          "ballistics": "1/1",
+          "thumb_ring": "0/1",
+          "siege_engineers": "1/1",
+          "line_archer": "0/2",
+          "line_scout": "0/2",
+          "line_cav_archer": "0/2"
+        },
+        "counter_score": -0.027,
+        "composition": {
+          "archer_foot": 142,
+          "cav_scout": 88,
+          "infantry_unique_gold": 38,
+          "cav_archer": 26,
+          "siege_trebuchet": 11,
+          "monk": 2
+        }
+      },
+      "Strength & Honour": {
+        "won": true,
+        "reached_age": "imperial",
+        "military_trained": 230,
+        "army_food": 13240,
+        "army_wood": 4720,
+        "army_gold": 11780,
+        "army_resources": 29740,
+        "gold_share": 0.396,
+        "trash_share": 0,
+        "army_value_ratio": 0.597,
+        "upgrade_coverage": 0.846,
+        "upgrade_detail": {
+          "bs_cav_attack": "3/3",
+          "bs_cav_armor": "3/3",
+          "bloodlines": "1/1",
+          "husbandry": "0/1",
+          "siege_engineers": "0/1",
+          "line_knight": "2/2",
+          "line_ram": "2/2"
+        },
+        "counter_score": 0.144,
+        "composition": {
+          "cav_steppe": 124,
+          "cav_knight": 76,
+          "siege_ram": 27,
+          "siege_trebuchet": 2,
+          "monk": 1
+        }
+      },
+      "neXus": {
+        "won": true,
+        "reached_age": "imperial",
+        "military_trained": 143,
+        "army_food": 2520,
+        "army_wood": 6720,
+        "army_gold": 6080,
+        "army_resources": 15320,
+        "gold_share": 0.397,
+        "trash_share": 0.503,
+        "army_value_ratio": 0.432,
+        "upgrade_coverage": 0.36,
+        "upgrade_detail": {
+          "bs_infantry_attack": "3/3",
+          "bs_infantry_armor": "2/3",
+          "bs_cav_armor": "2/3",
+          "bs_archer_attack": "0/3",
+          "bs_archer_armor": "0/3",
+          "bloodlines": "0/1",
+          "husbandry": "0/1",
+          "ballistics": "0/1",
+          "thumb_ring": "0/1",
+          "siege_engineers": "0/1",
+          "line_infantry_spear": "2/3",
+          "line_cav_archer": "0/2"
+        },
+        "counter_score": 0.097,
+        "composition": {
+          "infantry_spear": 72,
+          "cav_archer": 58,
+          "siege_trebuchet": 13
+        }
+      },
+      "wabbit": {
+        "won": false,
+        "reached_age": "imperial",
+        "military_trained": 215,
+        "army_food": 14380,
+        "army_wood": 0,
+        "army_gold": 11375,
+        "army_resources": 25755,
+        "gold_share": 0.442,
+        "trash_share": 0,
+        "army_value_ratio": 0.514,
+        "upgrade_coverage": 0.8,
+        "upgrade_detail": {
+          "bs_cav_attack": "3/3",
+          "bs_cav_armor": "3/3",
+          "bloodlines": "1/1",
+          "husbandry": "1/1",
+          "line_knight": "0/2"
+        },
+        "counter_score": 0.122,
+        "composition": {
+          "cav_steppe": 160,
+          "cav_knight": 53,
+          "monk": 2
+        }
+      },
+      "l.inc": {
+        "won": false,
+        "reached_age": "imperial",
+        "military_trained": 188,
+        "army_food": 5250,
+        "army_wood": 10670,
+        "army_gold": 6910,
+        "army_resources": 22830,
+        "gold_share": 0.303,
+        "trash_share": 0.39,
+        "army_value_ratio": 0.484,
+        "upgrade_coverage": 0.6,
+        "upgrade_detail": {
+          "bs_infantry_attack": "3/3",
+          "bs_infantry_armor": "0/3",
+          "bs_archer_attack": "2/3",
+          "bs_archer_armor": "2/3",
+          "siege_engineers": "0/1",
+          "line_infantry_melee": "3/5",
+          "line_infantry_spear": "3/3",
+          "line_skirmisher": "1/2",
+          "line_mangonel": "1/2"
+        },
+        "counter_score": 0.173,
+        "composition": {
+          "infantry_spear": 70,
+          "siege_mangonel": 46,
+          "skirmisher": 40,
+          "infantry_melee": 30,
+          "monk": 1,
+          "siege_ram": 1
+        }
+      },
+      "zubair": {
+        "won": false,
+        "reached_age": "imperial",
+        "military_trained": 116,
+        "army_food": 6435,
+        "army_wood": 400,
+        "army_gold": 4900,
+        "army_resources": 11735,
+        "gold_share": 0.418,
+        "trash_share": 0,
+        "army_value_ratio": 0.325,
+        "upgrade_coverage": 0.846,
+        "upgrade_detail": {
+          "bs_infantry_armor": "3/3",
+          "bs_cav_attack": "2/3",
+          "bs_cav_armor": "3/3",
+          "bloodlines": "1/1",
+          "husbandry": "1/1",
+          "line_knight": "1/2"
+        },
+        "counter_score": -0.14,
+        "composition": {
+          "infantry_ranged": 81,
+          "cav_knight": 33,
+          "siege_trebuchet": 2
+        }
+      }
+    }
+  },
+  "504335483": {
+    "map": "Arena",
+    "duration_min": 48.0,
+    "players": {
+      "wabbit": {
+        "won": false,
+        "reached_age": "imperial",
+        "military_trained": 63,
+        "army_food": 1120,
+        "army_wood": 2840,
+        "army_gold": 3650,
+        "army_resources": 7610,
+        "gold_share": 0.48,
+        "trash_share": 0.209,
+        "army_value_ratio": 0.312,
+        "upgrade_coverage": 0.5,
+        "upgrade_detail": {
+          "bs_cav_attack": "1/3",
+          "bs_cav_armor": "2/3",
+          "bs_archer_attack": "2/3",
+          "bs_archer_armor": "2/3",
+          "bloodlines": "1/1",
+          "husbandry": "1/1",
+          "ballistics": "0/1",
+          "thumb_ring": "0/1",
+          "line_scout": "1/2",
+          "line_cav_archer": "0/2"
+        },
+        "counter_score": 0.018,
+        "composition": {
+          "cav_archer": 43,
+          "cav_scout": 14,
+          "siege_trebuchet": 4,
+          "siege_mangonel": 2
+        }
+      },
+      "zubair": {
+        "won": false,
+        "reached_age": "imperial",
+        "military_trained": 135,
+        "army_food": 7860,
+        "army_wood": 2025,
+        "army_gold": 5265,
+        "army_resources": 15150,
+        "gold_share": 0.348,
+        "trash_share": 0.392,
+        "army_value_ratio": 0.474,
+        "upgrade_coverage": 0.632,
+        "upgrade_detail": {
+          "bs_infantry_attack": "2/3",
+          "bs_infantry_armor": "2/3",
+          "bs_cav_attack": "2/3",
+          "bs_cav_armor": "3/3",
+          "bloodlines": "1/1",
+          "husbandry": "1/1",
+          "ballistics": "0/1",
+          "chemistry": "1/1",
+          "siege_engineers": "0/1",
+          "line_scout": "0/2"
+        },
+        "counter_score": -0.099,
+        "composition": {
+          "gunpowder_hc": 60,
+          "cav_scout": 60,
+          "siege_bombard": 9,
+          "infantry_unique_gold": 6
+        }
+      },
+      "Strength & Honour": {
+        "won": true,
+        "reached_age": "imperial",
+        "military_trained": 283,
+        "army_food": 15300,
+        "army_wood": 2725,
+        "army_gold": 6525,
+        "army_resources": 24550,
+        "gold_share": 0.266,
+        "trash_share": 0,
+        "army_value_ratio": 0.683,
+        "upgrade_coverage": 0.75,
+        "upgrade_detail": {
+          "bs_infantry_attack": "3/3",
+          "bs_infantry_armor": "2/3",
+          "ballistics": "1/1",
+          "siege_engineers": "1/1",
+          "line_infantry_melee": "2/5",
+          "line_ram": "2/2",
+          "line_scorpion": "1/1"
+        },
+        "counter_score": -0.652,
+        "composition": {
+          "infantry_melee": 255,
+          "siege_scorpion": 15,
+          "siege_ram": 10,
+          "monk": 3
+        }
+      },
+      "neXus": {
+        "won": true,
+        "reached_age": "imperial",
+        "military_trained": 121,
+        "army_food": 6815,
+        "army_wood": 825,
+        "army_gold": 9535,
+        "army_resources": 17175,
+        "gold_share": 0.555,
+        "trash_share": 0.008,
+        "army_value_ratio": 0.601,
+        "upgrade_coverage": 1.0,
+        "upgrade_detail": {
+          "bs_cav_attack": "3/3",
+          "bs_cav_armor": "3/3",
+          "bloodlines": "1/1",
+          "husbandry": "1/1",
+          "chemistry": "1/1",
+          "line_knight": "2/2"
+        },
+        "counter_score": 0.533,
+        "composition": {
+          "cav_knight": 105,
+          "gunpowder_cav": 8,
+          "siege_trebuchet": 4,
+          "monk": 3,
+          "infantry_spear": 1
+        }
+      },
+      "l.inc": {
+        "won": true,
+        "reached_age": "imperial",
+        "military_trained": 102,
+        "army_food": 2580,
+        "army_wood": 4595,
+        "army_gold": 1460,
+        "army_resources": 8635,
+        "gold_share": 0.169,
+        "trash_share": 0.433,
+        "army_value_ratio": 0.431,
+        "upgrade_coverage": 0.5,
+        "upgrade_detail": {
+          "bs_infantry_attack": "2/3",
+          "bs_infantry_armor": "3/3",
+          "bs_cav_attack": "2/3",
+          "bs_cav_armor": "0/3",
+          "bs_archer_attack": "2/3",
+          "bs_archer_armor": "3/3",
+          "bloodlines": "1/1",
+          "husbandry": "1/1",
+          "ballistics": "1/1",
+          "thumb_ring": "0/1",
+          "siege_engineers": "0/1",
+          "line_infantry_spear": "0/3",
+          "line_archer": "0/2",
+          "line_skirmisher": "1/2",
+          "line_scout": "0/2",
+          "line_ram": "1/2"
+        },
+        "counter_score": -0.157,
+        "composition": {
+          "skirmisher": 36,
+          "archer_foot": 22,
+          "siege_ram": 14,
+          "cav_scout": 13,
+          "infantry_spear": 9,
+          "petard": 5,
+          "siege_mangonel": 2,
+          "monk": 1
+        }
+      }
+    }
+  },
+  "504341518": {
+    "map": "Arena",
+    "duration_min": 43.4,
+    "players": {
+      "wabbit": {
+        "won": false,
+        "reached_age": "imperial",
+        "military_trained": 130,
+        "army_food": 6405,
+        "army_wood": 1225,
+        "army_gold": 7870,
+        "army_resources": 15500,
+        "gold_share": 0.508,
+        "trash_share": 0.154,
+        "army_value_ratio": 0.517,
+        "upgrade_coverage": 0.409,
+        "upgrade_detail": {
+          "bs_cav_attack": "2/3",
+          "bs_cav_armor": "2/3",
+          "bs_archer_attack": "0/3",
+          "bs_archer_armor": "0/3",
+          "bloodlines": "1/1",
+          "husbandry": "1/1",
+          "ballistics": "1/1",
+          "thumb_ring": "0/1",
+          "line_archer": "0/2",
+          "line_scout": "1/2",
+          "line_knight": "1/2"
+        },
+        "counter_score": 0.034,
+        "composition": {
+          "cav_knight": 79,
+          "archer_foot": 25,
+          "cav_scout": 20,
+          "siege_trebuchet": 3,
+          "monk": 2,
+          "petard": 1
+        }
+      },
+      "l.inc": {
+        "won": false,
+        "reached_age": "imperial",
+        "military_trained": 61,
+        "army_food": 1235,
+        "army_wood": 0,
+        "army_gold": 3260,
+        "army_resources": 4495,
+        "gold_share": 0.725,
+        "trash_share": 0,
+        "army_value_ratio": 0.237,
+        "upgrade_coverage": 0.75,
+        "upgrade_detail": {
+          "bs_infantry_attack": "2/3",
+          "bs_infantry_armor": "2/3",
+          "line_eagle": "2/2"
+        },
+        "counter_score": 0.123,
+        "composition": {
+          "infantry_eagle": 52,
+          "monk": 6,
+          "petard": 3
+        }
+      },
+      "Strength & Honour": {
+        "won": true,
+        "reached_age": "imperial",
+        "military_trained": 110,
+        "army_food": 4000,
+        "army_wood": 3350,
+        "army_gold": 4800,
+        "army_resources": 12150,
+        "gold_share": 0.395,
+        "trash_share": 0.455,
+        "army_value_ratio": 0.549,
+        "upgrade_coverage": 0.842,
+        "upgrade_detail": {
+          "bs_cav_attack": "2/3",
+          "bs_cav_armor": "3/3",
+          "bs_archer_attack": "3/3",
+          "bs_archer_armor": "3/3",
+          "bloodlines": "1/1",
+          "husbandry": "1/1",
+          "siege_engineers": "1/1",
+          "line_skirmisher": "2/2",
+          "line_camel": "0/2"
+        },
+        "counter_score": -0.227,
+        "composition": {
+          "cav_camel": 50,
+          "skirmisher": 50,
+          "siege_trebuchet": 8,
+          "monk": 2
+        }
+      },
+      "zubair": {
+        "won": true,
+        "reached_age": "imperial",
+        "military_trained": 78,
+        "army_food": 9530,
+        "army_wood": 1600,
+        "army_gold": 5645,
+        "army_resources": 16775,
+        "gold_share": 0.337,
+        "trash_share": 0,
+        "army_value_ratio": 0.627,
+        "upgrade_coverage": 0.737,
+        "upgrade_detail": {
+          "bs_cav_attack": "1/3",
+          "bs_cav_armor": "3/3",
+          "bs_archer_attack": "3/3",
+          "bs_archer_armor": "3/3",
+          "husbandry": "1/1",
+          "ballistics": "1/1",
+          "thumb_ring": "1/1",
+          "siege_engineers": "0/1",
+          "line_archer": "0/2",
+          "line_elephant": "1/1"
+        },
+        "counter_score": -0.078,
+        "composition": {
+          "elephant": 47,
+          "archer_foot": 24,
+          "siege_trebuchet": 5,
+          "petard": 2
         }
       }
     }

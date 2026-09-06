@@ -1,7 +1,9 @@
 import json
 import os
 
-DB_PATH = r"E:\Work\Claude\data\match_performance.json"
+_DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+
+DB_PATH = os.path.join(_DATA_DIR, "match_performance.json")
 
 
 def load_db():
@@ -77,5 +79,5 @@ def merge_raw_export(raw_path):
 
 if __name__ == "__main__":
     import sys
-    path = sys.argv[1] if len(sys.argv) > 1 else r"E:\Work\Claude\data\match_performance_partial.json"
+    path = sys.argv[1] if len(sys.argv) > 1 else os.path.join(_DATA_DIR, "match_performance_partial.json")
     merge_raw_export(path)

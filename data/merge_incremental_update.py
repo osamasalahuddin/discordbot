@@ -2,8 +2,10 @@ import json
 import os
 import sys
 
-INCREMENTAL_RAW_PATH = r"E:\Work\Claude\data\unranked_raw\incremental_new_matches.json"
-PERFORMANCE_DB_PATH = r"E:\Work\Claude\data\match_performance.json"
+_DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+
+INCREMENTAL_RAW_PATH = os.path.join(_DATA_DIR, "unranked_raw", "incremental_new_matches.json")
+PERFORMANCE_DB_PATH = os.path.join(_DATA_DIR, "match_performance.json")
 
 
 def load_json(path, default):
@@ -76,5 +78,5 @@ def merge(export_path):
 
 
 if __name__ == "__main__":
-    path = sys.argv[1] if len(sys.argv) > 1 else r"E:\Work\Claude\data\incremental_update_export.json"
+    path = sys.argv[1] if len(sys.argv) > 1 else os.path.join(_DATA_DIR, "incremental_update_export.json")
     merge(path)

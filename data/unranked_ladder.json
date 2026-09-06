@@ -32,7 +32,7 @@
     "notes": "Elo computed only across unranked (ladder=0) matches where 2+ of the tracked players appear on opposing teams. Each player's expected score is computed against the average current Elo of tracked opponents on the other side(s) (untracked/random players in the match are ignored for rating purposes). This filtering (short-game and pre-start-date exclusion) only affects which matches feed the Elo calculation here \u2014 the underlying scraped datasets in unranked_raw/ are never modified. Any match under 15 minutes is excluded from the Elo calculation regardless of whether an AI was present, since it's too short to be a conclusive result. For longer matches with an AI player, the site's recorded win/loss is NOT trusted: because an AI can never resign, a game where the AI's human team-mates all quit first is still recorded as a win for the AI's team. Where schema-2 resign data exists the result is recomputed - the team whose human players have ALL resigned, earliest, is the loser. 'All' rather than 'any', because in a team game one player often quits while their team-mates fight on and legitimately win. AI matches without resign data keep the recorded result (they can't be checked). See scrape_meta.ai_results_corrected."
   },
   "scrape_meta": {
-    "generated_at": "2026-09-06T10:06:12.511987+00:00",
+    "generated_at": "2026-09-06T10:12:25.886458+00:00",
     "total_unique_unranked_matches_scanned": 1407,
     "qualifying_matches_used": 1140,
     "excluded_no_opposition": 179,

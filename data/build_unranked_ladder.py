@@ -5,6 +5,8 @@ import re
 from collections import Counter
 from datetime import datetime, timezone
 
+_DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+
 _parser = argparse.ArgumentParser(description="Build the unranked Elo ladder.")
 _parser.add_argument(
     "--army-efficiency", action="store_true",
@@ -28,12 +30,12 @@ _args, _ = _parser.parse_known_args()
 USE_ARMY_EFFICIENCY = _args.army_efficiency
 ONLY_SCHEMA = 2 if _args.schema2_only else _args.only_schema
 
-RAW_DIR = r"E:\Work\Claude\data\unranked_raw"
-PERFORMANCE_DB_PATH = r"E:\Work\Claude\data\match_performance.json"
-UNIT_DATA_PATH = r"E:\Work\Claude\data\aoe2_unit_data.json"
+RAW_DIR = os.path.join(_DATA_DIR, "unranked_raw")
+PERFORMANCE_DB_PATH = os.path.join(_DATA_DIR, "match_performance.json")
+UNIT_DATA_PATH = os.path.join(_DATA_DIR, "aoe2_unit_data.json")
 OUT_PATH = _args.out or (
-    r"E:\Work\Claude\data\unranked_ladder.army_efficiency.json" if USE_ARMY_EFFICIENCY
-    else r"E:\Work\Claude\data\unranked_ladder.json"
+    os.path.join(_DATA_DIR, "unranked_ladder.army_efficiency.json") if USE_ARMY_EFFICIENCY
+    else os.path.join(_DATA_DIR, "unranked_ladder.json")
 )
 
 RAW_FILES = [
@@ -413,7 +415,7 @@ def compute_performance_ratio(match_id, own_path, opp_paths):
 # ---- Load and dedupe matches across all 9 players' unranked scrapes ----
 all_matches = {}
 for fname in RAW_FILES:
-    path = rf"{RAW_DIR}\{fname}"
+    path = os.path.join(RAW_DIR, fname)
     if not os.path.exists(path):
         continue  # e.g. incremental_new_matches.json before the first incremental run
     with open(path, encoding="utf-8") as f:

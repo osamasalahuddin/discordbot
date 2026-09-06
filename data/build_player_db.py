@@ -3,6 +3,9 @@ import re
 import sys
 from datetime import datetime, timezone
 from collections import defaultdict
+import os
+
+_DATA_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def parse_duration(s):
     if not s:
@@ -183,6 +186,6 @@ if __name__ == "__main__":
     ]
     for out_name, raw_name in players:
         build(
-            raw_path=rf"E:\Work\Claude\data\raw\{raw_name}",
-            out_path=rf"E:\Work\Claude\data\players\{out_name}.json",
+            raw_path=os.path.join(_DATA_DIR, "raw", raw_name),
+            out_path=os.path.join(_DATA_DIR, "players", f"{out_name}.json"),
         )

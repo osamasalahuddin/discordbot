@@ -2,9 +2,12 @@ import json
 import re
 from datetime import datetime, timezone
 from collections import defaultdict
+import os
+
+_DATA_DIR = os.path.dirname(os.path.abspath(__file__))
 
 RAW_PATH = r"C:\Users\osama\AppData\Local\Temp\claude\E--Work-Claude\b32b4be8-8f6d-408d-a9eb-10e7960bcc06\scratchpad\wabbit_matches_raw.json"
-OUT_PATH = r"E:\Work\Claude\data\players\wabbit.json"
+OUT_PATH = os.path.join(_DATA_DIR, "players", "wabbit.json")
 
 WABBIT_PATH = "/user/12047120/"
 

@@ -19,12 +19,15 @@ import sys
 import time
 
 from playwright.sync_api import sync_playwright
+import os
+
+_DATA_DIR = os.path.dirname(os.path.abspath(__file__))
 
 CDP_URL = "http://localhost:9222"
-INCREMENTAL_JS_PATH = r"E:\Work\Claude\data\incremental_update.js"
-STALE_IDS_PATH = r"E:\Work\Claude\data\perf_chunks\stale_perf_ids.json"
-EXPORT_PATH = r"E:\Work\Claude\data\reharvest_export.json"
-MERGE_SCRIPT = r"E:\Work\Claude\data\merge_incremental_update.py"
+INCREMENTAL_JS_PATH = os.path.join(_DATA_DIR, "incremental_update.js")
+STALE_IDS_PATH = os.path.join(_DATA_DIR, "perf_chunks", "stale_perf_ids.json")
+EXPORT_PATH = os.path.join(_DATA_DIR, "reharvest_export.json")
+MERGE_SCRIPT = os.path.join(_DATA_DIR, "merge_incremental_update.py")
 
 BATCH_SIZE = 15
 PAUSE_BETWEEN_BATCHES_S = 6
@@ -95,7 +98,7 @@ def main():
     print("Merging into match_performance.json ...")
     subprocess.run([sys.executable, MERGE_SCRIPT, EXPORT_PATH], check=True)
 
-    subprocess.run([sys.executable, r"E:\Work\Claude\data\get_stale_perf_ids.py"], check=True)
+    subprocess.run([sys.executable, os.path.join(_DATA_DIR, "get_stale_perf_ids.py")], check=True)
     if rate_limited:
         print("\nStopped early due to throttling - run this script again in a while.")
 

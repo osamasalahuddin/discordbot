@@ -29,12 +29,15 @@ import subprocess
 import sys
 
 from playwright.sync_api import sync_playwright
+import os
+
+_DATA_DIR = os.path.dirname(os.path.abspath(__file__))
 
 CDP_URL = "http://localhost:9222"
-INCREMENTAL_JS_PATH = r"E:\Work\Claude\data\incremental_update.js"
-KNOWN_IDS_PATH = r"E:\Work\Claude\data\perf_chunks\known_ids.json"
-EXPORT_PATH = r"E:\Work\Claude\data\incremental_update_export.json"
-REFRESH_SCRIPT_PATH = r"E:\Work\Claude\data\run_full_refresh.py"
+INCREMENTAL_JS_PATH = os.path.join(_DATA_DIR, "incremental_update.js")
+KNOWN_IDS_PATH = os.path.join(_DATA_DIR, "perf_chunks", "known_ids.json")
+EXPORT_PATH = os.path.join(_DATA_DIR, "incremental_update_export.json")
+REFRESH_SCRIPT_PATH = os.path.join(_DATA_DIR, "run_full_refresh.py")
 
 
 def die(msg):
