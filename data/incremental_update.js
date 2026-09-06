@@ -1,16 +1,17 @@
 // Self-contained incremental update pipeline for aoe2insights.com tracked players.
 // Paste into the browser JS console (or javascript_tool) on any aoe2insights.com page.
 //
-// Usage:
+// Normally you don't run this by hand - fetch_incremental_update.py injects it into the
+// debug Chrome and drives all of it. To do it manually:
 //   1. Get the current known match IDs: run `python get_known_match_ids.py`, it writes
-//      E:\Work\Claude\data\perf_chunks\known_ids.json
+//      data/perf_chunks/known_ids.json
 //   2. Paste this whole file into javascript_tool to define everything.
 //   3. Run: await window.__runIncrementalUpdate(<contents of known_ids.json>)
-//      This does all 4 phases: update stale profiles, discover new matches, filter to
-//      qualifying ones (2+ tracked players on opposing teams), analyze + fetch performance
-//      data for each qualifying new match.
+//      This does all 4 phases: update stale profiles, discover new matches, filter to the
+//      matches the ladder will use (2+ tracked players on opposing teams, long enough),
+//      analyze + fetch performance data for each of them.
 //   4. Export with window.__exportIncremental() (triggers a download), move the file into
-//      E:\Work\Claude\data\, then run merge_incremental_update.py pointed at it.
+//      data/, then run merge_incremental_update.py pointed at it.
 //
 // Same throttling caveats as harvest_performance.js apply: if timeouts pile up, stop and
 // resume later rather than pushing through.
@@ -69,13 +70,17 @@ window.__parseListDoc = function (doc) {
         const civImg = p.querySelector("img:not(.player-avatar)");
         const txt = p.textContent.replace(/\s+/g, " ").trim();
         const m = txt.match(/^(.*?)\s([\d,]+)\s([+\-]\d+)$/);
+        const name = m ? m[1].trim() : txt;
         return {
           user_path: a ? new URL(a.href).pathname : null,
-          name: m ? m[1].trim() : txt,
+          name: name,
           rating: m ? parseInt(m[2].replace(/,/g, "")) : null,
           rating_change: m ? parseInt(m[3]) : null,
           civ: civImg ? civImg.src.split("/").pop().replace(".png", "") : null,
-          is_ai: !a,
+          // A missing profile link alone doesn't make a row an AI - unresolvable human
+          // players render the same way (they come through as "Unknown") and would
+          // otherwise flip the match's had_ai flag.
+          is_ai: !a && /^AI$/i.test(name),
         };
       });
       return { won, players };
@@ -122,7 +127,20 @@ window.__discoverAllNew = async function (knownIdsArray) {
   return { allNew, perPlayerCounts };
 };
 
-// ---- Phase 3: filter to matches with 2+ tracked players on opposing teams ----
+// ---- Phase 3: filter to the matches the ladder will actually use ----
+// Mirrors ladder_common.SHORT_GAME_THRESHOLD_SECONDS. The ladder discards anything
+// shorter, so spending a throttled /analyze/ call on it is wasted budget.
+window.__SHORT_GAME_THRESHOLD_SECONDS = 15 * 60;
+
+window.__parseDurationSeconds = function (s) {
+  if (!s) return null;
+  const h = /(\d+)h/.exec(s);
+  const m = /(\d+)m/.exec(s);
+  const sec = /(\d+)s/.exec(s);
+  if (!h && !m && !sec) return null;
+  return (h ? +h[1] : 0) * 3600 + (m ? +m[1] : 0) * 60 + (sec ? +sec[1] : 0);
+};
+
 window.__filterQualifying = function (newMatchesObj) {
   const qualifying = {};
   for (const [id, m] of Object.entries(newMatchesObj)) {
@@ -130,9 +148,12 @@ window.__filterQualifying = function (newMatchesObj) {
       (team) => new Set(team.players.filter((p) => window.__TRACKED_PATHS.has(p.user_path)).map((p) => p.user_path))
     );
     const teamsWithTracked = teamTracked.filter((s) => s.size > 0);
-    if (teamsWithTracked.length >= 2) {
-      qualifying[id] = m;
-    }
+    if (teamsWithTracked.length < 2) continue;
+
+    const duration = window.__parseDurationSeconds(m.duration);
+    if (duration === null || duration < window.__SHORT_GAME_THRESHOLD_SECONDS) continue;
+
+    qualifying[id] = m;
   }
   return qualifying;
 };
@@ -245,8 +266,17 @@ window.__processBatch = async function (matchIds) {
 };
 
 // ---- Full orchestration ----
+// How long to wait for a profile refresh the site processes asynchronously.
+window.__PROFILE_SETTLE_MS = 5000;
+
 window.__runIncrementalUpdate = async function (knownIdsArray) {
   const profileResults = await window.__updateProfiles();
+
+  // update-match-history returns before the new matches are actually visible, so
+  // discovering immediately after finds them only on the *next* run.
+  if (Object.values(profileResults).some((r) => r.was_outdated)) {
+    await new Promise((r) => setTimeout(r, window.__PROFILE_SETTLE_MS));
+  }
 
   const { allNew, perPlayerCounts } = await window.__discoverAllNew(knownIdsArray);
   window.__newRawMatches = allNew;
