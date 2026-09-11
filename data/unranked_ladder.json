@@ -4,7 +4,7 @@
     "starting_elo": 1000,
     "short_game_exclusion_threshold_seconds": 900,
     "ladder_start_date": "2024-01-01",
-    "performance_matches_available": 272,
+    "performance_matches_available": 273,
     "performance_ratio_v2": {
       "mode": "basic",
       "result_weight": 0.75,
@@ -32,9 +32,9 @@
     "notes": "Elo computed only across unranked (ladder=0) matches where 2+ of the tracked players appear on opposing teams. Each player's expected score is computed against the average current Elo of tracked opponents on the other side(s) (untracked/random players in the match are ignored for rating purposes). This filtering (short-game and pre-start-date exclusion) only affects which matches feed the Elo calculation here \u2014 the underlying scraped datasets in unranked_raw/ are never modified. Any match under 15 minutes is excluded from the Elo calculation regardless of whether an AI was present, since it's too short to be a conclusive result. For longer matches with an AI player, the site's recorded win/loss is NOT trusted: because an AI can never resign, a game where the AI's human team-mates all quit first is still recorded as a win for the AI's team. Where schema-2 resign data exists the result is recomputed - the team whose human players have ALL resigned, earliest, is the loser. 'All' rather than 'any', because in a team game one player often quits while their team-mates fight on and legitimately win. AI matches without resign data keep the recorded result (they can't be checked). See scrape_meta.ai_results_corrected."
   },
   "scrape_meta": {
-    "generated_at": "2026-09-11T22:30:01.029800+00:00",
-    "total_unique_unranked_matches_scanned": 1408,
-    "qualifying_matches_used": 1113,
+    "generated_at": "2026-09-11T23:13:18.932109+00:00",
+    "total_unique_unranked_matches_scanned": 1409,
+    "qualifying_matches_used": 1115,
     "excluded_no_opposition": 179,
     "excluded_short_game": 83,
     "excluded_short_game_match_ids": [
@@ -140,7 +140,7 @@
       481457780,
       504335483
     ],
-    "results_repaired": 15,
+    "results_repaired": 16,
     "results_repaired_match_ids": [
       299277382,
       361153461,
@@ -156,17 +156,17 @@
       445060285,
       439885021,
       494889475,
-      445072559
+      445072559,
+      505971223
     ],
-    "results_unresolved": 7,
+    "results_unresolved": 6,
     "results_unresolved_match_ids": [
       395971179,
       399561428,
       417388162,
       425035702,
       425044058,
-      445037099,
-      505971223
+      445037099
     ],
     "structurally_unrateable": 21,
     "structurally_unrateable_reasons": {
@@ -197,11 +197,11 @@
     "wabbit": {
       "user_path": "/user/12047120/",
       "starting_elo": 1000,
-      "current_elo": 948.3,
-      "matches_played": 715,
+      "current_elo": 927.7,
+      "matches_played": 717,
       "wins": 300,
-      "losses": 415,
-      "win_rate": 42.0,
+      "losses": 417,
+      "win_rate": 41.8,
       "history": [
         {
           "match_id": 282211887,
@@ -10212,17 +10212,45 @@
           "performance_method": "v2",
           "actual_score": 0.133,
           "balance_adj": null
+        },
+        {
+          "match_id": 505971223,
+          "date": "2026-09-11T22:09:00+00:00",
+          "map": "Ecl_Team_Acropolis Custom",
+          "won": false,
+          "elo_before": 948.3,
+          "elo_after": 939.1,
+          "delta": -9.2,
+          "opponent_avg_elo": 1033.3,
+          "performance_ratio": 0.374,
+          "performance_method": "v2",
+          "actual_score": 0.093,
+          "balance_adj": null
+        },
+        {
+          "match_id": 505978055,
+          "date": "2026-09-11T22:35:00+00:00",
+          "map": "Ecl_Acropolis Custom",
+          "won": false,
+          "elo_before": 939.1,
+          "elo_after": 927.7,
+          "delta": -11.4,
+          "opponent_avg_elo": 1041.7,
+          "performance_ratio": null,
+          "performance_method": null,
+          "actual_score": 0.0,
+          "balance_adj": null
         }
       ]
     },
     "SauronSlayer": {
       "user_path": "/user/12676944/",
       "starting_elo": 1000,
-      "current_elo": 1106.4,
-      "matches_played": 826,
-      "wins": 438,
+      "current_elo": 1120.1,
+      "matches_played": 828,
+      "wins": 440,
       "losses": 388,
-      "win_rate": 53.0,
+      "win_rate": 53.1,
       "history": [
         {
           "match_id": 288249701,
@@ -21787,17 +21815,45 @@
           "performance_method": "v2",
           "actual_score": 0.899,
           "balance_adj": 5.06
+        },
+        {
+          "match_id": 505971223,
+          "date": "2026-09-11T22:09:00+00:00",
+          "map": "Ecl_Team_Acropolis Custom",
+          "won": true,
+          "elo_before": 1106.4,
+          "elo_after": 1111.8,
+          "delta": 5.4,
+          "opponent_avg_elo": 939.2,
+          "performance_ratio": 0.527,
+          "performance_method": "v2",
+          "actual_score": 0.882,
+          "balance_adj": 0.33
+        },
+        {
+          "match_id": 505978055,
+          "date": "2026-09-11T22:35:00+00:00",
+          "map": "Ecl_Acropolis Custom",
+          "won": true,
+          "elo_before": 1111.8,
+          "elo_after": 1120.1,
+          "delta": 8.3,
+          "opponent_avg_elo": 930.8,
+          "performance_ratio": null,
+          "performance_method": null,
+          "actual_score": 1.0,
+          "balance_adj": -0.05
         }
       ]
     },
     "zubair": {
       "user_path": "/user/12667372/",
       "starting_elo": 1000,
-      "current_elo": 906.5,
-      "matches_played": 828,
+      "current_elo": 889.6,
+      "matches_played": 830,
       "wins": 401,
-      "losses": 427,
-      "win_rate": 48.4,
+      "losses": 429,
+      "win_rate": 48.3,
       "history": [
         {
           "match_id": 286635128,
@@ -33390,17 +33446,45 @@
           "performance_method": "v2",
           "actual_score": 0.869,
           "balance_adj": 0.12
+        },
+        {
+          "match_id": 505971223,
+          "date": "2026-09-11T22:09:00+00:00",
+          "map": "Ecl_Team_Acropolis Custom",
+          "won": false,
+          "elo_before": 906.5,
+          "elo_after": 899.4,
+          "delta": -7.2,
+          "opponent_avg_elo": 1033.3,
+          "performance_ratio": 0.407,
+          "performance_method": "v2",
+          "actual_score": 0.102,
+          "balance_adj": null
+        },
+        {
+          "match_id": 505978055,
+          "date": "2026-09-11T22:35:00+00:00",
+          "map": "Ecl_Acropolis Custom",
+          "won": false,
+          "elo_before": 899.4,
+          "elo_after": 889.6,
+          "delta": -9.8,
+          "opponent_avg_elo": 1041.7,
+          "performance_ratio": null,
+          "performance_method": null,
+          "actual_score": 0.0,
+          "balance_adj": null
         }
       ]
     },
     "l.inc": {
       "user_path": "/user/12080589/",
       "starting_elo": 1000,
-      "current_elo": 924.2,
-      "matches_played": 784,
+      "current_elo": 906.6,
+      "matches_played": 786,
       "wins": 373,
-      "losses": 411,
-      "win_rate": 47.6,
+      "losses": 413,
+      "win_rate": 47.5,
       "history": [
         {
           "match_id": 282211887,
@@ -44377,6 +44461,34 @@
           "performance_method": "v2",
           "actual_score": 0.102,
           "balance_adj": null
+        },
+        {
+          "match_id": 505971223,
+          "date": "2026-09-11T22:09:00+00:00",
+          "map": "Ecl_Team_Acropolis Custom",
+          "won": false,
+          "elo_before": 924.2,
+          "elo_after": 917.1,
+          "delta": -7.1,
+          "opponent_avg_elo": 1033.3,
+          "performance_ratio": 0.503,
+          "performance_method": "v2",
+          "actual_score": 0.126,
+          "balance_adj": null
+        },
+        {
+          "match_id": 505978055,
+          "date": "2026-09-11T22:35:00+00:00",
+          "map": "Ecl_Acropolis Custom",
+          "won": false,
+          "elo_before": 917.1,
+          "elo_after": 906.6,
+          "delta": -10.5,
+          "opponent_avg_elo": 1041.7,
+          "performance_ratio": null,
+          "performance_method": null,
+          "actual_score": 0.0,
+          "balance_adj": null
         }
       ]
     },
@@ -53732,11 +53844,11 @@
     "Strength & Honour": {
       "user_path": "/user/4607974/",
       "starting_elo": 1000,
-      "current_elo": 1018.5,
-      "matches_played": 72,
-      "wins": 41,
+      "current_elo": 1040.0,
+      "matches_played": 74,
+      "wins": 43,
       "losses": 31,
-      "win_rate": 56.9,
+      "win_rate": 58.1,
       "history": [
         {
           "match_id": 476343869,
@@ -54745,17 +54857,45 @@
           "performance_method": "v2",
           "actual_score": 0.889,
           "balance_adj": 0.12
+        },
+        {
+          "match_id": 505971223,
+          "date": "2026-09-11T22:09:00+00:00",
+          "map": "Ecl_Team_Acropolis Custom",
+          "won": true,
+          "elo_before": 1018.5,
+          "elo_after": 1028.5,
+          "delta": 10.0,
+          "opponent_avg_elo": 939.2,
+          "performance_ratio": 0.659,
+          "performance_method": "v2",
+          "actual_score": 0.915,
+          "balance_adj": 0.33
+        },
+        {
+          "match_id": 505978055,
+          "date": "2026-09-11T22:35:00+00:00",
+          "map": "Ecl_Acropolis Custom",
+          "won": true,
+          "elo_before": 1028.5,
+          "elo_after": 1040.0,
+          "delta": 11.6,
+          "opponent_avg_elo": 930.8,
+          "performance_ratio": null,
+          "performance_method": null,
+          "actual_score": 1.0,
+          "balance_adj": -0.05
         }
       ]
     },
     "cheetah001": {
       "user_path": "/user/11907023/",
       "starting_elo": 1000,
-      "current_elo": 977.5,
-      "matches_played": 561,
+      "current_elo": 954.8,
+      "matches_played": 563,
       "wins": 255,
-      "losses": 306,
-      "win_rate": 45.5,
+      "losses": 308,
+      "win_rate": 45.3,
       "history": [
         {
           "match_id": 282211887,
@@ -62610,17 +62750,45 @@
           "performance_method": "v2",
           "actual_score": 0.896,
           "balance_adj": 0.45
+        },
+        {
+          "match_id": 505971223,
+          "date": "2026-09-11T22:09:00+00:00",
+          "map": "Ecl_Team_Acropolis Custom",
+          "won": false,
+          "elo_before": 977.5,
+          "elo_after": 967.5,
+          "delta": -10.1,
+          "opponent_avg_elo": 1033.3,
+          "performance_ratio": 0.422,
+          "performance_method": "v2",
+          "actual_score": 0.105,
+          "balance_adj": null
+        },
+        {
+          "match_id": 505978055,
+          "date": "2026-09-11T22:35:00+00:00",
+          "map": "Ecl_Acropolis Custom",
+          "won": false,
+          "elo_before": 967.5,
+          "elo_after": 954.8,
+          "delta": -12.6,
+          "opponent_avg_elo": 1041.7,
+          "performance_ratio": null,
+          "performance_method": null,
+          "actual_score": 0.0,
+          "balance_adj": null
         }
       ]
     },
     "NaKiyaKar": {
       "user_path": "/user/12693189/",
       "starting_elo": 1000,
-      "current_elo": 990.1,
-      "matches_played": 457,
-      "wins": 239,
+      "current_elo": 1013.4,
+      "matches_played": 459,
+      "wins": 241,
       "losses": 218,
-      "win_rate": 52.3,
+      "win_rate": 52.5,
       "history": [
         {
           "match_id": 291086103,
@@ -69019,17 +69187,45 @@
           "performance_method": "v2",
           "actual_score": 0.895,
           "balance_adj": 0.09
+        },
+        {
+          "match_id": 505971223,
+          "date": "2026-09-11T22:09:00+00:00",
+          "map": "Ecl_Team_Acropolis Custom",
+          "won": true,
+          "elo_before": 990.1,
+          "elo_after": 1000.6,
+          "delta": 10.5,
+          "opponent_avg_elo": 939.2,
+          "performance_ratio": 0.565,
+          "performance_method": "v2",
+          "actual_score": 0.891,
+          "balance_adj": 0.33
+        },
+        {
+          "match_id": 505978055,
+          "date": "2026-09-11T22:35:00+00:00",
+          "map": "Ecl_Acropolis Custom",
+          "won": true,
+          "elo_before": 1000.6,
+          "elo_after": 1013.4,
+          "delta": 12.8,
+          "opponent_avg_elo": 930.8,
+          "performance_ratio": null,
+          "performance_method": null,
+          "actual_score": 1.0,
+          "balance_adj": -0.05
         }
       ]
     },
     "neXus": {
       "user_path": "/user/12805097/",
       "starting_elo": 1000,
-      "current_elo": 1018.3,
-      "matches_played": 163,
-      "wins": 97,
+      "current_elo": 1037.6,
+      "matches_played": 165,
+      "wins": 99,
       "losses": 66,
-      "win_rate": 59.5,
+      "win_rate": 60.0,
       "history": [
         {
           "match_id": 386442616,
@@ -71312,6 +71508,34 @@
           "performance_method": "v2",
           "actual_score": 0.876,
           "balance_adj": -3.31
+        },
+        {
+          "match_id": 505971223,
+          "date": "2026-09-11T22:09:00+00:00",
+          "map": "Ecl_Team_Acropolis Custom",
+          "won": true,
+          "elo_before": 1018.3,
+          "elo_after": 1025.9,
+          "delta": 7.6,
+          "opponent_avg_elo": 939.2,
+          "performance_ratio": 0.358,
+          "performance_method": "v2",
+          "actual_score": 0.839,
+          "balance_adj": 0.33
+        },
+        {
+          "match_id": 505978055,
+          "date": "2026-09-11T22:35:00+00:00",
+          "map": "Ecl_Acropolis Custom",
+          "won": true,
+          "elo_before": 1025.9,
+          "elo_after": 1037.6,
+          "delta": 11.7,
+          "opponent_avg_elo": 930.8,
+          "performance_ratio": null,
+          "performance_method": null,
+          "actual_score": 1.0,
+          "balance_adj": -0.05
         }
       ]
     }
@@ -130131,6 +130355,156 @@
               "name": "l.inc",
               "user_path": "/user/12080589/",
               "civ": "aztecs",
+              "is_ai": false,
+              "tracked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "match_id": 505971223,
+      "date": "2026-09-11T22:09:00+00:00",
+      "map": "Ecl_Team_Acropolis Custom",
+      "duration_seconds": 1982,
+      "had_ai": false,
+      "teams": [
+        {
+          "won": true,
+          "players": [
+            {
+              "name": "SauronSlayer",
+              "user_path": "/user/12676944/",
+              "civ": "khitans",
+              "is_ai": false,
+              "tracked": true
+            },
+            {
+              "name": "Strength & Honour",
+              "user_path": "/user/4607974/",
+              "civ": "celts",
+              "is_ai": false,
+              "tracked": true
+            },
+            {
+              "name": "NaKiyaKar",
+              "user_path": "/user/12693189/",
+              "civ": "huns",
+              "is_ai": false,
+              "tracked": true
+            },
+            {
+              "name": "neXus",
+              "user_path": "/user/12805097/",
+              "civ": "sicilians",
+              "is_ai": false,
+              "tracked": true
+            }
+          ]
+        },
+        {
+          "won": false,
+          "players": [
+            {
+              "name": "cheetah001",
+              "user_path": "/user/11907023/",
+              "civ": "georgians",
+              "is_ai": false,
+              "tracked": true
+            },
+            {
+              "name": "zubair",
+              "user_path": "/user/12667372/",
+              "civ": "teutons",
+              "is_ai": false,
+              "tracked": true
+            },
+            {
+              "name": "l.inc",
+              "user_path": "/user/12080589/",
+              "civ": "dravidians",
+              "is_ai": false,
+              "tracked": true
+            },
+            {
+              "name": "wabbit",
+              "user_path": "/user/12047120/",
+              "civ": "poles",
+              "is_ai": false,
+              "tracked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "match_id": 505978055,
+      "date": "2026-09-11T22:35:00+00:00",
+      "map": "Ecl_Acropolis Custom",
+      "duration_seconds": 3396,
+      "had_ai": false,
+      "teams": [
+        {
+          "won": true,
+          "players": [
+            {
+              "name": "SauronSlayer",
+              "user_path": "/user/12676944/",
+              "civ": "armenians",
+              "is_ai": false,
+              "tracked": true
+            },
+            {
+              "name": "Strength & Honour",
+              "user_path": "/user/4607974/",
+              "civ": "chinese",
+              "is_ai": false,
+              "tracked": true
+            },
+            {
+              "name": "NaKiyaKar",
+              "user_path": "/user/12693189/",
+              "civ": "persians",
+              "is_ai": false,
+              "tracked": true
+            },
+            {
+              "name": "neXus",
+              "user_path": "/user/12805097/",
+              "civ": "bulgarians",
+              "is_ai": false,
+              "tracked": true
+            }
+          ]
+        },
+        {
+          "won": false,
+          "players": [
+            {
+              "name": "cheetah001",
+              "user_path": "/user/11907023/",
+              "civ": "malay",
+              "is_ai": false,
+              "tracked": true
+            },
+            {
+              "name": "zubair",
+              "user_path": "/user/12667372/",
+              "civ": "berbers",
+              "is_ai": false,
+              "tracked": true
+            },
+            {
+              "name": "l.inc",
+              "user_path": "/user/12080589/",
+              "civ": "vikings",
+              "is_ai": false,
+              "tracked": true
+            },
+            {
+              "name": "wabbit",
+              "user_path": "/user/12047120/",
+              "civ": "mayans",
               "is_ai": false,
               "tracked": true
             }

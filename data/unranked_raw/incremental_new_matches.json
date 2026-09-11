@@ -865,6 +865,89 @@
         }
       ],
       "ladder": "unranked"
+    },
+    {
+      "match_id": 505978055,
+      "map": "Ecl_Acropolis Custom",
+      "duration": "56m 36s",
+      "exact_time": "Sept. 11, 2026, 10:35 p.m.",
+      "teams": [
+        {
+          "won": true,
+          "players": [
+            {
+              "user_path": "/user/12676944/",
+              "name": "SauronSlayer",
+              "rating": 1331,
+              "rating_change": 9,
+              "civ": "armenians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/4607974/",
+              "name": "Strength & Honour",
+              "rating": 1254,
+              "rating_change": 12,
+              "civ": "chinese",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12693189/",
+              "name": "NaKiyaKar",
+              "rating": 1261,
+              "rating_change": 12,
+              "civ": "persians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12805097/",
+              "name": "neXus",
+              "rating": 1215,
+              "rating_change": 13,
+              "civ": "bulgarians",
+              "is_ai": false
+            }
+          ]
+        },
+        {
+          "won": false,
+          "players": [
+            {
+              "user_path": "/user/11907023/",
+              "name": "cheetah001",
+              "rating": 1160,
+              "rating_change": -11,
+              "civ": "malay",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12667372/",
+              "name": "zubair",
+              "rating": 1196,
+              "rating_change": -14,
+              "civ": "berbers",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12080589/",
+              "name": "l.inc",
+              "rating": 1130,
+              "rating_change": -10,
+              "civ": "vikings",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12047120/",
+              "name": "wabbit",
+              "rating": 1162,
+              "rating_change": -11,
+              "civ": "mayans",
+              "is_ai": false
+            }
+          ]
+        }
+      ],
+      "ladder": "unranked"
     }
   ]
 }
