@@ -782,6 +782,89 @@
         }
       ],
       "ladder": "unranked"
+    },
+    {
+      "match_id": 505971223,
+      "map": "Ecl_Team_Acropolis Custom",
+      "duration": "33m 02s",
+      "exact_time": "Sept. 11, 2026, 10:09 p.m.",
+      "teams": [
+        {
+          "won": false,
+          "players": [
+            {
+              "user_path": "/user/12676944/",
+              "name": "SauronSlayer",
+              "rating": null,
+              "rating_change": null,
+              "civ": "khitans",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/4607974/",
+              "name": "Strength & Honour",
+              "rating": null,
+              "rating_change": null,
+              "civ": "celts",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12693189/",
+              "name": "NaKiyaKar",
+              "rating": null,
+              "rating_change": null,
+              "civ": "huns",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12805097/",
+              "name": "neXus",
+              "rating": null,
+              "rating_change": null,
+              "civ": "sicilians",
+              "is_ai": false
+            }
+          ]
+        },
+        {
+          "won": false,
+          "players": [
+            {
+              "user_path": "/user/11907023/",
+              "name": "cheetah001",
+              "rating": null,
+              "rating_change": null,
+              "civ": "georgians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12667372/",
+              "name": "zubair",
+              "rating": null,
+              "rating_change": null,
+              "civ": "teutons",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12080589/",
+              "name": "l.inc",
+              "rating": null,
+              "rating_change": null,
+              "civ": "dravidians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12047120/",
+              "name": "wabbit",
+              "rating": null,
+              "rating_change": null,
+              "civ": "poles",
+              "is_ai": false
+            }
+          ]
+        }
+      ],
+      "ladder": "unranked"
     }
   ]
 }
