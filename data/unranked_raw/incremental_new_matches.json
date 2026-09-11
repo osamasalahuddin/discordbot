@@ -948,6 +948,89 @@
         }
       ],
       "ladder": "unranked"
+    },
+    {
+      "match_id": 505984951,
+      "map": "Rage Arena V4 Custom",
+      "duration": "53m 19s",
+      "exact_time": "Sept. 11, 2026, 11:16 p.m.",
+      "teams": [
+        {
+          "won": true,
+          "players": [
+            {
+              "user_path": "/user/12676944/",
+              "name": "SauronSlayer",
+              "rating": 1340,
+              "rating_change": 8,
+              "civ": "burmese",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/4607974/",
+              "name": "Strength & Honour",
+              "rating": 1266,
+              "rating_change": 11,
+              "civ": "byzantines",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12693189/",
+              "name": "NaKiyaKar",
+              "rating": 1273,
+              "rating_change": 11,
+              "civ": "goths",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12805097/",
+              "name": "neXus",
+              "rating": 1228,
+              "rating_change": 12,
+              "civ": "cumans",
+              "is_ai": false
+            }
+          ]
+        },
+        {
+          "won": false,
+          "players": [
+            {
+              "user_path": "/user/11907023/",
+              "name": "cheetah001",
+              "rating": 1149,
+              "rating_change": -10,
+              "civ": "turks",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12667372/",
+              "name": "zubair",
+              "rating": 1182,
+              "rating_change": -13,
+              "civ": "portuguese",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12080589/",
+              "name": "l.inc",
+              "rating": 1120,
+              "rating_change": -9,
+              "civ": "lithuanians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12047120/",
+              "name": "wabbit",
+              "rating": 1151,
+              "rating_change": -10,
+              "civ": "dravidians",
+              "is_ai": false
+            }
+          ]
+        }
+      ],
+      "ladder": "unranked"
     }
   ]
 }
