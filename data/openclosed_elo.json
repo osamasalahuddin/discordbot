@@ -1,42 +1,42 @@
 {
   "results": {
     "closed": {
-      "total_matches": 623,
+      "total_matches": 630,
       "players": {
         "wabbit": {
           "current_elo": 911.4,
-          "matches_played": 358,
-          "wins": 149,
-          "losses": 209,
-          "win_rate": 41.6
+          "matches_played": 365,
+          "wins": 151,
+          "losses": 214,
+          "win_rate": 41.4
         },
         "SauronSlayer": {
           "current_elo": 1124.9,
-          "matches_played": 501,
-          "wins": 263,
-          "losses": 238,
-          "win_rate": 52.5
+          "matches_played": 508,
+          "wins": 267,
+          "losses": 241,
+          "win_rate": 52.6
         },
         "zubair": {
           "current_elo": 874.3,
-          "matches_played": 474,
-          "wins": 216,
-          "losses": 258,
-          "win_rate": 45.6
+          "matches_played": 479,
+          "wins": 220,
+          "losses": 259,
+          "win_rate": 45.9
         },
         "l.inc": {
           "current_elo": 903.5,
-          "matches_played": 473,
-          "wins": 219,
-          "losses": 254,
-          "win_rate": 46.3
+          "matches_played": 478,
+          "wins": 222,
+          "losses": 256,
+          "win_rate": 46.4
         },
         "toXic": {
           "current_elo": 1133.4,
-          "matches_played": 403,
-          "wins": 255,
-          "losses": 148,
-          "win_rate": 63.3
+          "matches_played": 408,
+          "wins": 258,
+          "losses": 150,
+          "win_rate": 63.2
         },
         "Strength & Honour": {
           "current_elo": 1027.7,
@@ -47,17 +47,17 @@
         },
         "cheetah001": {
           "current_elo": 970.2,
-          "matches_played": 289,
+          "matches_played": 292,
           "wins": 127,
-          "losses": 162,
-          "win_rate": 43.9
+          "losses": 165,
+          "win_rate": 43.5
         },
         "NaKiyaKar": {
-          "current_elo": 1015.0,
-          "matches_played": 249,
-          "wins": 131,
-          "losses": 118,
-          "win_rate": 52.6
+          "current_elo": 1014.9,
+          "matches_played": 256,
+          "wins": 135,
+          "losses": 121,
+          "win_rate": 52.7
         },
         "neXus": {
           "current_elo": 1039.6,
@@ -69,59 +69,59 @@
       }
     },
     "open": {
-      "total_matches": 195,
+      "total_matches": 200,
       "players": {
         "wabbit": {
-          "current_elo": 990.2,
-          "matches_played": 147,
-          "wins": 72,
-          "losses": 75,
+          "current_elo": 996.5,
+          "matches_played": 149,
+          "wins": 73,
+          "losses": 76,
           "win_rate": 49.0
         },
         "SauronSlayer": {
-          "current_elo": 971.3,
-          "matches_played": 125,
-          "wins": 58,
+          "current_elo": 1001.6,
+          "matches_played": 127,
+          "wins": 60,
           "losses": 67,
-          "win_rate": 46.4
+          "win_rate": 47.2
         },
         "zubair": {
-          "current_elo": 1013.4,
-          "matches_played": 121,
-          "wins": 59,
-          "losses": 62,
-          "win_rate": 48.8
+          "current_elo": 993.7,
+          "matches_played": 125,
+          "wins": 60,
+          "losses": 65,
+          "win_rate": 48.0
         },
         "l.inc": {
-          "current_elo": 938.5,
-          "matches_played": 109,
+          "current_elo": 917.0,
+          "matches_played": 111,
           "wins": 55,
-          "losses": 54,
-          "win_rate": 50.5
+          "losses": 56,
+          "win_rate": 49.5
         },
         "toXic": {
-          "current_elo": 1118.7,
-          "matches_played": 97,
-          "wins": 60,
-          "losses": 37,
-          "win_rate": 61.9
+          "current_elo": 1103.2,
+          "matches_played": 100,
+          "wins": 61,
+          "losses": 39,
+          "win_rate": 61.0
         },
         "Strength & Honour": {
-          "current_elo": 1016.2,
-          "matches_played": 1,
-          "wins": 1,
+          "current_elo": 1032.3,
+          "matches_played": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 100.0
         },
         "cheetah001": {
-          "current_elo": 941.3,
-          "matches_played": 113,
-          "wins": 53,
+          "current_elo": 945.5,
+          "matches_played": 115,
+          "wins": 55,
           "losses": 60,
-          "win_rate": 46.9
+          "win_rate": 47.8
         },
         "NaKiyaKar": {
-          "current_elo": 1010.4,
+          "current_elo": 1010.1,
           "matches_played": 90,
           "wins": 48,
           "losses": 42,
@@ -155,13 +155,11 @@
     "Mountain Range": 9,
     "Scandinavia": 3,
     "Lowland": 5,
-    "Four Lakes": 5,
     "Cenotes": 2,
     "Crater": 9,
     "Frigid Lake": 6,
     "Volcanic Island": 1,
     "Shoals": 3,
-    "Michi": 7,
     "Mediterranean": 1,
     "Cliffbound": 2,
     "Bog Islands": 1,

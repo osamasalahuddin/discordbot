@@ -17,7 +17,7 @@ OPEN_MAPS = {
     "Steppe", "Valley", "Meadow", "Oasis", "Acclivity", "Wolf Hill", "Runestones",
     "Yucatan", "Atacama", "Marketplace", "Salt Marsh", "Hamburger", "Prairie",
     "Serengeti", "Kilimanjaro", "Haboob", "African Clearing", "Shrubland", "Budapest",
-    "Acropolis",
+    "Acropolis", "Four Lakes",
 }
 
 CLOSED_MAPS = {
@@ -26,7 +26,7 @@ CLOSED_MAPS = {
     "Murkwood", "Golden Swamp", "QS Arena", "QS Black Forest",
     "Rage Arena V4 Custom", "Populationboost Arena Custom",
     "Populationboost Black Forest Custom", "Rage Forest 5 - Official Map Custom",
-    "Amazon Tunnel", "Hill Fort",
+    "Amazon Tunnel", "Hill Fort", "Michi",
 }
 
 assert not (OPEN_MAPS & CLOSED_MAPS), f"map classified both ways: {OPEN_MAPS & CLOSED_MAPS}"
