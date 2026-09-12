@@ -179,21 +179,9 @@ def get_player_perf(match_id, user_path):
 # time only), preserving prior behaviour for the handful of matches that predate
 # the richer extraction.
 
-# Standard community open/closed categorisation (mirrors build_openclosed_elo.py).
-_CLOSED_MAPS = {
-    "Arena", "Black Forest", "Fortress", "Hideout", "Land Madness", "Enclosed",
-    "Fortified Clearing", "Team Moats", "Moats", "Ring Fortress", "Lombardia",
-    "Murkwood", "Golden Swamp", "QS Arena", "QS Black Forest",
-    "Rage Arena V4 Custom", "Populationboost Arena Custom",
-    "Populationboost Black Forest Custom", "Rage Forest 5 - Official Map Custom",
-}
-_OPEN_MAPS = {
-    "Arabia", "Ghost Lake", "Sacred Springs", "Gold Rush", "Golden Pit", "Mongolia",
-    "Steppe", "Valley", "Meadow", "Oasis", "Acclivity", "Wolf Hill", "Runestones",
-    "Yucatan", "Atacama", "Marketplace", "Salt Marsh", "Hamburger", "Prairie",
-    "Serengeti", "Kilimanjaro", "Haboob", "African Clearing", "Shrubland", "Budapest",
-    "Acropolis",
-}
+# Open / closed classification lives in map_types.py - the one shared copy, also
+# used by build_openclosed_elo.py.
+from map_types import OPEN_MAPS as _OPEN_MAPS, CLOSED_MAPS as _CLOSED_MAPS
 
 # Reference time (seconds) at which "by when" metrics are compared.
 PERF_REF_TIME_S = {"closed": 1200, "open": 720, "other": 900}

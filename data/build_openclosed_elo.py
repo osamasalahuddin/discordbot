@@ -36,24 +36,8 @@ STARTING_ELO = 1000
 SHORT_GAME_THRESHOLD_SECONDS = 15 * 60
 LADDER_START_DATE = datetime(2024, 1, 1, tzinfo=timezone.utc)
 
-# Standard AoE2 community categorization. Not from the site itself - maps not
-# confidently "open" (flat/exposed starts) or "closed" (naturally walled-off
-# starts) are left out of this classification entirely (water/hybrid/custom/
-# unrecorded maps), rather than guessed.
-OPEN_MAPS = {
-    "Arabia", "Ghost Lake", "Sacred Springs", "Gold Rush", "Golden Pit", "Mongolia",
-    "Steppe", "Valley", "Meadow", "Oasis", "Acclivity", "Wolf Hill", "Runestones",
-    "Yucatan", "Atacama", "Marketplace", "Salt Marsh", "Hamburger", "Prairie",
-    "Serengeti", "Kilimanjaro", "Haboob", "African Clearing", "Shrubland", "Budapest",
-    "Acropolis",
-}
-CLOSED_MAPS = {
-    "Arena", "Black Forest", "Fortress", "Hideout", "Land Madness", "Enclosed",
-    "Fortified Clearing", "Team Moats", "Moats", "Ring Fortress", "Lombardia",
-    "Murkwood", "Golden Swamp", "QS Arena", "QS Black Forest",
-    "Rage Arena V4 Custom", "Populationboost Arena Custom",
-    "Populationboost Black Forest Custom", "Rage Forest 5 - Official Map Custom",
-}
+# Open / closed classification lives in map_types.py - the one shared copy.
+from map_types import OPEN_MAPS, CLOSED_MAPS
 
 
 def parse_duration(s):
