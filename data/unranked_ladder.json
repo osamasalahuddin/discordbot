@@ -4,7 +4,7 @@
     "starting_elo": 1000,
     "short_game_exclusion_threshold_seconds": 900,
     "ladder_start_date": "2024-01-01",
-    "performance_matches_available": 274,
+    "performance_matches_available": 275,
     "performance_ratio_v2": {
       "mode": "basic",
       "result_weight": 0.75,
@@ -32,7 +32,7 @@
     "notes": "Elo computed only across unranked (ladder=0) matches where 2+ of the tracked players appear on opposing teams. Each player's expected score is computed against the average current Elo of tracked opponents on the other side(s) (untracked/random players in the match are ignored for rating purposes). This filtering (short-game and pre-start-date exclusion) only affects which matches feed the Elo calculation here \u2014 the underlying scraped datasets in unranked_raw/ are never modified. Any match under 15 minutes is excluded from the Elo calculation regardless of whether an AI was present, since it's too short to be a conclusive result. For longer matches with an AI player, the site's recorded win/loss is NOT trusted: because an AI can never resign, a game where the AI's human team-mates all quit first is still recorded as a win for the AI's team. Where schema-2 resign data exists the result is recomputed - the team whose human players have ALL resigned, earliest, is the loser. 'All' rather than 'any', because in a team game one player often quits while their team-mates fight on and legitimately win. AI matches without resign data keep the recorded result (they can't be checked). See scrape_meta.ai_results_corrected."
   },
   "scrape_meta": {
-    "generated_at": "2026-09-12T00:02:59.928261+00:00",
+    "generated_at": "2026-09-13T00:16:58.645420+00:00",
     "total_unique_unranked_matches_scanned": 1410,
     "qualifying_matches_used": 1116,
     "excluded_no_opposition": 179,
@@ -197,7 +197,7 @@
     "wabbit": {
       "user_path": "/user/12047120/",
       "starting_elo": 1000,
-      "current_elo": 921.4,
+      "current_elo": 924.9,
       "matches_played": 718,
       "wins": 300,
       "losses": 418,
@@ -10247,12 +10247,12 @@
           "map": "Rage Arena V4 Custom",
           "won": false,
           "elo_before": 932.2,
-          "elo_after": 921.4,
-          "delta": -10.8,
+          "elo_after": 924.9,
+          "delta": -7.3,
           "opponent_avg_elo": 1048.9,
-          "performance_ratio": null,
-          "performance_method": null,
-          "actual_score": 0.0,
+          "performance_ratio": 0.443,
+          "performance_method": "v2",
+          "actual_score": 0.111,
           "balance_adj": null
         }
       ]
@@ -10260,7 +10260,7 @@
     "SauronSlayer": {
       "user_path": "/user/12676944/",
       "starting_elo": 1000,
-      "current_elo": 1125.0,
+      "current_elo": 1122.0,
       "matches_played": 829,
       "wins": 441,
       "losses": 388,
@@ -21864,20 +21864,20 @@
           "map": "Rage Arena V4 Custom",
           "won": true,
           "elo_before": 1117.1,
-          "elo_after": 1125.0,
-          "delta": 7.9,
+          "elo_after": 1122.0,
+          "delta": 4.9,
           "opponent_avg_elo": 923.5,
-          "performance_ratio": null,
-          "performance_method": null,
-          "actual_score": 1.0,
-          "balance_adj": -0.05
+          "performance_ratio": 0.583,
+          "performance_method": "v2",
+          "actual_score": 0.896,
+          "balance_adj": 0.29
         }
       ]
     },
     "zubair": {
       "user_path": "/user/12667372/",
       "starting_elo": 1000,
-      "current_elo": 883.9,
+      "current_elo": 887.6,
       "matches_played": 831,
       "wins": 401,
       "losses": 430,
@@ -33509,12 +33509,12 @@
           "map": "Rage Arena V4 Custom",
           "won": false,
           "elo_before": 893.2,
-          "elo_after": 883.9,
-          "delta": -9.3,
+          "elo_after": 887.6,
+          "delta": -5.5,
           "opponent_avg_elo": 1048.9,
-          "performance_ratio": null,
-          "performance_method": null,
-          "actual_score": 0.0,
+          "performance_ratio": 0.466,
+          "performance_method": "v2",
+          "actual_score": 0.117,
           "balance_adj": null
         }
       ]
@@ -33522,7 +33522,7 @@
     "l.inc": {
       "user_path": "/user/12080589/",
       "starting_elo": 1000,
-      "current_elo": 899.9,
+      "current_elo": 902.3,
       "matches_played": 787,
       "wins": 373,
       "losses": 414,
@@ -44538,12 +44538,12 @@
           "map": "Rage Arena V4 Custom",
           "won": false,
           "elo_before": 909.8,
-          "elo_after": 899.9,
-          "delta": -9.9,
+          "elo_after": 902.3,
+          "delta": -7.5,
           "opponent_avg_elo": 1048.9,
-          "performance_ratio": null,
-          "performance_method": null,
-          "actual_score": 0.0,
+          "performance_ratio": 0.301,
+          "performance_method": "v2",
+          "actual_score": 0.075,
           "balance_adj": null
         }
       ]
@@ -53900,7 +53900,7 @@
     "Strength & Honour": {
       "user_path": "/user/4607974/",
       "starting_elo": 1000,
-      "current_elo": 1047.1,
+      "current_elo": 1043.8,
       "matches_played": 75,
       "wins": 44,
       "losses": 31,
@@ -54948,20 +54948,20 @@
           "map": "Rage Arena V4 Custom",
           "won": true,
           "elo_before": 1036.1,
-          "elo_after": 1047.1,
-          "delta": 10.9,
+          "elo_after": 1043.8,
+          "delta": 7.7,
           "opponent_avg_elo": 923.5,
-          "performance_ratio": null,
-          "performance_method": null,
-          "actual_score": 1.0,
-          "balance_adj": -0.05
+          "performance_ratio": 0.55,
+          "performance_method": "v2",
+          "actual_score": 0.888,
+          "balance_adj": 0.29
         }
       ]
     },
     "cheetah001": {
       "user_path": "/user/11907023/",
       "starting_elo": 1000,
-      "current_elo": 947.1,
+      "current_elo": 951.0,
       "matches_played": 564,
       "wins": 255,
       "losses": 309,
@@ -62855,12 +62855,12 @@
           "map": "Rage Arena V4 Custom",
           "won": false,
           "elo_before": 959.0,
-          "elo_after": 947.1,
-          "delta": -12.0,
+          "elo_after": 951.0,
+          "delta": -8.0,
           "opponent_avg_elo": 1048.9,
-          "performance_ratio": null,
-          "performance_method": null,
-          "actual_score": 0.0,
+          "performance_ratio": 0.488,
+          "performance_method": "v2",
+          "actual_score": 0.122,
           "balance_adj": null
         }
       ]
@@ -62868,7 +62868,7 @@
     "NaKiyaKar": {
       "user_path": "/user/12693189/",
       "starting_elo": 1000,
-      "current_elo": 1020.8,
+      "current_elo": 1017.8,
       "matches_played": 460,
       "wins": 242,
       "losses": 218,
@@ -69306,20 +69306,20 @@
           "map": "Rage Arena V4 Custom",
           "won": true,
           "elo_before": 1008.7,
-          "elo_after": 1020.8,
-          "delta": 12.1,
+          "elo_after": 1017.8,
+          "delta": 9.0,
           "opponent_avg_elo": 923.5,
-          "performance_ratio": null,
-          "performance_method": null,
-          "actual_score": 1.0,
-          "balance_adj": -0.05
+          "performance_ratio": 0.575,
+          "performance_method": "v2",
+          "actual_score": 0.894,
+          "balance_adj": 0.29
         }
       ]
     },
     "neXus": {
       "user_path": "/user/12805097/",
       "starting_elo": 1000,
-      "current_elo": 1044.7,
+      "current_elo": 1040.4,
       "matches_played": 166,
       "wins": 100,
       "losses": 66,
@@ -71641,13 +71641,13 @@
           "map": "Rage Arena V4 Custom",
           "won": true,
           "elo_before": 1033.6,
-          "elo_after": 1044.7,
-          "delta": 11.0,
+          "elo_after": 1040.4,
+          "delta": 6.8,
           "opponent_avg_elo": 923.5,
-          "performance_ratio": null,
-          "performance_method": null,
-          "actual_score": 1.0,
-          "balance_adj": -0.05
+          "performance_ratio": 0.427,
+          "performance_method": "v2",
+          "actual_score": 0.857,
+          "balance_adj": 0.29
         }
       ]
     }
