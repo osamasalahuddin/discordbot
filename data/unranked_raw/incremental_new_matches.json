@@ -1031,6 +1031,258 @@
         }
       ],
       "ladder": "unranked"
+    },
+    {
+      "match_id": 507567576,
+      "map": "Arena",
+      "duration": "18m 09s",
+      "exact_time": "Sept. 18, 2026, 8:57 p.m.",
+      "teams": [
+        {
+          "won": true,
+          "players": [
+            {
+              "user_path": "/user/12805097/",
+              "name": "neXus",
+              "rating": 1240,
+              "rating_change": 19,
+              "civ": "britons",
+              "is_ai": false
+            }
+          ]
+        },
+        {
+          "won": false,
+          "players": [
+            {
+              "user_path": "/user/12676944/",
+              "name": "SauronSlayer",
+              "rating": 1295,
+              "rating_change": -19,
+              "civ": "mayans",
+              "is_ai": false
+            }
+          ]
+        }
+      ],
+      "ladder": "unranked"
+    },
+    {
+      "match_id": 507577026,
+      "map": "Arena",
+      "duration": "29m 19s",
+      "exact_time": "Sept. 18, 2026, 9:47 p.m.",
+      "teams": [
+        {
+          "won": false,
+          "players": [
+            {
+              "user_path": "/user/12805097/",
+              "name": "neXus",
+              "rating": 1259,
+              "rating_change": -17,
+              "civ": "ethiopians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12047120/",
+              "name": "wabbit",
+              "rating": 1170,
+              "rating_change": -13,
+              "civ": "britons",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12499000/",
+              "name": "toXic",
+              "rating": 1387,
+              "rating_change": -23,
+              "civ": "bohemians",
+              "is_ai": false
+            }
+          ]
+        },
+        {
+          "won": true,
+          "players": [
+            {
+              "user_path": "/user/12676944/",
+              "name": "SauronSlayer",
+              "rating": 1276,
+              "rating_change": 16,
+              "civ": "khmer",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12667372/",
+              "name": "zubair",
+              "rating": 1175,
+              "rating_change": 20,
+              "civ": "burgundians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12693189/",
+              "name": "NaKiyaKar",
+              "rating": 1260,
+              "rating_change": 17,
+              "civ": "bulgarians",
+              "is_ai": false
+            }
+          ]
+        }
+      ],
+      "ladder": "unranked"
+    },
+    {
+      "match_id": 507581485,
+      "map": "Arena",
+      "duration": "55m 11s",
+      "exact_time": "Sept. 18, 2026, 10:10 p.m.",
+      "teams": [
+        {
+          "won": false,
+          "players": [
+            {
+              "user_path": "/user/12676944/",
+              "name": "SauronSlayer",
+              "rating": 1292,
+              "rating_change": -19,
+              "civ": "tatars",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12667372/",
+              "name": "zubair",
+              "rating": 1195,
+              "rating_change": -15,
+              "civ": "poles",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12693189/",
+              "name": "NaKiyaKar",
+              "rating": 1277,
+              "rating_change": -19,
+              "civ": "portuguese",
+              "is_ai": false
+            }
+          ]
+        },
+        {
+          "won": true,
+          "players": [
+            {
+              "user_path": "/user/12080589/",
+              "name": "l.inc",
+              "rating": 1130,
+              "rating_change": 21,
+              "civ": "vietnamese",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12047120/",
+              "name": "wabbit",
+              "rating": 1157,
+              "rating_change": 20,
+              "civ": "tupi",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12499000/",
+              "name": "toXic",
+              "rating": 1364,
+              "rating_change": 12,
+              "civ": "koreans",
+              "is_ai": false
+            }
+          ]
+        }
+      ],
+      "ladder": "unranked"
+    },
+    {
+      "match_id": 507588530,
+      "map": "Hill Fort",
+      "duration": "45m 31s",
+      "exact_time": "Sept. 18, 2026, 10:50 p.m.",
+      "teams": [
+        {
+          "won": false,
+          "players": [
+            {
+              "user_path": "/user/12676944/",
+              "name": "SauronSlayer",
+              "rating": 1273,
+              "rating_change": -17,
+              "civ": "wu",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/11907023/",
+              "name": "cheetah001",
+              "rating": 1150,
+              "rating_change": -12,
+              "civ": "armenians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12667372/",
+              "name": "zubair",
+              "rating": 1180,
+              "rating_change": -13,
+              "civ": "vietnamese",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12693189/",
+              "name": "NaKiyaKar",
+              "rating": 1258,
+              "rating_change": -16,
+              "civ": "ethiopians",
+              "is_ai": false
+            }
+          ]
+        },
+        {
+          "won": true,
+          "players": [
+            {
+              "user_path": "/user/12080589/",
+              "name": "l.inc",
+              "rating": 1151,
+              "rating_change": 18,
+              "civ": "incas",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12047120/",
+              "name": "wabbit",
+              "rating": 1177,
+              "rating_change": 17,
+              "civ": "mapuche",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/4607974/",
+              "name": "Strength & Honour",
+              "rating": 1289,
+              "rating_change": 13,
+              "civ": "bengalis",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12499000/",
+              "name": "toXic",
+              "rating": 1376,
+              "rating_change": 10,
+              "civ": "burmese",
+              "is_ai": false
+            }
+          ]
+        }
+      ],
+      "ladder": "unranked"
     }
   ]
 }
