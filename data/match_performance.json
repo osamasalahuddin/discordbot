@@ -533948,6 +533948,9438 @@
         "victory": "Conquest",
         "ranked": false
       }
+    },
+    "507594229": {
+      "1": {
+        "profile_id": 12676944,
+        "name": "SauronSlayer",
+        "team": 1,
+        "color": 1,
+        "civ": "Spanish",
+        "is_ai": false,
+        "feudal_time_ms": null,
+        "castle_time_ms": null,
+        "imperial_time_ms": null,
+        "opening": null,
+        "eapm_mean": 45.539888508041734,
+        "eapm_max": 54.693259005361156,
+        "eapm_min": 36.38651801072231,
+        "eco_apm_mean": 20.88995819051565,
+        "eco_apm_max": 25.593305460343764,
+        "military_apm_mean": 24.649930317526085,
+        "military_apm_max": 29.09995354501739,
+        "apm_per_min": [
+          54.7,
+          36.4
+        ],
+        "micro_ratio_over_time": [
+          -0.275,
+          -0.263
+        ],
+        "attention_span_ratio_over_time": [
+          0.23,
+          0.511
+        ],
+        "attention_span_eco_ms": 33739,
+        "attention_span_military_ms": 52810,
+        "villagers_trained": 5,
+        "villager_count_at": {
+          "300": 5,
+          "600": 5,
+          "900": 5,
+          "1200": 5,
+          "1500": 5,
+          "1800": 5,
+          "2400": 5,
+          "3000": 5,
+          "3600": 5
+        },
+        "military_trained": 0,
+        "first_military_time_s": null,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 0,
+          "1800": 0,
+          "2400": 0,
+          "3000": 0,
+          "3600": 0
+        },
+        "military_by_type": {},
+        "eco_techs": [],
+        "military_techs": [],
+        "eco_tech_count": 0,
+        "military_tech_count": 0,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 0
+          }
+        },
+        "buildings_built": 2,
+        "resigned_time_s": 87
+      },
+      "2": {
+        "profile_id": 11907023,
+        "name": "cheetah001",
+        "team": 1,
+        "color": 2,
+        "civ": "Bulgarians",
+        "is_ai": false,
+        "feudal_time_ms": null,
+        "castle_time_ms": null,
+        "imperial_time_ms": null,
+        "opening": null,
+        "eapm_mean": 8.149930317526083,
+        "eapm_max": 9.199907090034777,
+        "eapm_min": 7.099953545017389,
+        "eco_apm_mean": 1.5,
+        "eco_apm_max": 2,
+        "military_apm_mean": 6.649930317526083,
+        "military_apm_max": 8.199907090034777,
+        "apm_per_min": [
+          7.1,
+          9.2
+        ],
+        "micro_ratio_over_time": [
+          -0.733,
+          -0.867
+        ],
+        "attention_span_ratio_over_time": [
+          -0.277,
+          0.362
+        ],
+        "attention_span_eco_ms": 56029,
+        "attention_span_military_ms": 18953,
+        "villagers_trained": 0,
+        "villager_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 0,
+          "1800": 0,
+          "2400": 0,
+          "3000": 0,
+          "3600": 0
+        },
+        "military_trained": 0,
+        "first_military_time_s": null,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 0,
+          "1800": 0,
+          "2400": 0,
+          "3000": 0,
+          "3600": 0
+        },
+        "military_by_type": {},
+        "eco_techs": [],
+        "military_techs": [],
+        "eco_tech_count": 0,
+        "military_tech_count": 0,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 0
+          }
+        },
+        "buildings_built": 1,
+        "resigned_time_s": 75
+      },
+      "3": {
+        "profile_id": 12047120,
+        "name": "wabbit",
+        "team": 2,
+        "color": 5,
+        "civ": "Italians",
+        "is_ai": false,
+        "feudal_time_ms": null,
+        "castle_time_ms": null,
+        "imperial_time_ms": null,
+        "opening": null,
+        "eapm_mean": 31.68981882556782,
+        "eapm_max": 32.45987921704521,
+        "eapm_min": 30.919758434090422,
+        "eco_apm_mean": 14.149930317526083,
+        "eco_apm_max": 15.099953545017389,
+        "military_apm_mean": 17.539888508041734,
+        "military_apm_max": 17.719851344055645,
+        "apm_per_min": [
+          32.5,
+          30.9
+        ],
+        "micro_ratio_over_time": [
+          -0.3,
+          -0.189
+        ],
+        "attention_span_ratio_over_time": [
+          -0.233,
+          -0.106
+        ],
+        "attention_span_eco_ms": 53126,
+        "attention_span_military_ms": 32801,
+        "villagers_trained": 4,
+        "villager_count_at": {
+          "300": 4,
+          "600": 4,
+          "900": 4,
+          "1200": 4,
+          "1500": 4,
+          "1800": 4,
+          "2400": 4,
+          "3000": 4,
+          "3600": 4
+        },
+        "military_trained": 0,
+        "first_military_time_s": null,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 0,
+          "1800": 0,
+          "2400": 0,
+          "3000": 0,
+          "3600": 0
+        },
+        "military_by_type": {},
+        "eco_techs": [],
+        "military_techs": [],
+        "eco_tech_count": 0,
+        "military_tech_count": 0,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 0
+          }
+        },
+        "buildings_built": 1,
+        "resigned_time_s": null
+      },
+      "4": {
+        "profile_id": 4607974,
+        "name": "Strength & Honour",
+        "team": 1,
+        "color": 6,
+        "civ": "Magyars",
+        "is_ai": false,
+        "feudal_time_ms": null,
+        "castle_time_ms": null,
+        "imperial_time_ms": null,
+        "opening": null,
+        "eapm_mean": 23.539888508041734,
+        "eapm_max": 25.35992567202782,
+        "eapm_min": 21.719851344055645,
+        "eco_apm_mean": 9.259972127010432,
+        "eco_apm_max": 10.839981418006955,
+        "military_apm_mean": 14.2799163810313,
+        "military_apm_max": 14.519944254020867,
+        "apm_per_min": [
+          25.4,
+          21.7
+        ],
+        "micro_ratio_over_time": [
+          -0.069,
+          -0.034
+        ],
+        "attention_span_ratio_over_time": [
+          0.083,
+          0.325
+        ],
+        "attention_span_eco_ms": 36022,
+        "attention_span_military_ms": 39807,
+        "villagers_trained": 4,
+        "villager_count_at": {
+          "300": 4,
+          "600": 4,
+          "900": 4,
+          "1200": 4,
+          "1500": 4,
+          "1800": 4,
+          "2400": 4,
+          "3000": 4,
+          "3600": 4
+        },
+        "military_trained": 0,
+        "first_military_time_s": null,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 0,
+          "1800": 0,
+          "2400": 0,
+          "3000": 0,
+          "3600": 0
+        },
+        "military_by_type": {},
+        "eco_techs": [],
+        "military_techs": [],
+        "eco_tech_count": 0,
+        "military_tech_count": 0,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 0
+          }
+        },
+        "buildings_built": 2,
+        "resigned_time_s": 76
+      },
+      "5": {
+        "profile_id": 12693189,
+        "name": "NaKiyaKar",
+        "team": 2,
+        "color": 7,
+        "civ": "Koreans",
+        "is_ai": false,
+        "feudal_time_ms": null,
+        "castle_time_ms": null,
+        "imperial_time_ms": null,
+        "opening": null,
+        "eapm_mean": 22.759972127010432,
+        "eapm_max": 28.839981418006953,
+        "eapm_min": 16.67996283601391,
+        "eco_apm_mean": 8.129986063505216,
+        "eco_apm_max": 10.086657375670143,
+        "military_apm_mean": 14.629986063505216,
+        "military_apm_max": 18.75332404233681,
+        "apm_per_min": [
+          28.8,
+          16.7
+        ],
+        "micro_ratio_over_time": [
+          -0.382,
+          -0.691
+        ],
+        "attention_span_ratio_over_time": [
+          0.116,
+          0.018
+        ],
+        "attention_span_eco_ms": 29197,
+        "attention_span_military_ms": 39197,
+        "villagers_trained": 4,
+        "villager_count_at": {
+          "300": 4,
+          "600": 4,
+          "900": 4,
+          "1200": 4,
+          "1500": 4,
+          "1800": 4,
+          "2400": 4,
+          "3000": 4,
+          "3600": 4
+        },
+        "military_trained": 0,
+        "first_military_time_s": null,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 0,
+          "1800": 0,
+          "2400": 0,
+          "3000": 0,
+          "3600": 0
+        },
+        "military_by_type": {},
+        "eco_techs": [],
+        "military_techs": [],
+        "eco_tech_count": 0,
+        "military_tech_count": 0,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 0
+          }
+        },
+        "buildings_built": 2,
+        "resigned_time_s": null
+      },
+      "6": {
+        "profile_id": 12499000,
+        "name": "toXic",
+        "team": 2,
+        "color": 8,
+        "civ": "Tatars",
+        "is_ai": false,
+        "feudal_time_ms": null,
+        "castle_time_ms": null,
+        "imperial_time_ms": null,
+        "opening": null,
+        "eapm_mean": 27.64993031752608,
+        "eapm_max": 33.099953545017385,
+        "eapm_min": 22.199907090034777,
+        "eco_apm_mean": 11.019944254020867,
+        "eco_apm_max": 11.67996283601391,
+        "military_apm_mean": 16.629986063505214,
+        "military_apm_max": 21.419990709003475,
+        "apm_per_min": [
+          33.1,
+          22.2
+        ],
+        "micro_ratio_over_time": [
+          -0.212,
+          -0.606
+        ],
+        "attention_span_ratio_over_time": [
+          -0.332,
+          -0.325
+        ],
+        "attention_span_eco_ms": 57654,
+        "attention_span_military_ms": 28895,
+        "villagers_trained": 5,
+        "villager_count_at": {
+          "300": 5,
+          "600": 5,
+          "900": 5,
+          "1200": 5,
+          "1500": 5,
+          "1800": 5,
+          "2400": 5,
+          "3000": 5,
+          "3600": 5
+        },
+        "military_trained": 0,
+        "first_military_time_s": null,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 0,
+          "1800": 0,
+          "2400": 0,
+          "3000": 0,
+          "3600": 0
+        },
+        "military_by_type": {},
+        "eco_techs": [],
+        "military_techs": [],
+        "eco_tech_count": 0,
+        "military_tech_count": 0,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 0
+          }
+        },
+        "buildings_built": 2,
+        "resigned_time_s": null
+      },
+      "7": {
+        "profile_id": 12080589,
+        "name": "l.inc",
+        "team": 2,
+        "color": 4,
+        "civ": "Huns",
+        "is_ai": false,
+        "feudal_time_ms": null,
+        "castle_time_ms": null,
+        "imperial_time_ms": null,
+        "opening": null,
+        "eapm_mean": 19.519944254020867,
+        "eapm_max": 23.013296169347246,
+        "eapm_min": 16.02659233869449,
+        "eco_apm_mean": 9.88995819051565,
+        "eco_apm_max": 10.9266387936771,
+        "military_apm_mean": 9.629986063505216,
+        "military_apm_max": 12.086657375670143,
+        "apm_per_min": [
+          23,
+          16
+        ],
+        "micro_ratio_over_time": [
+          -0.733,
+          -0.867
+        ],
+        "attention_span_ratio_over_time": [
+          -0.052,
+          -0.286
+        ],
+        "attention_span_eco_ms": 31154,
+        "attention_span_military_ms": 36844,
+        "villagers_trained": 4,
+        "villager_count_at": {
+          "300": 4,
+          "600": 4,
+          "900": 4,
+          "1200": 4,
+          "1500": 4,
+          "1800": 4,
+          "2400": 4,
+          "3000": 4,
+          "3600": 4
+        },
+        "military_trained": 0,
+        "first_military_time_s": null,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 0,
+          "1800": 0,
+          "2400": 0,
+          "3000": 0,
+          "3600": 0
+        },
+        "military_by_type": {},
+        "eco_techs": [],
+        "military_techs": [],
+        "eco_tech_count": 0,
+        "military_tech_count": 0,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 0
+          }
+        },
+        "buildings_built": 0,
+        "resigned_time_s": null
+      },
+      "8": {
+        "profile_id": 12667372,
+        "name": "zubair",
+        "team": 1,
+        "color": 3,
+        "civ": "Lithuanians",
+        "is_ai": false,
+        "feudal_time_ms": null,
+        "castle_time_ms": null,
+        "imperial_time_ms": null,
+        "opening": null,
+        "eapm_mean": 19.759972127010432,
+        "eapm_max": 24.839981418006953,
+        "eapm_min": 14.679962836013912,
+        "eco_apm_mean": 4,
+        "eco_apm_max": 5.333333333333333,
+        "military_apm_mean": 15.759972127010434,
+        "military_apm_max": 19.50664808467362,
+        "apm_per_min": [
+          24.8,
+          14.7
+        ],
+        "micro_ratio_over_time": [
+          -0.124,
+          -0.562
+        ],
+        "attention_span_ratio_over_time": [
+          0.349,
+          0.675
+        ],
+        "attention_span_eco_ms": 28052,
+        "attention_span_military_ms": 51902,
+        "villagers_trained": 5,
+        "villager_count_at": {
+          "300": 5,
+          "600": 5,
+          "900": 5,
+          "1200": 5,
+          "1500": 5,
+          "1800": 5,
+          "2400": 5,
+          "3000": 5,
+          "3600": 5
+        },
+        "military_trained": 0,
+        "first_military_time_s": null,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 0,
+          "1800": 0,
+          "2400": 0,
+          "3000": 0,
+          "3600": 0
+        },
+        "military_by_type": {},
+        "eco_techs": [],
+        "military_techs": [],
+        "eco_tech_count": 0,
+        "military_tech_count": 0,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 0
+          }
+        },
+        "buildings_built": 2,
+        "resigned_time_s": 80
+      },
+      "_meta": {
+        "schema": 2,
+        "match_id": 507594229,
+        "analysis_version": 4,
+        "duration_ms": 86549,
+        "map": "Fortress",
+        "map_size": "Tiny",
+        "game_mode": "Random Map",
+        "starting_age": "Standard",
+        "ending_age": "Feudal Age",
+        "population": 200,
+        "victory": "Conquest",
+        "ranked": false
+      }
+    },
+    "507595361": {
+      "1": {
+        "profile_id": 12676944,
+        "name": "SauronSlayer",
+        "team": 1,
+        "color": 1,
+        "civ": "Turks",
+        "is_ai": false,
+        "feudal_time_ms": 436718,
+        "castle_time_ms": 679981,
+        "imperial_time_ms": 1704574,
+        "opening": "fast_castle",
+        "eapm_mean": 43.762997683314474,
+        "eapm_max": 78.66666666666666,
+        "eapm_min": 9,
+        "eco_apm_mean": 15.130434782608694,
+        "eco_apm_max": 30.666666666666664,
+        "military_apm_mean": 28.502128118097087,
+        "military_apm_max": 70.66666666666666,
+        "apm_per_min": [
+          50.3,
+          42,
+          37.7,
+          29.3,
+          24,
+          12,
+          15,
+          15.3,
+          16.7,
+          9,
+          13,
+          15.7,
+          22,
+          24.7,
+          27.3,
+          27.3,
+          23.3,
+          28.3,
+          35.3,
+          47.7,
+          55,
+          58.7,
+          61.3,
+          60.3,
+          56.3,
+          55.7,
+          52.3,
+          57,
+          69.3,
+          78.7,
+          78.7,
+          67,
+          61,
+          58.7,
+          52.3,
+          50,
+          49,
+          52,
+          63.7,
+          68,
+          70.3,
+          58.3,
+          59.3,
+          52,
+          36.7,
+          15.4
+        ],
+        "micro_ratio_over_time": [
+          -0.425,
+          -0.582,
+          -0.659,
+          -0.772,
+          -0.846,
+          -1,
+          -1,
+          -1,
+          -1,
+          -0.75,
+          -0.694,
+          -0.694,
+          -0.944,
+          -0.896,
+          -0.896,
+          -0.896,
+          -1,
+          -0.895,
+          -0.617,
+          -0.395,
+          -0.211,
+          -0.184,
+          -0.18,
+          0.022,
+          -0.014,
+          -0.038,
+          -0.501,
+          -0.639,
+          -0.42,
+          -0.2,
+          -0.145,
+          -0.391,
+          -0.488,
+          -0.525,
+          -0.584,
+          -0.576,
+          -0.672,
+          -0.4,
+          -0.325,
+          -0.096,
+          -0.333,
+          -0.364,
+          -0.387,
+          -0.504,
+          -0.708,
+          -0.967
+        ],
+        "attention_span_ratio_over_time": [
+          -0.506,
+          -0.402,
+          -0.508,
+          -0.592,
+          -0.891,
+          -0.984,
+          -0.992,
+          -0.908,
+          -0.908,
+          -0.569,
+          -0.311,
+          -0.129,
+          -0.447,
+          -0.688,
+          -0.861,
+          -0.867,
+          -0.974,
+          -0.762,
+          -0.574,
+          0.011,
+          0.299,
+          0.585,
+          0.302,
+          0.256,
+          0.164,
+          0.012,
+          -0.111,
+          -0.254,
+          0.162,
+          0.365,
+          0.692,
+          0.608,
+          0.636,
+          0.512,
+          0.432,
+          0.44,
+          0.238,
+          0.193,
+          0.268,
+          0.569,
+          0.656,
+          0.578,
+          0.538,
+          0.631,
+          0.723,
+          0.871
+        ],
+        "attention_span_eco_ms": 1432839,
+        "attention_span_military_ms": 1238276,
+        "villagers_trained": 122,
+        "villager_count_at": {
+          "300": 17,
+          "600": 20,
+          "900": 38,
+          "1200": 76,
+          "1500": 89,
+          "1800": 103,
+          "2400": 121,
+          "3000": 122,
+          "3600": 122
+        },
+        "military_trained": 246,
+        "first_military_time_s": 1084,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 5,
+          "1500": 26,
+          "1800": 59,
+          "2400": 190,
+          "3000": 246,
+          "3600": 246
+        },
+        "military_by_type": {
+          "Janissary": 26,
+          "Cavalry Archer": 58,
+          "Hand Cannoneer": 1,
+          "Scout Cavalry": 152,
+          "Trebuchet (Packed)": 2,
+          "Camel Scout": 7
+        },
+        "eco_techs": [
+          [
+            "Double-Bit Axe",
+            550
+          ],
+          [
+            "Horse Collar",
+            558
+          ],
+          [
+            "Wheelbarrow",
+            614
+          ],
+          [
+            "Bow Saw",
+            694
+          ],
+          [
+            "Heavy Plow",
+            971
+          ],
+          [
+            "Hand Cart",
+            1776
+          ],
+          [
+            "Caravan",
+            2069
+          ],
+          [
+            "Guilds",
+            2231
+          ],
+          [
+            "Two-Man Saw",
+            2250
+          ]
+        ],
+        "military_techs": [
+          [
+            "Padded Archer Armor",
+            1278
+          ],
+          [
+            "Leather Archer Armor",
+            1434
+          ],
+          [
+            "Sipahi",
+            1540
+          ],
+          [
+            "Fletching",
+            1565
+          ],
+          [
+            "Bodkin Arrow",
+            1625
+          ],
+          [
+            "Scale Barding Armor",
+            1690
+          ],
+          [
+            "Parthian Tactics",
+            1709
+          ],
+          [
+            "Ballistics",
+            1726
+          ],
+          [
+            "Bloodlines",
+            1736
+          ],
+          [
+            "Husbandry",
+            1736
+          ],
+          [
+            "Loom",
+            1776
+          ],
+          [
+            "Bracer",
+            1797
+          ],
+          [
+            "Thumb Ring",
+            1809
+          ],
+          [
+            "Forging",
+            1907
+          ],
+          [
+            "Heavy Cavalry Archer",
+            1978
+          ],
+          [
+            "Treadmill Crane",
+            1999
+          ],
+          [
+            "Chain Barding Armor",
+            2029
+          ],
+          [
+            "Iron Casting",
+            2030
+          ],
+          [
+            "Conscription",
+            2110
+          ],
+          [
+            "Ring Archer Armor",
+            2198
+          ],
+          [
+            "Blast Furnace",
+            2199
+          ],
+          [
+            "Murder Holes",
+            2277
+          ],
+          [
+            "Plate Barding Armor",
+            2435
+          ],
+          [
+            "Heavy Camel Rider",
+            2459
+          ]
+        ],
+        "eco_tech_count": 9,
+        "military_tech_count": 24,
+        "market": {
+          "wood": {
+            "sell": 600,
+            "buy": 1000
+          },
+          "food": {
+            "sell": 3000,
+            "buy": 200
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 200
+          },
+          "gold": {
+            "spent": 1732,
+            "received": 1975
+          }
+        },
+        "buildings_built": 68,
+        "resigned_time_s": 2702
+      },
+      "2": {
+        "profile_id": 12047120,
+        "name": "wabbit",
+        "team": 2,
+        "color": 5,
+        "civ": "Chinese",
+        "is_ai": false,
+        "feudal_time_ms": 551964,
+        "castle_time_ms": 768296,
+        "imperial_time_ms": 1741834,
+        "opening": "fast_castle",
+        "eapm_mean": 30.491029578147728,
+        "eapm_max": 55.99999999999999,
+        "eapm_min": 7,
+        "eco_apm_mean": 6.717391304347826,
+        "eco_apm_max": 14.333333333333332,
+        "military_apm_mean": 23.577986099886854,
+        "military_apm_max": 51.666666666666664,
+        "apm_per_min": [
+          23.3,
+          24,
+          19.7,
+          22,
+          20.7,
+          19.3,
+          18.7,
+          16.3,
+          15.7,
+          11.3,
+          8.7,
+          7,
+          8.7,
+          7.7,
+          14.7,
+          17.7,
+          23,
+          21,
+          24.7,
+          23,
+          25,
+          24,
+          33.7,
+          47,
+          56,
+          49.3,
+          40,
+          36,
+          44.3,
+          43.3,
+          52.7,
+          52.7,
+          53.7,
+          46.7,
+          48.7,
+          45,
+          40,
+          32.3,
+          35,
+          35.7,
+          36.7,
+          40.7,
+          44,
+          40.3,
+          30.9,
+          22.1
+        ],
+        "micro_ratio_over_time": [
+          -0.393,
+          -0.368,
+          -0.643,
+          -0.559,
+          -0.563,
+          -0.452,
+          0.035,
+          0.305,
+          0.194,
+          -0.433,
+          -0.444,
+          -0.178,
+          -0.03,
+          -0.585,
+          -0.621,
+          -0.695,
+          -0.268,
+          -0.466,
+          -0.218,
+          -0.545,
+          -0.578,
+          -0.515,
+          -0.153,
+          0.251,
+          0.269,
+          0.128,
+          0.145,
+          0.068,
+          0.178,
+          0.005,
+          0.066,
+          -0.008,
+          0.025,
+          -0.111,
+          -0.014,
+          -0.245,
+          -0.192,
+          -0.215,
+          0.002,
+          -0.053,
+          -0.202,
+          -0.2,
+          -0.106,
+          -0.206,
+          -0.142,
+          -0.149
+        ],
+        "attention_span_ratio_over_time": [
+          -0.416,
+          -0.517,
+          -0.726,
+          -0.304,
+          -0.214,
+          0.005,
+          0.19,
+          0.196,
+          -0.02,
+          -0.686,
+          -0.406,
+          -0.38,
+          -0.235,
+          -0.68,
+          -0.656,
+          -0.678,
+          -0.403,
+          -0.356,
+          -0.306,
+          -0.53,
+          -0.585,
+          -0.341,
+          -0.09,
+          0.187,
+          0.231,
+          0.426,
+          0.385,
+          0.398,
+          0.273,
+          0.53,
+          0.677,
+          0.867,
+          0.902,
+          0.851,
+          0.733,
+          0.405,
+          0.407,
+          0.225,
+          0.535,
+          0.589,
+          0.88,
+          0.854,
+          0.683,
+          0.707,
+          0.79,
+          1
+        ],
+        "attention_span_eco_ms": 1252814,
+        "attention_span_military_ms": 1427829,
+        "villagers_trained": 118,
+        "villager_count_at": {
+          "300": 11,
+          "600": 16,
+          "900": 26,
+          "1200": 57,
+          "1500": 87,
+          "1800": 108,
+          "2400": 118,
+          "3000": 118,
+          "3600": 118
+        },
+        "military_trained": 226,
+        "first_military_time_s": 1268,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 15,
+          "1800": 29,
+          "2400": 157,
+          "3000": 226,
+          "3600": 226
+        },
+        "military_by_type": {
+          "Chu Ko Nu": 84,
+          "Scout Cavalry": 134,
+          "Trebuchet (Packed)": 8
+        },
+        "eco_techs": [
+          [
+            "Double-Bit Axe",
+            632
+          ],
+          [
+            "Horse Collar",
+            651
+          ],
+          [
+            "Stone Mining",
+            1211
+          ],
+          [
+            "Wheelbarrow",
+            1441
+          ],
+          [
+            "Hand Cart",
+            1587
+          ]
+        ],
+        "military_techs": [
+          [
+            "Town Watch",
+            928
+          ],
+          [
+            "Ballistics",
+            1354
+          ],
+          [
+            "Fletching",
+            1414
+          ],
+          [
+            "Town Patrol",
+            1440
+          ],
+          [
+            "Bodkin Arrow",
+            1493
+          ],
+          [
+            "Padded Archer Armor",
+            1493
+          ],
+          [
+            "Forging",
+            1556
+          ],
+          [
+            "Leather Archer Armor",
+            1629
+          ],
+          [
+            "Loom",
+            1709
+          ],
+          [
+            "Bloodlines",
+            1715
+          ],
+          [
+            "Husbandry",
+            1716
+          ],
+          [
+            "Rocketry",
+            1762
+          ],
+          [
+            "Light Cavalry",
+            1775
+          ],
+          [
+            "Bracer",
+            1824
+          ],
+          [
+            "Conscription",
+            1900
+          ],
+          [
+            "Ring Archer Armor",
+            2018
+          ],
+          [
+            "Scale Barding Armor",
+            2019
+          ],
+          [
+            "Iron Casting",
+            2020
+          ],
+          [
+            "Chain Barding Armor",
+            2154
+          ],
+          [
+            "Blast Furnace",
+            2211
+          ],
+          [
+            "Plate Barding Armor",
+            2350
+          ],
+          [
+            "Elite Chu Ko Nu",
+            2512
+          ]
+        ],
+        "eco_tech_count": 5,
+        "military_tech_count": 22,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 100
+          },
+          "gold": {
+            "spent": 171,
+            "received": 0
+          }
+        },
+        "buildings_built": 44,
+        "resigned_time_s": null
+      },
+      "3": {
+        "profile_id": 12693189,
+        "name": "NaKiyaKar",
+        "team": 2,
+        "color": 7,
+        "civ": "Malay",
+        "is_ai": false,
+        "feudal_time_ms": 574479,
+        "castle_time_ms": 820614,
+        "imperial_time_ms": 1966958,
+        "opening": "fast_castle",
+        "eapm_mean": 32.679839448305586,
+        "eapm_max": 57.99999999999999,
+        "eapm_min": 14.999999999999998,
+        "eco_apm_mean": 11.060503205646246,
+        "eco_apm_max": 20.188764973151542,
+        "military_apm_mean": 21.336727547007165,
+        "military_apm_max": 50.99999999999999,
+        "apm_per_min": [
+          22.7,
+          22,
+          19,
+          21.7,
+          25,
+          27,
+          23,
+          23,
+          23.3,
+          23.7,
+          17.7,
+          16,
+          15,
+          18,
+          18,
+          19,
+          28.7,
+          35.7,
+          43,
+          37.7,
+          45.7,
+          46.7,
+          56,
+          58,
+          57,
+          46.3,
+          43.3,
+          44.7,
+          51,
+          50,
+          45,
+          44,
+          42.7,
+          41.7,
+          39.3,
+          30.3,
+          27.7,
+          26,
+          25,
+          28.7,
+          26.7,
+          31,
+          27,
+          26.3,
+          29.1,
+          35.2
+        ],
+        "micro_ratio_over_time": [
+          -0.234,
+          -0.214,
+          -0.405,
+          -0.456,
+          -0.276,
+          0.057,
+          -0.033,
+          0.15,
+          0.203,
+          0.164,
+          -0.411,
+          -0.416,
+          -0.619,
+          -0.619,
+          -1,
+          -0.942,
+          -0.724,
+          -0.61,
+          -0.49,
+          -0.647,
+          -0.66,
+          -0.727,
+          -0.558,
+          -0.362,
+          -0.221,
+          -0.106,
+          -0.141,
+          -0.189,
+          -0.353,
+          -0.251,
+          -0.239,
+          -0.079,
+          -0.294,
+          -0.316,
+          -0.464,
+          -0.613,
+          -0.778,
+          -0.951,
+          -0.951,
+          -0.96,
+          -0.882,
+          -0.882,
+          -0.901,
+          -0.893,
+          -0.791,
+          -0.688
+        ],
+        "attention_span_ratio_over_time": [
+          -0.066,
+          0.016,
+          -0.008,
+          -0.098,
+          -0.136,
+          -0.23,
+          -0.246,
+          0.019,
+          0.054,
+          -0.079,
+          -0.39,
+          -0.177,
+          -0.301,
+          -0.147,
+          -0.393,
+          -0.22,
+          -0.303,
+          -0.129,
+          0.189,
+          0.343,
+          0.63,
+          0.757,
+          0.692,
+          0.567,
+          0.384,
+          0.467,
+          0.507,
+          0.288,
+          0.322,
+          0.371,
+          0.62,
+          0.532,
+          0.347,
+          0.028,
+          -0.022,
+          -0.282,
+          -0.378,
+          -0.674,
+          -0.347,
+          -0.093,
+          0.117,
+          -0.185,
+          -0.152,
+          -0.104,
+          0.008,
+          -0.112
+        ],
+        "attention_span_eco_ms": 1283312,
+        "attention_span_military_ms": 1389205,
+        "villagers_trained": 123,
+        "villager_count_at": {
+          "300": 14,
+          "600": 26,
+          "900": 31,
+          "1200": 44,
+          "1500": 53,
+          "1800": 61,
+          "2400": 103,
+          "3000": 123,
+          "3600": 123
+        },
+        "military_trained": 168,
+        "first_military_time_s": 821,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 19,
+          "1200": 42,
+          "1500": 76,
+          "1800": 96,
+          "2400": 130,
+          "3000": 168,
+          "3600": 168
+        },
+        "military_by_type": {
+          "Karambit Warrior": 118,
+          "Battering Ram": 10,
+          "Scorpion": 6,
+          "Trebuchet (Packed)": 2,
+          "Spearman": 3,
+          "Skirmisher": 10,
+          "Battle Elephant": 19
+        },
+        "eco_techs": [
+          [
+            "Double-Bit Axe",
+            663
+          ],
+          [
+            "Wheelbarrow",
+            1049
+          ],
+          [
+            "Bow Saw",
+            1087
+          ],
+          [
+            "Hand Cart",
+            1666
+          ],
+          [
+            "Horse Collar",
+            2170
+          ],
+          [
+            "Heavy Plow",
+            2193
+          ],
+          [
+            "Crop Rotation",
+            2695
+          ]
+        ],
+        "military_techs": [
+          [
+            "Man-at-Arms",
+            810
+          ],
+          [
+            "Forging",
+            811
+          ],
+          [
+            "Arson",
+            819
+          ],
+          [
+            "Iron Casting",
+            1231
+          ],
+          [
+            "Conscription",
+            1974
+          ],
+          [
+            "Fletching",
+            2174
+          ],
+          [
+            "Elite Skirmisher",
+            2213
+          ],
+          [
+            "Bodkin Arrow",
+            2215
+          ],
+          [
+            "Pikeman",
+            2235
+          ],
+          [
+            "Squires",
+            2273
+          ],
+          [
+            "Halberdier",
+            2308
+          ],
+          [
+            "Loom",
+            2351
+          ],
+          [
+            "Blast Furnace",
+            2462
+          ],
+          [
+            "Scale Barding Armor",
+            2532
+          ],
+          [
+            "Husbandry",
+            2673
+          ]
+        ],
+        "eco_tech_count": 7,
+        "military_tech_count": 15,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 300
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 170,
+            "received": 0
+          }
+        },
+        "buildings_built": 69,
+        "resigned_time_s": null
+      },
+      "4": {
+        "profile_id": 11907023,
+        "name": "cheetah001",
+        "team": 1,
+        "color": 2,
+        "civ": "Jurchens",
+        "is_ai": false,
+        "feudal_time_ms": 533076,
+        "castle_time_ms": 752294,
+        "imperial_time_ms": 1784481,
+        "opening": "fast_castle",
+        "eapm_mean": 25.545606378966653,
+        "eapm_max": 38,
+        "eapm_min": 3.6666666666666665,
+        "eco_apm_mean": 9.717391304347828,
+        "eco_apm_max": 19.999999999999996,
+        "military_apm_mean": 15.78473681374926,
+        "military_apm_max": 31.666666666666664,
+        "apm_per_min": [
+          38,
+          33.7,
+          22,
+          17,
+          13.3,
+          18.7,
+          17.3,
+          13,
+          7.3,
+          3.7,
+          5,
+          7.3,
+          13,
+          22,
+          28.3,
+          29.3,
+          28.3,
+          26,
+          25,
+          22,
+          21.7,
+          25,
+          26.7,
+          25,
+          28.7,
+          32.3,
+          37.3,
+          31,
+          33,
+          33.3,
+          33.7,
+          29,
+          31,
+          37.7,
+          33,
+          37.7,
+          36.7,
+          36.3,
+          29.7,
+          28,
+          31,
+          30.7,
+          25,
+          32,
+          22,
+          17.4
+        ],
+        "micro_ratio_over_time": [
+          0.059,
+          -0.097,
+          -0.324,
+          -0.889,
+          -0.882,
+          -0.398,
+          -0.437,
+          -0.515,
+          -1,
+          -1,
+          -1,
+          -0.778,
+          -0.778,
+          -0.53,
+          -0.752,
+          -0.449,
+          -0.697,
+          -0.641,
+          -0.944,
+          -0.829,
+          -0.739,
+          -0.716,
+          -0.737,
+          -0.882,
+          -0.755,
+          -0.628,
+          -0.547,
+          -0.506,
+          -0.358,
+          -0.106,
+          -0.236,
+          -0.456,
+          -0.756,
+          -0.8,
+          -0.951,
+          -0.663,
+          -0.44,
+          -0.106,
+          -0.212,
+          -0.314,
+          -0.46,
+          -0.514,
+          -0.652,
+          -0.708,
+          -0.87,
+          -0.87
+        ],
+        "attention_span_ratio_over_time": [
+          -0.142,
+          -0.197,
+          -0.354,
+          -0.564,
+          -0.524,
+          -0.458,
+          -0.504,
+          -0.712,
+          -0.879,
+          -0.957,
+          -0.836,
+          -0.63,
+          -0.482,
+          -0.372,
+          -0.505,
+          -0.323,
+          -0.423,
+          -0.239,
+          -0.4,
+          -0.176,
+          -0.041,
+          0.044,
+          0.04,
+          -0.058,
+          0.208,
+          0.184,
+          0.159,
+          -0.164,
+          -0.059,
+          0.087,
+          0.082,
+          0.047,
+          0.087,
+          0.453,
+          0.228,
+          0.435,
+          0.345,
+          0.74,
+          0.61,
+          0.701,
+          0.606,
+          0.67,
+          0.443,
+          0.597,
+          0.664,
+          1
+        ],
+        "attention_span_eco_ms": 1416208,
+        "attention_span_military_ms": 1290104,
+        "villagers_trained": 138,
+        "villager_count_at": {
+          "300": 17,
+          "600": 22,
+          "900": 39,
+          "1200": 76,
+          "1500": 108,
+          "1800": 125,
+          "2400": 130,
+          "3000": 138,
+          "3600": 138
+        },
+        "military_trained": 188,
+        "first_military_time_s": 1446,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 5,
+          "1800": 25,
+          "2400": 137,
+          "3000": 188,
+          "3600": 188
+        },
+        "military_by_type": {
+          "Iron Pagoda": 11,
+          "Steppe Lancer": 136,
+          "Grenadier": 41
+        },
+        "eco_techs": [
+          [
+            "Double-Bit Axe",
+            692
+          ],
+          [
+            "Bow Saw",
+            959
+          ],
+          [
+            "Coinage",
+            1048
+          ],
+          [
+            "Wheelbarrow",
+            1597
+          ],
+          [
+            "Stone Mining",
+            1636
+          ],
+          [
+            "Gold Mining",
+            1644
+          ]
+        ],
+        "military_techs": [
+          [
+            "Loom",
+            1599
+          ],
+          [
+            "Fortified Bastions",
+            1621
+          ],
+          [
+            "Scale Barding Armor",
+            1693
+          ],
+          [
+            "Forging",
+            1694
+          ],
+          [
+            "Bloodlines",
+            1722
+          ],
+          [
+            "Husbandry",
+            1723
+          ],
+          [
+            "Elite Steppe Lancer",
+            1819
+          ],
+          [
+            "Chain Barding Armor",
+            1962
+          ],
+          [
+            "Iron Casting",
+            2139
+          ]
+        ],
+        "eco_tech_count": 6,
+        "military_tech_count": 9,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 0
+          }
+        },
+        "buildings_built": 98,
+        "resigned_time_s": 2712
+      },
+      "5": {
+        "profile_id": 12080589,
+        "name": "l.inc",
+        "team": 2,
+        "color": 4,
+        "civ": "Ethiopians",
+        "is_ai": false,
+        "feudal_time_ms": 421025,
+        "castle_time_ms": 756172,
+        "imperial_time_ms": 1479786,
+        "opening": "fast_castle",
+        "eapm_mean": 18.634233069338933,
+        "eapm_max": 42.39157372986366,
+        "eapm_min": 6,
+        "eco_apm_mean": 6.499999999999997,
+        "eco_apm_max": 18.333333333333332,
+        "military_apm_mean": 12.134233069338935,
+        "military_apm_max": 41.39157372986366,
+        "apm_per_min": [
+          20.3,
+          15.3,
+          10.3,
+          9,
+          8.3,
+          6,
+          6.3,
+          6.3,
+          7.3,
+          6,
+          6.7,
+          10.3,
+          11.7,
+          12.3,
+          10.3,
+          15.3,
+          18.7,
+          19.3,
+          14.7,
+          11,
+          14,
+          14.3,
+          21,
+          21.3,
+          24,
+          29.7,
+          27,
+          27,
+          17.3,
+          16,
+          15.7,
+          13.3,
+          17.7,
+          21,
+          25.3,
+          25.7,
+          21.7,
+          20.7,
+          17,
+          19.3,
+          25,
+          33,
+          40,
+          42.3,
+          42.4,
+          39.8
+        ],
+        "micro_ratio_over_time": [
+          -1,
+          -1,
+          -0.926,
+          -0.926,
+          -0.831,
+          -0.905,
+          -0.771,
+          -0.867,
+          -0.867,
+          -0.778,
+          -0.481,
+          -0.398,
+          -0.62,
+          -0.917,
+          -1,
+          -0.973,
+          -0.942,
+          -0.942,
+          -0.847,
+          -0.745,
+          -0.682,
+          -0.692,
+          -0.448,
+          -0.42,
+          -0.498,
+          -0.507,
+          -0.503,
+          -0.336,
+          -0.631,
+          -0.726,
+          -0.645,
+          -0.659,
+          -0.311,
+          -0.247,
+          -0.057,
+          -0.239,
+          -0.309,
+          -0.4,
+          -0.464,
+          -0.628,
+          -0.699,
+          -0.423,
+          -0.238,
+          -0.059,
+          0.063,
+          0.267
+        ],
+        "attention_span_ratio_over_time": [
+          -0.683,
+          -0.649,
+          -0.721,
+          -0.865,
+          -0.624,
+          -0.043,
+          0.083,
+          0.143,
+          -0.453,
+          -0.298,
+          -0.449,
+          -0.106,
+          -0.331,
+          -0.327,
+          -0.178,
+          -0.113,
+          -0.182,
+          -0.603,
+          -0.409,
+          -0.347,
+          -0.019,
+          0.085,
+          0.483,
+          0.398,
+          0.206,
+          -0.027,
+          -0.047,
+          0.013,
+          -0.236,
+          -0.464,
+          -0.121,
+          0.092,
+          0.575,
+          0.614,
+          0.573,
+          0.55,
+          0.465,
+          0.653,
+          0.713,
+          0.731,
+          0.789,
+          0.809,
+          0.856,
+          0.918,
+          0.98,
+          1
+        ],
+        "attention_span_eco_ms": 1294253,
+        "attention_span_military_ms": 1414819,
+        "villagers_trained": 88,
+        "villager_count_at": {
+          "300": 11,
+          "600": 17,
+          "900": 26,
+          "1200": 57,
+          "1500": 68,
+          "1800": 87,
+          "2400": 88,
+          "3000": 88,
+          "3600": 88
+        },
+        "military_trained": 140,
+        "first_military_time_s": 1237,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 9,
+          "1800": 14,
+          "2400": 50,
+          "3000": 140,
+          "3600": 140
+        },
+        "military_by_type": {
+          "Scout Cavalry": 2,
+          "Archer": 9,
+          "Camel Scout": 9,
+          "Bombard Cannon": 3,
+          "Trebuchet (Packed)": 2,
+          "Spearman": 5,
+          "Shotel Warrior": 110
+        },
+        "eco_techs": [
+          [
+            "Horse Collar",
+            665
+          ],
+          [
+            "Double-Bit Axe",
+            690
+          ],
+          [
+            "Wheelbarrow",
+            751
+          ],
+          [
+            "Hand Cart",
+            1329
+          ],
+          [
+            "Gold Mining",
+            1512
+          ],
+          [
+            "Heavy Plow",
+            1759
+          ],
+          [
+            "Gold Shaft Mining",
+            1767
+          ]
+        ],
+        "military_techs": [
+          [
+            "Loom",
+            559
+          ],
+          [
+            "Scale Barding Armor",
+            1318
+          ],
+          [
+            "Fletching",
+            1462
+          ],
+          [
+            "Padded Archer Armor",
+            1463
+          ],
+          [
+            "Ballistics",
+            1596
+          ],
+          [
+            "Chemistry",
+            1597
+          ],
+          [
+            "Fortified Wall",
+            1600
+          ],
+          [
+            "Siege Engineers",
+            1600
+          ],
+          [
+            "Husbandry",
+            1658
+          ],
+          [
+            "Leather Archer Armor",
+            1742
+          ],
+          [
+            "Bodkin Arrow",
+            1743
+          ],
+          [
+            "Conscription",
+            1839
+          ],
+          [
+            "Thumb Ring",
+            1850
+          ],
+          [
+            "Crossbowman",
+            1857
+          ],
+          [
+            "Chain Barding Armor",
+            1975
+          ],
+          [
+            "Forging",
+            1975
+          ],
+          [
+            "Heavy Camel Rider",
+            1987
+          ],
+          [
+            "Royal Heirs",
+            2131
+          ],
+          [
+            "Halberdier",
+            2190
+          ],
+          [
+            "Squires",
+            2191
+          ],
+          [
+            "Elite Shotel Warrior",
+            2203
+          ],
+          [
+            "Scale Mail Armor",
+            2206
+          ],
+          [
+            "Iron Casting",
+            2206
+          ],
+          [
+            "Chain Mail Armor",
+            2280
+          ],
+          [
+            "Blast Furnace",
+            2329
+          ],
+          [
+            "Plate Mail Armor",
+            2544
+          ]
+        ],
+        "eco_tech_count": 7,
+        "military_tech_count": 26,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 100
+          },
+          "gold": {
+            "spent": 174,
+            "received": 0
+          }
+        },
+        "buildings_built": 47,
+        "resigned_time_s": null
+      },
+      "6": {
+        "profile_id": 4607974,
+        "name": "Strength & Honour",
+        "team": 1,
+        "color": 6,
+        "civ": "Incas",
+        "is_ai": false,
+        "feudal_time_ms": 495180,
+        "castle_time_ms": 742498,
+        "imperial_time_ms": 1879776,
+        "opening": "fast_castle",
+        "eapm_mean": 19.901944938311512,
+        "eapm_max": 46.33333333333333,
+        "eapm_min": 8.333333333333332,
+        "eco_apm_mean": 10.52386724853187,
+        "eco_apm_max": 18,
+        "military_apm_mean": 9.138947254997035,
+        "military_apm_max": 38.33333333333333,
+        "apm_per_min": [
+          13.7,
+          14,
+          15.7,
+          18,
+          15.7,
+          17,
+          15.7,
+          16.7,
+          13.7,
+          16.7,
+          17,
+          16,
+          10,
+          9.3,
+          8.3,
+          12.3,
+          14.7,
+          14.7,
+          15.3,
+          13,
+          19.3,
+          22.7,
+          21.7,
+          16.7,
+          14.3,
+          20,
+          23,
+          24,
+          20,
+          21,
+          16.7,
+          20.3,
+          16.7,
+          25.7,
+          23.3,
+          29.3,
+          30.7,
+          41.3,
+          46.3,
+          42,
+          32.3,
+          25.7,
+          18.3,
+          20.7,
+          16.8,
+          19.3
+        ],
+        "micro_ratio_over_time": [
+          -0.822,
+          -0.703,
+          -0.658,
+          -0.362,
+          -0.496,
+          -0.241,
+          0.082,
+          0.119,
+          -0.003,
+          -0.303,
+          -0.107,
+          0.127,
+          -0.192,
+          -0.197,
+          -0.549,
+          -0.549,
+          -0.852,
+          -1,
+          -0.965,
+          -0.965,
+          -0.965,
+          -0.977,
+          -0.977,
+          -0.977,
+          -0.879,
+          -0.879,
+          -0.697,
+          -0.765,
+          -0.714,
+          -0.869,
+          -0.922,
+          -0.834,
+          -0.861,
+          -0.707,
+          -0.846,
+          -0.429,
+          -0.196,
+          0.24,
+          0.277,
+          -0.022,
+          -0.357,
+          -0.811,
+          -0.9,
+          -0.975,
+          -0.975,
+          -0.975
+        ],
+        "attention_span_ratio_over_time": [
+          -0.743,
+          -0.701,
+          -0.748,
+          -0.582,
+          -0.609,
+          -0.324,
+          -0.111,
+          -0.007,
+          0.155,
+          -0.047,
+          -0.049,
+          -0.237,
+          -0.501,
+          -0.442,
+          -0.384,
+          -0.366,
+          -0.609,
+          -0.845,
+          -0.71,
+          -0.655,
+          -0.635,
+          -0.612,
+          -0.288,
+          -0.404,
+          -0.31,
+          -0.592,
+          -0.357,
+          -0.494,
+          -0.302,
+          -0.24,
+          -0.331,
+          -0.501,
+          -0.739,
+          -0.614,
+          -0.674,
+          -0.306,
+          -0.068,
+          0.322,
+          0.363,
+          0.27,
+          -0.084,
+          -0.525,
+          -0.822,
+          -0.861,
+          -0.504,
+          -0.11
+        ],
+        "attention_span_eco_ms": 1833339,
+        "attention_span_military_ms": 776990,
+        "villagers_trained": 129,
+        "villager_count_at": {
+          "300": 13,
+          "600": 17,
+          "900": 23,
+          "1200": 48,
+          "1500": 69,
+          "1800": 92,
+          "2400": 112,
+          "3000": 129,
+          "3600": 129
+        },
+        "military_trained": 162,
+        "first_military_time_s": 1089,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 1,
+          "1500": 11,
+          "1800": 51,
+          "2400": 114,
+          "3000": 162,
+          "3600": 162
+        },
+        "military_by_type": {
+          "Spearman": 1,
+          "Champi Scout": 50,
+          "Slinger": 111
+        },
+        "eco_techs": [
+          [
+            "Double-Bit Axe",
+            640
+          ],
+          [
+            "Horse Collar",
+            702
+          ],
+          [
+            "Bow Saw",
+            1070
+          ],
+          [
+            "Wheelbarrow",
+            1125
+          ],
+          [
+            "Heavy Plow",
+            1205
+          ],
+          [
+            "Hand Cart",
+            1340
+          ],
+          [
+            "Gold Mining",
+            1656
+          ]
+        ],
+        "military_techs": [
+          [
+            "Loom",
+            851
+          ],
+          [
+            "Squires",
+            960
+          ],
+          [
+            "Scale Mail Armor",
+            1096
+          ],
+          [
+            "Champi Runner",
+            1249
+          ],
+          [
+            "Town Watch",
+            1278
+          ],
+          [
+            "Champi Warrior",
+            1418
+          ],
+          [
+            "Chain Mail Armor",
+            1441
+          ],
+          [
+            "Forging",
+            1543
+          ],
+          [
+            "Arson",
+            1582
+          ],
+          [
+            "Town Patrol",
+            1693
+          ],
+          [
+            "Fletching",
+            1718
+          ],
+          [
+            "Bodkin Arrow",
+            1786
+          ],
+          [
+            "Ballistics",
+            1788
+          ],
+          [
+            "Padded Archer Armor",
+            1819
+          ],
+          [
+            "Chemistry",
+            1888
+          ],
+          [
+            "Conscription",
+            1911
+          ],
+          [
+            "Leather Archer Armor",
+            2381
+          ],
+          [
+            "Bracer",
+            2539
+          ],
+          [
+            "Iron Casting",
+            2622
+          ]
+        ],
+        "eco_tech_count": 7,
+        "military_tech_count": 19,
+        "market": {
+          "wood": {
+            "sell": 2000,
+            "buy": 0
+          },
+          "food": {
+            "sell": 100,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 1190
+          }
+        },
+        "buildings_built": 72,
+        "resigned_time_s": 2708
+      },
+      "7": {
+        "profile_id": 12499000,
+        "name": "toXic",
+        "team": 2,
+        "color": 8,
+        "civ": "Dravidians",
+        "is_ai": false,
+        "feudal_time_ms": 505832,
+        "castle_time_ms": 715900,
+        "imperial_time_ms": 1535469,
+        "opening": "fast_castle",
+        "eapm_mean": 27.46290609342169,
+        "eapm_max": 48.666666666666664,
+        "eapm_min": 6.333333333333333,
+        "eco_apm_mean": 11.869565217391301,
+        "eco_apm_max": 24.666666666666664,
+        "military_apm_mean": 15.202036528204296,
+        "military_apm_max": 44.666666666666664,
+        "apm_per_min": [
+          40.3,
+          38.7,
+          30,
+          23.7,
+          15,
+          18,
+          12,
+          13.7,
+          6.3,
+          10,
+          6.7,
+          10.3,
+          14.3,
+          18.3,
+          19,
+          22.3,
+          24.3,
+          29,
+          30,
+          33.7,
+          33.7,
+          29,
+          22,
+          24,
+          31.3,
+          39.3,
+          32.7,
+          32.7,
+          39.7,
+          43,
+          36,
+          21.7,
+          27.3,
+          30,
+          31.7,
+          26.3,
+          29.7,
+          33.3,
+          34,
+          32,
+          31.3,
+          34.7,
+          48,
+          48.7,
+          38.8,
+          16.9
+        ],
+        "micro_ratio_over_time": [
+          -0.264,
+          0.026,
+          -0.117,
+          -0.568,
+          -1,
+          -0.493,
+          -0.16,
+          0.048,
+          -0.458,
+          -0.792,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -0.778,
+          -0.778,
+          -0.667,
+          -0.722,
+          -0.646,
+          -0.49,
+          -0.597,
+          -0.435,
+          -0.701,
+          -0.641,
+          -0.879,
+          -0.879,
+          -0.742,
+          -0.403,
+          -0.403,
+          -0.545,
+          -0.884,
+          -0.574,
+          -0.561,
+          -0.561,
+          -0.871,
+          -1,
+          -1,
+          -0.862,
+          -0.691,
+          -0.446,
+          -0.345,
+          -0.027,
+          -0.251,
+          -0.49,
+          -0.979
+        ],
+        "attention_span_ratio_over_time": [
+          -0.383,
+          -0.273,
+          -0.286,
+          -0.671,
+          -0.873,
+          -0.662,
+          -0.377,
+          -0.325,
+          -0.615,
+          -0.949,
+          -0.642,
+          -0.565,
+          -0.364,
+          -0.66,
+          -0.737,
+          -0.813,
+          -0.821,
+          -0.772,
+          -0.748,
+          -0.557,
+          -0.446,
+          -0.347,
+          -0.407,
+          -0.514,
+          -0.611,
+          -0.738,
+          -0.75,
+          -0.553,
+          -0.212,
+          0.203,
+          0.477,
+          0.428,
+          0.515,
+          0.262,
+          0.461,
+          0.16,
+          0.061,
+          -0.333,
+          -0.133,
+          -0.142,
+          0.188,
+          0.2,
+          0.385,
+          0.446,
+          0.66,
+          0.88
+        ],
+        "attention_span_eco_ms": 1717159,
+        "attention_span_military_ms": 879023,
+        "villagers_trained": 118,
+        "villager_count_at": {
+          "300": 13,
+          "600": 17,
+          "900": 31,
+          "1200": 74,
+          "1500": 112,
+          "1800": 118,
+          "2400": 118,
+          "3000": 118,
+          "3600": 118
+        },
+        "military_trained": 466,
+        "first_military_time_s": 795,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 1,
+          "1200": 2,
+          "1500": 2,
+          "1800": 100,
+          "2400": 358,
+          "3000": 466,
+          "3600": 466
+        },
+        "military_by_type": {
+          "Monk": 2,
+          "Militia": 291,
+          "Armored Elephant": 16,
+          "Spearman": 151,
+          "Trebuchet (Packed)": 6
+        },
+        "eco_techs": [
+          [
+            "Horse Collar",
+            550
+          ],
+          [
+            "Double-Bit Axe",
+            581
+          ],
+          [
+            "Wheelbarrow",
+            614
+          ],
+          [
+            "Bow Saw",
+            742
+          ],
+          [
+            "Heavy Plow",
+            742
+          ],
+          [
+            "Stone Mining",
+            1128
+          ],
+          [
+            "Gold Mining",
+            1193
+          ],
+          [
+            "Hand Cart",
+            1280
+          ],
+          [
+            "Coinage",
+            1930
+          ],
+          [
+            "Guilds",
+            1930
+          ],
+          [
+            "Banking",
+            2198
+          ]
+        ],
+        "military_techs": [
+          [
+            "Loom",
+            1379
+          ],
+          [
+            "Scale Mail Armor",
+            1381
+          ],
+          [
+            "Forging",
+            1381
+          ],
+          [
+            "Chain Mail Armor",
+            1473
+          ],
+          [
+            "Iron Casting",
+            1473
+          ],
+          [
+            "Man-at-Arms",
+            1476
+          ],
+          [
+            "Gambesons",
+            1476
+          ],
+          [
+            "Squires",
+            1477
+          ],
+          [
+            "Arson",
+            1478
+          ],
+          [
+            "Long Swordsman",
+            1519
+          ],
+          [
+            "Conscription",
+            1538
+          ],
+          [
+            "Wootz Steel",
+            1547
+          ],
+          [
+            "Pikeman",
+            1564
+          ],
+          [
+            "Two-Handed Swordsman",
+            1586
+          ],
+          [
+            "Plate Mail Armor",
+            1613
+          ],
+          [
+            "Champion",
+            1640
+          ],
+          [
+            "Blast Furnace",
+            1645
+          ],
+          [
+            "Siege Elephant",
+            1690
+          ],
+          [
+            "Town Watch",
+            1726
+          ],
+          [
+            "Halberdier",
+            1743
+          ],
+          [
+            "Ballistics",
+            1840
+          ]
+        ],
+        "eco_tech_count": 11,
+        "military_tech_count": 21,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 0
+          }
+        },
+        "buildings_built": 82,
+        "resigned_time_s": null
+      },
+      "8": {
+        "profile_id": 12667372,
+        "name": "zubair",
+        "team": 1,
+        "color": 3,
+        "civ": "Cumans",
+        "is_ai": false,
+        "feudal_time_ms": 468602,
+        "castle_time_ms": 919962,
+        "imperial_time_ms": 2471952,
+        "opening": "fast_castle",
+        "eapm_mean": 23.18668175206077,
+        "eapm_max": 45,
+        "eapm_min": 4,
+        "eco_apm_mean": 5.086956521739129,
+        "eco_apm_max": 11,
+        "military_apm_mean": 18.056246969452076,
+        "military_apm_max": 41.666666666666664,
+        "apm_per_min": [
+          41.7,
+          30.7,
+          17,
+          14.7,
+          12.7,
+          10.7,
+          5.3,
+          4,
+          4.7,
+          8.7,
+          10.3,
+          13.3,
+          10.7,
+          8.3,
+          8,
+          10.7,
+          15.7,
+          17.3,
+          24.7,
+          32,
+          40.7,
+          44,
+          45,
+          38.7,
+          31,
+          24.7,
+          26,
+          29.7,
+          36,
+          45,
+          42,
+          39,
+          27,
+          22.7,
+          15,
+          14.7,
+          13.7,
+          23.3,
+          32.7,
+          30.7,
+          28.3,
+          17.7,
+          19.3,
+          24.3,
+          25.9,
+          28.7
+        ],
+        "micro_ratio_over_time": [
+          0.288,
+          0.189,
+          -0.119,
+          -0.192,
+          -0.65,
+          -0.9,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -0.949,
+          -0.949,
+          -0.949,
+          -0.889,
+          -0.806,
+          -0.595,
+          -0.706,
+          -0.474,
+          -0.505,
+          -0.226,
+          -0.237,
+          -0.173,
+          -0.174,
+          -0.16,
+          -0.056,
+          -0.048,
+          -0.034,
+          0.013,
+          0.321,
+          0.309,
+          0.239,
+          -0.11,
+          -0.192,
+          -0.294,
+          -0.354,
+          -0.29,
+          -0.04,
+          0.108,
+          -0.195,
+          -0.255,
+          -0.588,
+          -0.522,
+          -0.525,
+          -0.081,
+          0.297
+        ],
+        "attention_span_ratio_over_time": [
+          -0.151,
+          -0.295,
+          -0.028,
+          -0.102,
+          -0.282,
+          -0.885,
+          -0.919,
+          -0.711,
+          -0.711,
+          -0.748,
+          -0.618,
+          -0.447,
+          -0.48,
+          -0.829,
+          -0.816,
+          -0.347,
+          -0.178,
+          -0.236,
+          -0.164,
+          0.224,
+          0.746,
+          0.753,
+          0.825,
+          0.603,
+          0.364,
+          0.265,
+          0.398,
+          0.497,
+          0.439,
+          0.547,
+          0.66,
+          0.799,
+          0.582,
+          0.508,
+          0.075,
+          0.054,
+          -0.123,
+          0.354,
+          0.593,
+          0.781,
+          0.78,
+          0.397,
+          0.478,
+          0.489,
+          0.872,
+          1
+        ],
+        "attention_span_eco_ms": 1206353,
+        "attention_span_military_ms": 1496687,
+        "villagers_trained": 67,
+        "villager_count_at": {
+          "300": 12,
+          "600": 19,
+          "900": 35,
+          "1200": 52,
+          "1500": 62,
+          "1800": 62,
+          "2400": 67,
+          "3000": 67,
+          "3600": 67
+        },
+        "military_trained": 107,
+        "first_military_time_s": 1170,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 4,
+          "1500": 13,
+          "1800": 28,
+          "2400": 73,
+          "3000": 107,
+          "3600": 107
+        },
+        "military_by_type": {
+          "Kipchak": 76,
+          "Steppe Lancer": 25,
+          "Trebuchet (Packed)": 3,
+          "Knight": 3
+        },
+        "eco_techs": [
+          [
+            "Double-Bit Axe",
+            492
+          ],
+          [
+            "Horse Collar",
+            567
+          ],
+          [
+            "Gold Mining",
+            850
+          ],
+          [
+            "Wheelbarrow",
+            1063
+          ],
+          [
+            "Bow Saw",
+            1087
+          ]
+        ],
+        "military_techs": [
+          [
+            "Bloodlines",
+            947
+          ],
+          [
+            "Pikeman",
+            990
+          ],
+          [
+            "Loom",
+            1057
+          ],
+          [
+            "Fletching",
+            2039
+          ],
+          [
+            "Padded Archer Armor",
+            2113
+          ],
+          [
+            "Bodkin Arrow",
+            2135
+          ],
+          [
+            "Leather Archer Armor",
+            2251
+          ],
+          [
+            "Cavalier",
+            2542
+          ],
+          [
+            "Ring Archer Armor",
+            2582
+          ]
+        ],
+        "eco_tech_count": 5,
+        "military_tech_count": 9,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 0
+          }
+        },
+        "buildings_built": 30,
+        "resigned_time_s": 2719
+      },
+      "_meta": {
+        "schema": 2,
+        "match_id": 507595361,
+        "analysis_version": 4,
+        "duration_ms": 2719368,
+        "map": "Fortress",
+        "map_size": "Tiny",
+        "game_mode": "Random Map",
+        "starting_age": "Standard",
+        "ending_age": "Feudal Age",
+        "population": 200,
+        "victory": "Conquest",
+        "ranked": false
+      }
+    },
+    "507600069": {
+      "1": {
+        "profile_id": 12676944,
+        "name": "SauronSlayer",
+        "team": 1,
+        "color": 1,
+        "civ": "Berbers",
+        "is_ai": false,
+        "feudal_time_ms": 430807,
+        "castle_time_ms": 740873,
+        "imperial_time_ms": 1667076,
+        "opening": "fast_castle",
+        "eapm_mean": 45.27193441533573,
+        "eapm_max": 87.66666666666666,
+        "eapm_min": 2.9999999999999996,
+        "eco_apm_mean": 15.339731025505236,
+        "eco_apm_max": 33.33333333333333,
+        "military_apm_mean": 29.762711864406786,
+        "military_apm_max": 80.66666666666666,
+        "apm_per_min": [
+          52,
+          45,
+          37.3,
+          37.3,
+          30.7,
+          19.3,
+          11.3,
+          15.7,
+          15.3,
+          13.7,
+          3,
+          10,
+          19.7,
+          26,
+          25.3,
+          21,
+          27.7,
+          31.3,
+          35.7,
+          31.3,
+          31.7,
+          33,
+          39.7,
+          41.7,
+          48.3,
+          48.3,
+          47.7,
+          43.7,
+          44.3,
+          46.7,
+          44.3,
+          38.7,
+          36.3,
+          41.3,
+          52.7,
+          59,
+          56.7,
+          52,
+          59.7,
+          57.7,
+          55,
+          44.7,
+          61.7,
+          74.3,
+          76,
+          76.3,
+          62.3,
+          69,
+          58.7,
+          62,
+          61.7,
+          76,
+          87.7,
+          78.7,
+          72,
+          69.7,
+          74.7,
+          50.7,
+          28
+        ],
+        "micro_ratio_over_time": [
+          -0.549,
+          -0.618,
+          -0.747,
+          -0.768,
+          -0.915,
+          -1,
+          -1,
+          -0.98,
+          -0.98,
+          -0.98,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -0.626,
+          -0.626,
+          -0.564,
+          -0.937,
+          -0.937,
+          -1,
+          -0.889,
+          -0.873,
+          -0.551,
+          -0.412,
+          -0.36,
+          -0.424,
+          -0.461,
+          -0.399,
+          -0.53,
+          -0.541,
+          -0.569,
+          -0.606,
+          -0.688,
+          -0.446,
+          -0.402,
+          -0.409,
+          -0.63,
+          -0.644,
+          -0.594,
+          -0.451,
+          -0.252,
+          -0.134,
+          -0.206,
+          -0.408,
+          -0.494,
+          -0.501,
+          -0.363,
+          -0.349,
+          -0.265,
+          -0.119,
+          -0.026,
+          -0.126,
+          -0.142,
+          -0.301,
+          -0.267,
+          -0.652,
+          -0.796
+        ],
+        "attention_span_ratio_over_time": [
+          -0.493,
+          -0.586,
+          -0.746,
+          -0.835,
+          -0.922,
+          -0.967,
+          -0.972,
+          -0.964,
+          -0.964,
+          -0.967,
+          -0.35,
+          -0.344,
+          -0.33,
+          -0.98,
+          -0.978,
+          -0.992,
+          -0.745,
+          -0.704,
+          -0.531,
+          -0.752,
+          -0.761,
+          -0.918,
+          -0.706,
+          -0.645,
+          -0.274,
+          -0.227,
+          -0.08,
+          -0.02,
+          0.029,
+          0.074,
+          -0.146,
+          -0.071,
+          -0.006,
+          0.308,
+          0.337,
+          0.432,
+          0.221,
+          0.414,
+          0.509,
+          0.481,
+          0.187,
+          0.305,
+          0.499,
+          0.539,
+          0.437,
+          0.4,
+          0.538,
+          0.406,
+          0.527,
+          0.517,
+          0.711,
+          0.774,
+          0.85,
+          0.758,
+          0.694,
+          0.62,
+          0.613,
+          0.036,
+          -0.471
+        ],
+        "attention_span_eco_ms": 1881324,
+        "attention_span_military_ms": 1549605,
+        "villagers_trained": 131,
+        "villager_count_at": {
+          "300": 16,
+          "600": 19,
+          "900": 33,
+          "1200": 64,
+          "1500": 106,
+          "1800": 121,
+          "2400": 127,
+          "3000": 131,
+          "3600": 131
+        },
+        "military_trained": 397,
+        "first_military_time_s": 1400,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 4,
+          "1800": 33,
+          "2400": 152,
+          "3000": 266,
+          "3600": 397
+        },
+        "military_by_type": {
+          "Camel Archer": 103,
+          "Trebuchet (Packed)": 2,
+          "Genitour": 43,
+          "Scout Cavalry": 187,
+          "Camel Scout": 62
+        },
+        "eco_techs": [
+          [
+            "Wheelbarrow",
+            466
+          ],
+          [
+            "Double-Bit Axe",
+            595
+          ],
+          [
+            "Horse Collar",
+            606
+          ],
+          [
+            "Bow Saw",
+            989
+          ],
+          [
+            "Hand Cart",
+            1135
+          ],
+          [
+            "Heavy Plow",
+            1269
+          ],
+          [
+            "Gold Mining",
+            1291
+          ],
+          [
+            "Gold Shaft Mining",
+            2138
+          ],
+          [
+            "Stone Mining",
+            2138
+          ],
+          [
+            "Caravan",
+            2514
+          ],
+          [
+            "Crop Rotation",
+            2930
+          ],
+          [
+            "Coinage",
+            3269
+          ]
+        ],
+        "military_techs": [
+          [
+            "Loom",
+            1107
+          ],
+          [
+            "Town Watch",
+            1136
+          ],
+          [
+            "Fletching",
+            1519
+          ],
+          [
+            "Bloodlines",
+            1618
+          ],
+          [
+            "Husbandry",
+            1618
+          ],
+          [
+            "Bodkin Arrow",
+            1619
+          ],
+          [
+            "Padded Archer Armor",
+            1662
+          ],
+          [
+            "Scale Barding Armor",
+            1663
+          ],
+          [
+            "Conscription",
+            1709
+          ],
+          [
+            "Maghrebi Camels",
+            1710
+          ],
+          [
+            "Light Cavalry",
+            1738
+          ],
+          [
+            "Bracer",
+            1740
+          ],
+          [
+            "Leather Archer Armor",
+            1804
+          ],
+          [
+            "Ballistics",
+            1815
+          ],
+          [
+            "Murder Holes",
+            1840
+          ],
+          [
+            "Thumb Ring",
+            1919
+          ],
+          [
+            "Ring Archer Armor",
+            1956
+          ],
+          [
+            "Chain Barding Armor",
+            1956
+          ],
+          [
+            "Cavalier",
+            1960
+          ],
+          [
+            "Elite Genitour",
+            2014
+          ],
+          [
+            "Forging",
+            2017
+          ],
+          [
+            "Chemistry",
+            2021
+          ],
+          [
+            "Plate Barding Armor",
+            2179
+          ],
+          [
+            "Iron Casting",
+            2179
+          ],
+          [
+            "Hussar",
+            2239
+          ],
+          [
+            "Elite Camel Archer",
+            2416
+          ],
+          [
+            "Kasbah",
+            2419
+          ],
+          [
+            "Scale Mail Armor",
+            2590
+          ],
+          [
+            "Blast Furnace",
+            2595
+          ],
+          [
+            "Hoardings",
+            2753
+          ],
+          [
+            "Heavy Camel Rider",
+            3137
+          ],
+          [
+            "Siege Engineers",
+            3409
+          ]
+        ],
+        "eco_tech_count": 12,
+        "military_tech_count": 32,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 1000
+          },
+          "food": {
+            "sell": 9600,
+            "buy": 300
+          },
+          "stone": {
+            "sell": 100,
+            "buy": 400
+          },
+          "gold": {
+            "spent": 2349,
+            "received": 2238
+          }
+        },
+        "buildings_built": 113,
+        "resigned_time_s": null
+      },
+      "2": {
+        "profile_id": 12047120,
+        "name": "wabbit",
+        "team": 2,
+        "color": 5,
+        "civ": "Cumans",
+        "is_ai": false,
+        "feudal_time_ms": 556170,
+        "castle_time_ms": 766209,
+        "imperial_time_ms": 1747182,
+        "opening": "fast_castle",
+        "eapm_mean": 29.847457627118647,
+        "eapm_max": 69,
+        "eapm_min": 0,
+        "eco_apm_mean": 5.728813559322033,
+        "eco_apm_max": 14.333333333333332,
+        "military_apm_mean": 23.728813559322035,
+        "military_apm_max": 66,
+        "apm_per_min": [
+          31.3,
+          31.7,
+          28,
+          20.3,
+          17.7,
+          12,
+          17,
+          12.3,
+          17,
+          11.3,
+          11.3,
+          9.7,
+          12.7,
+          13.3,
+          13.3,
+          14,
+          14.7,
+          15.7,
+          17.7,
+          21,
+          21.3,
+          18,
+          21.7,
+          35.7,
+          43.7,
+          45.7,
+          31.3,
+          28,
+          31.7,
+          32,
+          29.3,
+          18.3,
+          31,
+          40.3,
+          44,
+          50.3,
+          52.3,
+          60.3,
+          48.7,
+          47.7,
+          57,
+          61,
+          54.3,
+          39,
+          33,
+          38.3,
+          39.3,
+          41.3,
+          49.7,
+          67.3,
+          69,
+          52.7,
+          24,
+          23,
+          16,
+          16.7,
+          3,
+          3,
+          0
+        ],
+        "micro_ratio_over_time": [
+          0.081,
+          0.028,
+          0.013,
+          -0.18,
+          -0.044,
+          -0.425,
+          0.025,
+          0.212,
+          0.657,
+          0.111,
+          -0.01,
+          -0.352,
+          -0.019,
+          -0.513,
+          -0.564,
+          -0.897,
+          -0.904,
+          -0.956,
+          -0.956,
+          -0.813,
+          -0.813,
+          -0.813,
+          -0.611,
+          -0.148,
+          0.389,
+          0.461,
+          0.039,
+          -0.267,
+          -0.325,
+          -0.171,
+          -0.253,
+          -0.489,
+          -0.406,
+          -0.221,
+          -0.151,
+          0.155,
+          0.207,
+          0.382,
+          0.241,
+          0.169,
+          0.215,
+          0.163,
+          0.103,
+          -0.193,
+          -0.242,
+          -0.272,
+          -0.184,
+          -0.34,
+          -0.086,
+          0.238,
+          0.338,
+          -0.107,
+          -0.68,
+          -0.724,
+          -0.423,
+          -0.423,
+          -0.333,
+          -0.333,
+          0
+        ],
+        "attention_span_ratio_over_time": [
+          0.22,
+          0.106,
+          -0.205,
+          -0.312,
+          -0.231,
+          -0.371,
+          -0.086,
+          0.162,
+          0.34,
+          -0.155,
+          -0.315,
+          -0.461,
+          -0.11,
+          -0.526,
+          -0.339,
+          -0.587,
+          -0.505,
+          -0.419,
+          -0.299,
+          -0.228,
+          -0.18,
+          -0.147,
+          0.016,
+          0.25,
+          0.586,
+          0.689,
+          0.468,
+          0.137,
+          0.264,
+          0.164,
+          0.201,
+          -0.09,
+          0.189,
+          0.279,
+          0.433,
+          0.555,
+          0.726,
+          0.838,
+          0.795,
+          0.8,
+          0.719,
+          0.496,
+          0.455,
+          0.391,
+          0.403,
+          0.399,
+          0.576,
+          0.777,
+          0.924,
+          0.949,
+          0.865,
+          0.619,
+          0.619,
+          0.7,
+          0.613,
+          0.613,
+          0.333,
+          0.333,
+          0
+        ],
+        "attention_span_eco_ms": 1284920,
+        "attention_span_military_ms": 1960357,
+        "villagers_trained": 101,
+        "villager_count_at": {
+          "300": 14,
+          "600": 19,
+          "900": 31,
+          "1200": 60,
+          "1500": 89,
+          "1800": 100,
+          "2400": 101,
+          "3000": 101,
+          "3600": 101
+        },
+        "military_trained": 254,
+        "first_military_time_s": 1322,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 11,
+          "1800": 14,
+          "2400": 85,
+          "3000": 162,
+          "3600": 254
+        },
+        "military_by_type": {
+          "Kipchak": 55,
+          "Monk": 1,
+          "Trebuchet (Packed)": 9,
+          "Elite Kipchak": 30,
+          "Scout Cavalry": 148,
+          "Steppe Lancer": 11
+        },
+        "eco_techs": [
+          [
+            "Horse Collar",
+            656
+          ],
+          [
+            "Double-Bit Axe",
+            658
+          ],
+          [
+            "Wheelbarrow",
+            887
+          ],
+          [
+            "Hand Cart",
+            1492
+          ]
+        ],
+        "military_techs": [
+          [
+            "Town Watch",
+            891
+          ],
+          [
+            "Fletching",
+            1332
+          ],
+          [
+            "Town Patrol",
+            1407
+          ],
+          [
+            "Ballistics",
+            1426
+          ],
+          [
+            "Bodkin Arrow",
+            1465
+          ],
+          [
+            "Padded Archer Armor",
+            1465
+          ],
+          [
+            "Loom",
+            1610
+          ],
+          [
+            "Leather Archer Armor",
+            1713
+          ],
+          [
+            "Murder Holes",
+            1720
+          ],
+          [
+            "Masonry",
+            1721
+          ],
+          [
+            "Elite Kipchak",
+            1823
+          ],
+          [
+            "Conscription",
+            1826
+          ],
+          [
+            "Cuman Mercenaries",
+            1966
+          ],
+          [
+            "Ring Archer Armor",
+            1995
+          ],
+          [
+            "Bloodlines",
+            2063
+          ],
+          [
+            "Light Cavalry",
+            2064
+          ],
+          [
+            "Hussar",
+            2236
+          ],
+          [
+            "Elite Steppe Lancer",
+            2326
+          ],
+          [
+            "Scale Barding Armor",
+            2374
+          ],
+          [
+            "Forging",
+            2375
+          ],
+          [
+            "Thumb Ring",
+            2516
+          ],
+          [
+            "Elite Skirmisher",
+            2517
+          ],
+          [
+            "Hoardings",
+            2563
+          ],
+          [
+            "Steppe Husbandry",
+            2566
+          ],
+          [
+            "Chain Barding Armor",
+            2721
+          ],
+          [
+            "Plate Barding Armor",
+            2890
+          ]
+        ],
+        "eco_tech_count": 4,
+        "military_tech_count": 26,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 200
+          },
+          "gold": {
+            "spent": 376,
+            "received": 0
+          }
+        },
+        "buildings_built": 87,
+        "resigned_time_s": 3410
+      },
+      "3": {
+        "profile_id": 4607974,
+        "name": "Strength & Honour",
+        "team": 1,
+        "color": 6,
+        "civ": "Ethiopians",
+        "is_ai": false,
+        "feudal_time_ms": 462597,
+        "castle_time_ms": 696416,
+        "imperial_time_ms": 1990855,
+        "opening": "fast_castle",
+        "eapm_mean": 28.64076547679679,
+        "eapm_max": 54.33333333333333,
+        "eapm_min": 10.999999999999998,
+        "eco_apm_mean": 9.152542372881355,
+        "eco_apm_max": 23,
+        "military_apm_mean": 19.18313835815272,
+        "military_apm_max": 50.33333333333333,
+        "apm_per_min": [
+          28.3,
+          26,
+          27,
+          26.7,
+          23.3,
+          14.7,
+          11,
+          14.3,
+          14,
+          18.3,
+          14.7,
+          20.7,
+          18.3,
+          16,
+          11.3,
+          11.7,
+          14,
+          12,
+          15.3,
+          23.3,
+          37,
+          35,
+          33.7,
+          49,
+          51.7,
+          52,
+          26.7,
+          28,
+          21.3,
+          26.3,
+          26.3,
+          27.3,
+          23.3,
+          17.3,
+          15.3,
+          16,
+          25,
+          29.3,
+          33.7,
+          37.7,
+          35,
+          31,
+          39,
+          52.3,
+          52,
+          37.3,
+          37,
+          40,
+          41.3,
+          31,
+          30,
+          27,
+          33,
+          28.7,
+          54.3,
+          45.3,
+          54,
+          24.9,
+          23.5
+        ],
+        "micro_ratio_over_time": [
+          -0.569,
+          -0.479,
+          -0.095,
+          0.121,
+          0.188,
+          0.132,
+          0.199,
+          0.329,
+          0.044,
+          -0.207,
+          -0.319,
+          0.005,
+          -0.143,
+          -0.476,
+          -1,
+          -1,
+          -1,
+          -1,
+          -0.727,
+          -0.444,
+          -0.009,
+          -0.156,
+          -0.217,
+          -0.632,
+          -0.535,
+          -0.252,
+          -0.238,
+          -0.341,
+          -0.728,
+          -0.646,
+          -0.693,
+          -0.611,
+          -0.729,
+          -0.8,
+          -1,
+          -0.75,
+          -0.552,
+          -0.354,
+          -0.388,
+          -0.219,
+          -0.381,
+          -0.544,
+          -0.711,
+          -0.362,
+          -0.276,
+          -0.063,
+          -0.148,
+          0.076,
+          0.107,
+          0.08,
+          -0.04,
+          -0.234,
+          -0.224,
+          -0.312,
+          0.013,
+          -0.121,
+          0.219,
+          -0.089,
+          0.029
+        ],
+        "attention_span_ratio_over_time": [
+          -0.362,
+          -0.37,
+          -0.3,
+          -0.133,
+          -0.16,
+          -0.059,
+          -0.268,
+          -0.116,
+          -0.192,
+          0.01,
+          -0.109,
+          -0.044,
+          -0.321,
+          -0.546,
+          -0.863,
+          -0.728,
+          -0.611,
+          -0.678,
+          -0.646,
+          -0.438,
+          0.131,
+          0.449,
+          0.505,
+          0.3,
+          0.111,
+          0.028,
+          -0.255,
+          -0.258,
+          -0.438,
+          -0.259,
+          -0.195,
+          -0.09,
+          -0.368,
+          -0.629,
+          -0.588,
+          -0.265,
+          0.161,
+          0.502,
+          0.39,
+          0.348,
+          -0.08,
+          -0.039,
+          -0.17,
+          0.22,
+          0.213,
+          0.517,
+          0.426,
+          0.673,
+          0.525,
+          0.467,
+          0.433,
+          0.32,
+          0.359,
+          0.387,
+          0.485,
+          0.563,
+          0.461,
+          0.638,
+          0.737
+        ],
+        "attention_span_eco_ms": 1726678,
+        "attention_span_military_ms": 1647778,
+        "villagers_trained": 122,
+        "villager_count_at": {
+          "300": 14,
+          "600": 17,
+          "900": 32,
+          "1200": 52,
+          "1500": 91,
+          "1800": 99,
+          "2400": 119,
+          "3000": 122,
+          "3600": 122
+        },
+        "military_trained": 205,
+        "first_military_time_s": 942,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 3,
+          "1500": 6,
+          "1800": 11,
+          "2400": 106,
+          "3000": 163,
+          "3600": 205
+        },
+        "military_by_type": {
+          "Battering Ram": 3,
+          "Shotel Warrior": 8,
+          "Spearman": 10,
+          "Archer": 172,
+          "Monk": 2,
+          "Bombard Cannon": 8,
+          "Trebuchet (Packed)": 2
+        },
+        "eco_techs": [
+          [
+            "Double-Bit Axe",
+            565
+          ],
+          [
+            "Horse Collar",
+            699
+          ],
+          [
+            "Bow Saw",
+            701
+          ],
+          [
+            "Wheelbarrow",
+            1038
+          ],
+          [
+            "Heavy Plow",
+            1147
+          ],
+          [
+            "Stone Mining",
+            1182
+          ],
+          [
+            "Hand Cart",
+            1209
+          ],
+          [
+            "Gold Mining",
+            1564
+          ],
+          [
+            "Two-Man Saw",
+            2375
+          ],
+          [
+            "Coinage",
+            2971
+          ],
+          [
+            "Guilds",
+            3060
+          ]
+        ],
+        "military_techs": [
+          [
+            "Loom",
+            1020
+          ],
+          [
+            "Town Watch",
+            1392
+          ],
+          [
+            "Fletching",
+            1421
+          ],
+          [
+            "Scale Mail Armor",
+            1483
+          ],
+          [
+            "Bodkin Arrow",
+            1512
+          ],
+          [
+            "Squires",
+            1884
+          ],
+          [
+            "Chain Mail Armor",
+            1901
+          ],
+          [
+            "Padded Archer Armor",
+            1967
+          ],
+          [
+            "Crossbowman",
+            2033
+          ],
+          [
+            "Thumb Ring",
+            2035
+          ],
+          [
+            "Bracer",
+            2050
+          ],
+          [
+            "Arbalester",
+            2101
+          ],
+          [
+            "Leather Archer Armor",
+            2126
+          ],
+          [
+            "Conscription",
+            2158
+          ],
+          [
+            "Chemistry",
+            2188
+          ],
+          [
+            "Ring Archer Armor",
+            2189
+          ],
+          [
+            "Ballistics",
+            2260
+          ],
+          [
+            "Masonry",
+            2483
+          ],
+          [
+            "Siege Engineers",
+            2486
+          ],
+          [
+            "Architecture",
+            2752
+          ],
+          [
+            "Torsion Engines",
+            2756
+          ],
+          [
+            "Heavy Scorpion",
+            3140
+          ],
+          [
+            "Plate Mail Armor",
+            3154
+          ],
+          [
+            "Scale Barding Armor",
+            3463
+          ]
+        ],
+        "eco_tech_count": 11,
+        "military_tech_count": 24,
+        "market": {
+          "wood": {
+            "sell": 2100,
+            "buy": 0
+          },
+          "food": {
+            "sell": 5000,
+            "buy": 100
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 300
+          },
+          "gold": {
+            "spent": 651,
+            "received": 2185
+          }
+        },
+        "buildings_built": 97,
+        "resigned_time_s": null
+      },
+      "4": {
+        "profile_id": 12693189,
+        "name": "NaKiyaKar",
+        "team": 2,
+        "color": 7,
+        "civ": "Tatars",
+        "is_ai": false,
+        "feudal_time_ms": 564780,
+        "castle_time_ms": 808929,
+        "imperial_time_ms": 2223155,
+        "opening": "fast_castle",
+        "eapm_mean": 30.911203942816982,
+        "eapm_max": 58.33333333333333,
+        "eapm_min": 6.333333333333333,
+        "eco_apm_mean": 10.169491525423727,
+        "eco_apm_max": 17.999999999999996,
+        "military_apm_mean": 20.470525976715287,
+        "military_apm_max": 51.33333333333333,
+        "apm_per_min": [
+          28.7,
+          26.7,
+          17.7,
+          16.3,
+          10.3,
+          10.3,
+          12.3,
+          7.7,
+          7.3,
+          6.3,
+          10.7,
+          10,
+          15.7,
+          16,
+          19,
+          15,
+          16.7,
+          16.3,
+          16,
+          23,
+          26.7,
+          33.3,
+          27.7,
+          32.3,
+          35.3,
+          38.3,
+          42,
+          40.3,
+          40,
+          42.3,
+          40.3,
+          40.7,
+          33,
+          31.3,
+          35,
+          43,
+          49,
+          48.7,
+          42.7,
+          40.7,
+          39.7,
+          31.3,
+          33,
+          40,
+          58.3,
+          56.3,
+          47,
+          35,
+          33,
+          36,
+          31.3,
+          37.7,
+          36.3,
+          44.7,
+          47,
+          53,
+          51,
+          32.9,
+          15.5
+        ],
+        "micro_ratio_over_time": [
+          -0.137,
+          -0.164,
+          -0.462,
+          -0.729,
+          -0.619,
+          -0.558,
+          -0.058,
+          -0.106,
+          -0.1,
+          -0.6,
+          -0.779,
+          -0.846,
+          -0.846,
+          -1,
+          -0.765,
+          -0.765,
+          -0.765,
+          -0.958,
+          -0.958,
+          -0.575,
+          -0.567,
+          -0.224,
+          -0.375,
+          -0.181,
+          -0.254,
+          -0.257,
+          -0.283,
+          -0.283,
+          -0.297,
+          -0.3,
+          -0.355,
+          -0.445,
+          -0.66,
+          -0.772,
+          -0.603,
+          -0.192,
+          -0.097,
+          -0.186,
+          -0.501,
+          -0.365,
+          -0.486,
+          -0.346,
+          -0.23,
+          -0.104,
+          -0.071,
+          -0.52,
+          -0.461,
+          -0.433,
+          -0.218,
+          -0.391,
+          -0.627,
+          -0.695,
+          -0.468,
+          -0.16,
+          0.126,
+          0.153,
+          0.126,
+          -0.307,
+          -0.659
+        ],
+        "attention_span_ratio_over_time": [
+          -0.161,
+          -0.178,
+          -0.497,
+          -0.622,
+          -0.83,
+          -0.614,
+          -0.14,
+          0.1,
+          -0.058,
+          -0.566,
+          -0.724,
+          -0.781,
+          -0.603,
+          -0.586,
+          -0.323,
+          -0.325,
+          -0.486,
+          -0.373,
+          -0.478,
+          0.024,
+          -0.073,
+          0.032,
+          0.166,
+          0.515,
+          0.682,
+          0.265,
+          0.173,
+          0.336,
+          0.662,
+          0.749,
+          0.567,
+          0.302,
+          -0.093,
+          0.053,
+          0.104,
+          0.272,
+          0.278,
+          0.476,
+          0.47,
+          0.589,
+          0.315,
+          0.458,
+          0.484,
+          0.728,
+          0.768,
+          0.225,
+          -0.02,
+          -0.114,
+          0.114,
+          -0.071,
+          -0.398,
+          -0.38,
+          0.134,
+          0.455,
+          0.591,
+          0.506,
+          0.701,
+          0.861,
+          1
+        ],
+        "attention_span_eco_ms": 1640511,
+        "attention_span_military_ms": 1786628,
+        "villagers_trained": 189,
+        "villager_count_at": {
+          "300": 13,
+          "600": 19,
+          "900": 29,
+          "1200": 50,
+          "1500": 68,
+          "1800": 113,
+          "2400": 157,
+          "3000": 183,
+          "3600": 189
+        },
+        "military_trained": 231,
+        "first_military_time_s": 833,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 5,
+          "1200": 16,
+          "1500": 28,
+          "1800": 34,
+          "2400": 102,
+          "3000": 161,
+          "3600": 231
+        },
+        "military_by_type": {
+          "Keshik": 34,
+          "Camel Scout": 109,
+          "Trebuchet (Packed)": 3,
+          "Scout Cavalry": 74,
+          "Monk": 1,
+          "Elite Kipchak": 10
+        },
+        "eco_techs": [
+          [
+            "Double-Bit Axe",
+            713
+          ],
+          [
+            "Horse Collar",
+            755
+          ],
+          [
+            "Wheelbarrow",
+            810
+          ],
+          [
+            "Hand Cart",
+            1089
+          ],
+          [
+            "Bow Saw",
+            2107
+          ],
+          [
+            "Heavy Plow",
+            2866
+          ],
+          [
+            "Crop Rotation",
+            3062
+          ],
+          [
+            "Caravan",
+            3115
+          ]
+        ],
+        "military_techs": [
+          [
+            "Scale Barding Armor",
+            742
+          ],
+          [
+            "Loom",
+            841
+          ],
+          [
+            "Bloodlines",
+            1068
+          ],
+          [
+            "Husbandry",
+            1069
+          ],
+          [
+            "Forging",
+            1257
+          ],
+          [
+            "Iron Casting",
+            1370
+          ],
+          [
+            "Chain Barding Armor",
+            1504
+          ],
+          [
+            "Town Watch",
+            1957
+          ],
+          [
+            "Silk Armor",
+            1967
+          ],
+          [
+            "Heavy Camel Rider",
+            2236
+          ],
+          [
+            "Plate Barding Armor",
+            2238
+          ],
+          [
+            "Conscription",
+            2320
+          ],
+          [
+            "Blast Furnace",
+            2361
+          ],
+          [
+            "Timurid Siegecraft",
+            2437
+          ],
+          [
+            "Fletching",
+            2489
+          ],
+          [
+            "Scale Mail Armor",
+            2869
+          ],
+          [
+            "Light Cavalry",
+            3010
+          ]
+        ],
+        "eco_tech_count": 8,
+        "military_tech_count": 17,
+        "market": {
+          "wood": {
+            "sell": 2000,
+            "buy": 0
+          },
+          "food": {
+            "sell": 2100,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 860
+          }
+        },
+        "buildings_built": 70,
+        "resigned_time_s": 3490
+      },
+      "5": {
+        "profile_id": 11907023,
+        "name": "cheetah001",
+        "team": 1,
+        "color": 2,
+        "civ": "Dravidians",
+        "is_ai": false,
+        "feudal_time_ms": 511072,
+        "castle_time_ms": 726854,
+        "imperial_time_ms": 1902223,
+        "opening": "fast_castle",
+        "eapm_mean": 29.008848563600072,
+        "eapm_max": 49.33333333333333,
+        "eapm_min": 9.666666666666666,
+        "eco_apm_mean": 8.474576271186441,
+        "eco_apm_max": 15.666666666666666,
+        "military_apm_mean": 20.313933309362792,
+        "military_apm_max": 44,
+        "apm_per_min": [
+          37.7,
+          27.7,
+          17.7,
+          9.7,
+          10.7,
+          14,
+          22,
+          23.7,
+          22.3,
+          20.3,
+          19,
+          19.7,
+          16,
+          19.7,
+          21,
+          23,
+          21.7,
+          19.7,
+          19.3,
+          22.3,
+          26.3,
+          30.3,
+          31,
+          41.3,
+          37.3,
+          38.3,
+          28,
+          28,
+          21.7,
+          20,
+          20,
+          19,
+          37.3,
+          35,
+          37.7,
+          28.3,
+          38.7,
+          42.7,
+          39.3,
+          35,
+          38.3,
+          30.3,
+          29.7,
+          25,
+          28.7,
+          35,
+          31.7,
+          34.3,
+          30.3,
+          39.3,
+          40.3,
+          43,
+          47.7,
+          46.3,
+          49.3,
+          35,
+          40,
+          24.5,
+          20.3
+        ],
+        "micro_ratio_over_time": [
+          0.112,
+          -0.164,
+          -0.441,
+          -1,
+          -0.857,
+          -0.825,
+          -0.374,
+          -0.517,
+          -0.47,
+          -0.522,
+          -0.522,
+          -0.53,
+          -0.93,
+          -0.622,
+          -0.634,
+          -0.634,
+          -0.76,
+          -0.779,
+          -0.639,
+          -0.799,
+          -0.401,
+          -0.52,
+          -0.461,
+          -0.753,
+          -0.669,
+          -0.565,
+          -0.526,
+          -0.596,
+          -0.781,
+          -0.854,
+          -0.854,
+          -0.806,
+          -0.436,
+          -0.471,
+          -0.337,
+          -0.57,
+          -0.322,
+          -0.366,
+          -0.403,
+          -0.496,
+          -0.36,
+          -0.533,
+          -0.236,
+          -0.353,
+          -0.344,
+          -0.712,
+          -0.634,
+          -0.422,
+          -0.355,
+          -0.177,
+          -0.146,
+          -0.112,
+          -0.37,
+          -0.47,
+          -0.464,
+          -0.506,
+          -0.55,
+          -0.742,
+          -0.853
+        ],
+        "attention_span_ratio_over_time": [
+          -0.327,
+          -0.478,
+          -0.517,
+          -0.391,
+          -0.213,
+          -0.234,
+          -0.001,
+          -0.009,
+          0.027,
+          0.054,
+          -0.035,
+          0.045,
+          -0.255,
+          -0.122,
+          -0.121,
+          -0.277,
+          -0.147,
+          -0.164,
+          -0.162,
+          -0.412,
+          -0.203,
+          0.2,
+          0.727,
+          0.882,
+          0.587,
+          0.426,
+          0.101,
+          -0.01,
+          -0.348,
+          -0.204,
+          -0.348,
+          0.051,
+          0.248,
+          0.343,
+          0.149,
+          0.101,
+          0.556,
+          0.614,
+          0.399,
+          0.419,
+          0.625,
+          0.354,
+          0.231,
+          -0.039,
+          0.072,
+          0.211,
+          0.342,
+          0.56,
+          0.371,
+          0.412,
+          0.547,
+          0.672,
+          0.635,
+          0.645,
+          0.724,
+          0.89,
+          0.914,
+          0.914,
+          0.914
+        ],
+        "attention_span_eco_ms": 1381679,
+        "attention_span_military_ms": 2028298,
+        "villagers_trained": 158,
+        "villager_count_at": {
+          "300": 14,
+          "600": 22,
+          "900": 34,
+          "1200": 53,
+          "1500": 68,
+          "1800": 88,
+          "2400": 123,
+          "3000": 158,
+          "3600": 158
+        },
+        "military_trained": 320,
+        "first_military_time_s": 833,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 5,
+          "1200": 22,
+          "1500": 39,
+          "1800": 42,
+          "2400": 111,
+          "3000": 210,
+          "3600": 320
+        },
+        "military_by_type": {
+          "Militia": 104,
+          "Spearman": 206,
+          "Skirmisher": 10
+        },
+        "eco_techs": [
+          [
+            "Double-Bit Axe",
+            689
+          ],
+          [
+            "Gold Mining",
+            692
+          ],
+          [
+            "Horse Collar",
+            711
+          ],
+          [
+            "Stone Mining",
+            1663
+          ],
+          [
+            "Wheelbarrow",
+            2122
+          ],
+          [
+            "Coinage",
+            2578
+          ]
+        ],
+        "military_techs": [
+          [
+            "Man-at-Arms",
+            742
+          ],
+          [
+            "Gambesons",
+            742
+          ],
+          [
+            "Squires",
+            743
+          ],
+          [
+            "Long Swordsman",
+            1008
+          ],
+          [
+            "Scale Mail Armor",
+            1276
+          ],
+          [
+            "Forging",
+            1277
+          ],
+          [
+            "Chain Mail Armor",
+            1667
+          ],
+          [
+            "Iron Casting",
+            1667
+          ],
+          [
+            "Pikeman",
+            1742
+          ],
+          [
+            "Halberdier",
+            2082
+          ],
+          [
+            "Plate Mail Armor",
+            2371
+          ],
+          [
+            "Blast Furnace",
+            2372
+          ],
+          [
+            "Elite Skirmisher",
+            2980
+          ],
+          [
+            "Two-Handed Swordsman",
+            3019
+          ],
+          [
+            "Champion",
+            3100
+          ]
+        ],
+        "eco_tech_count": 6,
+        "military_tech_count": 15,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 0
+          }
+        },
+        "buildings_built": 94,
+        "resigned_time_s": null
+      },
+      "6": {
+        "profile_id": 12080589,
+        "name": "l.inc",
+        "team": 2,
+        "color": 4,
+        "civ": "Britons",
+        "is_ai": false,
+        "feudal_time_ms": 477246,
+        "castle_time_ms": 892101,
+        "imperial_time_ms": 2530891,
+        "opening": "fast_castle",
+        "eapm_mean": 21.98859709124433,
+        "eapm_max": 44.666666666666664,
+        "eapm_min": 6.666666666666666,
+        "eco_apm_mean": 6.389830508474574,
+        "eco_apm_max": 15.666666666666666,
+        "military_apm_mean": 15.564868277685006,
+        "military_apm_max": 43.33333333333333,
+        "apm_per_min": [
+          42.3,
+          34.3,
+          23.7,
+          21.7,
+          18.3,
+          17.7,
+          12.3,
+          12,
+          12.3,
+          12.7,
+          10,
+          8.3,
+          6.7,
+          9,
+          10,
+          17.7,
+          23.7,
+          27.3,
+          23,
+          17,
+          18,
+          21.3,
+          24.7,
+          26,
+          25.7,
+          25.7,
+          18.7,
+          16.3,
+          10.3,
+          10.7,
+          7.3,
+          18.7,
+          19.3,
+          24,
+          18.7,
+          25.3,
+          23.7,
+          22.7,
+          18.7,
+          17,
+          13.3,
+          10.7,
+          11.3,
+          19.7,
+          23.3,
+          30,
+          23.3,
+          29.7,
+          30,
+          37.3,
+          44,
+          43.7,
+          44.7,
+          36,
+          35.3,
+          27.7,
+          30.3,
+          26.4,
+          27.9
+        ],
+        "micro_ratio_over_time": [
+          -0.054,
+          -0.304,
+          -0.429,
+          -0.495,
+          -0.388,
+          -0.406,
+          -0.249,
+          -0.337,
+          -0.349,
+          -0.52,
+          -0.489,
+          -0.267,
+          -0.467,
+          -0.6,
+          -0.795,
+          -0.652,
+          -0.385,
+          -0.563,
+          -0.617,
+          -0.828,
+          -0.683,
+          -0.558,
+          -0.493,
+          -0.257,
+          -0.026,
+          0.005,
+          -0.337,
+          -0.586,
+          -0.737,
+          -0.622,
+          -0.723,
+          -0.337,
+          -0.365,
+          -0.428,
+          -0.784,
+          -0.574,
+          -0.523,
+          -0.448,
+          -0.716,
+          -0.739,
+          -0.761,
+          -0.805,
+          -0.712,
+          -0.29,
+          -0.147,
+          0.003,
+          -0.503,
+          -0.294,
+          -0.42,
+          -0.059,
+          -0.324,
+          -0.278,
+          -0.43,
+          -0.495,
+          -0.588,
+          -0.666,
+          -0.367,
+          -0.306,
+          -0.249
+        ],
+        "attention_span_ratio_over_time": [
+          0.189,
+          -0.146,
+          -0.322,
+          -0.196,
+          -0.131,
+          0.04,
+          0.052,
+          -0.013,
+          -0.048,
+          -0.257,
+          -0.253,
+          -0.384,
+          -0.195,
+          0.036,
+          0.109,
+          -0.095,
+          -0.085,
+          -0.353,
+          -0.428,
+          -0.564,
+          -0.211,
+          0.213,
+          0.458,
+          0.598,
+          0.432,
+          0.481,
+          0.285,
+          0.123,
+          -0.397,
+          -0.365,
+          -0.263,
+          0.301,
+          0.37,
+          0.579,
+          0.269,
+          0.407,
+          0.359,
+          0.469,
+          0.161,
+          -0.014,
+          -0.06,
+          -0.059,
+          -0.147,
+          -0.104,
+          0.097,
+          0.486,
+          0.52,
+          0.53,
+          0.431,
+          0.548,
+          0.694,
+          0.72,
+          0.822,
+          0.427,
+          0.553,
+          0.344,
+          0.74,
+          0.74,
+          1
+        ],
+        "attention_span_eco_ms": 1461618,
+        "attention_span_military_ms": 2019417,
+        "villagers_trained": 130,
+        "villager_count_at": {
+          "300": 14,
+          "600": 20,
+          "900": 25,
+          "1200": 60,
+          "1500": 73,
+          "1800": 84,
+          "2400": 98,
+          "3000": 100,
+          "3600": 130
+        },
+        "military_trained": 114,
+        "first_military_time_s": 1289,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 12,
+          "1800": 12,
+          "2400": 12,
+          "3000": 77,
+          "3600": 114
+        },
+        "military_by_type": {
+          "Mangonel": 2,
+          "Longbowman": 27,
+          "Skirmisher": 77,
+          "Trebuchet (Packed)": 1,
+          "Archer": 7
+        },
+        "eco_techs": [
+          [
+            "Horse Collar",
+            482
+          ],
+          [
+            "Double-Bit Axe",
+            811
+          ],
+          [
+            "Gold Mining",
+            832
+          ],
+          [
+            "Wheelbarrow",
+            867
+          ],
+          [
+            "Heavy Plow",
+            2346
+          ],
+          [
+            "Bow Saw",
+            2348
+          ],
+          [
+            "Two-Man Saw",
+            2767
+          ],
+          [
+            "Hand Cart",
+            2863
+          ],
+          [
+            "Gold Shaft Mining",
+            3394
+          ]
+        ],
+        "military_techs": [
+          [
+            "Loom",
+            642
+          ],
+          [
+            "Fortified Wall",
+            1911
+          ],
+          [
+            "Fletching",
+            1946
+          ],
+          [
+            "Padded Archer Armor",
+            1946
+          ],
+          [
+            "Ballistics",
+            1961
+          ],
+          [
+            "Treadmill Crane",
+            1962
+          ],
+          [
+            "Bodkin Arrow",
+            2173
+          ],
+          [
+            "Leather Archer Armor",
+            2173
+          ],
+          [
+            "Elite Skirmisher",
+            2466
+          ],
+          [
+            "Murder Holes",
+            2516
+          ],
+          [
+            "Conscription",
+            2543
+          ],
+          [
+            "Ring Archer Armor",
+            2560
+          ],
+          [
+            "Bracer",
+            2560
+          ],
+          [
+            "Chemistry",
+            2717
+          ],
+          [
+            "Crossbowman",
+            3239
+          ],
+          [
+            "Elite Longbowman",
+            3246
+          ]
+        ],
+        "eco_tech_count": 9,
+        "military_tech_count": 16,
+        "market": {
+          "wood": {
+            "sell": 700,
+            "buy": 0
+          },
+          "food": {
+            "sell": 1000,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 470
+          }
+        },
+        "buildings_built": 63,
+        "resigned_time_s": 3502
+      },
+      "7": {
+        "profile_id": 12499000,
+        "name": "toXic",
+        "team": 2,
+        "color": 8,
+        "civ": "Magyars",
+        "is_ai": false,
+        "feudal_time_ms": 456038,
+        "castle_time_ms": 716132,
+        "imperial_time_ms": 1666036,
+        "opening": "fast_castle",
+        "eapm_mean": 34.647807669899045,
+        "eapm_max": 64,
+        "eapm_min": 8.333333333333332,
+        "eco_apm_mean": 11.974950258515328,
+        "eco_apm_max": 25,
+        "military_apm_mean": 22.48641673341762,
+        "military_apm_max": 54.89952909054649,
+        "apm_per_min": [
+          35,
+          36.3,
+          42.7,
+          33,
+          27.3,
+          15.3,
+          13,
+          8.3,
+          12.3,
+          19.7,
+          20,
+          15.3,
+          10,
+          17.7,
+          21,
+          24.3,
+          20.7,
+          20.7,
+          20.7,
+          23,
+          24.3,
+          28.7,
+          26,
+          26.7,
+          23.3,
+          27,
+          33.3,
+          34.7,
+          34,
+          24.3,
+          38.7,
+          49.7,
+          58,
+          53.7,
+          42,
+          32.7,
+          21.7,
+          22.7,
+          28.7,
+          34.7,
+          36,
+          37,
+          44.3,
+          54.3,
+          54.7,
+          37.7,
+          33.3,
+          42,
+          51.7,
+          51.3,
+          54,
+          64,
+          61.3,
+          52,
+          44,
+          55,
+          57.3,
+          59.4,
+          53.8
+        ],
+        "micro_ratio_over_time": [
+          -0.193,
+          -0.179,
+          0.096,
+          -0.294,
+          -0.095,
+          0.088,
+          0.088,
+          -0.333,
+          -0.679,
+          -0.136,
+          -0.025,
+          -0.346,
+          -0.889,
+          -0.563,
+          -0.563,
+          -0.563,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -0.784,
+          -0.784,
+          -0.784,
+          -1,
+          -1,
+          -0.847,
+          -0.847,
+          -0.514,
+          -0.351,
+          0.072,
+          -0.137,
+          -0.196,
+          -0.308,
+          -0.293,
+          -0.217,
+          -0.474,
+          -0.539,
+          -0.873,
+          -0.926,
+          -1,
+          -0.73,
+          -0.289,
+          0.138,
+          0.253,
+          -0.14,
+          -0.275,
+          -0.275,
+          -0.183,
+          -0.206,
+          -0.221,
+          -0.205,
+          -0.132,
+          -0.245,
+          -0.006,
+          0.041,
+          0.058,
+          0.063,
+          0.075
+        ],
+        "attention_span_ratio_over_time": [
+          -0.566,
+          -0.52,
+          -0.391,
+          -0.564,
+          -0.628,
+          -0.22,
+          -0.22,
+          -0.333,
+          -0.574,
+          0.023,
+          0.353,
+          -0.025,
+          -0.538,
+          -0.551,
+          -0.497,
+          -0.548,
+          -0.844,
+          -0.946,
+          -0.979,
+          -1,
+          -1,
+          -0.806,
+          -0.806,
+          -0.748,
+          -0.942,
+          -0.942,
+          -0.801,
+          -0.755,
+          -0.417,
+          -0.386,
+          -0.014,
+          -0.014,
+          0.037,
+          0.159,
+          0.054,
+          -0.005,
+          -0.351,
+          -0.489,
+          -0.438,
+          -0.575,
+          -0.547,
+          -0.562,
+          -0.072,
+          0.23,
+          0.638,
+          0.233,
+          0.272,
+          0.211,
+          0.299,
+          0.177,
+          0.141,
+          0.349,
+          0.336,
+          0.089,
+          0.145,
+          0.315,
+          0.444,
+          0.602,
+          0.754
+        ],
+        "attention_span_eco_ms": 2184197,
+        "attention_span_military_ms": 1258285,
+        "villagers_trained": 170,
+        "villager_count_at": {
+          "300": 13,
+          "600": 17,
+          "900": 28,
+          "1200": 60,
+          "1500": 114,
+          "1800": 137,
+          "2400": 137,
+          "3000": 149,
+          "3600": 170
+        },
+        "military_trained": 413,
+        "first_military_time_s": 958,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 2,
+          "1500": 2,
+          "1800": 15,
+          "2400": 90,
+          "3000": 264,
+          "3600": 413
+        },
+        "military_by_type": {
+          "Monk": 3,
+          "Cavalry Archer": 113,
+          "Trebuchet (Packed)": 7,
+          "Magyar Huszar": 32,
+          "Skirmisher": 12,
+          "Elite Kipchak": 20,
+          "Scout Cavalry": 226
+        },
+        "eco_techs": [
+          [
+            "Double-Bit Axe",
+            584
+          ],
+          [
+            "Horse Collar",
+            585
+          ],
+          [
+            "Wheelbarrow",
+            624
+          ],
+          [
+            "Bow Saw",
+            722
+          ],
+          [
+            "Heavy Plow",
+            723
+          ],
+          [
+            "Hand Cart",
+            1362
+          ],
+          [
+            "Gold Mining",
+            1529
+          ],
+          [
+            "Stone Mining",
+            1529
+          ],
+          [
+            "Coinage",
+            1607
+          ],
+          [
+            "Gold Shaft Mining",
+            1826
+          ],
+          [
+            "Banking",
+            1967
+          ]
+        ],
+        "military_techs": [
+          [
+            "Loom",
+            504
+          ],
+          [
+            "Town Watch",
+            1078
+          ],
+          [
+            "Fletching",
+            1494
+          ],
+          [
+            "Padded Archer Armor",
+            1494
+          ],
+          [
+            "Bodkin Arrow",
+            1535
+          ],
+          [
+            "Leather Archer Armor",
+            1594
+          ],
+          [
+            "Scale Barding Armor",
+            1596
+          ],
+          [
+            "Corvinian Army",
+            1612
+          ],
+          [
+            "Bloodlines",
+            1629
+          ],
+          [
+            "Husbandry",
+            1629
+          ],
+          [
+            "Thumb Ring",
+            1645
+          ],
+          [
+            "Ballistics",
+            1665
+          ],
+          [
+            "Treadmill Crane",
+            1666
+          ],
+          [
+            "Bracer",
+            1717
+          ],
+          [
+            "Ring Archer Armor",
+            1726
+          ],
+          [
+            "Chain Barding Armor",
+            1755
+          ],
+          [
+            "Conscription",
+            1763
+          ],
+          [
+            "Recurve Bow",
+            1814
+          ],
+          [
+            "Parthian Tactics",
+            1865
+          ],
+          [
+            "Elite Magyar Huszar",
+            1937
+          ],
+          [
+            "Plate Barding Armor",
+            1969
+          ],
+          [
+            "Heavy Cavalry Archer",
+            2105
+          ],
+          [
+            "Chemistry",
+            2164
+          ],
+          [
+            "Siege Engineers",
+            2165
+          ],
+          [
+            "Elite Skirmisher",
+            2198
+          ],
+          [
+            "Light Cavalry",
+            2352
+          ],
+          [
+            "Hussar",
+            2419
+          ]
+        ],
+        "eco_tech_count": 11,
+        "military_tech_count": 27,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 5400,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 100
+          },
+          "gold": {
+            "spent": 171,
+            "received": 1306
+          }
+        },
+        "buildings_built": 112,
+        "resigned_time_s": 3497
+      },
+      "8": {
+        "profile_id": 12667372,
+        "name": "zubair",
+        "team": 1,
+        "color": 3,
+        "civ": "Persians",
+        "is_ai": false,
+        "feudal_time_ms": 411436,
+        "castle_time_ms": 670295,
+        "imperial_time_ms": 1793451,
+        "opening": "fast_castle",
+        "eapm_mean": 17.76825810819348,
+        "eapm_max": 35.33333333333333,
+        "eapm_min": 5,
+        "eco_apm_mean": 5.4285270826882455,
+        "eco_apm_max": 12.666666666666664,
+        "military_apm_mean": 12.322781872962858,
+        "military_apm_max": 28.666666666666664,
+        "apm_per_min": [
+          16,
+          19.3,
+          17.7,
+          13.7,
+          6.7,
+          5,
+          7,
+          8.3,
+          8.3,
+          8.3,
+          11,
+          12.7,
+          14,
+          13.3,
+          15,
+          18.7,
+          18.7,
+          16,
+          15.3,
+          15.3,
+          17.7,
+          11,
+          9.7,
+          8.3,
+          12.3,
+          16.3,
+          16,
+          18,
+          15,
+          27.3,
+          30,
+          35.3,
+          32.3,
+          31,
+          28.7,
+          24.3,
+          22,
+          23.7,
+          28.3,
+          28,
+          25,
+          18,
+          20.3,
+          22.7,
+          29.7,
+          28,
+          24.7,
+          19,
+          15,
+          18.3,
+          15.3,
+          15,
+          11.3,
+          9.7,
+          16,
+          17.3,
+          17,
+          15.1,
+          15.2
+        ],
+        "micro_ratio_over_time": [
+          -0.292,
+          -0.234,
+          -0.484,
+          -0.692,
+          -1,
+          -0.889,
+          -0.689,
+          -0.689,
+          -0.578,
+          -0.244,
+          -0.048,
+          -0.028,
+          -0.514,
+          -0.666,
+          -0.7,
+          -0.481,
+          -0.481,
+          -0.689,
+          -0.956,
+          -0.956,
+          -0.867,
+          -0.867,
+          -0.79,
+          -0.758,
+          -0.58,
+          -0.324,
+          -0.245,
+          -0.074,
+          -0.308,
+          -0.196,
+          -0.269,
+          -0.168,
+          -0.111,
+          -0.2,
+          -0.184,
+          -0.339,
+          -0.23,
+          -0.181,
+          0.067,
+          -0.111,
+          -0.245,
+          -0.633,
+          -0.695,
+          -0.563,
+          -0.5,
+          -0.099,
+          -0.282,
+          -0.267,
+          -0.628,
+          -0.471,
+          -0.52,
+          -0.615,
+          -0.72,
+          -0.656,
+          -0.656,
+          -0.833,
+          -1,
+          -1,
+          -1
+        ],
+        "attention_span_ratio_over_time": [
+          -0.647,
+          -0.365,
+          -0.402,
+          -0.634,
+          -0.976,
+          -0.635,
+          -0.312,
+          -0.107,
+          0.116,
+          0.442,
+          0.791,
+          0.358,
+          -0.105,
+          -0.186,
+          -0.188,
+          0.057,
+          -0.286,
+          -0.439,
+          -0.531,
+          -0.505,
+          -0.396,
+          -0.735,
+          -0.526,
+          -0.063,
+          0.509,
+          0.572,
+          0.245,
+          0.151,
+          0.375,
+          0.597,
+          0.704,
+          0.552,
+          0.751,
+          0.677,
+          0.792,
+          0.687,
+          0.57,
+          0.302,
+          0.407,
+          0.358,
+          0.661,
+          0.642,
+          0.903,
+          0.901,
+          0.647,
+          0.384,
+          0.234,
+          0.273,
+          0.595,
+          0.724,
+          0.858,
+          0.737,
+          0.757,
+          0.583,
+          0.404,
+          0.342,
+          0.389,
+          0.438,
+          0.268
+        ],
+        "attention_span_eco_ms": 1339538,
+        "attention_span_military_ms": 2147498,
+        "villagers_trained": 90,
+        "villager_count_at": {
+          "300": 12,
+          "600": 15,
+          "900": 30,
+          "1200": 57,
+          "1500": 75,
+          "1800": 80,
+          "2400": 80,
+          "3000": 90,
+          "3600": 90
+        },
+        "military_trained": 362,
+        "first_military_time_s": 1290,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 12,
+          "1800": 28,
+          "2400": 125,
+          "3000": 201,
+          "3600": 362
+        },
+        "military_by_type": {
+          "Camel Scout": 142,
+          "Genitour": 143,
+          "Trebuchet (Packed)": 4,
+          "Scout Cavalry": 73
+        },
+        "eco_techs": [
+          [
+            "Double-Bit Axe",
+            556
+          ],
+          [
+            "Bow Saw",
+            697
+          ],
+          [
+            "Wheelbarrow",
+            756
+          ],
+          [
+            "Horse Collar",
+            1076
+          ],
+          [
+            "Stone Mining",
+            1082
+          ],
+          [
+            "Heavy Plow",
+            1151
+          ],
+          [
+            "Hand Cart",
+            1646
+          ],
+          [
+            "Gold Mining",
+            1650
+          ],
+          [
+            "Crop Rotation",
+            1861
+          ]
+        ],
+        "military_techs": [
+          [
+            "Loom",
+            911
+          ],
+          [
+            "Scale Barding Armor",
+            1065
+          ],
+          [
+            "Bloodlines",
+            1093
+          ],
+          [
+            "Guard Tower",
+            1122
+          ],
+          [
+            "Fletching",
+            1128
+          ],
+          [
+            "Forging",
+            1169
+          ],
+          [
+            "Masonry",
+            1226
+          ],
+          [
+            "Chain Barding Armor",
+            1288
+          ],
+          [
+            "Bodkin Arrow",
+            1317
+          ],
+          [
+            "Iron Casting",
+            1426
+          ],
+          [
+            "Padded Archer Armor",
+            1477
+          ],
+          [
+            "Leather Archer Armor",
+            1553
+          ],
+          [
+            "Ballistics",
+            1566
+          ],
+          [
+            "Husbandry",
+            1617
+          ],
+          [
+            "Thumb Ring",
+            1691
+          ],
+          [
+            "Elite Genitour",
+            1819
+          ],
+          [
+            "Ring Archer Armor",
+            1974
+          ],
+          [
+            "Plate Barding Armor",
+            1974
+          ],
+          [
+            "Heavy Camel Rider",
+            2059
+          ],
+          [
+            "Blast Furnace",
+            2254
+          ],
+          [
+            "Citadels",
+            2293
+          ],
+          [
+            "Scale Mail Armor",
+            2743
+          ],
+          [
+            "Chemistry",
+            2797
+          ],
+          [
+            "Town Watch",
+            3047
+          ],
+          [
+            "Light Cavalry",
+            3070
+          ]
+        ],
+        "eco_tech_count": 9,
+        "military_tech_count": 25,
+        "market": {
+          "wood": {
+            "sell": 200,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 152
+          }
+        },
+        "buildings_built": 60,
+        "resigned_time_s": null
+      },
+      "_meta": {
+        "schema": 2,
+        "match_id": 507600069,
+        "analysis_version": 4,
+        "duration_ms": 3501731,
+        "map": "Fortress",
+        "map_size": "Tiny",
+        "game_mode": "Random Map",
+        "starting_age": "Standard",
+        "ending_age": "Feudal Age",
+        "population": 200,
+        "victory": "Conquest",
+        "ranked": false
+      }
+    },
+    "507835096": {
+      "1": {
+        "profile_id": 12676944,
+        "name": "SauronSlayer",
+        "team": 1,
+        "color": 1,
+        "civ": "Lithuanians",
+        "is_ai": false,
+        "feudal_time_ms": null,
+        "castle_time_ms": null,
+        "imperial_time_ms": null,
+        "opening": null,
+        "eapm_mean": 93.5390930260094,
+        "eapm_max": 93.5390930260094,
+        "eapm_min": 93.5390930260094,
+        "eco_apm_mean": 17.760587283419504,
+        "eco_apm_max": 17.760587283419504,
+        "military_apm_mean": 75.77850574258989,
+        "military_apm_max": 75.77850574258989,
+        "apm_per_min": [
+          93.5
+        ],
+        "micro_ratio_over_time": [
+          0.392
+        ],
+        "attention_span_ratio_over_time": [
+          0.331
+        ],
+        "attention_span_eco_ms": 16952,
+        "attention_span_military_ms": 33722,
+        "villagers_trained": 6,
+        "villager_count_at": {
+          "300": 6,
+          "600": 6,
+          "900": 6,
+          "1200": 6,
+          "1500": 6,
+          "1800": 6,
+          "2400": 6,
+          "3000": 6,
+          "3600": 6
+        },
+        "military_trained": 0,
+        "first_military_time_s": null,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 0,
+          "1800": 0,
+          "2400": 0,
+          "3000": 0,
+          "3600": 0
+        },
+        "military_by_type": {},
+        "eco_techs": [],
+        "military_techs": [],
+        "eco_tech_count": 0,
+        "military_tech_count": 0,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 0
+          }
+        },
+        "buildings_built": 2,
+        "resigned_time_s": 51
+      },
+      "2": {
+        "profile_id": 4607974,
+        "name": "Strength & Honour",
+        "team": 1,
+        "color": 6,
+        "civ": "Sicilians",
+        "is_ai": false,
+        "feudal_time_ms": null,
+        "castle_time_ms": null,
+        "imperial_time_ms": null,
+        "opening": null,
+        "eapm_mean": 48.54560524134665,
+        "eapm_max": 48.54560524134665,
+        "eapm_min": 48.54560524134665,
+        "eco_apm_mean": 10.656352370051703,
+        "eco_apm_max": 10.656352370051703,
+        "military_apm_mean": 37.88925287129494,
+        "military_apm_max": 37.88925287129494,
+        "apm_per_min": [
+          48.5
+        ],
+        "micro_ratio_over_time": [
+          0.317
+        ],
+        "attention_span_ratio_over_time": [
+          0.571
+        ],
+        "attention_span_eco_ms": 10647,
+        "attention_span_military_ms": 39000,
+        "villagers_trained": 4,
+        "villager_count_at": {
+          "300": 4,
+          "600": 4,
+          "900": 4,
+          "1200": 4,
+          "1500": 4,
+          "1800": 4,
+          "2400": 4,
+          "3000": 4,
+          "3600": 4
+        },
+        "military_trained": 0,
+        "first_military_time_s": null,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 0,
+          "1800": 0,
+          "2400": 0,
+          "3000": 0,
+          "3600": 0
+        },
+        "military_by_type": {},
+        "eco_techs": [],
+        "military_techs": [],
+        "eco_tech_count": 0,
+        "military_tech_count": 0,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 0
+          }
+        },
+        "buildings_built": 2,
+        "resigned_time_s": 50
+      },
+      "3": {
+        "profile_id": 12080589,
+        "name": "l.inc",
+        "team": 2,
+        "color": 4,
+        "civ": "Malians",
+        "is_ai": false,
+        "feudal_time_ms": null,
+        "castle_time_ms": null,
+        "imperial_time_ms": null,
+        "opening": null,
+        "eapm_mean": 22.496743892331374,
+        "eapm_max": 22.496743892331374,
+        "eapm_min": 22.496743892331374,
+        "eco_apm_mean": 15.39250897896357,
+        "eco_apm_max": 15.39250897896357,
+        "military_apm_mean": 7.104234913367802,
+        "military_apm_max": 7.104234913367802,
+        "apm_per_min": [
+          22.5
+        ],
+        "micro_ratio_over_time": [
+          -0.895
+        ],
+        "attention_span_ratio_over_time": [
+          -0.128
+        ],
+        "attention_span_eco_ms": 23764,
+        "attention_span_military_ms": 18369,
+        "villagers_trained": 4,
+        "villager_count_at": {
+          "300": 4,
+          "600": 4,
+          "900": 4,
+          "1200": 4,
+          "1500": 4,
+          "1800": 4,
+          "2400": 4,
+          "3000": 4,
+          "3600": 4
+        },
+        "military_trained": 0,
+        "first_military_time_s": null,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 0,
+          "1800": 0,
+          "2400": 0,
+          "3000": 0,
+          "3600": 0
+        },
+        "military_by_type": {},
+        "eco_techs": [],
+        "military_techs": [],
+        "eco_tech_count": 0,
+        "military_tech_count": 0,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 0
+          }
+        },
+        "buildings_built": 4,
+        "resigned_time_s": null
+      },
+      "4": {
+        "profile_id": 12499000,
+        "name": "toXic",
+        "team": 2,
+        "color": 8,
+        "civ": "Italians",
+        "is_ai": false,
+        "feudal_time_ms": null,
+        "castle_time_ms": null,
+        "imperial_time_ms": null,
+        "opening": null,
+        "eapm_mean": 80.51466235150176,
+        "eapm_max": 80.51466235150176,
+        "eapm_min": 80.51466235150176,
+        "eco_apm_mean": 13.024430674507634,
+        "eco_apm_max": 13.024430674507634,
+        "military_apm_mean": 67.49023167699411,
+        "military_apm_max": 67.49023167699411,
+        "apm_per_min": [
+          80.5
+        ],
+        "micro_ratio_over_time": [
+          0.5
+        ],
+        "attention_span_ratio_over_time": [
+          0.372
+        ],
+        "attention_span_eco_ms": 15522,
+        "attention_span_military_ms": 33930,
+        "villagers_trained": 4,
+        "villager_count_at": {
+          "300": 4,
+          "600": 4,
+          "900": 4,
+          "1200": 4,
+          "1500": 4,
+          "1800": 4,
+          "2400": 4,
+          "3000": 4,
+          "3600": 4
+        },
+        "military_trained": 0,
+        "first_military_time_s": null,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 0,
+          "1800": 0,
+          "2400": 0,
+          "3000": 0,
+          "3600": 0
+        },
+        "military_by_type": {},
+        "eco_techs": [],
+        "military_techs": [],
+        "eco_tech_count": 0,
+        "military_tech_count": 0,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 0
+          }
+        },
+        "buildings_built": 2,
+        "resigned_time_s": null
+      },
+      "_meta": {
+        "schema": 2,
+        "match_id": 507835096,
+        "analysis_version": 4,
+        "duration_ms": 50674,
+        "map": "Oasis",
+        "map_size": "Tiny",
+        "game_mode": "Random Map",
+        "starting_age": "Standard",
+        "ending_age": "Feudal Age",
+        "population": 200,
+        "victory": "Conquest",
+        "ranked": false
+      }
+    },
+    "507837673": {
+      "1": {
+        "profile_id": 12676944,
+        "name": "SauronSlayer",
+        "team": 1,
+        "color": 1,
+        "civ": "Turks",
+        "is_ai": false,
+        "feudal_time_ms": 705847,
+        "castle_time_ms": 936148,
+        "imperial_time_ms": 1457999,
+        "opening": "fast_castle",
+        "eapm_mean": 47.75000000000001,
+        "eapm_max": 106.66666666666666,
+        "eapm_min": 0,
+        "eco_apm_mean": 13.365384615384611,
+        "eco_apm_max": 32.33333333333333,
+        "military_apm_mean": 34.23076923076923,
+        "military_apm_max": 92.66666666666666,
+        "apm_per_min": [
+          106.7,
+          102,
+          87.3,
+          71,
+          54.3,
+          43,
+          41,
+          42.7,
+          33.7,
+          30,
+          19,
+          24,
+          19.7,
+          22.3,
+          39,
+          55,
+          55.7,
+          44.3,
+          26.3,
+          22,
+          15.3,
+          19,
+          16.7,
+          17.7,
+          20.7,
+          25.3,
+          35.3,
+          37.7,
+          40.7,
+          48,
+          52.3,
+          58.7,
+          52,
+          57,
+          54.7,
+          51,
+          41.3,
+          42,
+          60.7,
+          73.3,
+          88.3,
+          84.7,
+          98.3,
+          98,
+          99.3,
+          72,
+          59,
+          53.3,
+          44,
+          26.3,
+          1.3,
+          0
+        ],
+        "micro_ratio_over_time": [
+          0.516,
+          0.525,
+          0.397,
+          0.124,
+          -0.231,
+          -0.56,
+          -0.727,
+          -0.469,
+          -0.34,
+          0.193,
+          -0.214,
+          -0.381,
+          -0.6,
+          -0.37,
+          0.16,
+          0.225,
+          0.038,
+          -0.201,
+          -0.666,
+          -0.709,
+          -1,
+          -1,
+          -1,
+          -1,
+          -0.954,
+          -0.901,
+          -0.747,
+          -0.663,
+          -0.481,
+          -0.221,
+          -0.119,
+          -0.266,
+          -0.458,
+          -0.304,
+          -0.392,
+          -0.615,
+          -0.752,
+          -0.336,
+          -0.046,
+          0.135,
+          0.092,
+          0.052,
+          0.061,
+          0.087,
+          0.141,
+          -0.172,
+          -0.495,
+          -0.488,
+          -0.613,
+          -0.356,
+          -0.333,
+          0
+        ],
+        "attention_span_ratio_over_time": [
+          0.424,
+          0.381,
+          0.199,
+          -0.166,
+          -0.495,
+          -0.775,
+          -0.809,
+          -0.658,
+          -0.468,
+          0.128,
+          0.069,
+          0.092,
+          0.083,
+          0.257,
+          0.616,
+          0.388,
+          0.14,
+          -0.24,
+          -0.67,
+          -0.76,
+          -0.931,
+          -0.898,
+          -0.932,
+          -0.85,
+          -0.56,
+          -0.107,
+          0.151,
+          0.084,
+          0.018,
+          0.119,
+          0.475,
+          0.373,
+          0.342,
+          0.11,
+          0.041,
+          -0.247,
+          -0.259,
+          -0.035,
+          0.307,
+          0.485,
+          0.568,
+          0.578,
+          0.652,
+          0.724,
+          0.683,
+          0.383,
+          0.256,
+          0.253,
+          0.599,
+          0.465,
+          0.333,
+          0
+        ],
+        "attention_span_eco_ms": 1425285,
+        "attention_span_military_ms": 1510438,
+        "villagers_trained": 98,
+        "villager_count_at": {
+          "300": 16,
+          "600": 23,
+          "900": 25,
+          "1200": 34,
+          "1500": 38,
+          "1800": 49,
+          "2400": 88,
+          "3000": 98,
+          "3600": 98
+        },
+        "military_trained": 133,
+        "first_military_time_s": 1465,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 3,
+          "1800": 26,
+          "2400": 63,
+          "3000": 133,
+          "3600": 133
+        },
+        "military_by_type": {
+          "Bombard Cannon": 10,
+          "Hand Cannoneer": 38,
+          "Cavalry Archer": 25,
+          "Monk": 1,
+          "Scout Cavalry": 44,
+          "Camel Scout": 15
+        },
+        "eco_techs": [
+          [
+            "Double-Bit Axe",
+            729
+          ],
+          [
+            "Horse Collar",
+            730
+          ],
+          [
+            "Wheelbarrow",
+            865
+          ],
+          [
+            "Bow Saw",
+            939
+          ],
+          [
+            "Heavy Plow",
+            940
+          ]
+        ],
+        "military_techs": [
+          [
+            "Padded Archer Armor",
+            1397
+          ],
+          [
+            "Artillery",
+            1686
+          ],
+          [
+            "Bombard Tower",
+            1704
+          ],
+          [
+            "Leather Archer Armor",
+            1803
+          ],
+          [
+            "Ring Archer Armor",
+            1862
+          ],
+          [
+            "Conscription",
+            1930
+          ],
+          [
+            "Sipahi",
+            1930
+          ],
+          [
+            "Parthian Tactics",
+            2066
+          ],
+          [
+            "Masonry",
+            2149
+          ],
+          [
+            "Bloodlines",
+            2447
+          ],
+          [
+            "Scale Barding Armor",
+            2485
+          ],
+          [
+            "Chain Barding Armor",
+            2533
+          ],
+          [
+            "Fletching",
+            2735
+          ],
+          [
+            "Architecture",
+            2756
+          ],
+          [
+            "Hoardings",
+            2787
+          ]
+        ],
+        "eco_tech_count": 5,
+        "military_tech_count": 15,
+        "market": {
+          "wood": {
+            "sell": 1800,
+            "buy": 200
+          },
+          "food": {
+            "sell": 700,
+            "buy": 300
+          },
+          "stone": {
+            "sell": 100,
+            "buy": 500
+          },
+          "gold": {
+            "spent": 1499,
+            "received": 877
+          }
+        },
+        "buildings_built": 73,
+        "resigned_time_s": 2974
+      },
+      "2": {
+        "profile_id": 12080589,
+        "name": "l.inc",
+        "team": 1,
+        "color": 4,
+        "civ": "Burgundians",
+        "is_ai": false,
+        "feudal_time_ms": 670794,
+        "castle_time_ms": 1164634,
+        "imperial_time_ms": 1851109,
+        "opening": null,
+        "eapm_mean": 25.826923076923077,
+        "eapm_max": 50,
+        "eapm_min": 0,
+        "eco_apm_mean": 7.269230769230768,
+        "eco_apm_max": 15.333333333333332,
+        "military_apm_mean": 18.48076923076923,
+        "military_apm_max": 43.33333333333333,
+        "apm_per_min": [
+          22.3,
+          28.3,
+          34.7,
+          50,
+          47.3,
+          42,
+          28.3,
+          20.3,
+          16.3,
+          16,
+          14,
+          12.7,
+          15,
+          23,
+          23,
+          18.7,
+          16.7,
+          13.7,
+          16,
+          15.3,
+          18.7,
+          22.7,
+          30.3,
+          36.3,
+          33.3,
+          24,
+          20.3,
+          22,
+          23.7,
+          21,
+          20.7,
+          20.7,
+          23.3,
+          26.7,
+          30.3,
+          29.7,
+          25.7,
+          22.7,
+          29,
+          37.3,
+          38,
+          42.3,
+          37.3,
+          41,
+          38.7,
+          38.7,
+          36.3,
+          33,
+          26.3,
+          15.7,
+          3.7,
+          0
+        ],
+        "micro_ratio_over_time": [
+          -0.364,
+          -0.038,
+          0.25,
+          0.438,
+          0.471,
+          0.233,
+          -0.134,
+          -0.565,
+          -0.639,
+          -0.72,
+          -0.815,
+          -0.911,
+          -0.804,
+          -0.512,
+          -0.468,
+          -0.471,
+          -0.25,
+          -0.339,
+          -0.154,
+          -0.361,
+          -0.319,
+          -0.581,
+          -0.376,
+          -0.202,
+          -0.239,
+          -0.679,
+          -0.837,
+          -0.705,
+          -0.748,
+          -0.761,
+          -0.928,
+          -0.872,
+          -0.685,
+          -0.382,
+          -0.351,
+          -0.392,
+          -0.41,
+          -0.319,
+          -0.209,
+          -0.118,
+          -0.157,
+          0.034,
+          -0.085,
+          0.022,
+          -0.164,
+          -0.121,
+          -0.165,
+          -0.322,
+          -0.623,
+          -0.519,
+          -0.333,
+          0
+        ],
+        "attention_span_ratio_over_time": [
+          0.235,
+          0.242,
+          0.37,
+          0.391,
+          0.356,
+          0.153,
+          -0.022,
+          -0.135,
+          -0.28,
+          -0.353,
+          -0.34,
+          -0.394,
+          -0.256,
+          -0.012,
+          0.177,
+          0.117,
+          0.082,
+          0.021,
+          0.347,
+          0.091,
+          0.054,
+          -0.218,
+          0.181,
+          0.27,
+          -0.035,
+          -0.327,
+          -0.365,
+          0.154,
+          0.131,
+          -0.007,
+          -0.332,
+          -0.309,
+          0.046,
+          0.42,
+          0.581,
+          0.38,
+          0.346,
+          0.227,
+          0.573,
+          0.664,
+          0.77,
+          0.735,
+          0.611,
+          0.745,
+          0.741,
+          0.85,
+          0.863,
+          0.803,
+          0.595,
+          0.305,
+          0.111,
+          0
+        ],
+        "attention_span_eco_ms": 1175168,
+        "attention_span_military_ms": 1789292,
+        "villagers_trained": 112,
+        "villager_count_at": {
+          "300": 16,
+          "600": 31,
+          "900": 38,
+          "1200": 42,
+          "1500": 70,
+          "1800": 90,
+          "2400": 100,
+          "3000": 112,
+          "3600": 112
+        },
+        "military_trained": 172,
+        "first_military_time_s": 1313,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 2,
+          "1800": 9,
+          "2400": 52,
+          "3000": 172,
+          "3600": 172
+        },
+        "military_by_type": {
+          "Scout Cavalry": 2,
+          "Spearman": 79,
+          "Flemish Militia": 5,
+          "Mangonel": 3,
+          "Knight": 71,
+          "Trebuchet (Packed)": 6,
+          "Monk": 6
+        },
+        "eco_techs": [
+          [
+            "Double-Bit Axe",
+            574
+          ],
+          [
+            "Horse Collar",
+            584
+          ],
+          [
+            "Stone Mining",
+            983
+          ],
+          [
+            "Gold Mining",
+            1200
+          ],
+          [
+            "Wheelbarrow",
+            1332
+          ],
+          [
+            "Hand Cart",
+            1656
+          ],
+          [
+            "Gold Shaft Mining",
+            1933
+          ]
+        ],
+        "military_techs": [
+          [
+            "Loom",
+            414
+          ],
+          [
+            "Scale Mail Armor",
+            1682
+          ],
+          [
+            "Chain Mail Armor",
+            1757
+          ],
+          [
+            "Forging",
+            1758
+          ],
+          [
+            "Pikeman",
+            1811
+          ],
+          [
+            "Squires",
+            1812
+          ],
+          [
+            "Scale Barding Armor",
+            1817
+          ],
+          [
+            "Murder Holes",
+            1860
+          ],
+          [
+            "Treadmill Crane",
+            1862
+          ],
+          [
+            "Chemistry",
+            1864
+          ],
+          [
+            "Fortified Wall",
+            1865
+          ],
+          [
+            "Ballistics",
+            1870
+          ],
+          [
+            "Conscription",
+            1884
+          ],
+          [
+            "Husbandry",
+            2016
+          ],
+          [
+            "Plate Mail Armor",
+            2039
+          ],
+          [
+            "Cavalier",
+            2206
+          ],
+          [
+            "Fletching",
+            2265
+          ],
+          [
+            "Padded Archer Armor",
+            2265
+          ],
+          [
+            "Chain Barding Armor",
+            2287
+          ],
+          [
+            "Iron Casting",
+            2304
+          ],
+          [
+            "Plate Barding Armor",
+            2547
+          ]
+        ],
+        "eco_tech_count": 7,
+        "military_tech_count": 21,
+        "market": {
+          "wood": {
+            "sell": 400,
+            "buy": 0
+          },
+          "food": {
+            "sell": 500,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 126
+          }
+        },
+        "buildings_built": 61,
+        "resigned_time_s": 2991
+      },
+      "3": {
+        "profile_id": 4607974,
+        "name": "Strength & Honour",
+        "team": 2,
+        "color": 6,
+        "civ": "Romans",
+        "is_ai": false,
+        "feudal_time_ms": 692920,
+        "castle_time_ms": 925708,
+        "imperial_time_ms": 1789747,
+        "opening": "fast_castle",
+        "eapm_mean": 34.01923076923077,
+        "eapm_max": 61.666666666666664,
+        "eapm_min": 7.666666666666666,
+        "eco_apm_mean": 10.480769230769228,
+        "eco_apm_max": 19.333333333333332,
+        "military_apm_mean": 23.423076923076923,
+        "military_apm_max": 50,
+        "apm_per_min": [
+          39.3,
+          40.7,
+          40,
+          46.7,
+          43.3,
+          43.3,
+          37.3,
+          39,
+          30.7,
+          25.3,
+          15.7,
+          13.3,
+          12.7,
+          17.7,
+          20.3,
+          24.3,
+          28.3,
+          35.7,
+          41,
+          44.7,
+          47,
+          40.3,
+          36,
+          33,
+          32.7,
+          28.3,
+          26.3,
+          23,
+          22.3,
+          15.7,
+          22,
+          20,
+          41,
+          36,
+          48,
+          38.7,
+          61.7,
+          54.3,
+          54.3,
+          37.7,
+          38,
+          39,
+          31,
+          36,
+          28.3,
+          42,
+          37.3,
+          41.3,
+          42.7,
+          40,
+          28,
+          7.7
+        ],
+        "micro_ratio_over_time": [
+          0.383,
+          0.419,
+          0.338,
+          0.289,
+          0.154,
+          0.085,
+          0.106,
+          0.349,
+          0.075,
+          0.112,
+          -0.03,
+          -0.03,
+          -0.109,
+          0.056,
+          0.19,
+          0.098,
+          -0.106,
+          0.121,
+          0.191,
+          0.077,
+          0.141,
+          0.053,
+          -0.015,
+          -0.115,
+          -0.398,
+          -0.544,
+          -0.822,
+          -0.857,
+          -0.883,
+          -0.855,
+          -0.728,
+          -0.759,
+          -0.796,
+          -0.677,
+          -0.442,
+          -0.327,
+          -0.309,
+          -0.476,
+          -0.158,
+          -0.345,
+          -0.414,
+          -0.727,
+          -0.844,
+          -0.666,
+          -0.683,
+          -0.52,
+          -0.676,
+          -0.722,
+          -0.711,
+          -0.501,
+          -0.26,
+          -0.101
+        ],
+        "attention_span_ratio_over_time": [
+          0.378,
+          0.313,
+          0.124,
+          0.075,
+          -0.126,
+          -0.155,
+          -0.04,
+          0.236,
+          -0.026,
+          -0.172,
+          -0.438,
+          -0.395,
+          -0.54,
+          -0.13,
+          0.047,
+          0.126,
+          -0.168,
+          -0.135,
+          -0.087,
+          -0.043,
+          0.098,
+          -0.095,
+          -0.323,
+          -0.34,
+          -0.267,
+          -0.298,
+          -0.56,
+          -0.564,
+          -0.598,
+          -0.422,
+          -0.345,
+          0.015,
+          0.169,
+          0.077,
+          0.029,
+          -0.021,
+          0.35,
+          0.297,
+          0.349,
+          0.136,
+          -0.086,
+          -0.112,
+          -0.376,
+          -0.123,
+          -0.312,
+          0.141,
+          0.373,
+          0.808,
+          0.783,
+          0.725,
+          0.391,
+          0.219
+        ],
+        "attention_span_eco_ms": 1585153,
+        "attention_span_military_ms": 1445905,
+        "villagers_trained": 153,
+        "villager_count_at": {
+          "300": 13,
+          "600": 25,
+          "900": 27,
+          "1200": 46,
+          "1500": 79,
+          "1800": 111,
+          "2400": 143,
+          "3000": 153,
+          "3600": 153
+        },
+        "military_trained": 278,
+        "first_military_time_s": 1652,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 0,
+          "1800": 14,
+          "2400": 107,
+          "3000": 263,
+          "3600": 278
+        },
+        "military_by_type": {
+          "Monk": 2,
+          "Militia": 211,
+          "Trebuchet (Packed)": 2,
+          "Scorpion": 60,
+          "Centurion": 3
+        },
+        "eco_techs": [
+          [
+            "Double-Bit Axe",
+            759
+          ],
+          [
+            "Horse Collar",
+            984
+          ],
+          [
+            "Bow Saw",
+            986
+          ],
+          [
+            "Wheelbarrow",
+            1224
+          ],
+          [
+            "Heavy Plow",
+            1276
+          ],
+          [
+            "Hand Cart",
+            1425
+          ],
+          [
+            "Gold Mining",
+            1429
+          ],
+          [
+            "Stone Mining",
+            1432
+          ],
+          [
+            "Gold Shaft Mining",
+            1830
+          ],
+          [
+            "Coinage",
+            2187
+          ]
+        ],
+        "military_techs": [
+          [
+            "Loom",
+            1224
+          ],
+          [
+            "Town Watch",
+            1225
+          ],
+          [
+            "Squires",
+            1613
+          ],
+          [
+            "Man-at-Arms",
+            1613
+          ],
+          [
+            "Scale Mail Armor",
+            1617
+          ],
+          [
+            "Fortified Wall",
+            1632
+          ],
+          [
+            "Long Swordsman",
+            1680
+          ],
+          [
+            "Chain Mail Armor",
+            1686
+          ],
+          [
+            "Forging",
+            1732
+          ],
+          [
+            "Legionary",
+            1871
+          ],
+          [
+            "Comitatenses",
+            2109
+          ],
+          [
+            "Iron Casting",
+            2222
+          ],
+          [
+            "Conscription",
+            2227
+          ],
+          [
+            "Blast Furnace",
+            2323
+          ],
+          [
+            "Fletching",
+            2342
+          ],
+          [
+            "Chemistry",
+            2344
+          ],
+          [
+            "Ballistics",
+            2345
+          ],
+          [
+            "Masonry",
+            2346
+          ],
+          [
+            "Town Patrol",
+            2417
+          ],
+          [
+            "Ballistas",
+            2445
+          ],
+          [
+            "Bodkin Arrow",
+            2536
+          ],
+          [
+            "Siege Engineers",
+            2615
+          ],
+          [
+            "Guard Tower",
+            2617
+          ],
+          [
+            "Murder Holes",
+            2618
+          ],
+          [
+            "Architecture",
+            2619
+          ],
+          [
+            "Heavy Scorpion",
+            2660
+          ],
+          [
+            "Keep",
+            2745
+          ],
+          [
+            "Padded Archer Armor",
+            2844
+          ],
+          [
+            "Scale Barding Armor",
+            2845
+          ],
+          [
+            "Leather Archer Armor",
+            2948
+          ],
+          [
+            "Chain Barding Armor",
+            2949
+          ]
+        ],
+        "eco_tech_count": 10,
+        "military_tech_count": 31,
+        "market": {
+          "wood": {
+            "sell": 3500,
+            "buy": 0
+          },
+          "food": {
+            "sell": 1500,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 917
+          }
+        },
+        "buildings_built": 102,
+        "resigned_time_s": 3050
+      },
+      "4": {
+        "profile_id": 12499000,
+        "name": "toXic",
+        "team": 1,
+        "color": 8,
+        "civ": "Koreans",
+        "is_ai": false,
+        "feudal_time_ms": 707892,
+        "castle_time_ms": 919809,
+        "imperial_time_ms": 1777987,
+        "opening": "fast_castle",
+        "eapm_mean": 39.826923076923066,
+        "eapm_max": 78.66666666666666,
+        "eapm_min": 10.666666666666666,
+        "eco_apm_mean": 12.692307692307692,
+        "eco_apm_max": 30.333333333333332,
+        "military_apm_mean": 26.980769230769234,
+        "military_apm_max": 73.66666666666666,
+        "apm_per_min": [
+          77,
+          73,
+          70,
+          64.3,
+          51.3,
+          39,
+          30,
+          25,
+          23.3,
+          37.3,
+          42.7,
+          33.3,
+          18.7,
+          14.3,
+          17,
+          15,
+          14.7,
+          15.3,
+          15.7,
+          15.3,
+          29,
+          31.7,
+          36.7,
+          34.7,
+          34.7,
+          33.3,
+          25.3,
+          28.7,
+          34,
+          34,
+          30,
+          27.3,
+          27.3,
+          32,
+          30.7,
+          50.7,
+          78.7,
+          78,
+          66.7,
+          44.3,
+          51.7,
+          47,
+          38.3,
+          38.7,
+          40.7,
+          54,
+          67.3,
+          69.7,
+          77,
+          56.3,
+          39.7,
+          10.7
+        ],
+        "micro_ratio_over_time": [
+          0.589,
+          0.614,
+          0.617,
+          0.409,
+          -0.071,
+          -0.143,
+          -0.289,
+          -0.255,
+          -0.286,
+          0.211,
+          0.518,
+          0.08,
+          -0.19,
+          -0.014,
+          -0.014,
+          -0.4,
+          -1,
+          -1,
+          -1,
+          -0.963,
+          -0.963,
+          -0.963,
+          -0.758,
+          -0.526,
+          -0.526,
+          -0.585,
+          -0.763,
+          -0.763,
+          -0.947,
+          -1,
+          -0.933,
+          -0.915,
+          -0.889,
+          -0.955,
+          -0.973,
+          -0.678,
+          -0.351,
+          -0.351,
+          -0.529,
+          -0.686,
+          -0.623,
+          -0.335,
+          -0.238,
+          0.094,
+          -0.245,
+          -0.02,
+          -0.117,
+          0.204,
+          0.102,
+          0.054,
+          -0.026,
+          -0.083
+        ],
+        "attention_span_ratio_over_time": [
+          0.415,
+          0.399,
+          0.379,
+          0.153,
+          -0.277,
+          -0.397,
+          -0.572,
+          -0.574,
+          -0.552,
+          0.088,
+          0.463,
+          0.087,
+          -0.335,
+          -0.135,
+          -0.135,
+          -0.33,
+          -0.951,
+          -0.897,
+          -0.946,
+          -0.88,
+          -0.925,
+          -0.822,
+          -0.547,
+          -0.255,
+          -0.185,
+          -0.407,
+          -0.597,
+          -0.655,
+          -0.666,
+          -0.723,
+          -0.675,
+          -0.516,
+          -0.387,
+          -0.4,
+          -0.418,
+          -0.184,
+          0.333,
+          0.134,
+          -0.033,
+          -0.528,
+          -0.229,
+          -0.202,
+          -0.015,
+          0.107,
+          0.076,
+          0.198,
+          0.288,
+          0.488,
+          0.578,
+          0.4,
+          0.288,
+          0.05
+        ],
+        "attention_span_eco_ms": 1840137,
+        "attention_span_military_ms": 1163828,
+        "villagers_trained": 112,
+        "villager_count_at": {
+          "300": 16,
+          "600": 27,
+          "900": 27,
+          "1200": 44,
+          "1500": 80,
+          "1800": 106,
+          "2400": 112,
+          "3000": 112,
+          "3600": 112
+        },
+        "military_trained": 328,
+        "first_military_time_s": 1360,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 1,
+          "1800": 24,
+          "2400": 205,
+          "3000": 328,
+          "3600": 328
+        },
+        "military_by_type": {
+          "War Wagon": 1,
+          "Fire Lancer": 50,
+          "Trebuchet (Packed)": 4,
+          "Battering Ram": 12,
+          "Spearman": 116,
+          "Archer": 144,
+          "Bombard Cannon": 1
+        },
+        "eco_techs": [
+          [
+            "Horse Collar",
+            748
+          ],
+          [
+            "Double-Bit Axe",
+            780
+          ],
+          [
+            "Wheelbarrow",
+            855
+          ],
+          [
+            "Bow Saw",
+            926
+          ],
+          [
+            "Heavy Plow",
+            927
+          ],
+          [
+            "Gold Mining",
+            1318
+          ],
+          [
+            "Stone Mining",
+            1378
+          ],
+          [
+            "Hand Cart",
+            1453
+          ],
+          [
+            "Gold Shaft Mining",
+            1715
+          ],
+          [
+            "Two-Man Saw",
+            2373
+          ]
+        ],
+        "military_techs": [
+          [
+            "Loom",
+            1589
+          ],
+          [
+            "Scale Mail Armor",
+            1608
+          ],
+          [
+            "Forging",
+            1608
+          ],
+          [
+            "Chain Mail Armor",
+            1665
+          ],
+          [
+            "Arson",
+            1670
+          ],
+          [
+            "Squires",
+            1674
+          ],
+          [
+            "Iron Casting",
+            1704
+          ],
+          [
+            "Elite Fire Lancer",
+            1809
+          ],
+          [
+            "Capped Ram",
+            1842
+          ],
+          [
+            "Plate Mail Armor",
+            1862
+          ],
+          [
+            "Pikeman",
+            1918
+          ],
+          [
+            "Fletching",
+            1964
+          ],
+          [
+            "Halberdier",
+            1977
+          ],
+          [
+            "Bodkin Arrow",
+            1998
+          ],
+          [
+            "Crossbowman",
+            2005
+          ],
+          [
+            "Conscription",
+            2089
+          ],
+          [
+            "Arbalester",
+            2097
+          ],
+          [
+            "Bracer",
+            2143
+          ],
+          [
+            "Thumb Ring",
+            2168
+          ],
+          [
+            "Ballistics",
+            2283
+          ],
+          [
+            "Chemistry",
+            2283
+          ],
+          [
+            "Fortified Wall",
+            2288
+          ]
+        ],
+        "eco_tech_count": 10,
+        "military_tech_count": 22,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 2800,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 1240
+          }
+        },
+        "buildings_built": 130,
+        "resigned_time_s": 3035
+      },
+      "5": {
+        "profile_id": 12667372,
+        "name": "zubair",
+        "team": 2,
+        "color": 3,
+        "civ": "Sicilians",
+        "is_ai": false,
+        "feudal_time_ms": 676017,
+        "castle_time_ms": 971124,
+        "imperial_time_ms": 2245783,
+        "opening": "fast_castle",
+        "eapm_mean": 21.653846153846157,
+        "eapm_max": 40.33333333333333,
+        "eapm_min": 6,
+        "eco_apm_mean": 6.288461538461537,
+        "eco_apm_max": 10.666666666666666,
+        "military_apm_mean": 15.326923076923075,
+        "military_apm_max": 36.33333333333333,
+        "apm_per_min": [
+          33.3,
+          39,
+          38.3,
+          37,
+          26,
+          23.3,
+          18.3,
+          16.7,
+          15,
+          10,
+          15,
+          14.7,
+          15.7,
+          10,
+          9.3,
+          10.3,
+          18.3,
+          25.3,
+          25.3,
+          19.3,
+          14,
+          15.3,
+          18,
+          18.3,
+          19.7,
+          18.3,
+          16.7,
+          13.3,
+          17,
+          25,
+          27.3,
+          25.7,
+          20,
+          23.7,
+          26.7,
+          26,
+          20.3,
+          18,
+          25.3,
+          37.3,
+          40.3,
+          34.3,
+          26.7,
+          23,
+          26.7,
+          25.3,
+          24.3,
+          24.7,
+          20,
+          19.7,
+          8.7,
+          6
+        ],
+        "micro_ratio_over_time": [
+          0.397,
+          0.497,
+          0.554,
+          0.521,
+          0.139,
+          -0.215,
+          -0.387,
+          -0.457,
+          -0.407,
+          -0.643,
+          -0.465,
+          -0.656,
+          -0.557,
+          -0.596,
+          -0.354,
+          -0.392,
+          -0.348,
+          -0.32,
+          -0.415,
+          -0.57,
+          -0.758,
+          -0.657,
+          -0.469,
+          -0.473,
+          -0.561,
+          -0.861,
+          -0.884,
+          -0.833,
+          -0.463,
+          -0.111,
+          0.094,
+          0.026,
+          -0.206,
+          -0.277,
+          -0.236,
+          -0.137,
+          -0.176,
+          -0.215,
+          -0.216,
+          -0.081,
+          -0.205,
+          -0.161,
+          -0.219,
+          -0.249,
+          -0.441,
+          -0.39,
+          -0.542,
+          -0.404,
+          -0.737,
+          -0.33,
+          -0.259,
+          0.074
+        ],
+        "attention_span_ratio_over_time": [
+          0.372,
+          0.336,
+          0.181,
+          0.003,
+          -0.372,
+          -0.566,
+          -0.533,
+          -0.465,
+          -0.165,
+          -0.028,
+          0.26,
+          0.055,
+          -0.294,
+          -0.277,
+          0.036,
+          0.164,
+          0.041,
+          -0.153,
+          -0.159,
+          -0.115,
+          -0.169,
+          -0.173,
+          -0.191,
+          -0.008,
+          -0.09,
+          -0.221,
+          -0.5,
+          -0.228,
+          0.158,
+          0.64,
+          0.597,
+          0.517,
+          0.529,
+          0.56,
+          0.621,
+          0.214,
+          0.285,
+          0.004,
+          0.307,
+          0.458,
+          0.634,
+          0.25,
+          0.151,
+          0.119,
+          0.461,
+          0.528,
+          0.551,
+          0.646,
+          0.488,
+          0.713,
+          0.431,
+          0.333
+        ],
+        "attention_span_eco_ms": 1300588,
+        "attention_span_military_ms": 1731081,
+        "villagers_trained": 103,
+        "villager_count_at": {
+          "300": 13,
+          "600": 21,
+          "900": 25,
+          "1200": 46,
+          "1500": 70,
+          "1800": 83,
+          "2400": 93,
+          "3000": 103,
+          "3600": 103
+        },
+        "military_trained": 196,
+        "first_military_time_s": 1673,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 0,
+          "1800": 16,
+          "2400": 65,
+          "3000": 196,
+          "3600": 196
+        },
+        "military_by_type": {
+          "Knight": 80,
+          "Serjeant": 37,
+          "Trebuchet (Packed)": 4,
+          "Spearman": 75
+        },
+        "eco_techs": [
+          [
+            "Double-Bit Axe",
+            843
+          ],
+          [
+            "Horse Collar",
+            921
+          ],
+          [
+            "Bow Saw",
+            1141
+          ],
+          [
+            "Stone Mining",
+            1198
+          ],
+          [
+            "Heavy Plow",
+            1210
+          ],
+          [
+            "Gold Mining",
+            1277
+          ],
+          [
+            "Stone Shaft Mining",
+            1365
+          ],
+          [
+            "Wheelbarrow",
+            1407
+          ],
+          [
+            "Gold Shaft Mining",
+            1873
+          ],
+          [
+            "Hand Cart",
+            2057
+          ],
+          [
+            "Guilds",
+            2546
+          ]
+        ],
+        "military_techs": [
+          [
+            "Loom",
+            1243
+          ],
+          [
+            "Scale Barding Armor",
+            1474
+          ],
+          [
+            "Forging",
+            1485
+          ],
+          [
+            "Bloodlines",
+            1551
+          ],
+          [
+            "Husbandry",
+            1551
+          ],
+          [
+            "Chain Barding Armor",
+            1620
+          ],
+          [
+            "First Crusade",
+            1651
+          ],
+          [
+            "Scale Mail Armor",
+            1713
+          ],
+          [
+            "Squires",
+            1715
+          ],
+          [
+            "Chain Mail Armor",
+            1767
+          ],
+          [
+            "Iron Casting",
+            1866
+          ],
+          [
+            "Arson",
+            2095
+          ],
+          [
+            "Town Watch",
+            2181
+          ],
+          [
+            "Cavalier",
+            2253
+          ],
+          [
+            "Plate Barding Armor",
+            2256
+          ],
+          [
+            "Blast Furnace",
+            2257
+          ],
+          [
+            "Pikeman",
+            2288
+          ],
+          [
+            "Plate Mail Armor",
+            2321
+          ],
+          [
+            "Halberdier",
+            2362
+          ],
+          [
+            "Fletching",
+            2479
+          ],
+          [
+            "Bodkin Arrow",
+            2538
+          ],
+          [
+            "Hauberk",
+            2668
+          ],
+          [
+            "Bracer",
+            2739
+          ],
+          [
+            "Padded Archer Armor",
+            2754
+          ],
+          [
+            "Elite Serjeant",
+            2813
+          ],
+          [
+            "Ballistics",
+            2838
+          ],
+          [
+            "Conscription",
+            2868
+          ],
+          [
+            "Gambesons",
+            2970
+          ],
+          [
+            "Masonry",
+            2976
+          ],
+          [
+            "Siege Engineers",
+            2977
+          ]
+        ],
+        "eco_tech_count": 11,
+        "military_tech_count": 30,
+        "market": {
+          "wood": {
+            "sell": 1000,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 458
+          }
+        },
+        "buildings_built": 62,
+        "resigned_time_s": 3043
+      },
+      "6": {
+        "profile_id": 12693189,
+        "name": "NaKiyaKar",
+        "team": 2,
+        "color": 7,
+        "civ": "Byzantines",
+        "is_ai": false,
+        "feudal_time_ms": 695797,
+        "castle_time_ms": 973624,
+        "imperial_time_ms": 1488785,
+        "opening": "fast_castle",
+        "eapm_mean": 32.733189193478,
+        "eapm_max": 61.99999999999999,
+        "eapm_min": 9.333333333333332,
+        "eco_apm_mean": 9.039671519815926,
+        "eco_apm_max": 17.333333333333332,
+        "military_apm_mean": 23.443517673662072,
+        "military_apm_max": 50.33333333333333,
+        "apm_per_min": [
+          39,
+          44,
+          45,
+          41.7,
+          41,
+          37.3,
+          43.7,
+          34.7,
+          32.3,
+          17.7,
+          18,
+          16.7,
+          15,
+          14.3,
+          17.3,
+          25.3,
+          33,
+          34,
+          30,
+          21.7,
+          17.3,
+          13.3,
+          9.3,
+          11.3,
+          15.7,
+          23.7,
+          31,
+          38,
+          45.3,
+          50.7,
+          61,
+          56.7,
+          58.3,
+          48.7,
+          46,
+          33.3,
+          26,
+          33.7,
+          42.3,
+          62,
+          57.7,
+          49.3,
+          37.3,
+          33.7,
+          31,
+          24.7,
+          25.3,
+          31,
+          31.3,
+          28,
+          17.4,
+          10.1
+        ],
+        "micro_ratio_over_time": [
+          0.211,
+          0.308,
+          0.386,
+          0.312,
+          0.205,
+          0.302,
+          0.161,
+          0.272,
+          -0.179,
+          -0.1,
+          -0.332,
+          -0.357,
+          -0.746,
+          -0.625,
+          -0.16,
+          0.077,
+          0.193,
+          -0.028,
+          -0.054,
+          -0.504,
+          -0.656,
+          -0.867,
+          -0.533,
+          -0.603,
+          -0.503,
+          -0.659,
+          -0.459,
+          -0.298,
+          -0.207,
+          -0.12,
+          0.092,
+          0.096,
+          0.152,
+          -0.041,
+          -0.057,
+          -0.232,
+          -0.098,
+          0.088,
+          0.178,
+          0.098,
+          -0.232,
+          -0.528,
+          -0.574,
+          -0.376,
+          -0.19,
+          -0.238,
+          -0.466,
+          -0.473,
+          -0.61,
+          -0.542,
+          -0.746,
+          -0.848
+        ],
+        "attention_span_ratio_over_time": [
+          0.425,
+          0.527,
+          0.598,
+          0.529,
+          0.271,
+          0.238,
+          0.025,
+          -0.165,
+          -0.401,
+          -0.455,
+          -0.323,
+          -0.346,
+          -0.54,
+          -0.349,
+          -0.248,
+          0.098,
+          0.254,
+          0.468,
+          0.55,
+          0.21,
+          0.101,
+          -0.129,
+          0.297,
+          0.147,
+          0.27,
+          -0.022,
+          0.023,
+          0.027,
+          0.134,
+          0.416,
+          0.408,
+          0.262,
+          0.208,
+          0.385,
+          0.478,
+          0.108,
+          0.139,
+          0.174,
+          0.427,
+          0.355,
+          0.225,
+          0.011,
+          0.223,
+          0.365,
+          0.683,
+          0.485,
+          0.24,
+          0.353,
+          0.459,
+          0.869,
+          0.662,
+          0.535
+        ],
+        "attention_span_eco_ms": 1197308,
+        "attention_span_military_ms": 1840632,
+        "villagers_trained": 96,
+        "villager_count_at": {
+          "300": 12,
+          "600": 23,
+          "900": 29,
+          "1200": 39,
+          "1500": 49,
+          "1800": 61,
+          "2400": 75,
+          "3000": 96,
+          "3600": 96
+        },
+        "military_trained": 142,
+        "first_military_time_s": 1497,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 1,
+          "1800": 4,
+          "2400": 48,
+          "3000": 142,
+          "3600": 142
+        },
+        "military_by_type": {
+          "Trebuchet (Packed)": 10,
+          "Cataphract": 2,
+          "Skirmisher": 68,
+          "Spearman": 62
+        },
+        "eco_techs": [
+          [
+            "Double-Bit Axe",
+            908
+          ],
+          [
+            "Horse Collar",
+            914
+          ],
+          [
+            "Wheelbarrow",
+            1887
+          ],
+          [
+            "Bow Saw",
+            1955
+          ],
+          [
+            "Two-Man Saw",
+            2096
+          ],
+          [
+            "Heavy Plow",
+            2117
+          ],
+          [
+            "Hand Cart",
+            2790
+          ]
+        ],
+        "military_techs": [
+          [
+            "Loom",
+            967
+          ],
+          [
+            "Conscription",
+            1632
+          ],
+          [
+            "Elite Skirmisher",
+            1730
+          ],
+          [
+            "Fletching",
+            1871
+          ],
+          [
+            "Bodkin Arrow",
+            1933
+          ],
+          [
+            "Padded Archer Armor",
+            1968
+          ],
+          [
+            "Bracer",
+            2009
+          ],
+          [
+            "Leather Archer Armor",
+            2168
+          ],
+          [
+            "Squires",
+            2181
+          ],
+          [
+            "Treadmill Crane",
+            2195
+          ],
+          [
+            "Ballistics",
+            2197
+          ],
+          [
+            "Pikeman",
+            2295
+          ],
+          [
+            "Scale Mail Armor",
+            2297
+          ],
+          [
+            "Chemistry",
+            2324
+          ],
+          [
+            "Ring Archer Armor",
+            2359
+          ],
+          [
+            "Halberdier",
+            2362
+          ],
+          [
+            "Gambesons",
+            2410
+          ],
+          [
+            "Chain Mail Armor",
+            2492
+          ],
+          [
+            "Bombard Tower",
+            2678
+          ],
+          [
+            "Man-at-Arms",
+            2869
+          ],
+          [
+            "Forging",
+            2871
+          ]
+        ],
+        "eco_tech_count": 7,
+        "military_tech_count": 21,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 0
+          }
+        },
+        "buildings_built": 92,
+        "resigned_time_s": 3089
+      },
+      "7": {
+        "profile_id": 12047120,
+        "name": "wabbit",
+        "team": 2,
+        "color": 5,
+        "civ": "Spanish",
+        "is_ai": false,
+        "feudal_time_ms": 815750,
+        "castle_time_ms": 1046156,
+        "imperial_time_ms": 2242213,
+        "opening": "fast_castle",
+        "eapm_mean": 31.76923076923077,
+        "eapm_max": 67.33333333333333,
+        "eapm_min": 5.666666666666666,
+        "eco_apm_mean": 6.403846153846155,
+        "eco_apm_max": 13.666666666666664,
+        "military_apm_mean": 25.17307692307692,
+        "military_apm_max": 59,
+        "apm_per_min": [
+          46,
+          43.7,
+          39.3,
+          38.3,
+          51,
+          55.7,
+          67.3,
+          51,
+          39.3,
+          26,
+          20.7,
+          28,
+          23,
+          24,
+          15,
+          11.3,
+          7.3,
+          5.7,
+          7.3,
+          10.3,
+          13.3,
+          15.3,
+          15.3,
+          15,
+          15,
+          13,
+          12.7,
+          12.3,
+          15.7,
+          25,
+          34,
+          47.7,
+          53.7,
+          58.7,
+          55,
+          51.3,
+          51,
+          46.7,
+          45.3,
+          48.3,
+          53.3,
+          49.3,
+          35.7,
+          34.7,
+          29.7,
+          33.3,
+          29.3,
+          33.7,
+          38.7,
+          32,
+          22,
+          5.7
+        ],
+        "micro_ratio_over_time": [
+          0.345,
+          0.476,
+          0.464,
+          0.334,
+          0.311,
+          0.407,
+          0.626,
+          0.466,
+          0.206,
+          0.025,
+          -0.267,
+          0.15,
+          0.15,
+          0.207,
+          -0.096,
+          -0.496,
+          -0.541,
+          -0.905,
+          -0.905,
+          -0.917,
+          -0.783,
+          -0.694,
+          -0.778,
+          -0.816,
+          -0.86,
+          -0.86,
+          -0.956,
+          -0.952,
+          -0.819,
+          -0.413,
+          -0.021,
+          0.097,
+          -0.016,
+          -0.181,
+          -0.112,
+          -0.087,
+          0.039,
+          0.062,
+          -0.03,
+          -0.097,
+          -0.221,
+          -0.303,
+          -0.404,
+          -0.187,
+          -0.254,
+          -0.29,
+          -0.545,
+          -0.602,
+          -0.444,
+          -0.506,
+          -0.195,
+          -0.216
+        ],
+        "attention_span_ratio_over_time": [
+          0.482,
+          0.579,
+          0.368,
+          0.173,
+          -0.009,
+          0.01,
+          0.147,
+          0.076,
+          0.051,
+          -0.059,
+          -0.205,
+          0.153,
+          0.313,
+          0.408,
+          -0.126,
+          -0.368,
+          -0.099,
+          -0.207,
+          -0.286,
+          -0.73,
+          -0.612,
+          -0.474,
+          -0.384,
+          -0.424,
+          -0.633,
+          -0.805,
+          -0.541,
+          -0.22,
+          -0.071,
+          -0.056,
+          0.224,
+          0.592,
+          0.852,
+          0.854,
+          0.838,
+          0.619,
+          0.531,
+          0.489,
+          0.624,
+          0.743,
+          0.716,
+          0.55,
+          0.368,
+          0.541,
+          0.435,
+          0.434,
+          0.244,
+          0.058,
+          0.104,
+          0.295,
+          0.531,
+          0.333
+        ],
+        "attention_span_eco_ms": 1267392,
+        "attention_span_military_ms": 1727444,
+        "villagers_trained": 102,
+        "villager_count_at": {
+          "300": 11,
+          "600": 23,
+          "900": 28,
+          "1200": 33,
+          "1500": 49,
+          "1800": 65,
+          "2400": 97,
+          "3000": 102,
+          "3600": 102
+        },
+        "military_trained": 81,
+        "first_military_time_s": 1641,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 0,
+          "1800": 20,
+          "2400": 32,
+          "3000": 81,
+          "3600": 81
+        },
+        "military_by_type": {
+          "Conquistador": 28,
+          "Mangonel": 6,
+          "Trebuchet (Packed)": 8,
+          "Knight": 39
+        },
+        "eco_techs": [
+          [
+            "Stone Mining",
+            911
+          ],
+          [
+            "Double-Bit Axe",
+            935
+          ],
+          [
+            "Horse Collar",
+            946
+          ],
+          [
+            "Wheelbarrow",
+            1096
+          ],
+          [
+            "Bow Saw",
+            1242
+          ],
+          [
+            "Heavy Plow",
+            1244
+          ],
+          [
+            "Hand Cart",
+            1765
+          ]
+        ],
+        "military_techs": [
+          [
+            "Town Watch",
+            969
+          ],
+          [
+            "Loom",
+            1153
+          ],
+          [
+            "Town Patrol",
+            1420
+          ],
+          [
+            "Inquisition",
+            1597
+          ],
+          [
+            "Fletching",
+            1790
+          ],
+          [
+            "Padded Archer Armor",
+            1791
+          ],
+          [
+            "Bodkin Arrow",
+            1870
+          ],
+          [
+            "Leather Archer Armor",
+            1870
+          ],
+          [
+            "Ballistics",
+            2161
+          ],
+          [
+            "Murder Holes",
+            2162
+          ],
+          [
+            "Masonry",
+            2163
+          ],
+          [
+            "Bracer",
+            2314
+          ],
+          [
+            "Ring Archer Armor",
+            2315
+          ],
+          [
+            "Onager",
+            2377
+          ],
+          [
+            "Conscription",
+            2560
+          ],
+          [
+            "Hoardings",
+            2561
+          ],
+          [
+            "Light Cavalry",
+            2728
+          ],
+          [
+            "Bloodlines",
+            2728
+          ],
+          [
+            "Husbandry",
+            2729
+          ],
+          [
+            "Cavalier",
+            2732
+          ],
+          [
+            "Chemistry",
+            2757
+          ],
+          [
+            "Fortified Wall",
+            2757
+          ],
+          [
+            "Architecture",
+            2758
+          ],
+          [
+            "Scale Barding Armor",
+            2814
+          ],
+          [
+            "Forging",
+            2815
+          ],
+          [
+            "Paladin",
+            2908
+          ],
+          [
+            "Chain Barding Armor",
+            2911
+          ],
+          [
+            "Iron Casting",
+            2912
+          ]
+        ],
+        "eco_tech_count": 7,
+        "military_tech_count": 28,
+        "market": {
+          "wood": {
+            "sell": 0,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 0
+          }
+        },
+        "buildings_built": 58,
+        "resigned_time_s": 3058
+      },
+      "8": {
+        "profile_id": null,
+        "name": "Lord Talbot",
+        "team": 1,
+        "color": 2,
+        "civ": "Britons",
+        "is_ai": true,
+        "feudal_time_ms": null,
+        "castle_time_ms": null,
+        "imperial_time_ms": null,
+        "opening": null,
+        "eapm_mean": null,
+        "eapm_max": null,
+        "eapm_min": null,
+        "eco_apm_mean": null,
+        "eco_apm_max": null,
+        "military_apm_mean": null,
+        "military_apm_max": null,
+        "apm_per_min": null,
+        "micro_ratio_over_time": null,
+        "attention_span_ratio_over_time": null,
+        "attention_span_eco_ms": null,
+        "attention_span_military_ms": null,
+        "villagers_trained": 36,
+        "villager_count_at": {
+          "300": 9,
+          "600": 18,
+          "900": 20,
+          "1200": 20,
+          "1500": 34,
+          "1800": 36,
+          "2400": 36,
+          "3000": 36,
+          "3600": 36
+        },
+        "military_trained": 70,
+        "first_military_time_s": 1511,
+        "military_count_at": {
+          "300": 0,
+          "600": 0,
+          "900": 0,
+          "1200": 0,
+          "1500": 0,
+          "1800": 4,
+          "2400": 19,
+          "3000": 58,
+          "3600": 70
+        },
+        "military_by_type": {
+          "Mangonel": 2,
+          "Longbowman": 30,
+          "Petard": 1,
+          "Skirmisher": 20,
+          "Archer": 12,
+          "Spearman": 3,
+          "Scout Cavalry": 2
+        },
+        "eco_techs": [],
+        "military_techs": [],
+        "eco_tech_count": 0,
+        "military_tech_count": 0,
+        "market": {
+          "wood": {
+            "sell": 1900,
+            "buy": 0
+          },
+          "food": {
+            "sell": 0,
+            "buy": 0
+          },
+          "stone": {
+            "sell": 0,
+            "buy": 0
+          },
+          "gold": {
+            "spent": 0,
+            "received": 991
+          }
+        },
+        "buildings_built": 66,
+        "resigned_time_s": null
+      },
+      "_meta": {
+        "schema": 2,
+        "match_id": 507837673,
+        "analysis_version": 4,
+        "duration_ms": 3089085,
+        "map": "Arena",
+        "map_size": "Tiny",
+        "game_mode": "Random Map",
+        "starting_age": "Standard",
+        "ending_age": "Feudal Age",
+        "population": 200,
+        "victory": "Conquest",
+        "ranked": false
+      }
     }
   },
   "status": {
@@ -534279,10 +543711,11 @@
     "507577026": "ok",
     "507581485": "ok",
     "507588530": "ok",
-    "507594229": "pending",
-    "507595361": "pending",
-    "507600069": "pending",
-    "507835096": "pending",
-    "507837673": "pending"
+    "507594229": "ok",
+    "507595361": "ok",
+    "507600069": "ok",
+    "507835096": "ok",
+    "507837673": "ok",
+    "507845081": "pending"
   }
 }

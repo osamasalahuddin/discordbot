@@ -1,63 +1,63 @@
 {
   "results": {
     "closed": {
-      "total_matches": 637,
+      "total_matches": 638,
       "players": {
         "wabbit": {
-          "current_elo": 931.0,
-          "matches_played": 371,
-          "wins": 154,
+          "current_elo": 943.6,
+          "matches_played": 372,
+          "wins": 155,
           "losses": 217,
-          "win_rate": 41.5
+          "win_rate": 41.7
         },
         "SauronSlayer": {
-          "current_elo": 1085.7,
-          "matches_played": 515,
+          "current_elo": 1063.2,
+          "matches_played": 516,
           "wins": 270,
-          "losses": 245,
-          "win_rate": 52.4
+          "losses": 246,
+          "win_rate": 52.3
         },
         "zubair": {
-          "current_elo": 877.0,
-          "matches_played": 485,
-          "wins": 222,
-          "losses": 263,
-          "win_rate": 45.8
+          "current_elo": 924.3,
+          "matches_played": 486,
+          "wins": 224,
+          "losses": 262,
+          "win_rate": 46.1
         },
         "l.inc": {
-          "current_elo": 966.9,
-          "matches_played": 483,
-          "wins": 226,
-          "losses": 257,
-          "win_rate": 46.8
+          "current_elo": 917.6,
+          "matches_played": 484,
+          "wins": 225,
+          "losses": 259,
+          "win_rate": 46.5
         },
         "toXic": {
-          "current_elo": 1133.0,
-          "matches_played": 414,
-          "wins": 262,
-          "losses": 152,
-          "win_rate": 63.3
+          "current_elo": 1076.2,
+          "matches_played": 415,
+          "wins": 261,
+          "losses": 154,
+          "win_rate": 62.9
         },
         "Strength & Honour": {
-          "current_elo": 1024.1,
-          "matches_played": 73,
-          "wins": 41,
-          "losses": 32,
-          "win_rate": 56.2
+          "current_elo": 1064.8,
+          "matches_played": 74,
+          "wins": 43,
+          "losses": 31,
+          "win_rate": 58.1
         },
         "cheetah001": {
-          "current_elo": 961.2,
-          "matches_played": 295,
-          "wins": 128,
+          "current_elo": 978.9,
+          "matches_played": 296,
+          "wins": 129,
           "losses": 167,
-          "win_rate": 43.4
+          "win_rate": 43.6
         },
         "NaKiyaKar": {
-          "current_elo": 980.5,
-          "matches_played": 262,
-          "wins": 137,
+          "current_elo": 990.8,
+          "matches_played": 263,
+          "wins": 138,
           "losses": 125,
-          "win_rate": 52.3
+          "win_rate": 52.5
         },
         "neXus": {
           "current_elo": 1040.6,
