@@ -203,7 +203,13 @@ for map_name, matches in by_map.items():
 
         for path, old_r, new_r, delta, won in match_deltas:
             elo[path] = new_r
-            history[path].append({"match_id": m["match_id"], "won": won, "elo_after": round(new_r, 1)})
+            _dt = parse_exact_time(m["exact_time"])
+            history[path].append({
+                "match_id": m["match_id"],
+                "date": _dt.isoformat() if _dt else None,
+                "won": won,
+                "elo_after": round(new_r, 1),
+            })
 
     players_out = {}
     for path, name in TRACKED.items():
@@ -215,6 +221,8 @@ for map_name, matches in by_map.items():
             "wins": wins,
             "losses": matches_played - wins,
             "win_rate": round(wins / matches_played * 100, 1) if matches_played else 0.0,
+            # Dated progression so the Discord bot can graph this map directly.
+            "history": history[path],
         }
 
     map_results[map_name] = {

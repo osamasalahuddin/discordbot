@@ -189,18 +189,27 @@ for category, matches in by_category.items():
 
         for path, _old_r, new_r, _delta, won in match_deltas:
             elo[path] = new_r
-            history[path].append(won)
+            _dt = parse_exact_time(m["exact_time"])
+            history[path].append({
+                "match_id": m["match_id"],
+                "date": _dt.isoformat() if _dt else None,
+                "map": m["map"],
+                "won": won,
+                "elo_after": round(new_r, 1),
+            })
 
     players_out = {}
     for path, name in TRACKED.items():
         matches_played = len(history[path])
-        wins = sum(1 for w in history[path] if w)
+        wins = sum(1 for h in history[path] if h["won"])
         players_out[name] = {
             "current_elo": round(elo[path], 1),
             "matches_played": matches_played,
             "wins": wins,
             "losses": matches_played - wins,
             "win_rate": round(wins / matches_played * 100, 1) if matches_played else 0.0,
+            # Dated progression so the Discord bot can graph this bucket directly.
+            "history": history[path],
         }
     results[category] = {"total_matches": len(matches), "players": players_out}
 

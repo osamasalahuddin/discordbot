@@ -1,7 +1,10 @@
 import os
 import sys
+import io
+import asyncio
 import json
 from collections import namedtuple
+from datetime import datetime
 from pathlib import Path
 
 import discord
@@ -427,6 +430,170 @@ async def playerstats_cmd(interaction: discord.Interaction, player: str, scope: 
     embed.set_footer(text=footer)
 
     await interaction.response.send_message(embed=embed)
+
+
+def scope_history(ladder, name, scope):
+    """A player's dated Elo progression within a scope.
+
+    Every scope stores the same shape: [{date, elo_after, won}, ...]. The
+    overall ladder keeps it in unranked_ladder.json; map_elo.json and
+    openclosed_elo.json each carry their own, so a per-map or open/closed graph
+    plots that ladder's real progression rather than the overall one filtered.
+    """
+    if scope.is_overall:
+        return ladder["players"].get(name, {}).get("history", [])
+    return ((scope.pool or {}).get(name) or {}).get("history", [])
+
+
+# Distinct enough to tell nine lines apart, and readable on Discord's dark theme.
+PLAYER_COLOURS = [
+    "#4e79a7", "#f28e2b", "#59a14f", "#e15759", "#b07aa1",
+    "#76b7b2", "#edc948", "#ff9da7", "#9c755f",
+]
+
+
+def _weekly(points):
+    """Keep the last rating of each calendar week.
+
+    Nine players at per-match resolution over two years is an unreadable
+    hairball; one point per week keeps the trend and the final value while
+    making the lines legible.
+    """
+    buckets = {}
+    for d, e, w in points:                      # points are already sorted
+        iso = d.isocalendar()
+        buckets[(iso[0], iso[1])] = (d, e, w)
+    return [buckets[k] for k in sorted(buckets)]
+
+
+def render_elo_chart(series, title, footnote):
+    """series: [(name, [(datetime, elo, won), ...]), ...] -> PNG bytes.
+
+    One player gets every match plus win/loss dots; a multi-player comparison is
+    resampled weekly so the lines stay readable. Agg backend, worker thread.
+    """
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    import matplotlib.dates as mdates
+
+    fig, ax = plt.subplots(figsize=(11, 5.5))
+    single = len(series) == 1
+
+    for i, (name, points) in enumerate(series):
+        if not points:
+            continue
+        if not single:
+            points = _weekly(points)
+        dates = [p[0] for p in points]
+        elos = [p[1] for p in points]
+        colour = PLAYER_COLOURS[i % len(PLAYER_COLOURS)]
+        ax.plot(dates, elos, linewidth=1.5 if single else 1.6,
+                color="#3b6ea5" if single else colour,
+                label=None if single else f"{name} ({int(round(elos[-1]))})", zorder=2)
+        if single:
+            wins = [(d, e) for d, e, w in points if w]
+            losses = [(d, e) for d, e, w in points if not w]
+            if wins:
+                ax.scatter([d for d, _ in wins], [e for _, e in wins],
+                           s=11, color="#2e8b57", label="Win", zorder=3)
+            if losses:
+                ax.scatter([d for d, _ in losses], [e for _, e in losses],
+                           s=11, color="#c0392b", label="Loss", zorder=3)
+            ax.annotate(f"Final: {elos[-1]:.1f}", xy=(dates[-1], elos[-1]),
+                        xytext=(8, 8), textcoords="offset points",
+                        fontsize=9, fontweight="bold")
+
+    ax.axhline(1000, color="gray", linestyle="--", linewidth=0.8, alpha=0.6,
+               label="Starting Elo (1000)")
+    if single:
+        ax.margins(x=0.10)          # room for the "Final:" annotation
+    ax.set_title(title, fontsize=13)
+    ax.set_xlabel("Date")
+    ax.set_ylabel("Elo")
+    ax.grid(True, alpha=0.3)
+    ax.legend(loc="best", fontsize=8, ncol=2 if not single else 1)
+    ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
+    fig.autofmt_xdate()
+    if footnote:
+        fig.text(0.01, 0.01, footnote, fontsize=7.5, color="#666666")
+    fig.tight_layout()
+
+    buf = io.BytesIO()
+    fig.savefig(buf, format="png", dpi=140)
+    plt.close(fig)
+    buf.seek(0)
+    return buf
+
+
+@bot.tree.command(name="graph", description="Elo progression chart for one player or everyone")
+@app_commands.describe(
+    player="Leave empty to compare all tracked players",
+    scope="All maps (default), Open maps, Closed maps, or one specific map",
+)
+@app_commands.autocomplete(player=player_autocomplete, scope=scope_autocomplete)
+async def graph_cmd(interaction: discord.Interaction, player: str | None = None,
+                    scope: str | None = None):
+    ladder = load_ladder()
+    players = ladder["players"]
+
+    pname = None
+    if player:
+        pname = next((k for k in players if k.lower() == player.lower()), None)
+        if pname is None:
+            await interaction.response.send_message(
+                f"**{player}** isn't a tracked player. Try `/players`.", ephemeral=True
+            )
+            return
+
+    sc = resolve_scope(scope)
+    if sc is None:
+        await _reject_scope(interaction, scope)
+        return
+
+    wanted = [pname] if pname else list(players.keys())
+    series = []
+    for name in wanted:
+        pts = []
+        for h in scope_history(ladder, name, sc):
+            if not h.get("date"):
+                continue
+            pts.append((datetime.fromisoformat(h["date"]), h["elo_after"], h["won"]))
+        pts.sort(key=lambda t: t[0])
+        if pts:
+            series.append((name, pts))
+
+    if not series:
+        await interaction.response.send_message(
+            f"No games recorded in **{sc.label}**"
+            + (f" for **{pname}**." if pname else "."),
+            ephemeral=True,
+        )
+        return
+
+    # Rendering takes longer than Discord's 3s reply window.
+    await interaction.response.defer()
+
+    if pname:
+        title = f"{pname} — Elo progress ({sc.label}, {len(series[0][1])} matches)"
+    else:
+        series.sort(key=lambda s: -s[1][-1][1])
+        title = f"Elo progress — {sc.label}"
+    footnote = f"{sc.total} matches in {sc.label} · ladder built {ladder['scrape_meta']['generated_at'][:10]}"
+    if not pname:
+        footnote += " · weekly resolution (last rating each week)"
+
+    loop = asyncio.get_running_loop()
+    try:
+        buf = await loop.run_in_executor(None, render_elo_chart, series, title, footnote)
+    except ImportError:
+        await interaction.followup.send(
+            "Charting needs matplotlib: `pip install -r code/requirements.txt`, then restart the bot."
+        )
+        return
+
+    fname = f"elo_{(pname or 'all').replace(' ', '_')}_{sc.label.replace(' ', '_')}.png"
+    await interaction.followup.send(file=discord.File(buf, filename=fname))
 
 
 @bot.event
