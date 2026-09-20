@@ -312,6 +312,10 @@ async def playerstats_cmd(interaction: discord.Interaction, player: str, scope: 
         await _reject_scope(interaction, scope)
         return
 
+    # Charting takes longer than Discord's 3s reply window, so every reply below
+    # goes through followup.
+    await interaction.response.defer()
+
     entry = players[pname]
     overall_elo = entry["current_elo"]
     user_path = entry.get("user_path")
@@ -362,7 +366,7 @@ async def playerstats_cmd(interaction: discord.Interaction, player: str, scope: 
                      f"last played {(hist[-1].get('date') or '')[:10]} | "
                      f"maps ranked with >= {FALLBACK_MIN_GAMES} games"
             )
-        await interaction.response.send_message(embed=embed)
+        await send_stats_with_chart(interaction, embed, ladder, pname, sc)
         return
 
     # ---------- one map, or open/closed ----------
@@ -376,7 +380,7 @@ async def playerstats_cmd(interaction: discord.Interaction, player: str, scope: 
             f"Used for balancing: **{int(round(overall_elo))}** (overall Elo)"
         )
         embed.set_footer(text=f"{sc.total} tracked matches in {sc.label}")
-        await interaction.response.send_message(embed=embed)
+        await send_stats_with_chart(interaction, embed, ladder, pname, sc)
         return
 
     scope_elo = pool_entry.get("current_elo", overall_elo)
@@ -429,7 +433,7 @@ async def playerstats_cmd(interaction: discord.Interaction, player: str, scope: 
         footer += f" | under {FALLBACK_MIN_GAMES} games here, so /balance uses overall Elo"
     embed.set_footer(text=footer)
 
-    await interaction.response.send_message(embed=embed)
+    await send_stats_with_chart(interaction, embed, ladder, pname, sc)
 
 
 def scope_history(ladder, name, scope):
@@ -526,6 +530,56 @@ def render_elo_chart(series, title, footnote):
     return buf
 
 
+def _series_for(ladder, names, scope):
+    """[(name, [(datetime, elo, won), ...])] for the players that have history."""
+    series = []
+    for name in names:
+        pts = []
+        for h in scope_history(ladder, name, scope):
+            if not h.get("date"):
+                continue
+            pts.append((datetime.fromisoformat(h["date"]), h["elo_after"], h["won"]))
+        pts.sort(key=lambda t: t[0])
+        if pts:
+            series.append((name, pts))
+    return series
+
+
+async def _render_async(series, title, footnote):
+    """Render off the event loop. None if matplotlib isn't installed."""
+    loop = asyncio.get_running_loop()
+    try:
+        return await loop.run_in_executor(None, render_elo_chart, series, title, footnote)
+    except ImportError:
+        return None
+
+
+async def send_stats_with_chart(interaction, embed, ladder, pname, scope):
+    """Send a /playerstats embed with its Elo chart attached inside it.
+
+    Falls back to the embed alone when there's nothing to plot (no games in
+    scope) or matplotlib is missing, so stats never fail because of charting.
+    """
+    series = _series_for(ladder, [pname], scope)
+    if not series:
+        await interaction.followup.send(embed=embed)
+        return
+
+    title = f"{pname} — Elo progress ({scope.label}, {len(series[0][1])} matches)"
+    footnote = (f"{scope.total} matches in {scope.label} · "
+                f"ladder built {ladder['scrape_meta']['generated_at'][:10]}")
+    buf = await _render_async(series, title, footnote)
+    if buf is None:
+        embed.description = ((embed.description or "") +
+                             "\n_Chart unavailable: matplotlib isn't installed._").strip()
+        await interaction.followup.send(embed=embed)
+        return
+
+    fname = f"elo_{pname.replace(' ', '_')}_{scope.label.replace(' ', '_')}.png"
+    embed.set_image(url=f"attachment://{fname}")
+    await interaction.followup.send(embed=embed, file=discord.File(buf, filename=fname))
+
+
 @bot.tree.command(name="graph", description="Elo progression chart for one player or everyone")
 @app_commands.describe(
     player="Leave empty to compare all tracked players",
@@ -552,16 +606,7 @@ async def graph_cmd(interaction: discord.Interaction, player: str | None = None,
         return
 
     wanted = [pname] if pname else list(players.keys())
-    series = []
-    for name in wanted:
-        pts = []
-        for h in scope_history(ladder, name, sc):
-            if not h.get("date"):
-                continue
-            pts.append((datetime.fromisoformat(h["date"]), h["elo_after"], h["won"]))
-        pts.sort(key=lambda t: t[0])
-        if pts:
-            series.append((name, pts))
+    series = _series_for(ladder, wanted, sc)
 
     if not series:
         await interaction.response.send_message(
@@ -583,10 +628,8 @@ async def graph_cmd(interaction: discord.Interaction, player: str | None = None,
     if not pname:
         footnote += " · weekly resolution (last rating each week)"
 
-    loop = asyncio.get_running_loop()
-    try:
-        buf = await loop.run_in_executor(None, render_elo_chart, series, title, footnote)
-    except ImportError:
+    buf = await _render_async(series, title, footnote)
+    if buf is None:
         await interaction.followup.send(
             "Charting needs matplotlib: `pip install -r code/requirements.txt`, then restart the bot."
         )
