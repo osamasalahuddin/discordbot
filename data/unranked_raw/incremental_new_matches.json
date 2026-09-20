@@ -1749,6 +1749,89 @@
         }
       ],
       "ladder": "unranked"
+    },
+    {
+      "match_id": 507852689,
+      "map": "Arena",
+      "duration": "42m 28s",
+      "exact_time": "Sept. 19, 2026, 11:39 p.m.",
+      "teams": [
+        {
+          "won": false,
+          "players": [
+            {
+              "user_path": "/user/12080589/",
+              "name": "l.inc",
+              "rating": 1205,
+              "rating_change": -16,
+              "civ": "teutons",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12047120/",
+              "name": "wabbit",
+              "rating": 1182,
+              "rating_change": -15,
+              "civ": "celts",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12693189/",
+              "name": "NaKiyaKar",
+              "rating": 1221,
+              "rating_change": -16,
+              "civ": "bulgarians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12499000/",
+              "name": "toXic",
+              "rating": 1373,
+              "rating_change": -22,
+              "civ": "lithuanians",
+              "is_ai": false
+            }
+          ]
+        },
+        {
+          "won": true,
+          "players": [
+            {
+              "user_path": "/user/12676944/",
+              "name": "SauronSlayer",
+              "rating": 1262,
+              "rating_change": 15,
+              "civ": "mongols",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/11907023/",
+              "name": "cheetah001",
+              "rating": 1161,
+              "rating_change": 20,
+              "civ": "italians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12667372/",
+              "name": "zubair",
+              "rating": 1177,
+              "rating_change": 19,
+              "civ": "aztecs",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/4607974/",
+              "name": "Strength & Honour",
+              "rating": 1273,
+              "rating_change": 15,
+              "civ": "incas",
+              "is_ai": false
+            }
+          ]
+        }
+      ],
+      "ladder": "unranked"
     }
   ]
 }
