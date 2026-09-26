@@ -38,6 +38,7 @@ INCREMENTAL_JS_PATH = os.path.join(_DATA_DIR, "incremental_update.js")
 KNOWN_IDS_PATH = os.path.join(_DATA_DIR, "perf_chunks", "known_ids.json")
 EXPORT_PATH = os.path.join(_DATA_DIR, "incremental_update_export.json")
 REFRESH_SCRIPT_PATH = os.path.join(_DATA_DIR, "run_full_refresh.py")
+KNOWN_IDS_SCRIPT_PATH = os.path.join(_DATA_DIR, "get_known_match_ids.py")
 
 
 def die(msg):
@@ -102,6 +103,9 @@ def main():
             pipeline_js = f.read()
         target_page.evaluate(pipeline_js)
 
+        # Regenerate known_ids.json from the raw stores so matches merged by
+        # previous runs aren't rediscovered as "new".
+        subprocess.run([sys.executable, KNOWN_IDS_SCRIPT_PATH], check=True)
         with open(KNOWN_IDS_PATH, encoding="utf-8") as f:
             known_ids = json.load(f)
 
