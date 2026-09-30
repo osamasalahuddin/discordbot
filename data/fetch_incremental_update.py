@@ -11,6 +11,7 @@ Preconditions (one-time / once-per-reboot setup):
 
 Then just run:
     python fetch_incremental_update.py
+    python fetch_incremental_update.py --experimental-elo   # probability ladder instead of default Elo
 
 What it does:
   - Connects to the already-open Chrome via the DevTools protocol (localhost:9222).
@@ -39,6 +40,10 @@ KNOWN_IDS_PATH = os.path.join(_DATA_DIR, "perf_chunks", "known_ids.json")
 EXPORT_PATH = os.path.join(_DATA_DIR, "incremental_update_export.json")
 REFRESH_SCRIPT_PATH = os.path.join(_DATA_DIR, "run_full_refresh.py")
 KNOWN_IDS_SCRIPT_PATH = os.path.join(_DATA_DIR, "get_known_match_ids.py")
+
+# --experimental-elo: same fetch + merge, but build the experimental probability
+# ladder (../experimental_elo/) instead of the default Elo outputs.
+EXPERIMENTAL_ELO = "--experimental-elo" in sys.argv[1:]
 
 
 def die(msg):
@@ -124,8 +129,13 @@ def main():
             )
         print(f"Saved export to {EXPORT_PATH}")
 
-    print("\nChaining into run_full_refresh.py (merge + rebuild everything)...")
-    subprocess.run([sys.executable, REFRESH_SCRIPT_PATH, EXPORT_PATH], check=True)
+    refresh_cmd = [sys.executable, REFRESH_SCRIPT_PATH, EXPORT_PATH]
+    if EXPERIMENTAL_ELO:
+        print("\nChaining into run_full_refresh.py --experimental-elo (merge + probability ladder)...")
+        refresh_cmd.append("--experimental-elo")
+    else:
+        print("\nChaining into run_full_refresh.py (merge + rebuild everything)...")
+    subprocess.run(refresh_cmd, check=True)
 
 
 if __name__ == "__main__":
