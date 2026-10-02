@@ -1,14 +1,14 @@
 {
   "results": {
     "closed": {
-      "total_matches": 648,
+      "total_matches": 650,
       "players": {
         "wabbit": {
-          "current_elo": 930.5,
-          "matches_played": 373,
+          "current_elo": 909.0,
+          "matches_played": 375,
           "wins": 155,
-          "losses": 218,
-          "win_rate": 41.6,
+          "losses": 220,
+          "win_rate": 41.3,
           "history": [
             {
               "match_id": 282211887,
@@ -2620,15 +2620,29 @@
               "map": "Arena",
               "won": false,
               "elo_after": 930.5
+            },
+            {
+              "match_id": 510845304,
+              "date": "2026-10-02T20:59:00+00:00",
+              "map": "Arena",
+              "won": false,
+              "elo_after": 919.3
+            },
+            {
+              "match_id": 510851596,
+              "date": "2026-10-02T21:25:00+00:00",
+              "map": "Arena",
+              "won": false,
+              "elo_after": 909.0
             }
           ]
         },
         "SauronSlayer": {
-          "current_elo": 1026.9,
-          "matches_played": 523,
-          "wins": 273,
+          "current_elo": 1048.9,
+          "matches_played": 525,
+          "wins": 275,
           "losses": 250,
-          "win_rate": 52.2,
+          "win_rate": 52.4,
           "history": [
             {
               "match_id": 288511934,
@@ -6290,15 +6304,29 @@
               "map": "Arena",
               "won": false,
               "elo_after": 1026.9
+            },
+            {
+              "match_id": 510845304,
+              "date": "2026-10-02T20:59:00+00:00",
+              "map": "Arena",
+              "won": true,
+              "elo_after": 1038.3
+            },
+            {
+              "match_id": 510851596,
+              "date": "2026-10-02T21:25:00+00:00",
+              "map": "Arena",
+              "won": true,
+              "elo_after": 1048.9
             }
           ]
         },
         "zubair": {
-          "current_elo": 921.2,
-          "matches_played": 491,
+          "current_elo": 900.4,
+          "matches_played": 493,
           "wins": 226,
-          "losses": 265,
-          "win_rate": 46.0,
+          "losses": 267,
+          "win_rate": 45.8,
           "history": [
             {
               "match_id": 286642429,
@@ -9736,6 +9764,20 @@
               "map": "Arena",
               "won": false,
               "elo_after": 921.2
+            },
+            {
+              "match_id": 510845304,
+              "date": "2026-10-02T20:59:00+00:00",
+              "map": "Arena",
+              "won": false,
+              "elo_after": 910.4
+            },
+            {
+              "match_id": 510851596,
+              "date": "2026-10-02T21:25:00+00:00",
+              "map": "Arena",
+              "won": false,
+              "elo_after": 900.4
             }
           ]
         },
@@ -20733,11 +20775,11 @@
           ]
         },
         "neXus": {
-          "current_elo": 1048.6,
-          "matches_played": 150,
-          "wins": 89,
+          "current_elo": 1068.9,
+          "matches_played": 152,
+          "wins": 91,
           "losses": 61,
-          "win_rate": 59.3,
+          "win_rate": 59.9,
           "history": [
             {
               "match_id": 386442616,
@@ -21788,6 +21830,20 @@
               "map": "Arena",
               "won": false,
               "elo_after": 1048.6
+            },
+            {
+              "match_id": 510845304,
+              "date": "2026-10-02T20:59:00+00:00",
+              "map": "Arena",
+              "won": true,
+              "elo_after": 1059.2
+            },
+            {
+              "match_id": 510851596,
+              "date": "2026-10-02T21:25:00+00:00",
+              "map": "Arena",
+              "won": true,
+              "elo_after": 1068.9
             }
           ]
         }

@@ -2414,6 +2414,108 @@
         }
       ],
       "ladder": "unranked"
+    },
+    {
+      "match_id": 510845304,
+      "map": "Arena",
+      "duration": "41m 47s",
+      "exact_time": "Oct. 2, 2026, 8:59 p.m.",
+      "teams": [
+        {
+          "won": true,
+          "players": [
+            {
+              "user_path": "/user/12676944/",
+              "name": "SauronSlayer",
+              "rating": 1252,
+              "rating_change": 13,
+              "civ": "magyars",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12805097/",
+              "name": "neXus",
+              "rating": 1240,
+              "rating_change": 13,
+              "civ": "poles",
+              "is_ai": false
+            }
+          ]
+        },
+        {
+          "won": false,
+          "players": [
+            {
+              "user_path": "/user/12667372/",
+              "name": "zubair",
+              "rating": 1186,
+              "rating_change": -14,
+              "civ": "saracens",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12047120/",
+              "name": "wabbit",
+              "rating": 1167,
+              "rating_change": -12,
+              "civ": "tupi",
+              "is_ai": false
+            }
+          ]
+        }
+      ],
+      "ladder": "unranked"
+    },
+    {
+      "match_id": 510851596,
+      "map": "Arena",
+      "duration": "53m 24s",
+      "exact_time": "Oct. 2, 2026, 9:25 p.m.",
+      "teams": [
+        {
+          "won": true,
+          "players": [
+            {
+              "user_path": "/user/12676944/",
+              "name": "SauronSlayer",
+              "rating": 1265,
+              "rating_change": 11,
+              "civ": "sicilians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12805097/",
+              "name": "neXus",
+              "rating": 1253,
+              "rating_change": 12,
+              "civ": "varangians",
+              "is_ai": false
+            }
+          ]
+        },
+        {
+          "won": false,
+          "players": [
+            {
+              "user_path": "/user/12667372/",
+              "name": "zubair",
+              "rating": 1172,
+              "rating_change": -12,
+              "civ": "berbers",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12047120/",
+              "name": "wabbit",
+              "rating": 1155,
+              "rating_change": -11,
+              "civ": "wei",
+              "is_ai": false
+            }
+          ]
+        }
+      ],
+      "ladder": "unranked"
     }
   ]
 }
