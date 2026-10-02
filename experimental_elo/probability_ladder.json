@@ -1,0 +1,758 @@
+{
+  "config": {
+    "prior_games": 4.0,
+    "half_life_days": 180,
+    "format_weights": {
+      "1v1": 0.163,
+      "2v2": 0.298,
+      "3v3": 0.438,
+      "4v4": 0.102
+    },
+    "short_game_exclusion_threshold_seconds": 900,
+    "ladder_start_date": "2024-01-01",
+    "notes": "Experimental ladder. P[i][j] = (weighted wins of i over j + K * Bradley-Terry estimate) / (weighted games + K). Team win probability = sigmoid of the mean logit over all cross-team pairs. A player's expected_win_rate is their average team win probability over every possible line-up of the tracked players, per format, blended by how often each format is played. elo_equivalent is that win rate expressed as an Elo against an average (1000) player. Untracked players and AIs in a match are ignored."
+  },
+  "generated_at": "2026-09-26T08:01:44.726836+00:00",
+  "matches_used": 1129,
+  "ladder": [
+    "toXic",
+    "neXus",
+    "Strength & Honour",
+    "SauronSlayer",
+    "NaKiyaKar",
+    "l.inc",
+    "zubair",
+    "cheetah001",
+    "wabbit"
+  ],
+  "players": {
+    "wabbit": {
+      "user_path": "/user/12047120/",
+      "expected_win_rate": 45.0,
+      "elo_equivalent": 965.1,
+      "by_format": {
+        "1v1": {
+          "expected_win_rate": 39.8,
+          "lineups": 8
+        },
+        "2v2": {
+          "expected_win_rate": 44.8,
+          "lineups": 168
+        },
+        "3v3": {
+          "expected_win_rate": 46.5,
+          "lineups": 560
+        },
+        "4v4": {
+          "expected_win_rate": 47.4,
+          "lineups": 280
+        }
+      },
+      "bradley_terry_strength": 0.7172,
+      "matches_played": 726,
+      "wins": 304,
+      "losses": 422,
+      "win_rate": 41.9,
+      "rank": 9
+    },
+    "SauronSlayer": {
+      "user_path": "/user/12676944/",
+      "expected_win_rate": 51.0,
+      "elo_equivalent": 1006.7,
+      "by_format": {
+        "1v1": {
+          "expected_win_rate": 52.0,
+          "lineups": 8
+        },
+        "2v2": {
+          "expected_win_rate": 51.0,
+          "lineups": 168
+        },
+        "3v3": {
+          "expected_win_rate": 50.7,
+          "lineups": 560
+        },
+        "4v4": {
+          "expected_win_rate": 50.5,
+          "lineups": 280
+        }
+      },
+      "bradley_terry_strength": 1.0541,
+      "matches_played": 842,
+      "wins": 448,
+      "losses": 394,
+      "win_rate": 53.2,
+      "rank": 4
+    },
+    "zubair": {
+      "user_path": "/user/12667372/",
+      "expected_win_rate": 46.6,
+      "elo_equivalent": 976.1,
+      "by_format": {
+        "1v1": {
+          "expected_win_rate": 42.9,
+          "lineups": 8
+        },
+        "2v2": {
+          "expected_win_rate": 46.4,
+          "lineups": 168
+        },
+        "3v3": {
+          "expected_win_rate": 47.6,
+          "lineups": 560
+        },
+        "4v4": {
+          "expected_win_rate": 48.2,
+          "lineups": 280
+        }
+      },
+      "bradley_terry_strength": 0.7857,
+      "matches_played": 842,
+      "wins": 407,
+      "losses": 435,
+      "win_rate": 48.3,
+      "rank": 7
+    },
+    "l.inc": {
+      "user_path": "/user/12080589/",
+      "expected_win_rate": 47.6,
+      "elo_equivalent": 983.3,
+      "by_format": {
+        "1v1": {
+          "expected_win_rate": 45.1,
+          "lineups": 8
+        },
+        "2v2": {
+          "expected_win_rate": 47.5,
+          "lineups": 168
+        },
+        "3v3": {
+          "expected_win_rate": 48.3,
+          "lineups": 560
+        },
+        "4v4": {
+          "expected_win_rate": 48.7,
+          "lineups": 280
+        }
+      },
+      "bradley_terry_strength": 0.8366,
+      "matches_played": 798,
+      "wins": 378,
+      "losses": 420,
+      "win_rate": 47.4,
+      "rank": 6
+    },
+    "toXic": {
+      "user_path": "/user/12499000/",
+      "expected_win_rate": 55.8,
+      "elo_equivalent": 1040.7,
+      "by_format": {
+        "1v1": {
+          "expected_win_rate": 61.9,
+          "lineups": 8
+        },
+        "2v2": {
+          "expected_win_rate": 56.0,
+          "lineups": 168
+        },
+        "3v3": {
+          "expected_win_rate": 54.0,
+          "lineups": 560
+        },
+        "4v4": {
+          "expected_win_rate": 53.0,
+          "lineups": 280
+        }
+      },
+      "bradley_terry_strength": 1.5091,
+      "matches_played": 675,
+      "wins": 415,
+      "losses": 260,
+      "win_rate": 61.5,
+      "rank": 1
+    },
+    "Strength & Honour": {
+      "user_path": "/user/4607974/",
+      "expected_win_rate": 54.3,
+      "elo_equivalent": 1030.3,
+      "by_format": {
+        "1v1": {
+          "expected_win_rate": 58.8,
+          "lineups": 8
+        },
+        "2v2": {
+          "expected_win_rate": 54.5,
+          "lineups": 168
+        },
+        "3v3": {
+          "expected_win_rate": 53.0,
+          "lineups": 560
+        },
+        "4v4": {
+          "expected_win_rate": 52.3,
+          "lineups": 280
+        }
+      },
+      "bradley_terry_strength": 1.3702,
+      "matches_played": 85,
+      "wins": 50,
+      "losses": 35,
+      "win_rate": 58.8,
+      "rank": 3
+    },
+    "cheetah001": {
+      "user_path": "/user/11907023/",
+      "expected_win_rate": 46.1,
+      "elo_equivalent": 972.5,
+      "by_format": {
+        "1v1": {
+          "expected_win_rate": 42.0,
+          "lineups": 8
+        },
+        "2v2": {
+          "expected_win_rate": 45.9,
+          "lineups": 168
+        },
+        "3v3": {
+          "expected_win_rate": 47.2,
+          "lineups": 560
+        },
+        "4v4": {
+          "expected_win_rate": 47.9,
+          "lineups": 280
+        }
+      },
+      "bradley_terry_strength": 0.758,
+      "matches_played": 569,
+      "wins": 258,
+      "losses": 311,
+      "win_rate": 45.3,
+      "rank": 8
+    },
+    "NaKiyaKar": {
+      "user_path": "/user/12693189/",
+      "expected_win_rate": 48.6,
+      "elo_equivalent": 990.2,
+      "by_format": {
+        "1v1": {
+          "expected_win_rate": 47.1,
+          "lineups": 8
+        },
+        "2v2": {
+          "expected_win_rate": 48.5,
+          "lineups": 168
+        },
+        "3v3": {
+          "expected_win_rate": 49.0,
+          "lineups": 560
+        },
+        "4v4": {
+          "expected_win_rate": 49.3,
+          "lineups": 280
+        }
+      },
+      "bradley_terry_strength": 0.882,
+      "matches_played": 472,
+      "wins": 247,
+      "losses": 225,
+      "win_rate": 52.3,
+      "rank": 5
+    },
+    "neXus": {
+      "user_path": "/user/12805097/",
+      "expected_win_rate": 55.1,
+      "elo_equivalent": 1035.5,
+      "by_format": {
+        "1v1": {
+          "expected_win_rate": 60.4,
+          "lineups": 8
+        },
+        "2v2": {
+          "expected_win_rate": 55.3,
+          "lineups": 168
+        },
+        "3v3": {
+          "expected_win_rate": 53.5,
+          "lineups": 560
+        },
+        "4v4": {
+          "expected_win_rate": 52.7,
+          "lineups": 280
+        }
+      },
+      "bradley_terry_strength": 1.4556,
+      "matches_played": 169,
+      "wins": 102,
+      "losses": 67,
+      "win_rate": 60.4,
+      "rank": 2
+    }
+  },
+  "head_to_head": {
+    "wabbit": {
+      "SauronSlayer": {
+        "win_probability": 43.2,
+        "weighted_wins": 14.28,
+        "weighted_games": 32.81,
+        "transitive_estimate": 40.5
+      },
+      "zubair": {
+        "win_probability": 48.0,
+        "weighted_wins": 9.93,
+        "weighted_games": 20.64,
+        "transitive_estimate": 47.7
+      },
+      "l.inc": {
+        "win_probability": 45.8,
+        "weighted_wins": 9.51,
+        "weighted_games": 20.77,
+        "transitive_estimate": 46.2
+      },
+      "toXic": {
+        "win_probability": 37.1,
+        "weighted_wins": 7.66,
+        "weighted_games": 20.11,
+        "transitive_estimate": 32.2
+      },
+      "Strength & Honour": {
+        "win_probability": 28.2,
+        "weighted_wins": 2.07,
+        "weighted_games": 8.22,
+        "transitive_estimate": 34.4
+      },
+      "cheetah001": {
+        "win_probability": 39.3,
+        "weighted_wins": 4.76,
+        "weighted_games": 13.07,
+        "transitive_estimate": 48.6
+      },
+      "NaKiyaKar": {
+        "win_probability": 46.8,
+        "weighted_wins": 7.31,
+        "weighted_games": 15.46,
+        "transitive_estimate": 44.8
+      },
+      "neXus": {
+        "win_probability": 29.9,
+        "weighted_wins": 2.09,
+        "weighted_games": 7.39,
+        "transitive_estimate": 33.0
+      }
+    },
+    "SauronSlayer": {
+      "wabbit": {
+        "win_probability": 56.8,
+        "weighted_wins": 18.54,
+        "weighted_games": 32.81,
+        "transitive_estimate": 59.5
+      },
+      "zubair": {
+        "win_probability": 59.4,
+        "weighted_wins": 28.5,
+        "weighted_games": 47.87,
+        "transitive_estimate": 57.3
+      },
+      "l.inc": {
+        "win_probability": 54.8,
+        "weighted_wins": 23.72,
+        "weighted_games": 43.35,
+        "transitive_estimate": 55.8
+      },
+      "toXic": {
+        "win_probability": 39.3,
+        "weighted_wins": 13.28,
+        "weighted_games": 34.01,
+        "transitive_estimate": 41.1
+      },
+      "Strength & Honour": {
+        "win_probability": 49.8,
+        "weighted_wins": 4.56,
+        "weighted_games": 8.63,
+        "transitive_estimate": 43.5
+      },
+      "cheetah001": {
+        "win_probability": 59.4,
+        "weighted_wins": 10.17,
+        "weighted_games": 17.06,
+        "transitive_estimate": 58.2
+      },
+      "NaKiyaKar": {
+        "win_probability": 52.7,
+        "weighted_wins": 6.74,
+        "weighted_games": 12.93,
+        "transitive_estimate": 54.4
+      },
+      "neXus": {
+        "win_probability": 43.9,
+        "weighted_wins": 6.5,
+        "weighted_games": 14.65,
+        "transitive_estimate": 42.0
+      }
+    },
+    "zubair": {
+      "wabbit": {
+        "win_probability": 52.0,
+        "weighted_wins": 10.71,
+        "weighted_games": 20.64,
+        "transitive_estimate": 52.3
+      },
+      "SauronSlayer": {
+        "win_probability": 40.6,
+        "weighted_wins": 19.37,
+        "weighted_games": 47.87,
+        "transitive_estimate": 42.7
+      },
+      "l.inc": {
+        "win_probability": 50.7,
+        "weighted_wins": 16.55,
+        "weighted_games": 32.44,
+        "transitive_estimate": 48.4
+      },
+      "toXic": {
+        "win_probability": 37.3,
+        "weighted_wins": 14.1,
+        "weighted_games": 37.5,
+        "transitive_estimate": 34.2
+      },
+      "Strength & Honour": {
+        "win_probability": 34.5,
+        "weighted_wins": 3.63,
+        "weighted_games": 10.73,
+        "transitive_estimate": 36.4
+      },
+      "cheetah001": {
+        "win_probability": 49.6,
+        "weighted_wins": 6.74,
+        "weighted_games": 13.69,
+        "transitive_estimate": 50.9
+      },
+      "NaKiyaKar": {
+        "win_probability": 44.4,
+        "weighted_wins": 4.8,
+        "weighted_games": 11.05,
+        "transitive_estimate": 47.1
+      },
+      "neXus": {
+        "win_probability": 34.3,
+        "weighted_wins": 4.92,
+        "weighted_games": 14.44,
+        "transitive_estimate": 35.1
+      }
+    },
+    "l.inc": {
+      "wabbit": {
+        "win_probability": 54.2,
+        "weighted_wins": 11.27,
+        "weighted_games": 20.77,
+        "transitive_estimate": 53.8
+      },
+      "SauronSlayer": {
+        "win_probability": 45.2,
+        "weighted_wins": 19.64,
+        "weighted_games": 43.35,
+        "transitive_estimate": 44.2
+      },
+      "zubair": {
+        "win_probability": 49.3,
+        "weighted_wins": 15.89,
+        "weighted_games": 32.44,
+        "transitive_estimate": 51.6
+      },
+      "toXic": {
+        "win_probability": 33.7,
+        "weighted_wins": 7.11,
+        "weighted_games": 21.31,
+        "transitive_estimate": 35.7
+      },
+      "Strength & Honour": {
+        "win_probability": 37.4,
+        "weighted_wins": 4.76,
+        "weighted_games": 12.8,
+        "transitive_estimate": 37.9
+      },
+      "cheetah001": {
+        "win_probability": 52.9,
+        "weighted_wins": 11.94,
+        "weighted_games": 22.54,
+        "transitive_estimate": 52.5
+      },
+      "NaKiyaKar": {
+        "win_probability": 51.7,
+        "weighted_wins": 10.73,
+        "weighted_games": 20.53,
+        "transitive_estimate": 48.7
+      },
+      "neXus": {
+        "win_probability": 36.2,
+        "weighted_wins": 6.08,
+        "weighted_games": 16.86,
+        "transitive_estimate": 36.5
+      }
+    },
+    "toXic": {
+      "wabbit": {
+        "win_probability": 62.9,
+        "weighted_wins": 12.46,
+        "weighted_games": 20.11,
+        "transitive_estimate": 67.8
+      },
+      "SauronSlayer": {
+        "win_probability": 60.7,
+        "weighted_wins": 20.74,
+        "weighted_games": 34.01,
+        "transitive_estimate": 58.9
+      },
+      "zubair": {
+        "win_probability": 62.7,
+        "weighted_wins": 23.41,
+        "weighted_games": 37.5,
+        "transitive_estimate": 65.8
+      },
+      "l.inc": {
+        "win_probability": 66.3,
+        "weighted_wins": 14.2,
+        "weighted_games": 21.31,
+        "transitive_estimate": 64.3
+      },
+      "Strength & Honour": {
+        "win_probability": 50.9,
+        "weighted_wins": 4.36,
+        "weighted_games": 8.67,
+        "transitive_estimate": 52.4
+      },
+      "cheetah001": {
+        "win_probability": 69.9,
+        "weighted_wins": 16.75,
+        "weighted_games": 23.77,
+        "transitive_estimate": 66.6
+      },
+      "NaKiyaKar": {
+        "win_probability": 63.8,
+        "weighted_wins": 11.69,
+        "weighted_games": 18.28,
+        "transitive_estimate": 63.1
+      },
+      "neXus": {
+        "win_probability": 58.2,
+        "weighted_wins": 2.35,
+        "weighted_games": 3.53,
+        "transitive_estimate": 50.9
+      }
+    },
+    "Strength & Honour": {
+      "wabbit": {
+        "win_probability": 71.8,
+        "weighted_wins": 6.15,
+        "weighted_games": 8.22,
+        "transitive_estimate": 65.6
+      },
+      "SauronSlayer": {
+        "win_probability": 50.2,
+        "weighted_wins": 4.08,
+        "weighted_games": 8.63,
+        "transitive_estimate": 56.5
+      },
+      "zubair": {
+        "win_probability": 65.5,
+        "weighted_wins": 7.1,
+        "weighted_games": 10.73,
+        "transitive_estimate": 63.6
+      },
+      "l.inc": {
+        "win_probability": 62.6,
+        "weighted_wins": 8.04,
+        "weighted_games": 12.8,
+        "transitive_estimate": 62.1
+      },
+      "toXic": {
+        "win_probability": 49.1,
+        "weighted_wins": 4.32,
+        "weighted_games": 8.67,
+        "transitive_estimate": 47.6
+      },
+      "cheetah001": {
+        "win_probability": 72.8,
+        "weighted_wins": 2.44,
+        "weighted_games": 2.89,
+        "transitive_estimate": 64.4
+      },
+      "NaKiyaKar": {
+        "win_probability": 55.8,
+        "weighted_wins": 1.92,
+        "weighted_games": 3.8,
+        "transitive_estimate": 60.8
+      },
+      "neXus": {
+        "win_probability": 42.3,
+        "weighted_wins": 1.82,
+        "weighted_games": 4.89,
+        "transitive_estimate": 48.5
+      }
+    },
+    "cheetah001": {
+      "wabbit": {
+        "win_probability": 60.7,
+        "weighted_wins": 8.31,
+        "weighted_games": 13.07,
+        "transitive_estimate": 51.4
+      },
+      "SauronSlayer": {
+        "win_probability": 40.6,
+        "weighted_wins": 6.89,
+        "weighted_games": 17.06,
+        "transitive_estimate": 41.8
+      },
+      "zubair": {
+        "win_probability": 50.4,
+        "weighted_wins": 6.95,
+        "weighted_games": 13.69,
+        "transitive_estimate": 49.1
+      },
+      "l.inc": {
+        "win_probability": 47.1,
+        "weighted_wins": 10.6,
+        "weighted_games": 22.54,
+        "transitive_estimate": 47.5
+      },
+      "toXic": {
+        "win_probability": 30.1,
+        "weighted_wins": 7.02,
+        "weighted_games": 23.77,
+        "transitive_estimate": 33.4
+      },
+      "Strength & Honour": {
+        "win_probability": 27.2,
+        "weighted_wins": 0.45,
+        "weighted_games": 2.89,
+        "transitive_estimate": 35.6
+      },
+      "NaKiyaKar": {
+        "win_probability": 44.5,
+        "weighted_wins": 3.75,
+        "weighted_games": 8.58,
+        "transitive_estimate": 46.2
+      },
+      "neXus": {
+        "win_probability": 35.4,
+        "weighted_wins": 2.41,
+        "weighted_games": 6.66,
+        "transitive_estimate": 34.2
+      }
+    },
+    "NaKiyaKar": {
+      "wabbit": {
+        "win_probability": 53.2,
+        "weighted_wins": 8.15,
+        "weighted_games": 15.46,
+        "transitive_estimate": 55.2
+      },
+      "SauronSlayer": {
+        "win_probability": 47.3,
+        "weighted_wins": 6.18,
+        "weighted_games": 12.93,
+        "transitive_estimate": 45.6
+      },
+      "zubair": {
+        "win_probability": 55.6,
+        "weighted_wins": 6.24,
+        "weighted_games": 11.05,
+        "transitive_estimate": 52.9
+      },
+      "l.inc": {
+        "win_probability": 48.3,
+        "weighted_wins": 9.79,
+        "weighted_games": 20.53,
+        "transitive_estimate": 51.3
+      },
+      "toXic": {
+        "win_probability": 36.2,
+        "weighted_wins": 6.59,
+        "weighted_games": 18.28,
+        "transitive_estimate": 36.9
+      },
+      "Strength & Honour": {
+        "win_probability": 44.2,
+        "weighted_wins": 1.88,
+        "weighted_games": 3.8,
+        "transitive_estimate": 39.2
+      },
+      "cheetah001": {
+        "win_probability": 55.5,
+        "weighted_wins": 4.83,
+        "weighted_games": 8.58,
+        "transitive_estimate": 53.8
+      },
+      "neXus": {
+        "win_probability": 36.6,
+        "weighted_wins": 1.52,
+        "weighted_games": 4.27,
+        "transitive_estimate": 37.7
+      }
+    },
+    "neXus": {
+      "wabbit": {
+        "win_probability": 70.1,
+        "weighted_wins": 5.3,
+        "weighted_games": 7.39,
+        "transitive_estimate": 67.0
+      },
+      "SauronSlayer": {
+        "win_probability": 56.1,
+        "weighted_wins": 8.15,
+        "weighted_games": 14.65,
+        "transitive_estimate": 58.0
+      },
+      "zubair": {
+        "win_probability": 65.7,
+        "weighted_wins": 9.53,
+        "weighted_games": 14.44,
+        "transitive_estimate": 64.9
+      },
+      "l.inc": {
+        "win_probability": 63.8,
+        "weighted_wins": 10.77,
+        "weighted_games": 16.86,
+        "transitive_estimate": 63.5
+      },
+      "toXic": {
+        "win_probability": 41.8,
+        "weighted_wins": 1.18,
+        "weighted_games": 3.53,
+        "transitive_estimate": 49.1
+      },
+      "Strength & Honour": {
+        "win_probability": 57.7,
+        "weighted_wins": 3.07,
+        "weighted_games": 4.89,
+        "transitive_estimate": 51.5
+      },
+      "cheetah001": {
+        "win_probability": 64.6,
+        "weighted_wins": 4.25,
+        "weighted_games": 6.66,
+        "transitive_estimate": 65.8
+      },
+      "NaKiyaKar": {
+        "win_probability": 63.4,
+        "weighted_wins": 2.75,
+        "weighted_games": 4.27,
+        "transitive_estimate": 62.3
+      }
+    }
+  },
+  "evaluation": {
+    "method": "walk-forward: each match predicted from a fit on all earlier matches only (first 50 matches used as warm-up, not scored). Lower Brier / log-loss is better; always guessing 50% scores Brier 0.25, log-loss 0.693.",
+    "probability_ladder": {
+      "matches": 1079,
+      "accuracy": 0.5755,
+      "brier": 0.2426,
+      "log_loss": 0.6783
+    },
+    "default_elo_ladder": {
+      "matches": 1079,
+      "accuracy": 0.5718,
+      "brier": 0.243,
+      "log_loss": 0.6792
+    }
+  }
+}
