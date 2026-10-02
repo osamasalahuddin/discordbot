@@ -32,9 +32,9 @@
     "notes": "Elo computed only across unranked (ladder=0) matches where 2+ of the tracked players appear on opposing teams. Each player's expected score is computed against the average current Elo of tracked opponents on the other side(s) (untracked/random players in the match are ignored for rating purposes). This filtering (short-game and pre-start-date exclusion) only affects which matches feed the Elo calculation here \u2014 the underlying scraped datasets in unranked_raw/ are never modified. Any match under 15 minutes is excluded from the Elo calculation regardless of whether an AI was present, since it's too short to be a conclusive result. For longer matches with an AI player, the site's recorded win/loss is NOT trusted: because an AI can never resign, a game where the AI's human team-mates all quit first is still recorded as a win for the AI's team. Where schema-2 resign data exists the result is recomputed - the team whose human players have ALL resigned, earliest, is the loser. 'All' rather than 'any', because in a team game one player often quits while their team-mates fight on and legitimately win. AI matches without resign data keep the recorded result (they can't be checked). See scrape_meta.ai_results_corrected."
   },
   "scrape_meta": {
-    "generated_at": "2026-10-02T21:57:52.691239+00:00",
-    "total_unique_unranked_matches_scanned": 1433,
-    "qualifying_matches_used": 1137,
+    "generated_at": "2026-10-02T22:57:13.964774+00:00",
+    "total_unique_unranked_matches_scanned": 1434,
+    "qualifying_matches_used": 1138,
     "excluded_no_opposition": 179,
     "excluded_short_game": 85,
     "excluded_short_game_match_ids": [
@@ -200,9 +200,9 @@
     "wabbit": {
       "user_path": "/user/12047120/",
       "starting_elo": 1000,
-      "current_elo": 918.9,
-      "matches_played": 728,
-      "wins": 304,
+      "current_elo": 936.0,
+      "matches_played": 729,
+      "wins": 305,
       "losses": 424,
       "win_rate": 41.8,
       "history": [
@@ -10397,16 +10397,30 @@
           "performance_method": null,
           "actual_score": 0.0,
           "balance_adj": null
+        },
+        {
+          "match_id": 510858920,
+          "date": "2026-10-02T22:05:00+00:00",
+          "map": "Arena",
+          "won": true,
+          "elo_before": 918.9,
+          "elo_after": 936.0,
+          "delta": 17.1,
+          "opponent_avg_elo": 1070.1,
+          "performance_ratio": null,
+          "performance_method": null,
+          "actual_score": 1.0,
+          "balance_adj": -5.5
         }
       ]
     },
     "SauronSlayer": {
       "user_path": "/user/12676944/",
       "starting_elo": 1000,
-      "current_elo": 1063.5,
-      "matches_played": 847,
+      "current_elo": 1041.6,
+      "matches_played": 848,
       "wins": 450,
-      "losses": 397,
+      "losses": 398,
       "win_rate": 53.1,
       "history": [
         {
@@ -22266,17 +22280,31 @@
           "performance_method": null,
           "actual_score": 1.0,
           "balance_adj": 0.01
+        },
+        {
+          "match_id": 510858920,
+          "date": "2026-10-02T22:05:00+00:00",
+          "map": "Arena",
+          "won": false,
+          "elo_before": 1063.5,
+          "elo_after": 1041.6,
+          "delta": -21.8,
+          "opponent_avg_elo": 930.8,
+          "performance_ratio": null,
+          "performance_method": null,
+          "actual_score": 0.0,
+          "balance_adj": null
         }
       ]
     },
     "zubair": {
       "user_path": "/user/12667372/",
       "starting_elo": 1000,
-      "current_elo": 894.1,
-      "matches_played": 846,
-      "wins": 407,
+      "current_elo": 912.1,
+      "matches_played": 847,
+      "wins": 408,
       "losses": 439,
-      "win_rate": 48.1,
+      "win_rate": 48.2,
       "history": [
         {
           "match_id": 286635128,
@@ -34121,17 +34149,31 @@
           "performance_method": null,
           "actual_score": 0.0,
           "balance_adj": null
+        },
+        {
+          "match_id": 510858920,
+          "date": "2026-10-02T22:05:00+00:00",
+          "map": "Arena",
+          "won": true,
+          "elo_before": 894.1,
+          "elo_after": 912.1,
+          "delta": 18.0,
+          "opponent_avg_elo": 1070.1,
+          "performance_ratio": null,
+          "performance_method": null,
+          "actual_score": 1.0,
+          "balance_adj": -5.5
         }
       ]
     },
     "l.inc": {
       "user_path": "/user/12080589/",
       "starting_elo": 1000,
-      "current_elo": 961.3,
-      "matches_played": 804,
-      "wins": 381,
+      "current_elo": 976.7,
+      "matches_played": 805,
+      "wins": 382,
       "losses": 423,
-      "win_rate": 47.4,
+      "win_rate": 47.5,
       "history": [
         {
           "match_id": 282211887,
@@ -45388,6 +45430,20 @@
           "performance_method": null,
           "actual_score": 1.0,
           "balance_adj": null
+        },
+        {
+          "match_id": 510858920,
+          "date": "2026-10-02T22:05:00+00:00",
+          "map": "Arena",
+          "won": true,
+          "elo_before": 961.3,
+          "elo_after": 976.7,
+          "delta": 15.4,
+          "opponent_avg_elo": 1070.1,
+          "performance_ratio": null,
+          "performance_method": null,
+          "actual_score": 1.0,
+          "balance_adj": -5.5
         }
       ]
     },
@@ -54939,11 +54995,11 @@
     "Strength & Honour": {
       "user_path": "/user/4607974/",
       "starting_elo": 1000,
-      "current_elo": 1079.7,
-      "matches_played": 88,
+      "current_elo": 1057.3,
+      "matches_played": 89,
       "wins": 53,
-      "losses": 35,
-      "win_rate": 60.2,
+      "losses": 36,
+      "win_rate": 59.6,
       "history": [
         {
           "match_id": 476343869,
@@ -56176,6 +56232,20 @@
           "performance_method": null,
           "actual_score": 1.0,
           "balance_adj": -0.01
+        },
+        {
+          "match_id": 510858920,
+          "date": "2026-10-02T22:05:00+00:00",
+          "map": "Arena",
+          "won": false,
+          "elo_before": 1079.7,
+          "elo_after": 1057.3,
+          "delta": -22.5,
+          "opponent_avg_elo": 930.8,
+          "performance_ratio": null,
+          "performance_method": null,
+          "actual_score": 0.0,
+          "balance_adj": null
         }
       ]
     },
@@ -64159,11 +64229,11 @@
     "NaKiyaKar": {
       "user_path": "/user/12693189/",
       "starting_elo": 1000,
-      "current_elo": 948.9,
-      "matches_played": 475,
-      "wins": 247,
+      "current_elo": 964.7,
+      "matches_played": 476,
+      "wins": 248,
       "losses": 228,
-      "win_rate": 52.0,
+      "win_rate": 52.1,
       "history": [
         {
           "match_id": 291086103,
@@ -70814,17 +70884,31 @@
           "performance_method": null,
           "actual_score": 0.0,
           "balance_adj": null
+        },
+        {
+          "match_id": 510858920,
+          "date": "2026-10-02T22:05:00+00:00",
+          "map": "Arena",
+          "won": true,
+          "elo_before": 948.9,
+          "elo_after": 964.7,
+          "delta": 15.9,
+          "opponent_avg_elo": 1070.1,
+          "performance_ratio": null,
+          "performance_method": null,
+          "actual_score": 1.0,
+          "balance_adj": -5.5
         }
       ]
     },
     "neXus": {
       "user_path": "/user/12805097/",
       "starting_elo": 1000,
-      "current_elo": 1067.2,
-      "matches_played": 173,
+      "current_elo": 1045.2,
+      "matches_played": 174,
       "wins": 105,
-      "losses": 68,
-      "win_rate": 60.7,
+      "losses": 69,
+      "win_rate": 60.3,
       "history": [
         {
           "match_id": 386442616,
@@ -73247,6 +73331,20 @@
           "performance_method": null,
           "actual_score": 1.0,
           "balance_adj": 0.01
+        },
+        {
+          "match_id": 510858920,
+          "date": "2026-10-02T22:05:00+00:00",
+          "map": "Arena",
+          "won": false,
+          "elo_before": 1067.2,
+          "elo_after": 1045.2,
+          "delta": -22.0,
+          "opponent_avg_elo": 930.8,
+          "performance_ratio": null,
+          "performance_method": null,
+          "actual_score": 0.0,
+          "balance_adj": null
         }
       ]
     }
@@ -133516,6 +133614,81 @@
               "name": "wabbit",
               "user_path": "/user/12047120/",
               "civ": "wei",
+              "is_ai": false,
+              "tracked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "match_id": 510858920,
+      "date": "2026-10-02T22:05:00+00:00",
+      "map": "Arena",
+      "duration_seconds": 4947,
+      "had_ai": true,
+      "teams": [
+        {
+          "won": false,
+          "players": [
+            {
+              "name": "SauronSlayer",
+              "user_path": "/user/12676944/",
+              "civ": "italians",
+              "is_ai": false,
+              "tracked": true
+            },
+            {
+              "name": "neXus",
+              "user_path": "/user/12805097/",
+              "civ": "ethiopians",
+              "is_ai": false,
+              "tracked": true
+            },
+            {
+              "name": "Strength & Honour",
+              "user_path": "/user/4607974/",
+              "civ": "aztecs",
+              "is_ai": false,
+              "tracked": true
+            },
+            {
+              "name": "AI",
+              "user_path": null,
+              "civ": "mapuche",
+              "is_ai": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "won": true,
+          "players": [
+            {
+              "name": "zubair",
+              "user_path": "/user/12667372/",
+              "civ": "lithuanians",
+              "is_ai": false,
+              "tracked": true
+            },
+            {
+              "name": "l.inc",
+              "user_path": "/user/12080589/",
+              "civ": "bohemians",
+              "is_ai": false,
+              "tracked": true
+            },
+            {
+              "name": "wabbit",
+              "user_path": "/user/12047120/",
+              "civ": "saracens",
+              "is_ai": false,
+              "tracked": true
+            },
+            {
+              "name": "NaKiyaKar",
+              "user_path": "/user/12693189/",
+              "civ": "bulgarians",
               "is_ai": false,
               "tracked": true
             }

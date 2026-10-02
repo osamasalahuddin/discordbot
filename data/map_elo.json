@@ -6807,14 +6807,14 @@
     }
   },
   "Arena": {
-    "total_matches": 368,
+    "total_matches": 369,
     "players": {
       "wabbit": {
-        "current_elo": 886.8,
-        "matches_played": 197,
-        "wins": 86,
+        "current_elo": 904.7,
+        "matches_played": 198,
+        "wins": 87,
         "losses": 111,
-        "win_rate": 43.7,
+        "win_rate": 43.9,
         "history": [
           {
             "match_id": 290033617,
@@ -7997,15 +7997,21 @@
             "date": "2026-10-02T21:25:00+00:00",
             "won": false,
             "elo_after": 886.8
+          },
+          {
+            "match_id": 510858920,
+            "date": "2026-10-02T22:05:00+00:00",
+            "won": true,
+            "elo_after": 904.7
           }
         ]
       },
       "SauronSlayer": {
-        "current_elo": 1032.6,
-        "matches_played": 297,
+        "current_elo": 1011.3,
+        "matches_played": 298,
         "wins": 142,
-        "losses": 155,
-        "win_rate": 47.8,
+        "losses": 156,
+        "win_rate": 47.7,
         "history": [
           {
             "match_id": 290033617,
@@ -9788,15 +9794,21 @@
             "date": "2026-10-02T21:25:00+00:00",
             "won": true,
             "elo_after": 1032.6
+          },
+          {
+            "match_id": 510858920,
+            "date": "2026-10-02T22:05:00+00:00",
+            "won": false,
+            "elo_after": 1011.3
           }
         ]
       },
       "zubair": {
-        "current_elo": 890.8,
-        "matches_played": 285,
-        "wins": 117,
+        "current_elo": 908.6,
+        "matches_played": 286,
+        "wins": 118,
         "losses": 168,
-        "win_rate": 41.1,
+        "win_rate": 41.3,
         "history": [
           {
             "match_id": 286642429,
@@ -11507,15 +11519,21 @@
             "date": "2026-10-02T21:25:00+00:00",
             "won": false,
             "elo_after": 890.8
+          },
+          {
+            "match_id": 510858920,
+            "date": "2026-10-02T22:05:00+00:00",
+            "won": true,
+            "elo_after": 908.6
           }
         ]
       },
       "l.inc": {
-        "current_elo": 953.2,
-        "matches_played": 276,
-        "wins": 129,
+        "current_elo": 968.5,
+        "matches_played": 277,
+        "wins": 130,
         "losses": 147,
-        "win_rate": 46.7,
+        "win_rate": 46.9,
         "history": [
           {
             "match_id": 291066326,
@@ -13172,6 +13190,12 @@
             "date": "2026-09-27T02:22:00+00:00",
             "won": true,
             "elo_after": 953.2
+          },
+          {
+            "match_id": 510858920,
+            "date": "2026-10-02T22:05:00+00:00",
+            "won": true,
+            "elo_after": 968.5
           }
         ]
       },
@@ -14733,11 +14757,11 @@
         ]
       },
       "Strength & Honour": {
-        "current_elo": 1080.2,
-        "matches_played": 65,
+        "current_elo": 1057.1,
+        "matches_played": 66,
         "wins": 40,
-        "losses": 25,
-        "win_rate": 61.5,
+        "losses": 26,
+        "win_rate": 60.6,
         "history": [
           {
             "match_id": 476343869,
@@ -15128,6 +15152,12 @@
             "date": "2026-09-26T23:39:00+00:00",
             "won": true,
             "elo_after": 1080.2
+          },
+          {
+            "match_id": 510858920,
+            "date": "2026-10-02T22:05:00+00:00",
+            "won": false,
+            "elo_after": 1057.1
           }
         ]
       },
@@ -16083,11 +16113,11 @@
         ]
       },
       "NaKiyaKar": {
-        "current_elo": 927.6,
-        "matches_played": 128,
-        "wins": 56,
+        "current_elo": 944.0,
+        "matches_played": 129,
+        "wins": 57,
         "losses": 72,
-        "win_rate": 43.8,
+        "win_rate": 44.2,
         "history": [
           {
             "match_id": 295558013,
@@ -16856,15 +16886,21 @@
             "date": "2026-09-26T23:39:00+00:00",
             "won": false,
             "elo_after": 927.6
+          },
+          {
+            "match_id": 510858920,
+            "date": "2026-10-02T22:05:00+00:00",
+            "won": true,
+            "elo_after": 944.0
           }
         ]
       },
       "neXus": {
-        "current_elo": 1080.6,
-        "matches_played": 118,
+        "current_elo": 1057.5,
+        "matches_played": 119,
         "wins": 73,
-        "losses": 45,
-        "win_rate": 61.9,
+        "losses": 46,
+        "win_rate": 61.3,
         "history": [
           {
             "match_id": 389702425,
@@ -17573,6 +17609,12 @@
             "date": "2026-10-02T21:25:00+00:00",
             "won": true,
             "elo_after": 1080.6
+          },
+          {
+            "match_id": 510858920,
+            "date": "2026-10-02T22:05:00+00:00",
+            "won": false,
+            "elo_after": 1057.5
           }
         ]
       }
