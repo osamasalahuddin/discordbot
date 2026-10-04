@@ -31,7 +31,9 @@
     {
       "id": 12499000,
       "name": "toXic",
-      "raw_file": "unranked_toXic.json"
+      "raw_file": "unranked_toXic.json",
+      "discord_id": "1190726877405524069",
+      "discord_name": "toXic"
     },
     {
       "id": 4607974,
