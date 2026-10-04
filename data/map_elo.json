@@ -1822,6 +1822,14 @@
             "elo_after": 1013.8
           }
         ]
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -5795,6 +5803,14 @@
             "elo_after": 1014.9
           }
         ]
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -6509,6 +6525,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -6797,6 +6821,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -8007,7 +8039,7 @@
         ]
       },
       "SauronSlayer": {
-        "current_elo": 1066.0,
+        "current_elo": 1064.8,
         "matches_played": 303,
         "wins": 146,
         "losses": 157,
@@ -9817,24 +9849,24 @@
             "match_id": 511118388,
             "date": "2026-10-03T21:09:00+00:00",
             "won": false,
-            "elo_after": 1028.1
+            "elo_after": 1026.9
           },
           {
             "match_id": 511131486,
             "date": "2026-10-03T22:08:00+00:00",
             "won": true,
-            "elo_after": 1048.2
+            "elo_after": 1047.0
           },
           {
             "match_id": 511138673,
             "date": "2026-10-03T22:44:00+00:00",
             "won": true,
-            "elo_after": 1066.0
+            "elo_after": 1064.8
           }
         ]
       },
       "zubair": {
-        "current_elo": 885.9,
+        "current_elo": 884.9,
         "matches_played": 291,
         "wins": 119,
         "losses": 172,
@@ -11572,24 +11604,24 @@
             "match_id": 511118388,
             "date": "2026-10-03T21:09:00+00:00",
             "won": false,
-            "elo_after": 907.8
+            "elo_after": 906.7
           },
           {
             "match_id": 511131486,
             "date": "2026-10-03T22:08:00+00:00",
             "won": false,
-            "elo_after": 896.2
+            "elo_after": 895.1
           },
           {
             "match_id": 511138673,
             "date": "2026-10-03T22:44:00+00:00",
             "won": false,
-            "elo_after": 885.9
+            "elo_after": 884.9
           }
         ]
       },
       "l.inc": {
-        "current_elo": 940.4,
+        "current_elo": 939.3,
         "matches_played": 283,
         "wins": 132,
         "losses": 151,
@@ -13279,24 +13311,24 @@
             "match_id": 511118388,
             "date": "2026-10-03T21:09:00+00:00",
             "won": false,
-            "elo_after": 967.3
+            "elo_after": 966.2
           },
           {
             "match_id": 511131486,
             "date": "2026-10-03T22:08:00+00:00",
             "won": false,
-            "elo_after": 953.1
+            "elo_after": 951.9
           },
           {
             "match_id": 511138673,
             "date": "2026-10-03T22:44:00+00:00",
             "won": false,
-            "elo_after": 940.4
+            "elo_after": 939.3
           }
         ]
       },
       "toXic": {
-        "current_elo": 1106.0,
+        "current_elo": 1080.5,
         "matches_played": 261,
         "wins": 175,
         "losses": 86,
@@ -14866,12 +14898,12 @@
             "match_id": 511118388,
             "date": "2026-10-03T21:09:00+00:00",
             "won": true,
-            "elo_after": 1106.0
+            "elo_after": 1080.5
           }
         ]
       },
       "Strength & Honour": {
-        "current_elo": 981.0,
+        "current_elo": 979.8,
         "matches_played": 72,
         "wins": 41,
         "losses": 31,
@@ -15295,19 +15327,19 @@
             "match_id": 511118388,
             "date": "2026-10-03T21:09:00+00:00",
             "won": false,
-            "elo_after": 1011.8
+            "elo_after": 1010.6
           },
           {
             "match_id": 511131486,
             "date": "2026-10-03T22:08:00+00:00",
             "won": false,
-            "elo_after": 995.5
+            "elo_after": 994.4
           },
           {
             "match_id": 511138673,
             "date": "2026-10-03T22:44:00+00:00",
             "won": false,
-            "elo_after": 981.0
+            "elo_after": 979.8
           }
         ]
       },
@@ -16263,7 +16295,7 @@
         ]
       },
       "NaKiyaKar": {
-        "current_elo": 1024.2,
+        "current_elo": 1024.1,
         "matches_played": 133,
         "wins": 61,
         "losses": 72,
@@ -17059,13 +17091,13 @@
             "match_id": 511131486,
             "date": "2026-10-03T22:08:00+00:00",
             "won": true,
-            "elo_after": 1004.5
+            "elo_after": 1004.4
           },
           {
             "match_id": 511138673,
             "date": "2026-10-03T22:44:00+00:00",
             "won": true,
-            "elo_after": 1024.2
+            "elo_after": 1024.1
           }
         ]
       },
@@ -17795,6 +17827,21 @@
             "date": "2026-10-02T23:02:00+00:00",
             "won": false,
             "elo_after": 1037.8
+          }
+        ]
+      },
+      "Ck": {
+        "current_elo": 1030.1,
+        "matches_played": 1,
+        "wins": 1,
+        "losses": 0,
+        "win_rate": 100.0,
+        "history": [
+          {
+            "match_id": 511118388,
+            "date": "2026-10-03T21:09:00+00:00",
+            "won": true,
+            "elo_after": 1030.1
           }
         ]
       }
@@ -18644,6 +18691,14 @@
             "elo_after": 1031.1
           }
         ]
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -18768,6 +18823,14 @@
         "history": []
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -19176,6 +19239,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -19496,6 +19567,14 @@
             "elo_after": 1015.7
           }
         ]
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -19773,6 +19852,14 @@
             "elo_after": 984.1
           }
         ]
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -19933,6 +20020,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -20039,6 +20134,14 @@
         "history": []
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -20351,6 +20454,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -20797,6 +20908,14 @@
             "elo_after": 1015.6
           }
         ]
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -21548,6 +21667,14 @@
             "elo_after": 960.4
           }
         ]
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -22257,6 +22384,14 @@
             "elo_after": 985.0
           }
         ]
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -22431,6 +22566,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -22791,6 +22934,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -22897,6 +23048,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -23101,6 +23260,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -23214,6 +23381,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -23472,6 +23647,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -23571,6 +23754,14 @@
         "history": []
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -24093,6 +24284,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -24429,6 +24628,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -24796,6 +25003,14 @@
             "elo_after": 983.1
           }
         ]
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -24970,6 +25185,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -25192,6 +25415,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -25625,6 +25856,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -25925,6 +26164,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -26358,6 +26605,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -26694,6 +26949,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -26904,6 +27167,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -27198,6 +27469,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -27504,6 +27783,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -27882,6 +28169,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -28031,6 +28326,14 @@
         "history": []
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -28777,6 +29080,14 @@
             "elo_after": 998.1
           }
         ]
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -29072,6 +29383,14 @@
             "elo_after": 1015.9
           }
         ]
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -29300,6 +29619,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -29498,6 +29825,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -29654,6 +29989,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -30164,6 +30507,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -30518,6 +30869,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -30722,6 +31081,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -30962,6 +31329,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -31142,6 +31517,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -31254,6 +31637,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -31446,6 +31837,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -31752,6 +32151,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -32094,6 +32501,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -32334,6 +32749,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -32433,6 +32856,14 @@
         "history": []
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -32620,6 +33051,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -32878,6 +33317,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -33027,6 +33474,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -33351,6 +33806,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -33457,6 +33920,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -33575,6 +34046,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -33680,6 +34159,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -33779,6 +34266,14 @@
         "history": []
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -33940,6 +34435,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -34039,6 +34542,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -34158,6 +34669,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -35114,6 +35633,14 @@
             "elo_after": 1041.0
           }
         ]
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -35341,6 +35868,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -35460,6 +35995,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -35545,6 +36088,14 @@
         "history": []
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -35942,6 +36493,14 @@
             "elo_after": 1012.2
           }
         ]
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -36041,6 +36600,14 @@
         "history": []
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -36153,6 +36720,14 @@
         "history": []
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -36395,6 +36970,14 @@
             "elo_after": 983.9
           }
         ]
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -36501,6 +37084,14 @@
         "history": []
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -36709,6 +37300,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -36845,6 +37444,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -36994,6 +37601,14 @@
             "elo_after": 984.2
           }
         ]
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -37113,6 +37728,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -37198,6 +37821,14 @@
         "history": []
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -37392,6 +38023,14 @@
             "elo_after": 983.8
           }
         ]
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -37505,6 +38144,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -37867,6 +38514,14 @@
             "elo_after": 1010.7
           }
         ]
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -38120,6 +38775,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -38275,6 +38938,14 @@
         "losses": 0,
         "win_rate": 0.0,
         "history": []
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -38374,6 +39045,14 @@
         "history": []
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,
@@ -38513,6 +39192,14 @@
             "elo_after": 1016.0
           }
         ]
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -38646,6 +39333,14 @@
             "elo_after": 1016.0
           }
         ]
+      },
+      "Ck": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
       }
     }
   },
@@ -38752,6 +39447,14 @@
         ]
       },
       "neXus": {
+        "current_elo": 1000,
+        "matches_played": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "history": []
+      },
+      "Ck": {
         "current_elo": 1000,
         "matches_played": 0,
         "wins": 0,

@@ -44,30 +44,10 @@ OUT_PATH = _args.out or (
     else os.path.join(_DATA_DIR, "unranked_ladder.json")
 )
 
-RAW_FILES = [
-    "unranked_wabbit.json",
-    "unranked_SauronSlayer.json",
-    "unranked_zubair.json",
-    "unranked_l.inc.json",
-    "unranked_toXic.json",
-    "unranked_StrengthHonour.json",
-    "unranked_cheetah001.json",
-    "unranked_NaKiyaKar.json",
-    "unranked_neXus.json",
-    "incremental_new_matches.json",
-]
-
-TRACKED = {
-    "/user/12047120/": "wabbit",
-    "/user/12676944/": "SauronSlayer",
-    "/user/12667372/": "zubair",
-    "/user/12080589/": "l.inc",
-    "/user/12499000/": "toXic",
-    "/user/4607974/": "Strength & Honour",
-    "/user/11907023/": "cheetah001",
-    "/user/12693189/": "NaKiyaKar",
-    "/user/12805097/": "neXus",
-}
+# The player list, and each player's optional start date, lives in
+# tracked_players.py - the one shared copy. A player only counts as tracked in
+# matches on or after their start date (is_tracked).
+from tracked_players import TRACKED, RAW_FILES, is_tracked, since_date
 
 K_FACTOR = 32
 STARTING_ELO = 1000
@@ -411,7 +391,7 @@ def compute_performance_ratio(match_id, own_path, opp_paths):
     return (legacy, "legacy") if legacy is not None else (None, None)
 
 
-# ---- Load and dedupe matches across all 9 players' unranked scrapes ----
+# ---- Load and dedupe matches across every player's unranked scrape ----
 all_matches = {}
 for fname in RAW_FILES:
     path = os.path.join(RAW_DIR, fname)
@@ -422,7 +402,7 @@ for fname in RAW_FILES:
     for m in data["matches"]:
         all_matches[m["match_id"]] = m  # same match_id -> identical record from any source
 
-print(f"Total unique unranked matches (union across 9 players): {len(all_matches)}")
+print(f"Total unique unranked matches (union across {len(TRACKED)} players): {len(all_matches)}")
 
 # ---- Filter: matches with >=2 tracked players on opposing teams ----
 qualifying = []
@@ -430,9 +410,10 @@ excluded_short_game = []
 excluded_no_opposition = 0
 
 for m in all_matches.values():
+    match_dt = parse_exact_time(m["exact_time"])
     team_tracked = []  # list of sets of tracked user_paths per team
     for team in m["teams"]:
-        tracked_in_team = {p["user_path"] for p in team["players"] if p["user_path"] in TRACKED}
+        tracked_in_team = {p["user_path"] for p in team["players"] if is_tracked(p["user_path"], match_dt)}
         team_tracked.append(tracked_in_team)
 
     teams_with_tracked = [t for t in team_tracked if t]
@@ -496,9 +477,10 @@ history = {path: [] for path in TRACKED}
 match_log = []
 
 for m in qualifying:
+    match_date = parse_exact_time(m["exact_time"])
     team_tracked_paths = []
     for team in m["teams"]:
-        paths = [p["user_path"] for p in team["players"] if p["user_path"] in TRACKED]
+        paths = [p["user_path"] for p in team["players"] if is_tracked(p["user_path"], match_date)]
         team_tracked_paths.append(paths)
 
     # Only teams that actually have tracked players matter for the ladder
@@ -553,7 +535,7 @@ for m in qualifying:
     #                      cannot pay, so the winners give it back. 2 humans + AI
     #                      losing to 3: -32 paid vs +48 claimed, winners scaled
     #                      to +10.67 each.
-    # Applied to every match, so total ladder Elo stays fixed at 9 x 1000.
+    # Applied to every match, so total ladder Elo stays fixed at players x 1000.
     # ELO_CONSERVATION=0 disables it.
     balance_adj = {}
     if CONSERVE_ELO:
@@ -567,7 +549,6 @@ for m in qualifying:
                 match_deltas[k] = (path, old_r, new_r + adj, delta + adj, won,
                                    opp_avg, perf_ratio, actual, perf_method)
 
-    match_date = parse_exact_time(m["exact_time"])
     for path, old_r, new_r, delta, won, opp_avg, perf_ratio, actual, perf_method in match_deltas:
         elo[path] = new_r
         history[path].append({
@@ -596,7 +577,7 @@ for m in qualifying:
                 "won": team["won"],
                 "players": [
                     {"name": p["name"], "user_path": p["user_path"], "civ": p["civ"], "is_ai": p["is_ai"],
-                     "tracked": p["user_path"] in TRACKED}
+                     "tracked": is_tracked(p["user_path"], match_date)}
                     for p in team["players"]
                 ]
             }
@@ -611,6 +592,7 @@ for path, name in TRACKED.items():
     wins = sum(1 for h in history[path] if h["won"])
     players_out[name] = {
         "user_path": path,
+        "tracked_since": since_date(path),  # None = counted from the ladder start date
         "starting_elo": STARTING_ELO,
         "current_elo": round(elo[path], 1),
         "matches_played": matches_played,

@@ -33,6 +33,9 @@ from playwright.sync_api import sync_playwright
 import os
 
 _DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+if _DATA_DIR not in sys.path:
+    sys.path.insert(0, _DATA_DIR)
+from tracked_players import TRACKED_USERS_JS
 
 CDP_URL = "http://localhost:9222"
 INCREMENTAL_JS_PATH = os.path.join(_DATA_DIR, "incremental_update.js")
@@ -107,6 +110,14 @@ def main():
         with open(INCREMENTAL_JS_PATH, encoding="utf-8") as f:
             pipeline_js = f.read()
         target_page.evaluate(pipeline_js)
+        # Follow the players in tracked_players.py rather than the fallback list
+        # hard-coded in the JS, so adding a player is a one-file change.
+        target_page.evaluate(
+            "(users) => { window.__TRACKED_USERS = users;"
+            " window.__TRACKED_PATHS = new Set(Object.keys(users).map((id) => `/user/${id}/`)); }",
+            TRACKED_USERS_JS,
+        )
+        print(f"Tracking {len(TRACKED_USERS_JS)} players: {', '.join(TRACKED_USERS_JS.values())}")
 
         # Regenerate known_ids.json from the raw stores so matches merged by
         # previous runs aren't rediscovered as "new".

@@ -15,18 +15,8 @@ from match_results import resolve_match_results
 RAW_DIR = os.path.join(_DATA_DIR, "unranked_raw")
 OUT_PATH = os.path.join(_DATA_DIR, "openclosed_elo.json")
 
-RAW_FILES = [
-    "unranked_wabbit.json", "unranked_SauronSlayer.json", "unranked_zubair.json",
-    "unranked_l.inc.json", "unranked_toXic.json", "unranked_StrengthHonour.json",
-    "unranked_cheetah001.json", "unranked_NaKiyaKar.json", "unranked_neXus.json",
-    "incremental_new_matches.json",
-]
-
-TRACKED = {
-    "/user/12047120/": "wabbit", "/user/12676944/": "SauronSlayer", "/user/12667372/": "zubair",
-    "/user/12080589/": "l.inc", "/user/12499000/": "toXic", "/user/4607974/": "Strength & Honour",
-    "/user/11907023/": "cheetah001", "/user/12693189/": "NaKiyaKar", "/user/12805097/": "neXus",
-}
+# Player list and per-player start dates: tracked_players.py, the one shared copy.
+from tracked_players import TRACKED, RAW_FILES, is_tracked
 
 # Settle each match so gains and losses cancel (see build_unranked_ladder.py).
 CONSERVE_ELO = os.environ.get("ELO_CONSERVATION") != "0"
@@ -105,8 +95,9 @@ for fname in RAW_FILES:
 
 qualifying = []
 for m in all_matches.values():
+    match_dt = parse_exact_time(m["exact_time"])
     team_tracked = [
-        {p["user_path"] for p in team["players"] if p["user_path"] in TRACKED}
+        {p["user_path"] for p in team["players"] if is_tracked(p["user_path"], match_dt)}
         for team in m["teams"]
     ]
     if len([t for t in team_tracked if t]) < 2:
@@ -154,8 +145,9 @@ for category, matches in by_category.items():
     history = {path: [] for path in TRACKED}
 
     for m in matches:
+        _dt = parse_exact_time(m["exact_time"])
         team_tracked_paths = [
-            [p["user_path"] for p in team["players"] if p["user_path"] in TRACKED]
+            [p["user_path"] for p in team["players"] if is_tracked(p["user_path"], _dt)]
             for team in m["teams"]
         ]
         active_team_indices = [i for i, paths in enumerate(team_tracked_paths) if paths]
@@ -189,7 +181,6 @@ for category, matches in by_category.items():
 
         for path, _old_r, new_r, _delta, won in match_deltas:
             elo[path] = new_r
-            _dt = parse_exact_time(m["exact_time"])
             history[path].append({
                 "match_id": m["match_id"],
                 "date": _dt.isoformat() if _dt else None,

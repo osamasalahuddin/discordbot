@@ -1,15 +1,13 @@
 import json
 import os
+import sys
 
 _DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+if _DATA_DIR not in sys.path:
+    sys.path.insert(0, _DATA_DIR)
+from tracked_players import RAW_FILES
 
 RAW_DIR = os.path.join(_DATA_DIR, "unranked_raw")
-RAW_FILES = [
-    "unranked_wabbit.json", "unranked_SauronSlayer.json", "unranked_zubair.json",
-    "unranked_l.inc.json", "unranked_toXic.json", "unranked_StrengthHonour.json",
-    "unranked_cheetah001.json", "unranked_NaKiyaKar.json", "unranked_neXus.json",
-    "incremental_new_matches.json",
-]
 
 known_ids = set()
 for fname in RAW_FILES:

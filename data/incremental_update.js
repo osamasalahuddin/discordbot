@@ -15,10 +15,14 @@
 // Same throttling caveats as harvest_performance.js apply: if timeouts pile up, stop and
 // resume later rather than pushing through.
 
+// Fallback for pasting this file by hand. fetch_incremental_update.py replaces
+// it (and __TRACKED_PATHS) with the list in tracked_players.py, which is the
+// source of truth - add players there.
 window.__TRACKED_USERS = {
   12047120: "wabbit", 12676944: "SauronSlayer", 12667372: "zubair",
   12080589: "l.inc", 12499000: "toXic", 4607974: "Strength & Honour",
   11907023: "cheetah001", 12693189: "NaKiyaKar", 12805097: "neXus",
+  13194886: "Ck",
 };
 window.__TRACKED_PATHS = new Set(Object.keys(window.__TRACKED_USERS).map((id) => `/user/${id}/`));
 

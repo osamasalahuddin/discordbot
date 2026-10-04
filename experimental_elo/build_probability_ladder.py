@@ -77,30 +77,8 @@ OUT_PATH = _args.out or os.path.join(_HERE, "probability_ladder.json")
 DEFAULT_LADDER_PATH = os.path.join(DATA_DIR, "unranked_ladder.json")
 
 RAW_DIR = os.path.join(DATA_DIR, "unranked_raw")
-RAW_FILES = [
-    "unranked_wabbit.json",
-    "unranked_SauronSlayer.json",
-    "unranked_zubair.json",
-    "unranked_l.inc.json",
-    "unranked_toXic.json",
-    "unranked_StrengthHonour.json",
-    "unranked_cheetah001.json",
-    "unranked_NaKiyaKar.json",
-    "unranked_neXus.json",
-    "incremental_new_matches.json",
-]
-
-TRACKED = {
-    "/user/12047120/": "wabbit",
-    "/user/12676944/": "SauronSlayer",
-    "/user/12667372/": "zubair",
-    "/user/12080589/": "l.inc",
-    "/user/12499000/": "toXic",
-    "/user/4607974/": "Strength & Honour",
-    "/user/11907023/": "cheetah001",
-    "/user/12693189/": "NaKiyaKar",
-    "/user/12805097/": "neXus",
-}
+# Player list and per-player start dates: data/tracked_players.py, the one shared copy.
+from tracked_players import TRACKED, RAW_FILES, is_tracked
 
 SHORT_GAME_THRESHOLD_SECONDS = 15 * 60
 LADDER_START_DATE = datetime(2024, 1, 1, tzinfo=timezone.utc)
@@ -202,8 +180,9 @@ def load_matches():
 
     qualifying = []
     for m in all_matches.values():
+        match_dt = parse_exact_time(m["exact_time"])
         team_tracked = [
-            {p["user_path"] for p in team["players"] if p["user_path"] in TRACKED}
+            {p["user_path"] for p in team["players"] if is_tracked(p["user_path"], match_dt)}
             for team in m["teams"]
         ]
         if len([t for t in team_tracked if t]) < 2:
@@ -223,8 +202,9 @@ def load_matches():
 
 def sides(m):
     """(winning tracked paths, losing tracked paths), or None if not a clean 2-sided result."""
+    when = parse_exact_time(m["exact_time"])
     active = [
-        (bool(t["won"]), [p["user_path"] for p in t["players"] if p["user_path"] in TRACKED])
+        (bool(t["won"]), [p["user_path"] for p in t["players"] if is_tracked(p["user_path"], when)])
         for t in m["teams"]
     ]
     active = [(won, paths) for won, paths in active if paths]
@@ -349,7 +329,9 @@ def evaluate(players, matches, min_history=50):
             continue
         win_side, lose_side = s
         # Predict from the first team's point of view so it's not always the winner's.
-        first_won = bool([t for t in m["teams"] if any(p["user_path"] in TRACKED for p in t["players"])][0]["won"])
+        when = parse_exact_time(m["exact_time"])
+        first_won = bool([t for t in m["teams"]
+                          if any(is_tracked(p["user_path"], when) for p in t["players"])][0]["won"])
         team_a, team_b = (win_side, lose_side) if first_won else (lose_side, win_side)
 
         _, _, _, prob = fit(players, matches[:idx], now=sort_key(m))
