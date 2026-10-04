@@ -873,6 +873,11 @@ async def addplayer_cmd(interaction: discord.Interaction, discord_user: discord.
 # push as /addplayer. The ladder builders ignore it, so nothing is rebuilt; the
 # bot's own checkout has the link as soon as the push succeeds.
 
+# Post each new link to the channel too. Off while the existing players are
+# being linked in one go, so the channel isn't spammed; the person linking
+# always gets a private confirmation either way.
+ANNOUNCE_LINKS = False
+
 async def listed_player_autocomplete(interaction: discord.Interaction, current: str):
     """Every player in players.json - including ones added since the last ladder
     build - with who they're linked to, so it's easy to see who's left."""
@@ -913,13 +918,17 @@ async def linkplayer_cmd(interaction: discord.Interaction, player: str, discord_
         print(f"/linkplayer failed for {player} -> {discord_user.id}: {e!r}")
         return await interaction.followup.send(f"❌ Couldn't save the link: {e}", ephemeral=True)
 
-    await interaction.followup.send("Linked ✅", ephemeral=True)
     note = f" (was <@{previous}>)" if previous else ""
-    await interaction.channel.send(
-        f"🔗 **{name}** is now linked to {discord_user.mention}{note}. "
-        f"Linked by {interaction.user.mention}.",
-        allowed_mentions=discord.AllowedMentions.none(),
+    await interaction.followup.send(
+        f"✅ **{name}** is now linked to {discord_user.mention}{note}.",
+        ephemeral=True, allowed_mentions=discord.AllowedMentions.none(),
     )
+    if ANNOUNCE_LINKS:
+        await interaction.channel.send(
+            f"🔗 **{name}** is now linked to {discord_user.mention}{note}. "
+            f"Linked by {interaction.user.mention}.",
+            allowed_mentions=discord.AllowedMentions.none(),
+        )
 
 
 @bot.event
