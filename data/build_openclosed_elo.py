@@ -26,6 +26,12 @@ STARTING_ELO = 1000
 SHORT_GAME_THRESHOLD_SECONDS = 15 * 60
 LADDER_START_DATE = datetime(2024, 1, 1, tzinfo=timezone.utc)
 
+# Untracked humans are rated as UNTRACKED_ELO and take their own share of each
+# match (see build_unranked_ladder.py). UNTRACKED_HUMANS=ignore restores the old
+# behaviour of settling them like an AI.
+UNTRACKED_ELO = STARTING_ELO
+IGNORE_UNTRACKED = os.environ.get("UNTRACKED_HUMANS") == "ignore"
+
 # Open / closed classification lives in map_types.py - the one shared copy.
 from map_types import OPEN_MAPS, CLOSED_MAPS
 
@@ -151,15 +157,26 @@ for category, matches in by_category.items():
             for team in m["teams"]
         ]
         active_team_indices = [i for i, paths in enumerate(team_tracked_paths) if paths]
+        team_untracked = [
+            0 if IGNORE_UNTRACKED else
+            sum(1 for p in team["players"] if not p["is_ai"] and not is_tracked(p["user_path"], _dt))
+            for team in m["teams"]
+        ]
 
         match_deltas = []
+        untracked_deltas = []  # (delta, won) per untracked human
         for i in active_team_indices:
             own_paths = team_tracked_paths[i]
             won = bool(m["teams"][i]["won"])
             opp_paths = [p for j in active_team_indices if j != i for p in team_tracked_paths[j]]
             if not opp_paths:
                 continue
-            opp_avg = sum(elo[p] for p in opp_paths) / len(opp_paths)
+            opp_ratings = [elo[p] for p in opp_paths]
+            opp_ratings += [UNTRACKED_ELO] * sum(team_untracked[j] for j in active_team_indices if j != i)
+            opp_avg = sum(opp_ratings) / len(opp_ratings)
+
+            untracked_expected = 1 / (1 + 10 ** ((opp_avg - UNTRACKED_ELO) / 400))
+            untracked_deltas += [(K_FACTOR * ((1.0 if won else 0.0) - untracked_expected), won)] * team_untracked[i]
             for path in own_paths:
                 own_rating = elo[path]
                 expected = 1 / (1 + 10 ** ((opp_avg - own_rating) / 400))
@@ -169,12 +186,14 @@ for category, matches in by_category.items():
 
         # Settle the match so gains and losses cancel, by adjusting the winning
         # side - otherwise an unrated AI (or any uneven side) carries Elo out of
-        # the pool. Same rule as build_unranked_ladder.py.
+        # the pool. Untracked winners take their share of the settlement too.
+        # Same rule as build_unranked_ladder.py.
         if CONSERVE_ELO and match_deltas:
-            imbalance = sum(d[3] for d in match_deltas)
+            imbalance = sum(d[3] for d in match_deltas) + sum(d for d, _ in untracked_deltas)
             winner_idx = [k for k, d in enumerate(match_deltas) if d[4]]
+            untracked_winners = sum(1 for _, w in untracked_deltas if w)
             if winner_idx and abs(imbalance) > 1e-9:
-                adj = -imbalance / len(winner_idx)
+                adj = -imbalance / (len(winner_idx) + untracked_winners)
                 for k in winner_idx:
                     path, old_r, new_r, delta, won = match_deltas[k]
                     match_deltas[k] = (path, old_r, new_r + adj, delta + adj, won)

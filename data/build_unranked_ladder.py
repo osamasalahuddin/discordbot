@@ -31,6 +31,11 @@ _parser.add_argument(
     help="restrict the Elo simulation to matches whose performance record has "
          "exactly this schema version. Everyone still starts at 1000.",
 )
+_parser.add_argument(
+    "--start-date", default="2024-01-01",
+    help="YYYY-MM-DD; matches before this are left out of the ladder (default 2024-01-01). "
+         "Use with --out when experimenting so the real ladder is untouched.",
+)
 _parser.add_argument("--out", default=None, help="override the output path")
 _args, _ = _parser.parse_known_args()
 USE_ARMY_EFFICIENCY = _args.army_efficiency
@@ -52,7 +57,7 @@ from tracked_players import TRACKED, RAW_FILES, is_tracked, since_date
 K_FACTOR = 32
 STARTING_ELO = 1000
 AI_SHORT_GAME_THRESHOLD_SECONDS = 15 * 60  # 15 minutes
-LADDER_START_DATE = datetime(2024, 1, 1, tzinfo=timezone.utc)
+LADDER_START_DATE = datetime.strptime(_args.start_date, "%Y-%m-%d").replace(tzinfo=timezone.utc)
 
 # On matches with performance data, the score fed to the Elo update is
 #   actual = PERF_RESULT_WEIGHT * (1.0 if won else 0.0) + (1 - PERF_RESULT_WEIGHT) * performance_ratio
@@ -66,6 +71,18 @@ _PERF_DISABLED = os.environ.get("PERF_DISABLED") == "1"
 # side. This is what stops an unrated AI from carrying Elo out of the pool (and
 # equally stops uneven teams inflating it). ELO_CONSERVATION=0 disables it.
 CONSERVE_ELO = os.environ.get("ELO_CONSERVATION") != "0"
+
+# Untracked humans (randoms, or a tracked player before their start date) are
+# real players, unlike an AI, so they earn or pay their own share of a match
+# instead of having it settled onto the tracked players around them. Each one
+# is rated as a UNTRACKED_ELO player (1000 = the pool average) whose rating
+# isn't kept, so their share leaves or enters the tracked pool. They also count
+# towards the opposing side's average, like any other opponent.
+# UNTRACKED_HUMANS=ignore restores the old behaviour (invisible, settled like an
+# AI) for before/after comparison.
+UNTRACKED_ELO = STARTING_ELO
+UNTRACKED_MODE = os.environ.get("UNTRACKED_HUMANS", "full")
+assert UNTRACKED_MODE in ("full", "ignore"), f"bad UNTRACKED_HUMANS={UNTRACKED_MODE}"
 
 def parse_duration(s):
     if not s:
@@ -475,6 +492,7 @@ print(f"Matches used for ladder simulation: {len(qualifying)}")
 elo = {path: STARTING_ELO for path in TRACKED}
 history = {path: [] for path in TRACKED}
 match_log = []
+untracked_flow = 0.0  # net Elo untracked humans took out of the tracked pool
 
 for m in qualifying:
     match_date = parse_exact_time(m["exact_time"])
@@ -490,16 +508,30 @@ for m in qualifying:
         # Rare FFA-style case with tracked players on 3+ sides: pool "everyone else" as the opponent per side
         pass
 
+    # Untracked humans per team - rated at UNTRACKED_ELO, rating not kept.
+    team_untracked = [
+        0 if UNTRACKED_MODE == "ignore" else
+        sum(1 for p in team["players"] if not p["is_ai"] and not is_tracked(p["user_path"], match_date))
+        for team in m["teams"]
+    ]
+
     match_deltas = []  # (user_path, old_elo, new_elo, delta, won, opp_avg_elo)
+    untracked_deltas = []  # (delta, won) per untracked human
 
     for i in active_team_indices:
         own_paths = team_tracked_paths[i]
         won = bool(m["teams"][i]["won"])
-        # Opponent = average elo of tracked players on all OTHER active teams (handles >2-team edge case too)
+        # Opponent = average elo of tracked players and untracked humans on all OTHER active teams
+        # (handles >2-team edge case too)
         opp_paths = [p for j in active_team_indices if j != i for p in team_tracked_paths[j]]
         if not opp_paths:
             continue
-        opp_avg = sum(elo[p] for p in opp_paths) / len(opp_paths)
+        opp_ratings = [elo[p] for p in opp_paths]
+        opp_ratings += [UNTRACKED_ELO] * sum(team_untracked[j] for j in active_team_indices if j != i)
+        opp_avg = sum(opp_ratings) / len(opp_ratings)
+
+        untracked_expected = 1 / (1 + 10 ** ((opp_avg - UNTRACKED_ELO) / 400))
+        untracked_deltas += [(K_FACTOR * ((1.0 if won else 0.0) - untracked_expected), won)] * team_untracked[i]
 
         for path in own_paths:
             own_rating = elo[path]
@@ -535,19 +567,26 @@ for m in qualifying:
     #                      cannot pay, so the winners give it back. 2 humans + AI
     #                      losing to 3: -32 paid vs +48 claimed, winners scaled
     #                      to +10.67 each.
-    # Applied to every match, so total ladder Elo stays fixed at players x 1000.
-    # ELO_CONSERVATION=0 disables it.
+    # Untracked humans are not an AI: they are in the sum with their own share
+    # and split the settlement with the tracked winners, then their share leaves
+    # the pool. So 2 tracked + 2 randoms beating 4 tracked splits the losers'
+    # Elo four ways, not two (UNTRACKED_HUMANS=ignore restores the two-way split).
+    # Total ladder Elo therefore stays at players x 1000 except for what is won
+    # from or lost to untracked humans. ELO_CONSERVATION=0 disables settling.
     balance_adj = {}
+    untracked_winners = sum(1 for _, w in untracked_deltas if w)
+    adj = 0.0
     if CONSERVE_ELO:
-        imbalance = sum(d[3] for d in match_deltas)
+        imbalance = sum(d[3] for d in match_deltas) + sum(d for d, _ in untracked_deltas)
         winner_idx = [k for k, d in enumerate(match_deltas) if d[4]]
-        if winner_idx and abs(imbalance) > 1e-9:
-            adj = -imbalance / len(winner_idx)
+        if (winner_idx or untracked_winners) and abs(imbalance) > 1e-9:
+            adj = -imbalance / (len(winner_idx) + untracked_winners)
             for k in winner_idx:
                 path, old_r, new_r, delta, won, opp_avg, perf_ratio, actual, perf_method = match_deltas[k]
                 balance_adj[path] = adj
                 match_deltas[k] = (path, old_r, new_r + adj, delta + adj, won,
                                    opp_avg, perf_ratio, actual, perf_method)
+    untracked_flow += sum(d for d, _ in untracked_deltas) + adj * untracked_winners
 
     for path, old_r, new_r, delta, won, opp_avg, perf_ratio, actual, perf_method in match_deltas:
         elo[path] = new_r
@@ -608,6 +647,7 @@ result = {
         "starting_elo": STARTING_ELO,
         "short_game_exclusion_threshold_seconds": AI_SHORT_GAME_THRESHOLD_SECONDS,
         "ladder_start_date": LADDER_START_DATE.date().isoformat(),
+        "untracked_humans": {"mode": UNTRACKED_MODE, "rated_as": UNTRACKED_ELO},
         "performance_matches_available": sum(1 for s in _perf_db["status"].values() if s == "ok"),
         "performance_ratio_v2": {
             "mode": "army_efficiency" if USE_ARMY_EFFICIENCY else "basic",
@@ -651,8 +691,11 @@ result = {
         "notes": (
             "Elo computed only across unranked (ladder=0) matches where 2+ of the tracked "
             "players appear on opposing teams. Each player's expected score is computed against "
-            "the average current Elo of tracked opponents on the other side(s) (untracked/random "
-            "players in the match are ignored for rating purposes). This filtering (short-game "
+            "the average current Elo of the human opponents on the other side(s). Untracked "
+            "humans (randoms, or a tracked player before their tracked_since date) are rated as "
+            f"{UNTRACKED_ELO} and take their own share of each match, which leaves the tracked "
+            "pool (scrape_meta.elo_taken_by_untracked_humans); AI players are not rated. Each "
+            "player counts as tracked only from their tracked_since date. This filtering (short-game "
             "and pre-start-date exclusion) only affects which matches feed the Elo calculation "
             "here — the underlying scraped datasets in unranked_raw/ are never modified. Any "
             "match under 15 minutes is excluded from the Elo calculation regardless of whether an "
@@ -674,6 +717,8 @@ result = {
         "excluded_short_game": len(excluded_short_game),
         "excluded_short_game_match_ids": excluded_short_game,
         "excluded_before_start_date": before_cutoff,
+        # Net Elo the tracked pool lost to (negative: won from) untracked humans.
+        "elo_taken_by_untracked_humans": round(untracked_flow, 1),
         "ai_results_corrected": len(ai_results_corrected),
         "ai_results_corrected_match_ids": ai_results_corrected,
         "results_repaired": len(results_repaired),
