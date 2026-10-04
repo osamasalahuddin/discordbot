@@ -681,10 +681,21 @@ def check_new_player(players, entry):
             raise PlayerError(f"<@{entry['discord_id']}> is already linked to **{p['name']}**.")
 
 
+# Commits from Discord are made under the bot's own name, so they don't depend
+# on the server having a git identity configured and stand out in the history.
+# The .invalid domain is reserved and never routes anywhere.
+GIT_IDENTITY = {
+    "GIT_AUTHOR_NAME": os.environ.get("BOT_GIT_NAME", "AoE2 Ladder Bot"),
+    "GIT_AUTHOR_EMAIL": os.environ.get("BOT_GIT_EMAIL", "discord-bot@aoe2-ladder.invalid"),
+}
+GIT_IDENTITY["GIT_COMMITTER_NAME"] = GIT_IDENTITY["GIT_AUTHOR_NAME"]
+GIT_IDENTITY["GIT_COMMITTER_EMAIL"] = GIT_IDENTITY["GIT_AUTHOR_EMAIL"]
+
+
 def _git(*args):
     return subprocess.run(
         ["git", "-C", REPO_DIR, *args], capture_output=True, text=True, timeout=60,
-        env={**os.environ, "GIT_TERMINAL_PROMPT": "0"},
+        env={**os.environ, "GIT_TERMINAL_PROMPT": "0", **GIT_IDENTITY},
     )
 
 
