@@ -6,6 +6,11 @@ set -euo pipefail
 REPO="/home/ubuntu/work/discordbot"
 cd "$REPO"
 
+# The bot's /addplayer commits and pushes from this same checkout; hold the
+# shared lock so this reset can't land between its commit and its push.
+exec 9>"$REPO/.git/aoe2-repo.lock"
+flock 9
+
 before=$(git rev-parse HEAD)
 git fetch --quiet origin main
 git reset --hard --quiet origin/main

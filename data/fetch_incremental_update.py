@@ -14,6 +14,8 @@ Then just run:
     python fetch_incremental_update.py --experimental-elo   # probability ladder instead of default Elo
 
 What it does:
+  - git pull --ff-only first, so players added from Discord (/addplayer commits
+    data/players.json) are tracked in this run. A failed pull only warns.
   - Connects to the already-open Chrome via the DevTools protocol (localhost:9222).
   - Errors out clearly (does NOT try to launch or fix anything) if Chrome isn't
     running with debugging enabled, if no aoe2insights.com tab is open, or if that
@@ -33,9 +35,9 @@ from playwright.sync_api import sync_playwright
 import os
 
 _DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+_REPO_DIR = os.path.dirname(_DATA_DIR)
 if _DATA_DIR not in sys.path:
     sys.path.insert(0, _DATA_DIR)
-from tracked_players import TRACKED_USERS_JS
 
 CDP_URL = "http://localhost:9222"
 INCREMENTAL_JS_PATH = os.path.join(_DATA_DIR, "incremental_update.js")
@@ -54,7 +56,24 @@ def die(msg):
     sys.exit(1)
 
 
+def pull_player_list():
+    """Fast-forward the repo so players added from Discord are picked up.
+
+    /addplayer commits data/players.json from the server. Only a fast-forward is
+    attempted; anything else (no network, local commits) warns and carries on
+    with the local list - the new player is then picked up on the next run.
+    """
+    r = subprocess.run(["git", "-C", _REPO_DIR, "pull", "--ff-only", "--quiet"],
+                       capture_output=True, text=True)
+    if r.returncode != 0:
+        print(f"WARNING: git pull failed, using the local player list.\n{r.stderr.strip()}")
+
+
 def main():
+    pull_player_list()
+    # Imported only after the pull, so this run sees the updated players.json.
+    from tracked_players import TRACKED_USERS_JS
+
     with sync_playwright() as p:
         try:
             browser = p.chromium.connect_over_cdp(CDP_URL)

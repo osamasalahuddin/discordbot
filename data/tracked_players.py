@@ -1,40 +1,36 @@
-"""Single source of truth for the tracked players.
+"""Loads the tracked players from players.json - the single source of truth.
 
 Used by every ladder builder (build_unranked_ladder.py, build_map_elo.py,
 build_openclosed_elo.py, ../experimental_elo/build_probability_ladder.py), by
-get_known_match_ids.py, and by fetch_incremental_update.py, which pushes this
-list into incremental_update.js so the scraper follows the same players. Add
-or change players here only - there must never be a second copy.
+get_known_match_ids.py, and by fetch_incremental_update.py, which pushes the
+list into incremental_update.js so the scraper follows the same players.
 
-Each entry:
-  id        aoe2insights profile id - the number in /user/<id>/
-  name      display name in the ladder and the Discord bot
-  raw_file  full unranked-history scrape in unranked_raw/, or None for a player
-            added later whose matches arrive only through the incremental update
-  since     optional "YYYY-MM-DD" the player's ladder starts on. Before it they
-            are treated exactly as an untracked player, so adding someone never
-            rewrites anyone's earlier history; their Elo starts at the starting
-            value on this date. Omit to count every match from the ladder start.
+players.json is data, not code, so the Discord bot's /addplayer can append to
+it (it commits and pushes the change; fetch_incremental_update.py pulls before
+every run). It can also be edited by hand. Each entry:
+  id          aoe2insights profile id - the number in /user/<id>/
+  name        display name in the ladder and the Discord bot
+  raw_file    full unranked-history scrape in unranked_raw/; absent for a player
+              added later, whose matches arrive through the incremental update
+  since       optional "YYYY-MM-DD" the player's ladder starts on. Before it they
+              are treated exactly as an untracked player, so adding someone never
+              rewrites anyone's earlier history; their Elo starts at the starting
+              value on this date. Omit to count every match from the ladder start.
+  discord_id, discord_name, added_by, added_at
+              optional bookkeeping written by /addplayer; ignored by the builders
 
-To add a player: append an entry with a `since` date and rerun the builders
-(run_full_refresh.py). No backfill scrape is needed - a match only counts when
+No backfill scrape is needed for a new player - a match only counts when
 another tracked player is on the opposing side, and every tracked player's
 match list is already scraped.
 """
+import json
+import os
 from datetime import datetime, timezone
 
-PLAYERS = [
-    {"id": 12047120, "name": "wabbit",            "raw_file": "unranked_wabbit.json"},
-    {"id": 12676944, "name": "SauronSlayer",      "raw_file": "unranked_SauronSlayer.json"},
-    {"id": 12667372, "name": "zubair",            "raw_file": "unranked_zubair.json"},
-    {"id": 12080589, "name": "l.inc",             "raw_file": "unranked_l.inc.json"},
-    {"id": 12499000, "name": "toXic",             "raw_file": "unranked_toXic.json"},
-    {"id": 4607974,  "name": "Strength & Honour", "raw_file": "unranked_StrengthHonour.json"},
-    {"id": 11907023, "name": "cheetah001",        "raw_file": "unranked_cheetah001.json"},
-    {"id": 12693189, "name": "NaKiyaKar",         "raw_file": "unranked_NaKiyaKar.json"},
-    {"id": 12805097, "name": "neXus",             "raw_file": "unranked_neXus.json"},
-    {"id": 13194886, "name": "Ck",                "raw_file": None, "since": "2026-10-03"},
-]
+PLAYERS_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "players.json")
+
+with open(PLAYERS_PATH, encoding="utf-8") as _f:
+    PLAYERS = json.load(_f)["players"]
 
 # Every incremental update merges into this one; always read alongside the
 # per-player scrapes.

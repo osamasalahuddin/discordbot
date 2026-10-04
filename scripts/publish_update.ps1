@@ -1,7 +1,8 @@
 # Run on the WINDOWS PC (not the server).
 #
-# 1. Runs the incremental fetch, which chains into run_full_refresh.py and
-#    rebuilds the ladder, per-map Elo, open/closed Elo and the graphs in place.
+# 1. Runs the incremental fetch, which first pulls (picking up players added
+#    with /addplayer) and then chains into run_full_refresh.py to rebuild the
+#    ladder, per-map Elo, open/closed Elo and the graphs in place.
 # 2. Commits and pushes, so the server picks it all up on its next pull.
 #
 # Everything happens inside this repo - there is no separate working copy.
@@ -30,6 +31,12 @@ if ($LASTEXITCODE -eq 0) {
     Write-Host "No changes since last publish - nothing to push."
 } else {
     git commit -m ("ladder update {0:yyyy-MM-dd HH:mm}" -f (Get-Date))
+    # The Discord bot's /addplayer may have pushed data/players.json while the
+    # fetch was running; replay this commit on top of it before pushing.
+    git pull --rebase --quiet
+    if ($LASTEXITCODE -ne 0) {
+        throw "git pull --rebase failed (exit $LASTEXITCODE). Resolve it, then git push."
+    }
     git push
     Write-Host "Pushed. Server will pull it within its poll interval."
 }

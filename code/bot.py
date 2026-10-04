@@ -1,11 +1,18 @@
 import os
+import re
 import sys
 import io
 import asyncio
 import json
+import subprocess
 from collections import namedtuple
-from datetime import datetime
+from datetime import date, datetime, timezone
 from pathlib import Path
+
+try:
+    import fcntl              # the server is Linux; Windows (local testing) runs unlocked
+except ImportError:
+    fcntl = None
 
 import discord
 from discord import app_commands
@@ -637,6 +644,282 @@ async def graph_cmd(interaction: discord.Interaction, player: str | None = None,
 
     fname = f"elo_{(pname or 'all').replace(' ', '_')}_{sc.label.replace(' ', '_')}.png"
     await interaction.followup.send(file=discord.File(buf, filename=fname))
+
+
+# ---------- /addplayer ----------
+# The player list is data/players.json, which the whole data pipeline reads via
+# tracked_players.py. Adding a player commits and pushes that file from this
+# checkout; the Windows PC pulls before every fetch, so the player is tracked
+# from the next ladder update. The bot must run as the user whose git identity
+# and SSH key can push - the same checkout deploy/pull.sh keeps reset.
+REPO_DIR = os.environ.get("REPO_DIR", str(Path(__file__).resolve().parent.parent))
+PLAYERS_PATH = os.path.join(DATA_DIR, "players.json")
+REPO_LOCK_PATH = os.path.join(REPO_DIR, ".git", "aoe2-repo.lock")   # shared with pull.sh
+PROFILE_RE = re.compile(r"^\s*(?:https?://)?(?:www\.)?(?:aoe2insights\.com/user/)?(\d+)/?\s*$", re.I)
+# Names become graph filenames (data/graphs/elo_<name>.png), so nothing a
+# filesystem rejects, and nothing that breaks Discord formatting.
+NAME_RE = re.compile(r'^[^\\/:*?"<>|`]{1,32}$')
+
+
+class PlayerError(Exception):
+    """A reason, fit to show the user, that a player change can't be made."""
+
+
+def load_player_list():
+    with open(PLAYERS_PATH, encoding="utf-8") as f:
+        return json.load(f)["players"]
+
+
+def check_new_player(players, entry):
+    """Raise PlayerError if entry clashes with a player already in the list."""
+    for p in players:
+        if p["id"] == entry["id"]:
+            raise PlayerError(f"aoe2insights profile {entry['id']} is already tracked as **{p['name']}**.")
+        if p["name"].lower() == entry["name"].lower():
+            raise PlayerError(f"There's already a player called **{p['name']}**.")
+        if p.get("discord_id") == entry["discord_id"]:
+            raise PlayerError(f"<@{entry['discord_id']}> is already linked to **{p['name']}**.")
+
+
+def _git(*args):
+    return subprocess.run(
+        ["git", "-C", REPO_DIR, *args], capture_output=True, text=True, timeout=60,
+        env={**os.environ, "GIT_TERMINAL_PROMPT": "0"},
+    )
+
+
+def _git_ok(*args):
+    r = _git(*args)
+    if r.returncode != 0:
+        raise RuntimeError(f"git {args[0]} failed: {(r.stderr or r.stdout).strip()}")
+
+
+def commit_players_change(change, subject, details, attempts=3):
+    """Apply change(players) to players.json, commit and push. Blocking - run in a thread.
+
+    change edits the list in place and returns anything the caller wants back,
+    or raises PlayerError. It runs against a freshly fetched origin/main on every
+    attempt, so its checks always see the latest list.
+
+    Holds the lock pull.sh takes, so its reset can't land between our commit and
+    push. A rejected push (the PC pushed a ladder update in between) just retries
+    on top of it. On any failure the checkout is put back to origin/main, so no
+    unpushed commit is left.
+    """
+    rel_path = os.path.relpath(PLAYERS_PATH, REPO_DIR).replace(os.sep, "/")
+    with open(REPO_LOCK_PATH, "w") as lock:
+        if fcntl:
+            fcntl.flock(lock, fcntl.LOCK_EX)
+        try:
+            for _ in range(attempts):
+                _git_ok("fetch", "--quiet", "origin", "main")
+                _git_ok("reset", "--hard", "--quiet", "origin/main")
+                with open(PLAYERS_PATH, encoding="utf-8") as f:
+                    doc = json.load(f)
+                result = change(doc["players"])
+                with open(PLAYERS_PATH, "w", encoding="utf-8", newline="\n") as f:
+                    json.dump(doc, f, indent=2, ensure_ascii=False)
+                    f.write("\n")
+                _git_ok("add", rel_path)
+                _git_ok("commit", "--quiet", "-m", subject, "-m", details)
+                if _git("push", "--quiet", "origin", "HEAD:main").returncode == 0:
+                    return result
+            raise RuntimeError(f"the push was rejected {attempts} times in a row - try again in a minute")
+        except Exception:
+            _git("reset", "--hard", "--quiet", "origin/main")
+            raise
+
+
+def commit_new_player(entry):
+    """Append entry to players.json and push it. Blocking - run in a thread."""
+    def add(players):
+        check_new_player(players, entry)
+        players.append(entry)
+
+    commit_players_change(
+        add, f"Add player {entry['name']} via Discord",
+        f"Profile: https://www.aoe2insights.com/user/{entry['id']}/\n"
+        f"Discord: {entry['discord_name']} ({entry['discord_id']})\n"
+        f"Counts from: {entry['since']}\nAdded by: {entry['added_by']}",
+    )
+
+
+def link_change(player, member):
+    """A players.json change that links `player` (name) to a Discord member.
+
+    Returns (ladder name, previously linked Discord id or None). Refuses a member
+    already linked to another player, and a link that's already in place.
+    """
+    def link(players):
+        p = next((q for q in players if q["name"].lower() == player.strip().lower()), None)
+        if p is None:
+            raise PlayerError(f"**{player}** isn't a tracked player.")
+        did = str(member.id)
+        if p.get("discord_id") == did:
+            raise PlayerError(f"**{p['name']}** is already linked to <@{did}>.")
+        other = next((q for q in players if q.get("discord_id") == did), None)
+        if other is not None:
+            raise PlayerError(f"<@{did}> is already linked to **{other['name']}**.")
+        previous = p.get("discord_id")
+        p["discord_id"] = did
+        p["discord_name"] = member.display_name
+        return p["name"], previous
+
+    return link
+
+
+class AddPlayerConfirm(discord.ui.View):
+    """Ephemeral Add / Cancel step, so a typo'd link never reaches the repo."""
+
+    def __init__(self, requester_id, entry):
+        super().__init__(timeout=120)
+        self.requester_id = requester_id
+        self.entry = entry
+
+    async def interaction_check(self, interaction: discord.Interaction):
+        return interaction.user.id == self.requester_id
+
+    @discord.ui.button(label="Add player", style=discord.ButtonStyle.success)
+    async def confirm(self, interaction: discord.Interaction, button: discord.ui.Button):
+        await interaction.response.edit_message(content="Adding…", view=None)
+        try:
+            await asyncio.to_thread(commit_new_player, self.entry)
+        except PlayerError as e:
+            await interaction.edit_original_response(content=f"❌ {e}")
+            return
+        except Exception as e:
+            print(f"/addplayer failed for {self.entry}: {e!r}")
+            await interaction.edit_original_response(content=f"❌ Couldn't save the player: {e}")
+            return
+
+        e = self.entry
+        await interaction.edit_original_response(content="Player added ✅")
+        # Public, so the channel knows - but without pinging anyone.
+        await interaction.channel.send(
+            f"➕ **{e['name']}** (<@{e['discord_id']}>) joins the ladder, counting games from "
+            f"{e['since']}. Added by {interaction.user.mention}; they'll show up in `/players` "
+            f"after the next ladder update.\n<https://www.aoe2insights.com/user/{e['id']}/>",
+            allowed_mentions=discord.AllowedMentions.none(),
+        )
+
+    @discord.ui.button(label="Cancel", style=discord.ButtonStyle.secondary)
+    async def cancel(self, interaction: discord.Interaction, button: discord.ui.Button):
+        await interaction.response.edit_message(content="Cancelled - nothing was added.", view=None)
+
+
+@bot.tree.command(name="addplayer", description="Add a player to the ladder")
+@app_commands.describe(
+    discord_user="The player's Discord account",
+    name="Name to show on the ladder, usually their in-game name",
+    profile="Their aoe2insights profile link, e.g. https://www.aoe2insights.com/user/13194886/",
+    since="First day their games count, YYYY-MM-DD (default: today)",
+)
+@app_commands.guild_only()
+async def addplayer_cmd(interaction: discord.Interaction, discord_user: discord.Member,
+                        name: str, profile: str, since: str | None = None):
+    async def reject(msg):
+        await interaction.response.send_message(f"❌ {msg}", ephemeral=True)
+
+    if discord_user.bot:
+        return await reject("That's a bot account - pick the player's own Discord account.")
+    m = PROFILE_RE.match(profile)
+    if not m:
+        return await reject("`profile` must be an aoe2insights profile link like "
+                            "https://www.aoe2insights.com/user/13194886/ (or just the number).")
+    name = " ".join(name.split())
+    if not NAME_RE.match(name):
+        return await reject('`name` must be 1-32 characters, without \\ / : * ? " < > | or `.')
+
+    today = datetime.now(timezone.utc).date()
+    if since:
+        try:
+            since_d = date.fromisoformat(since.strip())
+        except ValueError:
+            return await reject("`since` must be a date like 2026-10-03.")
+        if since_d > today:
+            return await reject("`since` can't be in the future.")
+    else:
+        since_d = today
+
+    entry = {
+        "id": int(m.group(1)),
+        "name": name,
+        "since": since_d.isoformat(),
+        "discord_id": str(discord_user.id),
+        "discord_name": discord_user.display_name,
+        "added_by": interaction.user.name,
+        "added_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    }
+    try:
+        check_new_player(load_player_list(), entry)
+    except PlayerError as e:
+        return await reject(str(e))
+
+    link = f"https://www.aoe2insights.com/user/{entry['id']}/"
+    await interaction.response.send_message(
+        f"Add this player to the ladder?\n"
+        f"**Name:** {name}\n**Discord:** {discord_user.mention}\n"
+        f"**aoe2insights:** <{link}> - open it and check it's the right account\n"
+        f"**Games count from:** {entry['since']}",
+        view=AddPlayerConfirm(interaction.user.id, entry),
+        ephemeral=True,
+        allowed_mentions=discord.AllowedMentions.none(),
+    )
+
+
+# ---------- /linkplayer ----------
+# Stores the member's Discord user id (permanent - survives renames and
+# nickname changes) on the player's players.json entry, via the same commit and
+# push as /addplayer. The ladder builders ignore it, so nothing is rebuilt; the
+# bot's own checkout has the link as soon as the push succeeds.
+
+async def listed_player_autocomplete(interaction: discord.Interaction, current: str):
+    """Every player in players.json - including ones added since the last ladder
+    build - with who they're linked to, so it's easy to see who's left."""
+    current = current.lower()
+    choices = []
+    for p in load_player_list():
+        if current not in p["name"].lower():
+            continue
+        label = p["name"] + (f" — linked to {p['discord_name']}" if p.get("discord_id") else " — not linked")
+        choices.append(app_commands.Choice(name=label[:100], value=p["name"]))
+    return choices[:25]
+
+
+@bot.tree.command(name="linkplayer", description="Link a ladder player to their Discord account")
+@app_commands.describe(player="Ladder player", discord_user="Their Discord account")
+@app_commands.autocomplete(player=listed_player_autocomplete)
+@app_commands.guild_only()
+async def linkplayer_cmd(interaction: discord.Interaction, player: str, discord_user: discord.Member):
+    if discord_user.bot:
+        return await interaction.response.send_message(
+            "❌ That's a bot account - pick the player's own Discord account.", ephemeral=True)
+
+    change = link_change(player, discord_user)
+    try:
+        name, _ = change(load_player_list())    # fail fast on the local copy before touching git
+    except PlayerError as e:
+        return await interaction.response.send_message(f"❌ {e}", ephemeral=True)
+
+    await interaction.response.defer(ephemeral=True)
+    try:
+        name, previous = await asyncio.to_thread(
+            commit_players_change, change, f"Link player {name} to Discord user {discord_user.display_name}",
+            f"Discord: {discord_user.display_name} ({discord_user.id})\nLinked by: {interaction.user.name}",
+        )
+    except PlayerError as e:
+        return await interaction.followup.send(f"❌ {e}", ephemeral=True)
+    except Exception as e:
+        print(f"/linkplayer failed for {player} -> {discord_user.id}: {e!r}")
+        return await interaction.followup.send(f"❌ Couldn't save the link: {e}", ephemeral=True)
+
+    await interaction.followup.send("Linked ✅", ephemeral=True)
+    note = f" (was <@{previous}>)" if previous else ""
+    await interaction.channel.send(
+        f"🔗 **{name}** is now linked to {discord_user.mention}{note}. "
+        f"Linked by {interaction.user.mention}.",
+        allowed_mentions=discord.AllowedMentions.none(),
+    )
 
 
 @bot.event

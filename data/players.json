@@ -1,0 +1,55 @@
+{
+  "players": [
+    {
+      "id": 12047120,
+      "name": "wabbit",
+      "raw_file": "unranked_wabbit.json"
+    },
+    {
+      "id": 12676944,
+      "name": "SauronSlayer",
+      "raw_file": "unranked_SauronSlayer.json"
+    },
+    {
+      "id": 12667372,
+      "name": "zubair",
+      "raw_file": "unranked_zubair.json"
+    },
+    {
+      "id": 12080589,
+      "name": "l.inc",
+      "raw_file": "unranked_l.inc.json"
+    },
+    {
+      "id": 12499000,
+      "name": "toXic",
+      "raw_file": "unranked_toXic.json"
+    },
+    {
+      "id": 4607974,
+      "name": "Strength & Honour",
+      "raw_file": "unranked_StrengthHonour.json"
+    },
+    {
+      "id": 11907023,
+      "name": "cheetah001",
+      "raw_file": "unranked_cheetah001.json"
+    },
+    {
+      "id": 12693189,
+      "name": "NaKiyaKar",
+      "raw_file": "unranked_NaKiyaKar.json"
+    },
+    {
+      "id": 12805097,
+      "name": "neXus",
+      "raw_file": "unranked_neXus.json"
+    },
+    {
+      "id": 13194886,
+      "name": "Ck",
+      "raw_file": null,
+      "since": "2026-10-03"
+    }
+  ]
+}
