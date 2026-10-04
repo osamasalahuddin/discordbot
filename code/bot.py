@@ -167,12 +167,29 @@ def build_embed(result, scope, fallback_names=None):
     return embed
 
 
+async def post_balanced_teams(interaction, names, players, scope):
+    chosen, fallback_names = [], []
+    for name in names:
+        elo, used, _ = scoped_elo(name, players[name], scope)
+        chosen.append((name, elo))
+        if not used:
+            fallback_names.append(name)
+
+    result = balance_teams(chosen)
+    embed = build_embed(result, scope, fallback_names)
+    # The selection prompt is ephemeral (only the caller picks players); post
+    # the balanced teams as a new public message so the whole channel sees them.
+    await interaction.response.edit_message(content="Teams generated ✅", view=None)
+    await interaction.channel.send(embed=embed)
+
+
 class PlayerSelect(discord.ui.Select):
-    def __init__(self, players, scope):
+    def __init__(self, players, scope, preselected=()):
         self.players = players
         self.scope = scope
         options = [
-            discord.SelectOption(label=f"{name} (Elo {int(round(elo))})", value=name)
+            discord.SelectOption(label=f"{name} (Elo {int(round(elo))})", value=name,
+                                 default=name in preselected)
             for name, elo in sorted(players.items(), key=lambda kv: -kv[1])
         ]
         super().__init__(
@@ -183,25 +200,63 @@ class PlayerSelect(discord.ui.Select):
         )
 
     async def callback(self, interaction: discord.Interaction):
-        chosen, fallback_names = [], []
-        for name in self.values:
-            elo, used, _ = scoped_elo(name, self.players[name], self.scope)
-            chosen.append((name, elo))
-            if not used:
-                fallback_names.append(name)
+        await post_balanced_teams(interaction, self.values, self.players, self.scope)
 
-        result = balance_teams(chosen)
-        embed = build_embed(result, self.scope, fallback_names)
-        # The selection prompt is ephemeral (only the caller picks players); post
-        # the balanced teams as a new public message so the whole channel sees them.
-        await interaction.response.edit_message(content="Teams generated ✅", view=None)
-        await interaction.channel.send(embed=embed)
+
+class BalanceVoiceButton(discord.ui.Button):
+    """One click for the pre-selected voice players - a select menu only reports
+    back when its selection changes, so its defaults alone can't be submitted."""
+
+    def __init__(self, names, players, scope):
+        super().__init__(label=f"Balance these {len(names)}", emoji="🎙️",
+                         style=discord.ButtonStyle.primary)
+        self.names = names
+        self.players = players
+        self.scope = scope
+
+    async def callback(self, interaction: discord.Interaction):
+        await post_balanced_teams(interaction, self.names, self.players, self.scope)
 
 
 class PlayerSelectView(discord.ui.View):
-    def __init__(self, players, scope):
+    def __init__(self, players, scope, preselected=()):
         super().__init__(timeout=120)
-        self.add_item(PlayerSelect(players, scope))
+        self.add_item(PlayerSelect(players, scope, preselected))
+        if len(preselected) >= 2:
+            self.add_item(BalanceVoiceButton(list(preselected), players, scope))
+
+
+# An AoE2 game holds at most 8 players; with more than this in voice, /balance
+# can't know who's playing, so it lists them instead of pre-selecting.
+MAX_GAME_PLAYERS = 8
+
+
+def players_in_voice(interaction, players):
+    """Ladder players in any of the server's voice channels, via their
+    /linkplayer Discord links.
+
+    Returns (ladder names, ids of people in voice who aren't linked to a ladder
+    player).
+    """
+    guild = interaction.guild
+    if guild is None:
+        return [], []
+    channels = list(guild.voice_channels) + list(guild.stage_channels)
+    in_voice = {uid for c in channels for uid in c.voice_states}
+
+    linked = {p["discord_id"]: p["name"] for p in load_player_list() if p.get("discord_id")}
+    names, unknown = [], []
+    for uid in in_voice:
+        name = linked.get(str(uid))
+        if name in players:
+            names.append(name)
+        elif name is None:
+            member = guild.get_member(uid)
+            if not (member and member.bot):           # music bots etc. aren't missing players
+                unknown.append(uid)
+        # linked but not on the ladder yet (added since the last build): nothing to select
+    names.sort(key=lambda n: -players[n])
+    return names, unknown
 
 
 intents = discord.Intents.default()
@@ -240,9 +295,26 @@ async def balance_cmd(interaction: discord.Interaction, scope: str | None = None
         await _reject_scope(interaction, scope)
         return
 
-    view = PlayerSelectView(load_players(), sc)
+    players = load_players()
+    in_voice, unknown = players_in_voice(interaction, players)
+
+    lines = [f"Select the players for this **{sc.label}** match:"]
+    preselected = []
+    if len(in_voice) > MAX_GAME_PLAYERS:
+        lines.append(f"🎙️ {len(in_voice)} ladder players are in voice - more than the "
+                     f"{MAX_GAME_PLAYERS} a game can hold, so pick who's playing: {', '.join(in_voice)}")
+    elif in_voice:
+        preselected = in_voice
+        lines.append(f"🎙️ Pre-selected from voice: {', '.join(in_voice)}"
+                     + (" - press the button to use them, or change the selection."
+                        if len(in_voice) >= 2 else " - pick at least one more."))
+    if unknown:
+        lines.append(f"In voice but not linked to a ladder player: {', '.join(f'<@{u}>' for u in unknown)} "
+                     f"(`/addplayer` or `/linkplayer`)")
+
     await interaction.response.send_message(
-        f"Select the players for this **{sc.label}** match:", view=view, ephemeral=True
+        "\n".join(lines), view=PlayerSelectView(players, sc, preselected), ephemeral=True,
+        allowed_mentions=discord.AllowedMentions.none(),
     )
 
 
