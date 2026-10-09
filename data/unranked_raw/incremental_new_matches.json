@@ -3250,6 +3250,140 @@
         }
       ],
       "ladder": "unranked"
+    },
+    {
+      "match_id": 512041751,
+      "map": "Arena",
+      "duration": "52m 46s",
+      "exact_time": "Oct. 7, 2026, 8:37 p.m.",
+      "teams": [
+        {
+          "won": true,
+          "players": [
+            {
+              "user_path": "/user/13574932/",
+              "name": "julixc1986",
+              "rating": 1107,
+              "rating_change": 21,
+              "civ": "gurjaras",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/13194886/",
+              "name": "ck",
+              "rating": 1296,
+              "rating_change": 14,
+              "civ": "magyars",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/13413558/",
+              "name": "OngshuTheGreat",
+              "rating": 1119,
+              "rating_change": 21,
+              "civ": "portuguese",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12442426/",
+              "name": "Isent\u00e3o",
+              "rating": 1167,
+              "rating_change": 19,
+              "civ": "dravidians",
+              "is_ai": false
+            }
+          ]
+        },
+        {
+          "won": false,
+          "players": [
+            {
+              "user_path": "/user/12582476/",
+              "name": "Saint.Laurent",
+              "rating": 1300,
+              "rating_change": -22,
+              "civ": "mongols",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/13128765/",
+              "name": "capitan_nemo",
+              "rating": 1271,
+              "rating_change": -20,
+              "civ": "burgundians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/13796058/",
+              "name": "Pariston13Sh",
+              "rating": 1196,
+              "rating_change": -27,
+              "civ": "britons",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12074339/",
+              "name": "JoshDM",
+              "rating": 1171,
+              "rating_change": -16,
+              "civ": "bohemians",
+              "is_ai": false
+            }
+          ]
+        }
+      ],
+      "ladder": "unranked"
+    },
+    {
+      "match_id": 512045093,
+      "map": "Amazon Tunnel",
+      "duration": "65m 31s",
+      "exact_time": "Oct. 7, 2026, 8:56 p.m.",
+      "teams": [
+        {
+          "won": true,
+          "players": [
+            {
+              "user_path": "/user/11976187/",
+              "name": "MBOMB",
+              "rating": 1117,
+              "rating_change": 17,
+              "civ": "persians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12667372/",
+              "name": "zubair",
+              "rating": 1149,
+              "rating_change": 16,
+              "civ": "celts",
+              "is_ai": false
+            }
+          ]
+        },
+        {
+          "won": false,
+          "players": [
+            {
+              "user_path": "/user/11225676/",
+              "name": "Oneazuka",
+              "rating": 1151,
+              "rating_change": -17,
+              "civ": "khmer",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/13725021/",
+              "name": "juguito,betabelito",
+              "rating": 1125,
+              "rating_change": -16,
+              "civ": "dravidians",
+              "is_ai": false
+            }
+          ]
+        }
+      ],
+      "ladder": "unranked"
     }
   ]
 }
