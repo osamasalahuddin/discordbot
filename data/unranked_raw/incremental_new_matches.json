@@ -5021,6 +5021,89 @@
         }
       ],
       "ladder": "unranked"
+    },
+    {
+      "match_id": 516356552,
+      "map": "Arena",
+      "duration": "48m 13s",
+      "exact_time": "Oct. 25, 2026, 8:51 p.m.",
+      "teams": [
+        {
+          "won": false,
+          "players": [
+            {
+              "user_path": "/user/3301645/",
+              "name": "ScythianWildWoman",
+              "rating": 1244,
+              "rating_change": -13,
+              "civ": "dravidians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/13194886/",
+              "name": "ck",
+              "rating": 1255,
+              "rating_change": -13,
+              "civ": "magyars",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/5030032/",
+              "name": "ReKa",
+              "rating": 1284,
+              "rating_change": -15,
+              "civ": "khmer",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/2208903/",
+              "name": "Vistor",
+              "rating": 1288,
+              "rating_change": -15,
+              "civ": "vikings",
+              "is_ai": false
+            }
+          ]
+        },
+        {
+          "won": true,
+          "players": [
+            {
+              "user_path": "/user/1869517/",
+              "name": "[LAX] supersteiken",
+              "rating": 1318,
+              "rating_change": 14,
+              "civ": "danes",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/11650856/",
+              "name": "[LAX] Grineguten",
+              "rating": 1385,
+              "rating_change": 11,
+              "civ": "poles",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/1798443/",
+              "name": "[LAX] GEN3RAL_B",
+              "rating": 1302,
+              "rating_change": 14,
+              "civ": "gurjaras",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12985381/",
+              "name": "xXxFritangaxXx",
+              "rating": 1252,
+              "rating_change": 17,
+              "civ": "hindustanis",
+              "is_ai": false
+            }
+          ]
+        }
+      ],
+      "ladder": "unranked"
     }
   ]
 }
