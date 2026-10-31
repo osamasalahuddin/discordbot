@@ -6839,14 +6839,14 @@
     }
   },
   "Arena": {
-    "total_matches": 393,
+    "total_matches": 397,
     "players": {
       "wabbit": {
-        "current_elo": 930.8,
-        "matches_played": 202,
-        "wins": 89,
-        "losses": 113,
-        "win_rate": 44.1,
+        "current_elo": 901.3,
+        "matches_played": 206,
+        "wins": 90,
+        "losses": 116,
+        "win_rate": 43.7,
         "history": [
           {
             "match_id": 290033617,
@@ -8040,34 +8040,58 @@
             "match_id": 516089059,
             "date": "2026-10-24T22:06:00+00:00",
             "won": false,
-            "elo_after": 894.7
+            "elo_after": 894.9
           },
           {
             "match_id": 516094081,
             "date": "2026-10-24T22:36:00+00:00",
             "won": true,
-            "elo_after": 915.4
+            "elo_after": 915.6
           },
           {
             "match_id": 516101862,
             "date": "2026-10-24T23:12:00+00:00",
-            "won": true,
-            "elo_after": 943.2
+            "won": false,
+            "elo_after": 904.6
           },
           {
             "match_id": 516108692,
             "date": "2026-10-24T23:47:00+00:00",
+            "won": true,
+            "elo_after": 921.8
+          },
+          {
+            "match_id": 517526190,
+            "date": "2026-10-30T22:43:00+00:00",
+            "won": true,
+            "elo_after": 940.2
+          },
+          {
+            "match_id": 517535605,
+            "date": "2026-10-30T23:25:00+00:00",
             "won": false,
-            "elo_after": 930.8
+            "elo_after": 925.7
+          },
+          {
+            "match_id": 517543068,
+            "date": "2026-10-31T00:02:00+00:00",
+            "won": false,
+            "elo_after": 912.5
+          },
+          {
+            "match_id": 517549423,
+            "date": "2026-10-31T00:41:00+00:00",
+            "won": false,
+            "elo_after": 901.3
           }
         ]
       },
       "SauronSlayer": {
-        "current_elo": 1038.2,
+        "current_elo": 1016.6,
         "matches_played": 319,
-        "wins": 154,
-        "losses": 165,
-        "win_rate": 48.3,
+        "wins": 153,
+        "losses": 166,
+        "win_rate": 48.0,
         "history": [
           {
             "match_id": 290033617,
@@ -9878,119 +9902,119 @@
           {
             "match_id": 511131486,
             "date": "2026-10-03T22:08:00+00:00",
-            "won": true,
-            "elo_after": 1050.1
+            "won": false,
+            "elo_after": 1011.0
           },
           {
             "match_id": 511138673,
             "date": "2026-10-03T22:44:00+00:00",
             "won": true,
-            "elo_after": 1068.0
+            "elo_after": 1033.3
           },
           {
             "match_id": 514129033,
             "date": "2026-10-16T21:06:00+00:00",
             "won": true,
-            "elo_after": 1082.5
+            "elo_after": 1049.7
           },
           {
             "match_id": 514140898,
             "date": "2026-10-16T22:01:00+00:00",
             "won": true,
-            "elo_after": 1095.5
+            "elo_after": 1064.5
           },
           {
             "match_id": 514147558,
             "date": "2026-10-16T22:39:00+00:00",
             "won": false,
-            "elo_after": 1075.1
+            "elo_after": 1045.8
           },
           {
             "match_id": 514152046,
             "date": "2026-10-16T22:55:00+00:00",
             "won": false,
-            "elo_after": 1056.4
+            "elo_after": 1028.7
           },
           {
             "match_id": 514158464,
             "date": "2026-10-16T23:33:00+00:00",
             "won": false,
-            "elo_after": 1039.1
+            "elo_after": 1013.0
           },
           {
             "match_id": 514410016,
             "date": "2026-10-17T21:30:00+00:00",
             "won": true,
-            "elo_after": 1055.8
+            "elo_after": 1030.3
           },
           {
             "match_id": 514419612,
             "date": "2026-10-17T22:18:00+00:00",
             "won": false,
-            "elo_after": 1037.5
+            "elo_after": 1013.8
           },
           {
             "match_id": 514428565,
             "date": "2026-10-17T22:53:00+00:00",
             "won": true,
-            "elo_after": 1052.8
+            "elo_after": 1030.7
           },
           {
             "match_id": 514435890,
             "date": "2026-10-17T23:32:00+00:00",
             "won": false,
-            "elo_after": 1034.6
+            "elo_after": 1014.0
           },
           {
             "match_id": 515796418,
             "date": "2026-10-23T21:30:00+00:00",
             "won": false,
-            "elo_after": 1015.8
+            "elo_after": 996.8
           },
           {
             "match_id": 515805155,
             "date": "2026-10-23T22:07:00+00:00",
             "won": true,
-            "elo_after": 1031.0
+            "elo_after": 1013.3
           },
           {
             "match_id": 515811923,
             "date": "2026-10-23T22:40:00+00:00",
             "won": true,
-            "elo_after": 1044.9
+            "elo_after": 1028.4
           },
           {
             "match_id": 515818672,
             "date": "2026-10-23T23:21:00+00:00",
             "won": true,
-            "elo_after": 1062.4
+            "elo_after": 1047.1
           },
           {
             "match_id": 516101862,
             "date": "2026-10-24T23:12:00+00:00",
-            "won": false,
-            "elo_after": 1041.1
+            "won": true,
+            "elo_after": 1055.6
           },
           {
             "match_id": 516108692,
             "date": "2026-10-24T23:47:00+00:00",
-            "won": true,
-            "elo_after": 1058.4
+            "won": false,
+            "elo_after": 1035.0
           },
           {
             "match_id": 516115561,
             "date": "2026-10-25T00:33:00+00:00",
             "won": false,
-            "elo_after": 1038.2
+            "elo_after": 1016.6
           }
         ]
       },
       "zubair": {
-        "current_elo": 918.9,
-        "matches_played": 309,
-        "wins": 126,
+        "current_elo": 938.7,
+        "matches_played": 312,
+        "wins": 129,
         "losses": 183,
-        "win_rate": 40.8,
+        "win_rate": 41.3,
         "history": [
           {
             "match_id": 286642429,
@@ -11729,131 +11753,149 @@
           {
             "match_id": 511131486,
             "date": "2026-10-03T22:08:00+00:00",
-            "won": false,
-            "elo_after": 901.1
+            "won": true,
+            "elo_after": 927.1
           },
           {
             "match_id": 511138673,
             "date": "2026-10-03T22:44:00+00:00",
             "won": false,
-            "elo_after": 890.8
+            "elo_after": 914.1
           },
           {
             "match_id": 514129033,
             "date": "2026-10-16T21:06:00+00:00",
             "won": true,
-            "elo_after": 913.1
+            "elo_after": 935.8
           },
           {
             "match_id": 514140898,
             "date": "2026-10-16T22:01:00+00:00",
             "won": true,
-            "elo_after": 933.7
+            "elo_after": 955.7
           },
           {
             "match_id": 514147558,
             "date": "2026-10-16T22:39:00+00:00",
             "won": false,
-            "elo_after": 920.7
+            "elo_after": 942.0
           },
           {
             "match_id": 514152046,
             "date": "2026-10-16T22:55:00+00:00",
             "won": false,
-            "elo_after": 908.9
+            "elo_after": 929.6
           },
           {
             "match_id": 514158464,
             "date": "2026-10-16T23:33:00+00:00",
             "won": false,
-            "elo_after": 898.2
+            "elo_after": 918.3
           },
           {
             "match_id": 514410016,
             "date": "2026-10-17T21:30:00+00:00",
             "won": true,
-            "elo_after": 920.9
+            "elo_after": 939.8
           },
           {
             "match_id": 514419612,
             "date": "2026-10-17T22:18:00+00:00",
             "won": false,
-            "elo_after": 908.8
+            "elo_after": 927.4
           },
           {
             "match_id": 514428565,
             "date": "2026-10-17T22:53:00+00:00",
             "won": true,
-            "elo_after": 929.9
+            "elo_after": 948.1
           },
           {
             "match_id": 514435890,
             "date": "2026-10-17T23:32:00+00:00",
             "won": false,
-            "elo_after": 917.2
+            "elo_after": 935.1
           },
           {
             "match_id": 515796418,
             "date": "2026-10-23T21:30:00+00:00",
             "won": true,
-            "elo_after": 937.9
+            "elo_after": 954.3
           },
           {
             "match_id": 515805155,
             "date": "2026-10-23T22:07:00+00:00",
             "won": false,
-            "elo_after": 925.1
+            "elo_after": 940.4
           },
           {
             "match_id": 515811923,
             "date": "2026-10-23T22:40:00+00:00",
             "won": false,
-            "elo_after": 913.6
+            "elo_after": 927.8
           },
           {
             "match_id": 515818672,
             "date": "2026-10-23T23:21:00+00:00",
             "won": false,
-            "elo_after": 903.2
+            "elo_after": 916.4
           },
           {
             "match_id": 516089059,
             "date": "2026-10-24T22:06:00+00:00",
             "won": false,
-            "elo_after": 890.8
+            "elo_after": 903.7
           },
           {
             "match_id": 516094081,
             "date": "2026-10-24T22:36:00+00:00",
             "won": false,
-            "elo_after": 878.0
+            "elo_after": 890.5
           },
           {
             "match_id": 516101862,
             "date": "2026-10-24T23:12:00+00:00",
-            "won": true,
-            "elo_after": 907.3
+            "won": false,
+            "elo_after": 880.4
           },
           {
             "match_id": 516108692,
             "date": "2026-10-24T23:47:00+00:00",
-            "won": false,
-            "elo_after": 896.5
+            "won": true,
+            "elo_after": 898.6
           },
           {
             "match_id": 516115561,
             "date": "2026-10-25T00:33:00+00:00",
             "won": true,
-            "elo_after": 918.9
+            "elo_after": 920.2
+          },
+          {
+            "match_id": 517526190,
+            "date": "2026-10-30T22:43:00+00:00",
+            "won": false,
+            "elo_after": 907.3
+          },
+          {
+            "match_id": 517535605,
+            "date": "2026-10-30T23:25:00+00:00",
+            "won": true,
+            "elo_after": 923.6
+          },
+          {
+            "match_id": 517543068,
+            "date": "2026-10-31T00:02:00+00:00",
+            "won": true,
+            "elo_after": 938.7
           }
         ]
       },
       "l.inc": {
-        "current_elo": 976.4,
-        "matches_played": 301,
-        "wins": 141,
-        "losses": 160,
-        "win_rate": 46.8,
+        "current_elo": 1015.9,
+        "matches_played": 304,
+        "wins": 145,
+        "losses": 159,
+        "win_rate": 47.7,
         "history": [
           {
             "match_id": 291066326,
@@ -13544,131 +13586,149 @@
           {
             "match_id": 511131486,
             "date": "2026-10-03T22:08:00+00:00",
-            "won": false,
-            "elo_after": 957.9
+            "won": true,
+            "elo_after": 984.0
           },
           {
             "match_id": 511138673,
             "date": "2026-10-03T22:44:00+00:00",
             "won": false,
-            "elo_after": 945.2
+            "elo_after": 968.3
           },
           {
             "match_id": 514129033,
             "date": "2026-10-16T21:06:00+00:00",
             "won": true,
-            "elo_after": 965.3
+            "elo_after": 987.7
           },
           {
             "match_id": 514140898,
             "date": "2026-10-16T22:01:00+00:00",
             "won": true,
-            "elo_after": 983.7
+            "elo_after": 1005.3
           },
           {
             "match_id": 514147558,
             "date": "2026-10-16T22:39:00+00:00",
             "won": false,
-            "elo_after": 968.3
+            "elo_after": 989.4
           },
           {
             "match_id": 514152046,
             "date": "2026-10-16T22:55:00+00:00",
             "won": false,
-            "elo_after": 954.4
+            "elo_after": 974.8
           },
           {
             "match_id": 514158464,
             "date": "2026-10-16T23:33:00+00:00",
             "won": false,
-            "elo_after": 941.8
+            "elo_after": 961.6
           },
           {
             "match_id": 514410016,
             "date": "2026-10-17T21:30:00+00:00",
             "won": true,
-            "elo_after": 962.8
+            "elo_after": 981.2
           },
           {
             "match_id": 514419612,
             "date": "2026-10-17T22:18:00+00:00",
             "won": true,
-            "elo_after": 980.4
+            "elo_after": 997.3
           },
           {
             "match_id": 514428565,
             "date": "2026-10-17T22:53:00+00:00",
             "won": false,
-            "elo_after": 964.4
+            "elo_after": 980.0
           },
           {
             "match_id": 514435890,
             "date": "2026-10-17T23:32:00+00:00",
             "won": true,
-            "elo_after": 982.0
+            "elo_after": 996.4
           },
           {
             "match_id": 515796418,
             "date": "2026-10-23T21:30:00+00:00",
             "won": true,
-            "elo_after": 999.8
+            "elo_after": 1012.8
           },
           {
             "match_id": 515805155,
             "date": "2026-10-23T22:07:00+00:00",
             "won": false,
-            "elo_after": 984.2
+            "elo_after": 996.2
           },
           {
             "match_id": 515811923,
             "date": "2026-10-23T22:40:00+00:00",
             "won": false,
-            "elo_after": 970.1
+            "elo_after": 981.1
           },
           {
             "match_id": 515818672,
             "date": "2026-10-23T23:21:00+00:00",
             "won": false,
-            "elo_after": 957.2
+            "elo_after": 967.4
           },
           {
             "match_id": 516089059,
             "date": "2026-10-24T22:06:00+00:00",
             "won": true,
-            "elo_after": 970.9
+            "elo_after": 980.8
           },
           {
             "match_id": 516094081,
             "date": "2026-10-24T22:36:00+00:00",
             "won": true,
-            "elo_after": 988.2
+            "elo_after": 997.8
           },
           {
             "match_id": 516101862,
             "date": "2026-10-24T23:12:00+00:00",
-            "won": false,
-            "elo_after": 970.1
+            "won": true,
+            "elo_after": 1008.4
           },
           {
             "match_id": 516108692,
             "date": "2026-10-24T23:47:00+00:00",
-            "won": false,
-            "elo_after": 956.5
+            "won": true,
+            "elo_after": 1021.1
           },
           {
             "match_id": 516115561,
             "date": "2026-10-25T00:33:00+00:00",
             "won": true,
-            "elo_after": 976.4
+            "elo_after": 1037.4
+          },
+          {
+            "match_id": 517535605,
+            "date": "2026-10-30T23:25:00+00:00",
+            "won": false,
+            "elo_after": 1018.4
+          },
+          {
+            "match_id": 517543068,
+            "date": "2026-10-31T00:02:00+00:00",
+            "won": false,
+            "elo_after": 1001.0
+          },
+          {
+            "match_id": 517549423,
+            "date": "2026-10-31T00:41:00+00:00",
+            "won": true,
+            "elo_after": 1015.9
           }
         ]
       },
       "toXic": {
-        "current_elo": 1056.7,
-        "matches_played": 278,
-        "wins": 184,
-        "losses": 94,
-        "win_rate": 66.2,
+        "current_elo": 1034.8,
+        "matches_played": 282,
+        "wins": 186,
+        "losses": 96,
+        "win_rate": 66.0,
         "history": [
           {
             "match_id": 295558013,
@@ -15240,112 +15300,136 @@
             "match_id": 514129033,
             "date": "2026-10-16T21:06:00+00:00",
             "won": false,
-            "elo_after": 1052.2
+            "elo_after": 1052.4
           },
           {
             "match_id": 514140898,
             "date": "2026-10-16T22:01:00+00:00",
             "won": false,
-            "elo_after": 1033.2
+            "elo_after": 1033.6
           },
           {
             "match_id": 514147558,
             "date": "2026-10-16T22:39:00+00:00",
             "won": true,
-            "elo_after": 1047.9
+            "elo_after": 1048.4
           },
           {
             "match_id": 514152046,
             "date": "2026-10-16T22:55:00+00:00",
             "won": true,
-            "elo_after": 1061.2
+            "elo_after": 1061.9
           },
           {
             "match_id": 514158464,
             "date": "2026-10-16T23:33:00+00:00",
             "won": true,
-            "elo_after": 1073.3
+            "elo_after": 1074.1
           },
           {
             "match_id": 514410016,
             "date": "2026-10-17T21:30:00+00:00",
             "won": false,
-            "elo_after": 1052.2
+            "elo_after": 1053.2
           },
           {
             "match_id": 514419612,
             "date": "2026-10-17T22:18:00+00:00",
             "won": true,
-            "elo_after": 1065.7
+            "elo_after": 1066.0
           },
           {
             "match_id": 514428565,
             "date": "2026-10-17T22:53:00+00:00",
             "won": false,
-            "elo_after": 1045.8
+            "elo_after": 1045.7
           },
           {
             "match_id": 514435890,
             "date": "2026-10-17T23:32:00+00:00",
             "won": true,
-            "elo_after": 1059.7
+            "elo_after": 1059.0
           },
           {
             "match_id": 515805155,
             "date": "2026-10-23T22:07:00+00:00",
             "won": false,
-            "elo_after": 1041.4
+            "elo_after": 1040.3
           },
           {
             "match_id": 515811923,
             "date": "2026-10-23T22:40:00+00:00",
             "won": false,
-            "elo_after": 1024.7
+            "elo_after": 1023.2
           },
           {
             "match_id": 515818672,
             "date": "2026-10-23T23:21:00+00:00",
             "won": false,
-            "elo_after": 1009.3
+            "elo_after": 1007.6
           },
           {
             "match_id": 516089059,
             "date": "2026-10-24T22:06:00+00:00",
             "won": true,
-            "elo_after": 1020.7
+            "elo_after": 1019.2
           },
           {
             "match_id": 516094081,
             "date": "2026-10-24T22:36:00+00:00",
             "won": true,
-            "elo_after": 1035.7
+            "elo_after": 1034.4
           },
           {
             "match_id": 516101862,
             "date": "2026-10-24T23:12:00+00:00",
-            "won": true,
-            "elo_after": 1058.1
+            "won": false,
+            "elo_after": 1018.1
           },
           {
             "match_id": 516108692,
             "date": "2026-10-24T23:47:00+00:00",
-            "won": false,
-            "elo_after": 1040.5
+            "won": true,
+            "elo_after": 1030.4
           },
           {
             "match_id": 516115561,
             "date": "2026-10-25T00:33:00+00:00",
             "won": true,
-            "elo_after": 1056.7
+            "elo_after": 1046.2
+          },
+          {
+            "match_id": 517526190,
+            "date": "2026-10-30T22:43:00+00:00",
+            "won": true,
+            "elo_after": 1059.0
+          },
+          {
+            "match_id": 517535605,
+            "date": "2026-10-30T23:25:00+00:00",
+            "won": false,
+            "elo_after": 1039.1
+          },
+          {
+            "match_id": 517543068,
+            "date": "2026-10-31T00:02:00+00:00",
+            "won": false,
+            "elo_after": 1020.7
+          },
+          {
+            "match_id": 517549423,
+            "date": "2026-10-31T00:41:00+00:00",
+            "won": true,
+            "elo_after": 1034.8
           }
         ]
       },
       "Strength & Honour": {
-        "current_elo": 1033.4,
-        "matches_played": 88,
-        "wins": 51,
-        "losses": 37,
-        "win_rate": 58.0,
+        "current_elo": 1022.8,
+        "matches_played": 92,
+        "wins": 54,
+        "losses": 38,
+        "win_rate": 58.7,
         "history": [
           {
             "match_id": 476343869,
@@ -15770,110 +15854,134 @@
           {
             "match_id": 511131486,
             "date": "2026-10-03T22:08:00+00:00",
-            "won": false,
-            "elo_after": 1000.0
+            "won": true,
+            "elo_after": 1026.0
           },
           {
             "match_id": 511138673,
             "date": "2026-10-03T22:44:00+00:00",
             "won": false,
-            "elo_after": 985.4
+            "elo_after": 1008.4
           },
           {
             "match_id": 514129033,
             "date": "2026-10-16T21:06:00+00:00",
             "won": false,
-            "elo_after": 968.6
+            "elo_after": 990.8
           },
           {
             "match_id": 514140898,
             "date": "2026-10-16T22:01:00+00:00",
             "won": false,
-            "elo_after": 953.4
+            "elo_after": 974.8
           },
           {
             "match_id": 514147558,
             "date": "2026-10-16T22:39:00+00:00",
             "won": true,
-            "elo_after": 971.8
+            "elo_after": 992.3
           },
           {
             "match_id": 514152046,
             "date": "2026-10-16T22:55:00+00:00",
             "won": true,
-            "elo_after": 988.5
+            "elo_after": 1008.3
           },
           {
             "match_id": 514158464,
             "date": "2026-10-16T23:33:00+00:00",
             "won": true,
-            "elo_after": 1003.9
+            "elo_after": 1023.0
           },
           {
             "match_id": 514419612,
             "date": "2026-10-17T22:18:00+00:00",
             "won": true,
-            "elo_after": 1019.5
+            "elo_after": 1037.1
           },
           {
             "match_id": 514428565,
             "date": "2026-10-17T22:53:00+00:00",
             "won": false,
-            "elo_after": 1001.8
+            "elo_after": 1018.0
           },
           {
             "match_id": 514435890,
             "date": "2026-10-17T23:32:00+00:00",
             "won": true,
-            "elo_after": 1017.6
+            "elo_after": 1032.6
           },
           {
             "match_id": 515796418,
             "date": "2026-10-23T21:30:00+00:00",
             "won": true,
-            "elo_after": 1033.8
+            "elo_after": 1047.4
           },
           {
             "match_id": 515805155,
             "date": "2026-10-23T22:07:00+00:00",
             "won": true,
-            "elo_after": 1048.2
+            "elo_after": 1061.6
           },
           {
             "match_id": 515811923,
             "date": "2026-10-23T22:40:00+00:00",
             "won": true,
-            "elo_after": 1061.3
+            "elo_after": 1074.5
           },
           {
             "match_id": 515818672,
             "date": "2026-10-23T23:21:00+00:00",
             "won": true,
-            "elo_after": 1078.1
+            "elo_after": 1091.2
           },
           {
             "match_id": 516094081,
             "date": "2026-10-24T22:36:00+00:00",
             "won": false,
-            "elo_after": 1056.9
+            "elo_after": 1069.6
           },
           {
             "match_id": 516101862,
             "date": "2026-10-24T23:12:00+00:00",
-            "won": false,
-            "elo_after": 1035.9
+            "won": true,
+            "elo_after": 1077.1
           },
           {
             "match_id": 516108692,
             "date": "2026-10-24T23:47:00+00:00",
-            "won": true,
-            "elo_after": 1053.4
+            "won": false,
+            "elo_after": 1055.6
           },
           {
             "match_id": 516115561,
             "date": "2026-10-25T00:33:00+00:00",
             "won": false,
-            "elo_after": 1033.4
+            "elo_after": 1036.3
+          },
+          {
+            "match_id": 517526190,
+            "date": "2026-10-30T22:43:00+00:00",
+            "won": false,
+            "elo_after": 1018.2
+          },
+          {
+            "match_id": 517535605,
+            "date": "2026-10-30T23:25:00+00:00",
+            "won": true,
+            "elo_after": 1029.5
+          },
+          {
+            "match_id": 517543068,
+            "date": "2026-10-31T00:02:00+00:00",
+            "won": true,
+            "elo_after": 1039.8
+          },
+          {
+            "match_id": 517549423,
+            "date": "2026-10-31T00:41:00+00:00",
+            "won": false,
+            "elo_after": 1022.8
           }
         ]
       },
@@ -16829,11 +16937,11 @@
         ]
       },
       "NaKiyaKar": {
-        "current_elo": 994.0,
-        "matches_played": 145,
-        "wins": 66,
-        "losses": 79,
-        "win_rate": 45.5,
+        "current_elo": 966.8,
+        "matches_played": 149,
+        "wins": 67,
+        "losses": 82,
+        "win_rate": 45.0,
         "history": [
           {
             "match_id": 295558013,
@@ -17624,95 +17732,119 @@
           {
             "match_id": 511131486,
             "date": "2026-10-03T22:08:00+00:00",
-            "won": true,
-            "elo_after": 1011.9
+            "won": false,
+            "elo_after": 972.8
           },
           {
             "match_id": 511138673,
             "date": "2026-10-03T22:44:00+00:00",
             "won": true,
-            "elo_after": 1031.5
+            "elo_after": 996.8
           },
           {
             "match_id": 514410016,
             "date": "2026-10-17T21:30:00+00:00",
             "won": false,
-            "elo_after": 1012.2
+            "elo_after": 979.3
           },
           {
             "match_id": 514419612,
             "date": "2026-10-17T22:18:00+00:00",
             "won": false,
-            "elo_after": 995.9
+            "elo_after": 965.1
           },
           {
             "match_id": 514428565,
             "date": "2026-10-17T22:53:00+00:00",
             "won": true,
-            "elo_after": 1013.2
+            "elo_after": 984.3
           },
           {
             "match_id": 514435890,
             "date": "2026-10-17T23:32:00+00:00",
             "won": false,
-            "elo_after": 996.7
+            "elo_after": 969.7
           },
           {
             "match_id": 515796418,
             "date": "2026-10-23T21:30:00+00:00",
             "won": false,
-            "elo_after": 979.6
+            "elo_after": 954.5
           },
           {
             "match_id": 515805155,
             "date": "2026-10-23T22:07:00+00:00",
             "won": true,
-            "elo_after": 996.5
+            "elo_after": 973.0
           },
           {
             "match_id": 515811923,
             "date": "2026-10-23T22:40:00+00:00",
             "won": true,
-            "elo_after": 1012.0
+            "elo_after": 989.9
           },
           {
             "match_id": 515818672,
             "date": "2026-10-23T23:21:00+00:00",
             "won": true,
-            "elo_after": 1031.0
+            "elo_after": 1010.4
           },
           {
             "match_id": 516094081,
             "date": "2026-10-24T22:36:00+00:00",
             "won": false,
-            "elo_after": 1011.8
+            "elo_after": 992.3
           },
           {
             "match_id": 516101862,
             "date": "2026-10-24T23:12:00+00:00",
-            "won": false,
-            "elo_after": 992.7
+            "won": true,
+            "elo_after": 1003.2
           },
           {
             "match_id": 516108692,
             "date": "2026-10-24T23:47:00+00:00",
-            "won": true,
-            "elo_after": 1012.2
+            "won": false,
+            "elo_after": 984.9
           },
           {
             "match_id": 516115561,
             "date": "2026-10-25T00:33:00+00:00",
             "won": false,
-            "elo_after": 994.0
+            "elo_after": 968.8
+          },
+          {
+            "match_id": 517526190,
+            "date": "2026-10-30T22:43:00+00:00",
+            "won": false,
+            "elo_after": 953.7
+          },
+          {
+            "match_id": 517535605,
+            "date": "2026-10-30T23:25:00+00:00",
+            "won": true,
+            "elo_after": 967.9
+          },
+          {
+            "match_id": 517543068,
+            "date": "2026-10-31T00:02:00+00:00",
+            "won": true,
+            "elo_after": 981.1
+          },
+          {
+            "match_id": 517549423,
+            "date": "2026-10-31T00:41:00+00:00",
+            "won": false,
+            "elo_after": 966.8
           }
         ]
       },
       "neXus": {
-        "current_elo": 997.3,
-        "matches_played": 128,
-        "wins": 76,
+        "current_elo": 1048.9,
+        "matches_played": 132,
+        "wins": 80,
         "losses": 52,
-        "win_rate": 59.4,
+        "win_rate": 60.6,
         "history": [
           {
             "match_id": 389702425,
@@ -18438,49 +18570,73 @@
             "match_id": 514129033,
             "date": "2026-10-16T21:06:00+00:00",
             "won": false,
-            "elo_after": 1025.2
+            "elo_after": 1025.4
           },
           {
             "match_id": 514140898,
             "date": "2026-10-16T22:01:00+00:00",
             "won": false,
-            "elo_after": 1007.5
+            "elo_after": 1007.8
           },
           {
             "match_id": 514147558,
             "date": "2026-10-16T22:39:00+00:00",
             "won": true,
-            "elo_after": 1023.3
+            "elo_after": 1023.8
           },
           {
             "match_id": 514152046,
             "date": "2026-10-16T22:55:00+00:00",
             "won": true,
-            "elo_after": 1037.7
+            "elo_after": 1038.4
           },
           {
             "match_id": 514158464,
             "date": "2026-10-16T23:33:00+00:00",
             "won": true,
-            "elo_after": 1050.8
+            "elo_after": 1051.7
           },
           {
             "match_id": 514410016,
             "date": "2026-10-17T21:30:00+00:00",
             "won": false,
-            "elo_after": 1030.7
+            "elo_after": 1031.7
           },
           {
             "match_id": 515796418,
             "date": "2026-10-23T21:30:00+00:00",
             "won": false,
-            "elo_after": 1012.0
+            "elo_after": 1013.7
           },
           {
             "match_id": 515818672,
             "date": "2026-10-23T23:21:00+00:00",
             "won": false,
-            "elo_after": 997.3
+            "elo_after": 998.5
+          },
+          {
+            "match_id": 517526190,
+            "date": "2026-10-30T22:43:00+00:00",
+            "won": true,
+            "elo_after": 1013.4
+          },
+          {
+            "match_id": 517535605,
+            "date": "2026-10-30T23:25:00+00:00",
+            "won": true,
+            "elo_after": 1024.9
+          },
+          {
+            "match_id": 517543068,
+            "date": "2026-10-31T00:02:00+00:00",
+            "won": true,
+            "elo_after": 1035.5
+          },
+          {
+            "match_id": 517549423,
+            "date": "2026-10-31T00:41:00+00:00",
+            "won": true,
+            "elo_after": 1048.9
           }
         ]
       },

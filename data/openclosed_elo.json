@@ -1,14 +1,14 @@
 {
   "results": {
     "closed": {
-      "total_matches": 675,
+      "total_matches": 679,
       "players": {
         "wabbit": {
-          "current_elo": 955.6,
-          "matches_played": 380,
-          "wins": 158,
-          "losses": 222,
-          "win_rate": 41.6,
+          "current_elo": 923.5,
+          "matches_played": 384,
+          "wins": 159,
+          "losses": 225,
+          "win_rate": 41.4,
           "history": [
             {
               "match_id": 282211887,
@@ -2647,37 +2647,65 @@
               "date": "2026-10-24T22:06:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 921.4
+              "elo_after": 921.6
             },
             {
               "match_id": 516094081,
               "date": "2026-10-24T22:36:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 941.4
+              "elo_after": 941.7
             },
             {
               "match_id": 516101862,
               "date": "2026-10-24T23:12:00+00:00",
               "map": "Arena",
-              "won": true,
-              "elo_after": 968.6
+              "won": false,
+              "elo_after": 930.0
             },
             {
               "match_id": 516108692,
               "date": "2026-10-24T23:47:00+00:00",
               "map": "Arena",
+              "won": true,
+              "elo_after": 946.7
+            },
+            {
+              "match_id": 517526190,
+              "date": "2026-10-30T22:43:00+00:00",
+              "map": "Arena",
+              "won": true,
+              "elo_after": 964.5
+            },
+            {
+              "match_id": 517535605,
+              "date": "2026-10-30T23:25:00+00:00",
+              "map": "Arena",
               "won": false,
-              "elo_after": 955.6
+              "elo_after": 949.3
+            },
+            {
+              "match_id": 517543068,
+              "date": "2026-10-31T00:02:00+00:00",
+              "map": "Arena",
+              "won": false,
+              "elo_after": 935.4
+            },
+            {
+              "match_id": 517549423,
+              "date": "2026-10-31T00:41:00+00:00",
+              "map": "Arena",
+              "won": false,
+              "elo_after": 923.5
             }
           ]
         },
         "SauronSlayer": {
-          "current_elo": 1053.0,
+          "current_elo": 1031.2,
           "matches_played": 547,
-          "wins": 287,
-          "losses": 260,
-          "win_rate": 52.5,
+          "wins": 286,
+          "losses": 261,
+          "win_rate": 52.3,
           "history": [
             {
               "match_id": 288511934,
@@ -6386,136 +6414,136 @@
               "match_id": 511131486,
               "date": "2026-10-03T22:08:00+00:00",
               "map": "Arena",
-              "won": true,
-              "elo_after": 1069.7
+              "won": false,
+              "elo_after": 1030.6
             },
             {
               "match_id": 511138673,
               "date": "2026-10-03T22:44:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1087.5
+              "elo_after": 1052.7
             },
             {
               "match_id": 514129033,
               "date": "2026-10-16T21:06:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1101.4
+              "elo_after": 1068.5
             },
             {
               "match_id": 514140898,
               "date": "2026-10-16T22:01:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1113.8
+              "elo_after": 1082.7
             },
             {
               "match_id": 514147558,
               "date": "2026-10-16T22:39:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1092.9
+              "elo_after": 1063.5
             },
             {
               "match_id": 514152046,
               "date": "2026-10-16T22:55:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1073.7
+              "elo_after": 1045.9
             },
             {
               "match_id": 514158464,
               "date": "2026-10-16T23:33:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1055.9
+              "elo_after": 1029.7
             },
             {
               "match_id": 514410016,
               "date": "2026-10-17T21:30:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1072.0
+              "elo_after": 1046.4
             },
             {
               "match_id": 514419612,
               "date": "2026-10-17T22:18:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1053.6
+              "elo_after": 1029.8
             },
             {
               "match_id": 514428565,
               "date": "2026-10-17T22:53:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1068.7
+              "elo_after": 1046.5
             },
             {
               "match_id": 514435890,
               "date": "2026-10-17T23:32:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1050.3
+              "elo_after": 1029.6
             },
             {
               "match_id": 515796418,
               "date": "2026-10-23T21:30:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1031.3
+              "elo_after": 1012.3
             },
             {
               "match_id": 515805155,
               "date": "2026-10-23T22:07:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1046.4
+              "elo_after": 1028.6
             },
             {
               "match_id": 515811923,
               "date": "2026-10-23T22:40:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1060.0
+              "elo_after": 1043.5
             },
             {
               "match_id": 515818672,
               "date": "2026-10-23T23:21:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1077.2
+              "elo_after": 1061.9
             },
             {
               "match_id": 516101862,
               "date": "2026-10-24T23:12:00+00:00",
               "map": "Arena",
-              "won": false,
-              "elo_after": 1056.0
+              "won": true,
+              "elo_after": 1070.3
             },
             {
               "match_id": 516108692,
               "date": "2026-10-24T23:47:00+00:00",
               "map": "Arena",
-              "won": true,
-              "elo_after": 1073.3
+              "won": false,
+              "elo_after": 1049.7
             },
             {
               "match_id": 516115561,
               "date": "2026-10-25T00:33:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1053.0
+              "elo_after": 1031.2
             }
           ]
         },
         "zubair": {
-          "current_elo": 930.6,
-          "matches_played": 517,
-          "wins": 235,
+          "current_elo": 950.6,
+          "matches_played": 520,
+          "wins": 238,
           "losses": 282,
-          "win_rate": 45.5,
+          "win_rate": 45.8,
           "history": [
             {
               "match_id": 286642429,
@@ -10000,150 +10028,171 @@
               "match_id": 511131486,
               "date": "2026-10-03T22:08:00+00:00",
               "map": "Arena",
-              "won": false,
-              "elo_after": 914.5
+              "won": true,
+              "elo_after": 940.6
             },
             {
               "match_id": 511138673,
               "date": "2026-10-03T22:44:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 904.1
+              "elo_after": 927.4
             },
             {
               "match_id": 514129033,
               "date": "2026-10-16T21:06:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 926.1
+              "elo_after": 948.8
             },
             {
               "match_id": 514140898,
               "date": "2026-10-16T22:01:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 946.4
+              "elo_after": 968.4
             },
             {
               "match_id": 514147558,
               "date": "2026-10-16T22:39:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 933.1
+              "elo_after": 954.4
             },
             {
               "match_id": 514152046,
               "date": "2026-10-16T22:55:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 921.0
+              "elo_after": 941.8
             },
             {
               "match_id": 514158464,
               "date": "2026-10-16T23:33:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 910.2
+              "elo_after": 930.3
             },
             {
               "match_id": 514410016,
               "date": "2026-10-17T21:30:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 932.6
+              "elo_after": 951.4
             },
             {
               "match_id": 514419612,
               "date": "2026-10-17T22:18:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 920.4
+              "elo_after": 939.0
             },
             {
               "match_id": 514428565,
               "date": "2026-10-17T22:53:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 941.5
+              "elo_after": 959.8
             },
             {
               "match_id": 514435890,
               "date": "2026-10-17T23:32:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 928.9
+              "elo_after": 946.8
             },
             {
               "match_id": 515796418,
               "date": "2026-10-23T21:30:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 949.4
+              "elo_after": 965.8
             },
             {
               "match_id": 515805155,
               "date": "2026-10-23T22:07:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 936.6
+              "elo_after": 951.9
             },
             {
               "match_id": 515811923,
               "date": "2026-10-23T22:40:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 925.1
+              "elo_after": 939.3
             },
             {
               "match_id": 515818672,
               "date": "2026-10-23T23:21:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 914.7
+              "elo_after": 928.0
             },
             {
               "match_id": 516089059,
               "date": "2026-10-24T22:06:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 902.3
+              "elo_after": 915.2
             },
             {
               "match_id": 516094081,
               "date": "2026-10-24T22:36:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 889.8
+              "elo_after": 902.2
             },
             {
               "match_id": 516101862,
               "date": "2026-10-24T23:12:00+00:00",
               "map": "Arena",
-              "won": true,
-              "elo_after": 919.0
+              "won": false,
+              "elo_after": 892.2
             },
             {
               "match_id": 516108692,
               "date": "2026-10-24T23:47:00+00:00",
               "map": "Arena",
-              "won": false,
-              "elo_after": 908.2
+              "won": true,
+              "elo_after": 910.3
             },
             {
               "match_id": 516115561,
               "date": "2026-10-25T00:33:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 930.6
+              "elo_after": 932.0
+            },
+            {
+              "match_id": 517526190,
+              "date": "2026-10-30T22:43:00+00:00",
+              "map": "Arena",
+              "won": false,
+              "elo_after": 919.1
+            },
+            {
+              "match_id": 517535605,
+              "date": "2026-10-30T23:25:00+00:00",
+              "map": "Arena",
+              "won": true,
+              "elo_after": 935.4
+            },
+            {
+              "match_id": 517543068,
+              "date": "2026-10-31T00:02:00+00:00",
+              "map": "Arena",
+              "won": true,
+              "elo_after": 950.6
             }
           ]
         },
         "l.inc": {
-          "current_elo": 989.2,
-          "matches_played": 519,
-          "wins": 242,
-          "losses": 277,
-          "win_rate": 46.6,
+          "current_elo": 1028.4,
+          "matches_played": 522,
+          "wins": 246,
+          "losses": 276,
+          "win_rate": 47.1,
           "history": [
             {
               "match_id": 282211887,
@@ -13642,150 +13691,171 @@
               "match_id": 511131486,
               "date": "2026-10-03T22:08:00+00:00",
               "map": "Arena",
-              "won": false,
-              "elo_after": 973.6
+              "won": true,
+              "elo_after": 999.7
             },
             {
               "match_id": 511138673,
               "date": "2026-10-03T22:44:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 960.7
+              "elo_after": 983.9
             },
             {
               "match_id": 514129033,
               "date": "2026-10-16T21:06:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 980.4
+              "elo_after": 1002.8
             },
             {
               "match_id": 514140898,
               "date": "2026-10-16T22:01:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 998.3
+              "elo_after": 1020.0
             },
             {
               "match_id": 514147558,
               "date": "2026-10-16T22:39:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 982.6
+              "elo_after": 1003.6
             },
             {
               "match_id": 514152046,
               "date": "2026-10-16T22:55:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 968.3
+              "elo_after": 988.8
             },
             {
               "match_id": 514158464,
               "date": "2026-10-16T23:33:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 955.4
+              "elo_after": 975.3
             },
             {
               "match_id": 514410016,
               "date": "2026-10-17T21:30:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 976.0
+              "elo_after": 994.4
             },
             {
               "match_id": 514419612,
               "date": "2026-10-17T22:18:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 993.4
+              "elo_after": 1010.4
             },
             {
               "match_id": 514428565,
               "date": "2026-10-17T22:53:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 977.4
+              "elo_after": 993.0
             },
             {
               "match_id": 514435890,
               "date": "2026-10-17T23:32:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 994.8
+              "elo_after": 1009.3
             },
             {
               "match_id": 515796418,
               "date": "2026-10-23T21:30:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1012.4
+              "elo_after": 1025.4
             },
             {
               "match_id": 515805155,
               "date": "2026-10-23T22:07:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 996.8
+              "elo_after": 1008.7
             },
             {
               "match_id": 515811923,
               "date": "2026-10-23T22:40:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 982.6
+              "elo_after": 993.6
             },
             {
               "match_id": 515818672,
               "date": "2026-10-23T23:21:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 969.7
+              "elo_after": 979.9
             },
             {
               "match_id": 516089059,
               "date": "2026-10-24T22:06:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 983.7
+              "elo_after": 993.6
             },
             {
               "match_id": 516094081,
               "date": "2026-10-24T22:36:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1000.9
+              "elo_after": 1010.5
             },
             {
               "match_id": 516101862,
               "date": "2026-10-24T23:12:00+00:00",
               "map": "Arena",
-              "won": false,
-              "elo_after": 983.0
+              "won": true,
+              "elo_after": 1021.2
             },
             {
               "match_id": 516108692,
               "date": "2026-10-24T23:47:00+00:00",
               "map": "Arena",
-              "won": false,
-              "elo_after": 969.3
+              "won": true,
+              "elo_after": 1033.9
             },
             {
               "match_id": 516115561,
               "date": "2026-10-25T00:33:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 989.2
+              "elo_after": 1050.1
+            },
+            {
+              "match_id": 517535605,
+              "date": "2026-10-30T23:25:00+00:00",
+              "map": "Arena",
+              "won": false,
+              "elo_after": 1031.0
+            },
+            {
+              "match_id": 517543068,
+              "date": "2026-10-31T00:02:00+00:00",
+              "map": "Arena",
+              "won": false,
+              "elo_after": 1013.3
+            },
+            {
+              "match_id": 517549423,
+              "date": "2026-10-31T00:41:00+00:00",
+              "map": "Arena",
+              "won": true,
+              "elo_after": 1028.4
             }
           ]
         },
         "toXic": {
-          "current_elo": 1066.6,
-          "matches_played": 442,
-          "wins": 276,
-          "losses": 166,
-          "win_rate": 62.4,
+          "current_elo": 1044.9,
+          "matches_played": 446,
+          "wins": 278,
+          "losses": 168,
+          "win_rate": 62.3,
           "history": [
             {
               "match_id": 282211887,
@@ -16767,128 +16837,156 @@
               "date": "2026-10-16T21:06:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1059.3
+              "elo_after": 1059.4
             },
             {
               "match_id": 514140898,
               "date": "2026-10-16T22:01:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1040.7
+              "elo_after": 1041.0
             },
             {
               "match_id": 514147558,
               "date": "2026-10-16T22:39:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1055.7
+              "elo_after": 1056.2
             },
             {
               "match_id": 514152046,
               "date": "2026-10-16T22:55:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1069.3
+              "elo_after": 1070.0
             },
             {
               "match_id": 514158464,
               "date": "2026-10-16T23:33:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1081.6
+              "elo_after": 1082.5
             },
             {
               "match_id": 514410016,
               "date": "2026-10-17T21:30:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1060.8
+              "elo_after": 1061.8
             },
             {
               "match_id": 514419612,
               "date": "2026-10-17T22:18:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1074.4
+              "elo_after": 1074.8
             },
             {
               "match_id": 514428565,
               "date": "2026-10-17T22:53:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1054.6
+              "elo_after": 1054.5
             },
             {
               "match_id": 514435890,
               "date": "2026-10-17T23:32:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1068.6
+              "elo_after": 1067.9
             },
             {
               "match_id": 515805155,
               "date": "2026-10-23T22:07:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1050.4
+              "elo_after": 1049.3
             },
             {
               "match_id": 515811923,
               "date": "2026-10-23T22:40:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1033.8
+              "elo_after": 1032.4
             },
             {
               "match_id": 515818672,
               "date": "2026-10-23T23:21:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1018.6
+              "elo_after": 1016.8
             },
             {
               "match_id": 516089059,
               "date": "2026-10-24T22:06:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1030.4
+              "elo_after": 1029.0
             },
             {
               "match_id": 516094081,
               "date": "2026-10-24T22:36:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1045.4
+              "elo_after": 1044.2
             },
             {
               "match_id": 516101862,
               "date": "2026-10-24T23:12:00+00:00",
               "map": "Arena",
-              "won": true,
-              "elo_after": 1067.9
+              "won": false,
+              "elo_after": 1027.9
             },
             {
               "match_id": 516108692,
               "date": "2026-10-24T23:47:00+00:00",
               "map": "Arena",
-              "won": false,
-              "elo_after": 1050.4
+              "won": true,
+              "elo_after": 1040.3
             },
             {
               "match_id": 516115561,
               "date": "2026-10-25T00:33:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1066.6
+              "elo_after": 1056.2
+            },
+            {
+              "match_id": 517526190,
+              "date": "2026-10-30T22:43:00+00:00",
+              "map": "Arena",
+              "won": true,
+              "elo_after": 1069.0
+            },
+            {
+              "match_id": 517535605,
+              "date": "2026-10-30T23:25:00+00:00",
+              "map": "Arena",
+              "won": false,
+              "elo_after": 1049.1
+            },
+            {
+              "match_id": 517543068,
+              "date": "2026-10-31T00:02:00+00:00",
+              "map": "Arena",
+              "won": false,
+              "elo_after": 1030.6
+            },
+            {
+              "match_id": 517549423,
+              "date": "2026-10-31T00:41:00+00:00",
+              "map": "Arena",
+              "won": true,
+              "elo_after": 1044.9
             }
           ]
         },
         "Strength & Honour": {
-          "current_elo": 1047.2,
-          "matches_played": 104,
-          "wins": 59,
-          "losses": 45,
-          "win_rate": 56.7,
+          "current_elo": 1036.2,
+          "matches_played": 108,
+          "wins": 62,
+          "losses": 46,
+          "win_rate": 57.4,
           "history": [
             {
               "match_id": 476343869,
@@ -17496,127 +17594,155 @@
               "match_id": 511131486,
               "date": "2026-10-03T22:08:00+00:00",
               "map": "Arena",
-              "won": false,
-              "elo_after": 1015.2
+              "won": true,
+              "elo_after": 1041.3
             },
             {
               "match_id": 511138673,
               "date": "2026-10-03T22:44:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1000.5
+              "elo_after": 1023.6
             },
             {
               "match_id": 514129033,
               "date": "2026-10-16T21:06:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 983.7
+              "elo_after": 1006.0
             },
             {
               "match_id": 514140898,
               "date": "2026-10-16T22:01:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 968.6
+              "elo_after": 990.0
             },
             {
               "match_id": 514147558,
               "date": "2026-10-16T22:39:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 986.9
+              "elo_after": 1007.5
             },
             {
               "match_id": 514152046,
               "date": "2026-10-16T22:55:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1003.6
+              "elo_after": 1023.5
             },
             {
               "match_id": 514158464,
               "date": "2026-10-16T23:33:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1019.0
+              "elo_after": 1038.1
             },
             {
               "match_id": 514419612,
               "date": "2026-10-17T22:18:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1034.4
+              "elo_after": 1052.1
             },
             {
               "match_id": 514428565,
               "date": "2026-10-17T22:53:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1016.5
+              "elo_after": 1032.8
             },
             {
               "match_id": 514435890,
               "date": "2026-10-17T23:32:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1032.1
+              "elo_after": 1047.2
             },
             {
               "match_id": 515796418,
               "date": "2026-10-23T21:30:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1048.0
+              "elo_after": 1061.6
             },
             {
               "match_id": 515805155,
               "date": "2026-10-23T22:07:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1062.2
+              "elo_after": 1075.7
             },
             {
               "match_id": 515811923,
               "date": "2026-10-23T22:40:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1075.2
+              "elo_after": 1088.4
             },
             {
               "match_id": 515818672,
               "date": "2026-10-23T23:21:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1091.7
+              "elo_after": 1104.8
             },
             {
               "match_id": 516094081,
               "date": "2026-10-24T22:36:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1070.7
+              "elo_after": 1083.4
             },
             {
               "match_id": 516101862,
               "date": "2026-10-24T23:12:00+00:00",
               "map": "Arena",
-              "won": false,
-              "elo_after": 1049.7
+              "won": true,
+              "elo_after": 1090.9
             },
             {
               "match_id": 516108692,
               "date": "2026-10-24T23:47:00+00:00",
               "map": "Arena",
-              "won": true,
-              "elo_after": 1067.3
+              "won": false,
+              "elo_after": 1069.5
             },
             {
               "match_id": 516115561,
               "date": "2026-10-25T00:33:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1047.2
+              "elo_after": 1050.1
+            },
+            {
+              "match_id": 517526190,
+              "date": "2026-10-30T22:43:00+00:00",
+              "map": "Arena",
+              "won": false,
+              "elo_after": 1031.8
+            },
+            {
+              "match_id": 517535605,
+              "date": "2026-10-30T23:25:00+00:00",
+              "map": "Arena",
+              "won": true,
+              "elo_after": 1043.1
+            },
+            {
+              "match_id": 517543068,
+              "date": "2026-10-31T00:02:00+00:00",
+              "map": "Arena",
+              "won": true,
+              "elo_after": 1053.4
+            },
+            {
+              "match_id": 517549423,
+              "date": "2026-10-31T00:41:00+00:00",
+              "map": "Arena",
+              "won": false,
+              "elo_after": 1036.2
             }
           ]
         },
@@ -19709,11 +19835,11 @@
           ]
         },
         "NaKiyaKar": {
-          "current_elo": 1001.7,
-          "matches_played": 287,
-          "wins": 149,
-          "losses": 138,
-          "win_rate": 51.9,
+          "current_elo": 975.1,
+          "matches_played": 291,
+          "wins": 150,
+          "losses": 141,
+          "win_rate": 51.5,
           "history": [
             {
               "match_id": 291086103,
@@ -21630,108 +21756,136 @@
               "match_id": 511131486,
               "date": "2026-10-03T22:08:00+00:00",
               "map": "Arena",
-              "won": true,
-              "elo_after": 1015.2
+              "won": false,
+              "elo_after": 976.0
             },
             {
               "match_id": 511138673,
               "date": "2026-10-03T22:44:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1035.4
+              "elo_after": 1000.6
             },
             {
               "match_id": 514410016,
               "date": "2026-10-17T21:30:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1016.6
+              "elo_after": 983.6
             },
             {
               "match_id": 514419612,
               "date": "2026-10-17T22:18:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1000.6
+              "elo_after": 969.8
             },
             {
               "match_id": 514428565,
               "date": "2026-10-17T22:53:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1018.2
+              "elo_after": 989.3
             },
             {
               "match_id": 514435890,
               "date": "2026-10-17T23:32:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1002.1
+              "elo_after": 975.0
             },
             {
               "match_id": 515796418,
               "date": "2026-10-23T21:30:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 985.3
+              "elo_after": 960.2
             },
             {
               "match_id": 515805155,
               "date": "2026-10-23T22:07:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1002.5
+              "elo_after": 978.9
             },
             {
               "match_id": 515811923,
               "date": "2026-10-23T22:40:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1018.2
+              "elo_after": 996.0
             },
             {
               "match_id": 515818672,
               "date": "2026-10-23T23:21:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1037.2
+              "elo_after": 1016.6
             },
             {
               "match_id": 516094081,
               "date": "2026-10-24T22:36:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1018.5
+              "elo_after": 999.0
             },
             {
               "match_id": 516101862,
               "date": "2026-10-24T23:12:00+00:00",
               "map": "Arena",
-              "won": false,
-              "elo_after": 999.8
+              "won": true,
+              "elo_after": 1010.2
             },
             {
               "match_id": 516108692,
               "date": "2026-10-24T23:47:00+00:00",
               "map": "Arena",
-              "won": true,
-              "elo_after": 1019.7
+              "won": false,
+              "elo_after": 992.3
             },
             {
               "match_id": 516115561,
               "date": "2026-10-25T00:33:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1001.7
+              "elo_after": 976.4
+            },
+            {
+              "match_id": 517526190,
+              "date": "2026-10-30T22:43:00+00:00",
+              "map": "Arena",
+              "won": false,
+              "elo_after": 961.5
+            },
+            {
+              "match_id": 517535605,
+              "date": "2026-10-30T23:25:00+00:00",
+              "map": "Arena",
+              "won": true,
+              "elo_after": 976.0
+            },
+            {
+              "match_id": 517543068,
+              "date": "2026-10-31T00:02:00+00:00",
+              "map": "Arena",
+              "won": true,
+              "elo_after": 989.4
+            },
+            {
+              "match_id": 517549423,
+              "date": "2026-10-31T00:41:00+00:00",
+              "map": "Arena",
+              "won": false,
+              "elo_after": 975.1
             }
           ]
         },
         "neXus": {
-          "current_elo": 998.0,
-          "matches_played": 162,
-          "wins": 94,
+          "current_elo": 1051.8,
+          "matches_played": 166,
+          "wins": 98,
           "losses": 68,
-          "win_rate": 58.0,
+          "win_rate": 59.0,
           "history": [
             {
               "match_id": 386442616,
@@ -22816,56 +22970,84 @@
               "date": "2026-10-16T21:06:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1020.9
+              "elo_after": 1021.0
             },
             {
               "match_id": 514140898,
               "date": "2026-10-16T22:01:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1004.0
+              "elo_after": 1004.4
             },
             {
               "match_id": 514147558,
               "date": "2026-10-16T22:39:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1020.7
+              "elo_after": 1021.3
             },
             {
               "match_id": 514152046,
               "date": "2026-10-16T22:55:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1035.9
+              "elo_after": 1036.6
             },
             {
               "match_id": 514158464,
               "date": "2026-10-16T23:33:00+00:00",
               "map": "Arena",
               "won": true,
-              "elo_after": 1049.7
+              "elo_after": 1050.6
             },
             {
               "match_id": 514410016,
               "date": "2026-10-17T21:30:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1030.3
+              "elo_after": 1031.3
             },
             {
               "match_id": 515796418,
               "date": "2026-10-23T21:30:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 1012.2
+              "elo_after": 1013.9
             },
             {
               "match_id": 515818672,
               "date": "2026-10-23T23:21:00+00:00",
               "map": "Arena",
               "won": false,
-              "elo_after": 998.0
+              "elo_after": 999.3
+            },
+            {
+              "match_id": 517526190,
+              "date": "2026-10-30T22:43:00+00:00",
+              "map": "Arena",
+              "won": true,
+              "elo_after": 1014.7
+            },
+            {
+              "match_id": 517535605,
+              "date": "2026-10-30T23:25:00+00:00",
+              "map": "Arena",
+              "won": true,
+              "elo_after": 1026.8
+            },
+            {
+              "match_id": 517543068,
+              "date": "2026-10-31T00:02:00+00:00",
+              "map": "Arena",
+              "won": true,
+              "elo_after": 1037.8
+            },
+            {
+              "match_id": 517549423,
+              "date": "2026-10-31T00:41:00+00:00",
+              "map": "Arena",
+              "won": true,
+              "elo_after": 1051.8
             }
           ]
         },
