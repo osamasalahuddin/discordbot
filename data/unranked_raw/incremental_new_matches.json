@@ -5471,6 +5471,408 @@
         }
       ],
       "ladder": "unranked"
+    },
+    {
+      "match_id": 517797174,
+      "map": "Arena",
+      "duration": "75m 30s",
+      "exact_time": "Oct. 31, 2026, 10:01 p.m.",
+      "teams": [
+        {
+          "won": false,
+          "players": [
+            {
+              "user_path": "/user/12499000/",
+              "name": "toXic",
+              "rating": 1344,
+              "rating_change": -21,
+              "civ": "shu",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12805097/",
+              "name": "neXus",
+              "rating": 1213,
+              "rating_change": -16,
+              "civ": "romans",
+              "is_ai": false
+            }
+          ]
+        },
+        {
+          "won": true,
+          "players": [
+            {
+              "user_path": "/user/12667372/",
+              "name": "zubair",
+              "rating": 1174,
+              "rating_change": 20,
+              "civ": "hindustanis",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/4607974/",
+              "name": "Strength & Honour",
+              "rating": 1263,
+              "rating_change": 17,
+              "civ": "burgundians",
+              "is_ai": false
+            }
+          ]
+        }
+      ],
+      "ladder": "unranked"
+    },
+    {
+      "match_id": 517808635,
+      "map": "Arena",
+      "duration": "01m 04s",
+      "exact_time": "Oct. 31, 2026, 10:57 p.m.",
+      "teams": [
+        {
+          "won": false,
+          "players": [
+            {
+              "user_path": "/user/12499000/",
+              "name": "toXic",
+              "rating": 1323,
+              "rating_change": -19,
+              "civ": "saracens",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12047120/",
+              "name": "wabbit",
+              "rating": 1183,
+              "rating_change": -14,
+              "civ": "hindustanis",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12693189/",
+              "name": "NaKiyaKar",
+              "rating": 1173,
+              "rating_change": -13,
+              "civ": "tatars",
+              "is_ai": false
+            }
+          ]
+        },
+        {
+          "won": true,
+          "players": [
+            {
+              "user_path": "/user/12667372/",
+              "name": "zubair",
+              "rating": 1194,
+              "rating_change": 17,
+              "civ": "burgundians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12080589/",
+              "name": "l.inc",
+              "rating": 1250,
+              "rating_change": 15,
+              "civ": "sicilians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/4607974/",
+              "name": "Strength & Honour",
+              "rating": 1280,
+              "rating_change": 14,
+              "civ": "celts",
+              "is_ai": false
+            }
+          ]
+        }
+      ],
+      "ladder": "unranked"
+    },
+    {
+      "match_id": 517810753,
+      "map": "Arena",
+      "duration": "57m 39s",
+      "exact_time": "Oct. 31, 2026, 10:59 p.m.",
+      "teams": [
+        {
+          "won": true,
+          "players": [
+            {
+              "user_path": "/user/12667372/",
+              "name": "zubair",
+              "rating": 1211,
+              "rating_change": 18,
+              "civ": "chinese",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/4607974/",
+              "name": "Strength & Honour",
+              "rating": 1294,
+              "rating_change": 14,
+              "civ": "romans",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12693189/",
+              "name": "NaKiyaKar",
+              "rating": 1160,
+              "rating_change": 19,
+              "civ": "vietnamese",
+              "is_ai": false
+            }
+          ]
+        },
+        {
+          "won": false,
+          "players": [
+            {
+              "user_path": "/user/12499000/",
+              "name": "toXic",
+              "rating": 1304,
+              "rating_change": -19,
+              "civ": "ethiopians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12080589/",
+              "name": "l.inc",
+              "rating": 1265,
+              "rating_change": -18,
+              "civ": "koreans",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12047120/",
+              "name": "wabbit",
+              "rating": 1169,
+              "rating_change": -14,
+              "civ": "bengalis",
+              "is_ai": false
+            }
+          ]
+        }
+      ],
+      "ladder": "unranked"
+    },
+    {
+      "match_id": 517818401,
+      "map": "Arena",
+      "duration": "59m 28s",
+      "exact_time": "Oct. 31, 2026, 11:40 p.m.",
+      "teams": [
+        {
+          "won": false,
+          "players": [
+            {
+              "user_path": "/user/12667372/",
+              "name": "zubair",
+              "rating": 1229,
+              "rating_change": -16,
+              "civ": "turks",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/4607974/",
+              "name": "Strength & Honour",
+              "rating": 1308,
+              "rating_change": -19,
+              "civ": "malay",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12693189/",
+              "name": "NaKiyaKar",
+              "rating": 1179,
+              "rating_change": -14,
+              "civ": "koreans",
+              "is_ai": false
+            }
+          ]
+        },
+        {
+          "won": true,
+          "players": [
+            {
+              "user_path": "/user/12499000/",
+              "name": "toXic",
+              "rating": 1285,
+              "rating_change": 14,
+              "civ": "incas",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12080589/",
+              "name": "l.inc",
+              "rating": 1247,
+              "rating_change": 16,
+              "civ": "goths",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12047120/",
+              "name": "wabbit",
+              "rating": 1155,
+              "rating_change": 19,
+              "civ": "malians",
+              "is_ai": false
+            }
+          ]
+        }
+      ],
+      "ladder": "unranked"
+    },
+    {
+      "match_id": 517824746,
+      "map": "Arena",
+      "duration": "34m 37s",
+      "exact_time": "Nov. 1, 2026, 12:19 a.m.",
+      "teams": [
+        {
+          "won": false,
+          "players": [
+            {
+              "user_path": "/user/13194886/",
+              "name": "ck",
+              "rating": 1230,
+              "rating_change": -10,
+              "civ": "britons",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12305502/",
+              "name": "JonnyBravo",
+              "rating": 1389,
+              "rating_change": -16,
+              "civ": "saracens",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/13329532/",
+              "name": "richtersjens",
+              "rating": 1281,
+              "rating_change": -12,
+              "civ": "bengalis",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/455597/",
+              "name": "Victor751",
+              "rating": 1251,
+              "rating_change": -11,
+              "civ": "portuguese",
+              "is_ai": false
+            }
+          ]
+        },
+        {
+          "won": true,
+          "players": [
+            {
+              "user_path": "/user/2150124/",
+              "name": "tkspolo",
+              "rating": 1271,
+              "rating_change": 17,
+              "civ": "sicilians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/291650/",
+              "name": "Falken",
+              "rating": 1396,
+              "rating_change": 11,
+              "civ": "burgundians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/4764279/",
+              "name": "SCUERVO31",
+              "rating": 1386,
+              "rating_change": 12,
+              "civ": "armenians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/5849508/",
+              "name": "Al Caponne2195",
+              "rating": 1454,
+              "rating_change": 9,
+              "civ": "franks",
+              "is_ai": false
+            }
+          ]
+        }
+      ],
+      "ladder": "unranked"
+    },
+    {
+      "match_id": 517826143,
+      "map": "Arena",
+      "duration": "44m 52s",
+      "exact_time": "Nov. 1, 2026, 12:23 a.m.",
+      "teams": [
+        {
+          "won": true,
+          "players": [
+            {
+              "user_path": "/user/12667372/",
+              "name": "zubair",
+              "rating": 1213,
+              "rating_change": 17,
+              "civ": "dravidians",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/4607974/",
+              "name": "Strength & Honour",
+              "rating": 1289,
+              "rating_change": 14,
+              "civ": "huns",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12693189/",
+              "name": "NaKiyaKar",
+              "rating": 1165,
+              "rating_change": 20,
+              "civ": "britons",
+              "is_ai": false
+            }
+          ]
+        },
+        {
+          "won": false,
+          "players": [
+            {
+              "user_path": "/user/12499000/",
+              "name": "toXic",
+              "rating": 1299,
+              "rating_change": -19,
+              "civ": "mapuche",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12080589/",
+              "name": "l.inc",
+              "rating": 1263,
+              "rating_change": -18,
+              "civ": "aztecs",
+              "is_ai": false
+            },
+            {
+              "user_path": "/user/12047120/",
+              "name": "wabbit",
+              "rating": 1174,
+              "rating_change": -14,
+              "civ": "mongols",
+              "is_ai": false
+            }
+          ]
+        }
+      ],
+      "ladder": "unranked"
     }
   ]
 }
