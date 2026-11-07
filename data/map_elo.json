@@ -6839,14 +6839,14 @@
     }
   },
   "Arena": {
-    "total_matches": 404,
+    "total_matches": 405,
     "players": {
       "wabbit": {
-        "current_elo": 921.7,
-        "matches_played": 212,
-        "wins": 93,
+        "current_elo": 940.2,
+        "matches_played": 213,
+        "wins": 94,
         "losses": 119,
-        "win_rate": 43.9,
+        "win_rate": 44.1,
         "history": [
           {
             "match_id": 290033617,
@@ -8119,15 +8119,21 @@
             "date": "2026-11-06T23:51:00+00:00",
             "won": false,
             "elo_after": 921.7
+          },
+          {
+            "match_id": 519254010,
+            "date": "2026-11-07T00:22:00+00:00",
+            "won": true,
+            "elo_after": 940.2
           }
         ]
       },
       "SauronSlayer": {
-        "current_elo": 998.2,
-        "matches_played": 322,
+        "current_elo": 981.3,
+        "matches_played": 323,
         "wins": 154,
-        "losses": 168,
-        "win_rate": 47.8,
+        "losses": 169,
+        "win_rate": 47.7,
         "history": [
           {
             "match_id": 290033617,
@@ -10060,15 +10066,21 @@
             "date": "2026-11-06T23:51:00+00:00",
             "won": true,
             "elo_after": 998.2
+          },
+          {
+            "match_id": 519254010,
+            "date": "2026-11-07T00:22:00+00:00",
+            "won": false,
+            "elo_after": 981.3
           }
         ]
       },
       "zubair": {
-        "current_elo": 963.4,
-        "matches_played": 319,
+        "current_elo": 948.1,
+        "matches_played": 320,
         "wins": 133,
-        "losses": 186,
-        "win_rate": 41.7,
+        "losses": 187,
+        "win_rate": 41.6,
         "history": [
           {
             "match_id": 286642429,
@@ -11983,15 +11995,21 @@
             "date": "2026-11-06T23:51:00+00:00",
             "won": true,
             "elo_after": 963.4
+          },
+          {
+            "match_id": 519254010,
+            "date": "2026-11-07T00:22:00+00:00",
+            "won": false,
+            "elo_after": 948.1
           }
         ]
       },
       "l.inc": {
-        "current_elo": 1008.5,
-        "matches_played": 310,
-        "wins": 148,
+        "current_elo": 1023.1,
+        "matches_played": 311,
+        "wins": 149,
         "losses": 162,
-        "win_rate": 47.7,
+        "win_rate": 47.9,
         "history": [
           {
             "match_id": 291066326,
@@ -13852,15 +13870,21 @@
             "date": "2026-11-06T23:51:00+00:00",
             "won": false,
             "elo_after": 1008.5
+          },
+          {
+            "match_id": 519254010,
+            "date": "2026-11-07T00:22:00+00:00",
+            "won": true,
+            "elo_after": 1023.1
           }
         ]
       },
       "toXic": {
-        "current_elo": 1008.8,
-        "matches_played": 289,
-        "wins": 189,
+        "current_elo": 1023.3,
+        "matches_played": 290,
+        "wins": 190,
         "losses": 100,
-        "win_rate": 65.4,
+        "win_rate": 65.5,
         "history": [
           {
             "match_id": 295558013,
@@ -15595,6 +15619,12 @@
             "date": "2026-11-06T23:51:00+00:00",
             "won": false,
             "elo_after": 1008.8
+          },
+          {
+            "match_id": 519254010,
+            "date": "2026-11-07T00:22:00+00:00",
+            "won": true,
+            "elo_after": 1023.3
           }
         ]
       },
@@ -17135,11 +17165,11 @@
         ]
       },
       "NaKiyaKar": {
-        "current_elo": 969.0,
-        "matches_played": 155,
+        "current_elo": 953.5,
+        "matches_played": 156,
         "wins": 70,
-        "losses": 85,
-        "win_rate": 45.2,
+        "losses": 86,
+        "win_rate": 44.9,
         "history": [
           {
             "match_id": 295558013,
@@ -18070,6 +18100,12 @@
             "date": "2026-11-06T23:51:00+00:00",
             "won": true,
             "elo_after": 969.0
+          },
+          {
+            "match_id": 519254010,
+            "date": "2026-11-07T00:22:00+00:00",
+            "won": false,
+            "elo_after": 953.5
           }
         ]
       },
